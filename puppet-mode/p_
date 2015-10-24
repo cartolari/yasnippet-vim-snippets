@@ -1,0 +1,4 @@
+# name: p:
+# key: p:
+# --
+"puppet://puppet/${1:module name}/${0:file name}"

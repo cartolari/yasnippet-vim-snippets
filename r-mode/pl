@@ -1,0 +1,4 @@
+# name: pl
+# key: pl
+# --
+plot(${1:x}, ${0:y})

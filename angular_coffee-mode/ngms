@@ -1,0 +1,5 @@
+# name: ngms
+# key: ngms
+# --
+service '${1:serviceName}', (${2:injectables}) ->
+	$3

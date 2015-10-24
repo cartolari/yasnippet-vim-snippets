@@ -1,0 +1,4 @@
+# name: yhlb
+# key: yhlb
+# --
+echo CHtml::listBox('${1:name}', '${2:select}',array($3),array('${4:optionName}'=>${0:optionValue}));

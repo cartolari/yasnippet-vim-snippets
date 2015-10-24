@@ -1,0 +1,4 @@
+# name: P
+# key: P
+# --
+$_POST['${1:variable}']

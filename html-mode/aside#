@@ -1,0 +1,6 @@
+# name: aside#
+# key: aside#
+# --
+<aside id="$1">
+	$0
+</aside>

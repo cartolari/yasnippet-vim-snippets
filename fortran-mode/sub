@@ -1,0 +1,6 @@
+# name: sub
+# key: sub
+# --
+subroutine ${1:name}($2)
+	$0
+end subroutine $1

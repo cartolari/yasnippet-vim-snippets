@@ -1,0 +1,4 @@
+# name: ci_form_hidden
+# key: ci_form_hidden
+# --
+form_hidden("${1:name}", "${2:value}");$3

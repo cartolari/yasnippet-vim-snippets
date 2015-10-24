@@ -1,0 +1,5 @@
+# name: cdir
+# key: cdir
+# --
+console.dir(${0:obj});
+

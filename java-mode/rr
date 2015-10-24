@@ -1,0 +1,4 @@
+# name: rr
+# key: rr
+# --
+redirect(${1:param});

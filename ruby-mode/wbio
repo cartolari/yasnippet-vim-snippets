@@ -1,0 +1,4 @@
+# name: wbio
+# key: wbio
+# --
+wont_be_instance_of ${0:Class}

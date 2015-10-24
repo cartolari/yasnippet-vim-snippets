@@ -1,0 +1,4 @@
+# name: rp
+# key: rp
+# --
+render partial: '${0:item}'

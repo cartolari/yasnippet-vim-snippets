@@ -1,0 +1,4 @@
+# name: .style
+# key: .style
+# --
+.style("$1", $2)

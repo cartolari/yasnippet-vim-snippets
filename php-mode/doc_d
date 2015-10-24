@@ -1,0 +1,7 @@
+# name: doc_d
+# key: doc_d
+# --
+/**
+ * ${3:undocumented constant}
+ */
+define($1, $2);

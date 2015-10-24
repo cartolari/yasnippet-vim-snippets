@@ -1,0 +1,6 @@
+# name: for
+# key: for
+# --
+For ${1:n} = ${3:1} to ${2:count}
+	${0:; code...}
+Next

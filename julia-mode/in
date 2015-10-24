@@ -1,0 +1,5 @@
+# name: in
+# key: in
+# --
+info("$1")
+$0

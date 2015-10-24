@@ -1,0 +1,4 @@
+# name: pinout
+# key: pinout
+# --
+pinMode($1, OUTPUT);

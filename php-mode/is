@@ -1,0 +1,4 @@
+# name: is
+# key: is
+# --
+isset($1{VISUAL})

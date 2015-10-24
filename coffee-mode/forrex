@@ -1,0 +1,5 @@
+# name: forrex
+# key: forrex
+# --
+for ${1:name} in [${2:start}...${3:finish}]
+	${0:# body...}

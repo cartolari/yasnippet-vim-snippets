@@ -1,0 +1,4 @@
+# name: always
+# key: always
+# --
+{ ${1:try} } always { ${0:always} }

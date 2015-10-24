@@ -1,0 +1,17 @@
+# name: l_r
+# key: l_r
+# --
+/*!
+* \namespace   $1
+* \class       $3
+* \implements  $4
+*
+* \author      ${5:}
+* \date        
+*/
+
+namespace ${1:Repositories\\$2};
+
+class ${3:} extends \\$6 implements ${4:$3RepositoryInterface} {
+	$7
+}

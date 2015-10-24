@@ -1,0 +1,4 @@
+# name: list
+# key: list
+# --
+List${1:[T]}${0:()}

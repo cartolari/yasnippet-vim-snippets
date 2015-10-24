@@ -1,0 +1,4 @@
+# name: sans serife text
+# key: sf
+# --
+\textsf{${0:text}}

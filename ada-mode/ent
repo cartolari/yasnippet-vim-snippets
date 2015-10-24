@@ -1,0 +1,7 @@
+# name: entry ... when
+# key: ent
+# --
+entry $1($2) when $3 is
+begin
+	$0
+end $1;

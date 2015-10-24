@@ -1,0 +1,4 @@
+# name: double
+# key: double
+# --
+double precision :: $0

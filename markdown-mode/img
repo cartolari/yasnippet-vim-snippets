@@ -1,0 +1,4 @@
+# name: img
+# key: img
+# --
+{% img ${1:class} ${2:URL} ${3:width} ${4:height} ${5:title_text} ${0:alt_text} %}

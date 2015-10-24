@@ -1,0 +1,4 @@
+# name: bgo:pb
+# key: bgo:pb
+# --
+background-origin: padding-box;

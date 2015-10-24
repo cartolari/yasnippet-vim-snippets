@@ -1,0 +1,7 @@
+# name: cfort
+# key: cfort
+# --
+<c:set var="$1">${2:item1,item2,item3}</c:set>
+<c:forTokens var="$3" items="${$1}" delims="${4:,}">
+	${0:<c:out value="$3" />}
+</c:forTokens>

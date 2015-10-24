@@ -1,0 +1,4 @@
+# name: ascon
+# key: ascon
+# --
+$this->assertContains(${1:Search Value}, ${2:Array or Iterator});

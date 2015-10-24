@@ -1,0 +1,6 @@
+# name: dowh
+# key: dowh
+# --
+do {
+	$1
+} while($2);

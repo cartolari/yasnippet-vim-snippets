@@ -1,0 +1,6 @@
+# name: rfile
+# key: rfile
+# --
+for "${1:filename}".IO.lines -> $line {
+	$2
+}

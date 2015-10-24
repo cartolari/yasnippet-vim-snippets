@@ -1,0 +1,4 @@
+# name: uset
+# key: uset
+# --
+std::unordered_set<${1:T}> $2;

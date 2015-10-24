@@ -1,0 +1,6 @@
+# name: psub
+# key: psub
+# --
+=head2 ${1:MethodName}
+
+${0:Summary....}

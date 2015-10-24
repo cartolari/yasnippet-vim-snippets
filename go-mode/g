@@ -1,0 +1,4 @@
+# name: g
+# key: g
+# --
+go ${1:funcName}($0)

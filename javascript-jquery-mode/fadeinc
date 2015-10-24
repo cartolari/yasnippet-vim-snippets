@@ -1,0 +1,6 @@
+# name: fadeinc
+# key: fadeinc
+# --
+${1:obj}.fadeIn('slow/400/fast', function () {
+	${0:// callback};
+});

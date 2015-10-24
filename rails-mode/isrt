@@ -1,0 +1,4 @@
+# name: isrt
+# key: isrt
+# --
+it { should redirect_to ${0:url} }

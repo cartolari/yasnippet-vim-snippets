@@ -1,0 +1,4 @@
+# name: radians
+# key: radians
+# --
+radians(${0:deg});

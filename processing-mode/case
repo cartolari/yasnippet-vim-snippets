@@ -1,0 +1,6 @@
+# name: case
+# key: case
+# --
+case ${1:expression} :
+	$0
+break;

@@ -1,0 +1,11 @@
+# name: objc
+# key: objc
+# --
+@interface ${1:`(file-name-base)`} : ${2:NSObject}
+{
+}
+@end
+
+@implementation $1
+$0
+@end

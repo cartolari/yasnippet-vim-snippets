@@ -1,0 +1,4 @@
+# name: substr:b
+# key: substr:b
+# --
+${fn:substringBefore(${1:string}, ${0:substr})}

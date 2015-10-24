@@ -1,0 +1,6 @@
+# name: canvas
+# key: canvas
+# --
+<canvas>
+	$0
+</canvas>

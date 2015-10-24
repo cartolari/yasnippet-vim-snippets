@@ -1,0 +1,4 @@
+# name: "static string declaration"
+# key: ss
+# --
+static $1: &'static str = "$0";

@@ -1,0 +1,19 @@
+# name: template
+# key: template
+# --
+# Template resource
+template ${1:"/path/to/file"} do # Path to the file
+	${2:#}cookbook ${3:nil} # Specify the cookbook where the template is located, default is current cookbook
+	${4:#}source ${5:nil} # Template source file. Found in templates/default for the cookbook
+	${6:#}variables $7 # Variables to use in the template
+	${8:#}local ${9:false} # Is the template already present on the node?
+	${10:#}backup ${11:5} # How many backups of this file to keep. Set to false if you want no backups.
+	${12:#}owner $13 # The owner for the file
+	${14:#}group $15 # The group owner of the file (string or id)
+	${16:#}mode $17 # The octal mode of the file (4-digit format)
+	${18:#}content ${19:nil} # A string to write to the file. This will replace any previous content if set
+
+	${20:#}${21:action :create} # Create the file (Default)
+	${22:#}${23:action :delete} # Delete this file
+	${24:#}${0:action :touch} # Touch this file (update the mtime/atime)
+end

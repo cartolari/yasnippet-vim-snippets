@@ -1,0 +1,5 @@
+# name: map
+# key: map
+# --
+map!(${1:f})(${2:xs});
+$0

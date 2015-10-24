@@ -1,0 +1,4 @@
+# name: vi
+# key: vi
+# --
+validates :${1:attribute}, inclusion: { in: %w(${0: mov avi }) }

@@ -1,0 +1,4 @@
+# name: af
+# key: af
+# --
+after ${1:ms} ${0:#do something}

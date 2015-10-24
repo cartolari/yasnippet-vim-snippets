@@ -1,0 +1,4 @@
+# name: tal:c
+# key: tal:c
+# --
+text-align-last: center;

@@ -1,0 +1,4 @@
+# name: rnfin
+# key: rnfin
+# --
+notFoundIfNull(${1:param});

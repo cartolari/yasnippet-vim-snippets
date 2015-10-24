@@ -1,0 +1,4 @@
+# name: ofs
+# key: ofs
+# --
+<%= options_for_select ${1:collection}, ${2:value_method} %>

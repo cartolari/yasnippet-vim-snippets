@@ -1,0 +1,7 @@
+# name: rpipe
+# key: rpipe
+# --
+for ${1:i} in 1 .. ${0:l_res}.count loop
+	pipe row( $2($1) );
+end loop;
+return;

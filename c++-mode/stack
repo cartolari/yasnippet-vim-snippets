@@ -1,0 +1,4 @@
+# name: stack
+# key: stack
+# --
+std::stack<${1:T}> $2;

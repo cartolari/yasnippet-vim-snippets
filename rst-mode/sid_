@@ -1,0 +1,6 @@
+# name: sid:
+# key: sid:
+# --
+.. sidebar:: ${1:Title}
+
+	$0

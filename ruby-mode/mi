@@ -1,0 +1,4 @@
+# name: mi
+# key: mi
+# --
+must_include ${0:what}

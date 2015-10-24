@@ -1,0 +1,4 @@
+# name: contains:i
+# key: contains:i
+# --
+${fn:containsIgnoreCase(${1:string}, ${0:substr})}

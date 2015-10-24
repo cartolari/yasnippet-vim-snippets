@@ -1,0 +1,4 @@
+# name: preva
+# key: preva
+# --
+${1:obj}.prevAll('${2:selector expression}')

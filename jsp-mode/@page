@@ -1,0 +1,4 @@
+# name: @page
+# key: @page
+# --
+<%@page contentType="text/html" pageEncoding="UTF-8"%>

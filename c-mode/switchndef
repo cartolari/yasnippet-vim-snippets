@@ -1,0 +1,8 @@
+# name: switchndef
+# key: switchndef
+# --
+switch (${1:/* variable */}) {
+	case ${2:/* variable case */}:
+		$3
+		${4:break;}$5
+}

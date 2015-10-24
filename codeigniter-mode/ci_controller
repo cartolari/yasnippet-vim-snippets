@@ -1,0 +1,18 @@
+# name: ci_controller
+# key: ci_controller
+# --
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class ${1:ClassName} extends CI_Controller
+{
+	function __construct()
+	{
+		parent::__construct();
+		${2:// code...}
+	}
+
+	function ${3:index}()
+	{
+		${4:// code...}
+	}
+}

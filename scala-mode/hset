@@ -1,0 +1,4 @@
+# name: hset
+# key: hset
+# --
+HashSet${1:[T]}${0:()}

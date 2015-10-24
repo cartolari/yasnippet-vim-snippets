@@ -1,0 +1,6 @@
+# name: asnd
+# key: asnd
+# --
+assert_no_difference '${1:Model}.${2:count}' do
+	$0
+end

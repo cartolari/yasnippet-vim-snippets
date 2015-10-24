@@ -1,0 +1,4 @@
+# name: wc
+# key: wc
+# --
+where(${1:'conditions'}${0:, bind_var})

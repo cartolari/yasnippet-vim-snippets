@@ -1,0 +1,23 @@
+# name: service
+# key: service
+# --
+# Service resource
+service ${1:"service_name"} do # Name of the service
+	${2:#}enabled ${3:nil} # Whether the service is enabled at boot time
+	${4:#}running ${5:nil} # Make sure the service is running. Start if stopped
+	${6:#}pattern $7 # Pattern to look for in the process table
+	${8:#}start_command ${9:nil} # Command used to start this service
+	${10:#}stop_command ${11:nil} # Command used to stop this service
+	${12:#}status_command ${13:nil} # Command used to check the service run status
+	${14:#}restart_command ${15:nil} # Command used to restart this service
+	${16:#}reload_command ${17:nil} # Command used to tell this service to reload its configuration
+	${18:#}supports ${19:false} # Features this service supports, ie :restart, :reload, :status
+
+	${20:#}${21:action :enable} # Enable this service
+	${22:#}${23:action :disable} # Disable this service
+	${24:#}${25:action :nothing} # Don't do anything with this service (Default)
+	${26:#}${27:action :start} # Start this service
+	${28:#}${29:action :stop} # Stop this service
+	${30:#}${31:action :restart} # Restart this service
+	${32:#}${0:action :reload} # Reload the configuration for this service
+end

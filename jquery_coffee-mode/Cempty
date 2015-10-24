@@ -1,0 +1,4 @@
+# name: Cempty
+# key: Cempty
+# --
+${1:callbacks}.empty()

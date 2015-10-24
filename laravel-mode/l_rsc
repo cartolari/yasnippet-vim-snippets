@@ -1,0 +1,35 @@
+# name: l_rsc
+# key: l_rsc
+# --
+/*!
+* \class       $1
+*
+* \author      ${3:}
+* \date        
+*/
+
+class ${1:} extends ${2:BaseController} {
+	function __construct() {
+	}
+	
+	public function index() {
+	}
+	
+	public function create() {
+	}
+	
+	public function store() {
+	}
+	
+	public function show($id) {
+	}
+	
+	public function edit($id) {
+	}
+	
+	public function update($id) {
+	}
+	
+	public function destroy($id) {
+	}
+}

@@ -1,0 +1,6 @@
+# name: cl
+# key: cl
+# --
+${1:my} class ${2:ClassName} ${3:is|does Parent|Role}{
+	$4
+}

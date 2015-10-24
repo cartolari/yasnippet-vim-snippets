@@ -1,0 +1,6 @@
+# name: blockquote-link
+# key: blockquote-link
+# --
+{% blockquote ${1:author} ${2:URL} ${3:link_text} %}
+${0:quote}
+{% endblockquote %}

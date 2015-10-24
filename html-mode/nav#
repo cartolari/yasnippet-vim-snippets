@@ -1,0 +1,6 @@
+# name: nav#
+# key: nav#
+# --
+<nav id="$1">
+	$0
+</nav>

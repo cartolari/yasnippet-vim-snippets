@@ -1,0 +1,4 @@
+# name: inherit
+# key: inherit
+# --
+<%inherit file="${0:filename}" />

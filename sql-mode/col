@@ -1,0 +1,4 @@
+# name: col
+# key: col
+# --
+${1:name}	${2:type}	${3:default ''}	${0:not null}

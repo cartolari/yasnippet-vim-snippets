@@ -1,0 +1,6 @@
+# name: repeat
+# key: repeat
+# --
+repeat ${1:integer}; do
+	${0:# statements}
+done

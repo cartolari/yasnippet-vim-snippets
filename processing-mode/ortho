@@ -1,0 +1,4 @@
+# name: ortho
+# key: ortho
+# --
+ortho(${1:left}, ${2:right}, ${3:bottom}, ${4:top}, ${5:near}, ${0:far});

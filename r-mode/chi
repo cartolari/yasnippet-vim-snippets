@@ -1,0 +1,4 @@
+# name: chi
+# key: chi
+# --
+chisq.test(${1:x}, ${0:y})

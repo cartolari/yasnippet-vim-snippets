@@ -1,0 +1,4 @@
+# name: atan2
+# key: atan2
+# --
+atan2(${0:rad});

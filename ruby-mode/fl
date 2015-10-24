@@ -1,0 +1,4 @@
+# name: fl
+# key: fl
+# --
+flunk '${1:Failure message.}'

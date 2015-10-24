@@ -1,0 +1,4 @@
+# name: pushstack
+# key: pushstack
+# --
+${1:obj}.pushStack(${2:elements})

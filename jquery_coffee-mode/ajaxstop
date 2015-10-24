@@ -1,0 +1,6 @@
+# name: ajaxstop
+# key: ajaxstop
+# --
+$.ajaxStop ->
+	${1:// handler for when all AJAX calls have been completed}
+$0

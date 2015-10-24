@@ -1,0 +1,6 @@
+# name: map
+# key: map
+# --
+${1:obj}.map(function (${2:index}, ${3:element}) {
+	${0:// callback}
+});

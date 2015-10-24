@@ -1,0 +1,4 @@
+# name: ylinkpager
+# key: ylinkpager
+# --
+$this->widget('CLinkPager', array('pages'=>$pages,'header'=>'$0'}))

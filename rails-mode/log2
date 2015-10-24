@@ -1,0 +1,4 @@
+# name: log2
+# key: log2
+# --
+RAILS_DEFAULT_LOGGER.${1:debug} $0

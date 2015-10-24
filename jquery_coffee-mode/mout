@@ -1,0 +1,5 @@
+# name: mout
+# key: mout
+# --
+${1:obj}.mouseout (${2:e}) ->
+	${0:// event handler}

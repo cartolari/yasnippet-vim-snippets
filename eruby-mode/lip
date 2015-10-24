@@ -1,0 +1,4 @@
+# name: lip
+# key: lip
+# --
+<%= link_to "${1:Link text...}", ${2:model}_path(${0:@$2}) %>

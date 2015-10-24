@@ -1,0 +1,7 @@
+# name: yifisajax
+# key: yifisajax
+# --
+if(Yii::app()->request->isAjaxRequest == TRUE)
+{
+	$0
+}

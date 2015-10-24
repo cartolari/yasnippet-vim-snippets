@@ -1,0 +1,17 @@
+# name: module .. ClassMethods .. end
+# key: mod
+# --
+module ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`}
+	module ClassMethods
+		$0
+	end
+
+	module InstanceMethods
+
+	end
+
+	def self.included(receiver)
+		receiver.extend         ClassMethods
+		receiver.send :include, InstanceMethods
+	end
+end

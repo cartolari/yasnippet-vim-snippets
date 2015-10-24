@@ -1,0 +1,4 @@
+# name: s*
+# key: s*
+# --
+select * from ${0:table}

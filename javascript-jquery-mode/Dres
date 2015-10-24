@@ -1,0 +1,4 @@
+# name: Dres
+# key: Dres
+# --
+${1:deferred}.resolve(${2:args})

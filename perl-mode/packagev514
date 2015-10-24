@@ -1,0 +1,10 @@
+# name: packagev514
+# key: packagev514
+# --
+package ${1:`(file-name-base)`} ${2:0.99};
+
+$0
+
+1;
+
+__END__

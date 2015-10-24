@@ -1,0 +1,4 @@
+# name: log
+# key: log
+# --
+dbms_output.put_line('$0');

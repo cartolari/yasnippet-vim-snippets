@@ -1,0 +1,4 @@
+# name: renx
+# key: renx
+# --
+renderXml(${1:param});

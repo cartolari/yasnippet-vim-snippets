@@ -1,0 +1,4 @@
+# name: ashk
+# key: ashk
+# --
+$this->assertArrayHasKey(${1:key}, ${2:array});

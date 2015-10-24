@@ -1,0 +1,6 @@
+# name: lambda
+# key: lambda
+# --
+${1:static }function (${2:args}) use (${3:&$x, $y /*put vars in scope (closure) */}) {
+	$0
+};

@@ -1,0 +1,6 @@
+# name: section.
+# key: section.
+# --
+<section class="$1">
+	$0
+</section>

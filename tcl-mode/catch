@@ -1,0 +1,4 @@
+# name: catch
+# key: catch
+# --
+catch {$1} ${2:err} ${0:options}

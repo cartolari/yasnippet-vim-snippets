@@ -1,0 +1,8 @@
+# name: virtualhost
+# key: virtualhost
+# --
+<VirtualHost ${1:*}:${2:80}>
+	ServerAdmin ${3:webmaster@example.com}
+	DocumentRoot ${4:/www/example.com}
+	ServerName ${0:www.example.com}
+</VirtualHost>

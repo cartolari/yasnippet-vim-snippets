@@ -1,0 +1,4 @@
+# name: regroup
+# key: regroup
+# --
+{% regroup $1 by $2 as $0 %}

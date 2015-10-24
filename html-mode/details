@@ -1,0 +1,4 @@
+# name: details
+# key: details
+# --
+<details>$0</details>

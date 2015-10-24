@@ -1,0 +1,4 @@
+# name: arr
+# key: arr
+# --
+Array${1:[T]}${0:()}

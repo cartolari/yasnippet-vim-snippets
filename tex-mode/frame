@@ -1,0 +1,6 @@
+# name: frame environment
+# key: frame
+# --
+\begin{frame}[${1:t}]{${2:title}}
+	$0
+\end{frame}

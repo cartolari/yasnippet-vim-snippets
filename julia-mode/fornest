@@ -1,0 +1,6 @@
+# name: nested for loop
+# key: fornest
+# --
+for $1 = $2, $3 = $4
+	$0
+end

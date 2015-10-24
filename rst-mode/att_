@@ -1,0 +1,5 @@
+# name: att:
+# key: att:
+# --
+.. attention::
+	${0:hey!}

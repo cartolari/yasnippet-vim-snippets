@@ -1,0 +1,4 @@
+# name: mbio
+# key: mbio
+# --
+must_be_instance_of ${0:Class}

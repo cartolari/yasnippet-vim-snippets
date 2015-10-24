@@ -1,0 +1,4 @@
+# name: bds:g
+# key: bds:g
+# --
+border-style: groove;

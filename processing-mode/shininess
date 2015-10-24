@@ -1,0 +1,4 @@
+# name: shininess
+# key: shininess
+# --
+shininess(${0:shine});

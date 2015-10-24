@@ -1,0 +1,4 @@
+# name: ci_form_button
+# key: ci_form_button
+# --
+form_button("${1:name}", "${2:value}");$3

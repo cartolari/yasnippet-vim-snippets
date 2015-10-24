@@ -1,0 +1,4 @@
+# name: reqr
+# key: reqr
+# --
+require_relative '$1'

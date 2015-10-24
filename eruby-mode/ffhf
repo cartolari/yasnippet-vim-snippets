@@ -1,0 +1,4 @@
+# name: ffhf
+# key: ffhf
+# --
+<%= ${1:f}.hidden_field :${0:attribute} %>

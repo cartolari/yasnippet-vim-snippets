@@ -1,0 +1,4 @@
+# name: str
+# key: str
+# --
+character(len=${1:*}) :: ${0:}

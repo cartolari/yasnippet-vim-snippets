@@ -1,0 +1,6 @@
+# name: ru
+# key: ru
+# --
+render :update do |${1:page}|
+	$1.$0
+end

@@ -1,0 +1,4 @@
+# name: super_call
+# key: super_call
+# --
+${1:super_class}.instance_method(:${0:method}).bind(self).call

@@ -1,0 +1,6 @@
+# name: mouseReleased
+# key: mouseReleased
+# --
+void mouseReleased(){
+	$0
+}

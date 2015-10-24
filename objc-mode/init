@@ -1,0 +1,10 @@
+# name: init
+# key: init
+# --
+- (id)init
+{
+	if (self = [super init]) {
+		$0
+	}
+	return self;
+}

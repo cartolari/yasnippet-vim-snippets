@@ -1,0 +1,4 @@
+# name: asnt
+# key: asnt
+# --
+assert_nothing_thrown { $0 }

@@ -1,0 +1,4 @@
+# name: rema
+# key: rema
+# --
+${1:obj}.removeAttr('${2:attribute name}')

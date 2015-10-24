@@ -1,0 +1,4 @@
+# name: isrtp
+# key: isrtp
+# --
+it { should render_template $0 }

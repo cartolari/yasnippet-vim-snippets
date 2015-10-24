@@ -1,0 +1,5 @@
+# name: elif
+# key: elif
+# --
+elif [[ ${1:condition} ]]; then
+	${0:#statements}

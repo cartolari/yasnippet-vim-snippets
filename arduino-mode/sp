@@ -1,0 +1,5 @@
+# name: sp
+# key: sp
+# --
+serial.println($1);
+

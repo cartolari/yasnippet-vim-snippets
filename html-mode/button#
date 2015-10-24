@@ -1,0 +1,4 @@
+# name: button#
+# key: button#
+# --
+<button id="$1" type="${2:submit}">$0</button>

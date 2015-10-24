@@ -1,0 +1,4 @@
+# name: jj
+# key: jj
+# --
+$('${1:selector}')

@@ -1,0 +1,4 @@
+# name: rpo
+# key: rpo
+# --
+= render :partial => "${1:item}", :object => ${0:@$1}

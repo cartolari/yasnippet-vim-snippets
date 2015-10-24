@@ -1,0 +1,11 @@
+# name: BEERWARE
+# key: BEERWARE
+# --
+${1:one line to give the program's name and a brief description}
+Copyright `(format-time-string "%Y")` ${2:`"Name"`}
+
+Licensed under the "THE BEER-WARE LICENSE" (Revision 42):
+$2 wrote this file. As long as you retain this notice you
+can do whatever you want with this stuff. If we meet some day, and you think
+this stuff is worth it, you can buy me a beer or coffee in return
+$0

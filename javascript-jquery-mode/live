@@ -1,0 +1,6 @@
+# name: live
+# key: live
+# --
+${1:obj}.live('${2:events}', function (${3:e}) {
+	${0:// event handler}
+});

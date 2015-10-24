@@ -1,0 +1,4 @@
+# name: ci_form_submit
+# key: ci_form_submit
+# --
+form_submit("${1:name}", "${2:value}");$3

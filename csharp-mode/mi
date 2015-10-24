@@ -1,0 +1,6 @@
+# name: mi
+# key: mi
+# --
+${1:public} int $2($3) {
+	${0:return 0;}
+}

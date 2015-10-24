@@ -1,0 +1,4 @@
+# name: assert_send(..)
+# key: ass
+# --
+assert_send [${1:object}, :${2:message}, ${3:args}]

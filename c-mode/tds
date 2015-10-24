@@ -1,0 +1,6 @@
+# name: tds
+# key: tds
+# --
+typedef struct ${2:_$1 }{
+	${3:/* data */}
+} ${1:};

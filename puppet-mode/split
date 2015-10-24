@@ -1,0 +1,4 @@
+# name: split
+# key: split
+# --
+split(${1:hay stack}, "${2:patten}")

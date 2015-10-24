@@ -1,0 +1,6 @@
+# name: fun-sh
+# key: fun-sh
+# --
+${1:function_name}() {
+	${0:#function_body}
+}

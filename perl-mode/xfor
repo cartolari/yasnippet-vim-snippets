@@ -1,0 +1,4 @@
+# name: xfor
+# key: xfor
+# --
+${1:expression} for @${2:array};

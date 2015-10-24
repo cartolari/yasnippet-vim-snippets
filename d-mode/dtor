@@ -1,0 +1,6 @@
+# name: dtor
+# key: dtor
+# --
+~this($1) {
+	$0
+}

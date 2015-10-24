@@ -1,0 +1,12 @@
+# name: switch
+# key: switch
+# --
+given ${1:$var} {
+  when ${2:condition} {
+	  ${3:# code block ...}
+  }
+  $4
+  default {
+	  $5
+  }
+}

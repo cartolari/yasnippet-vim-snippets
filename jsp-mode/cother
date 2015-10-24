@@ -1,0 +1,6 @@
+# name: cother
+# key: cother
+# --
+<c:otherwise>
+	$0
+</c:otherwise>

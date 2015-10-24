@@ -1,0 +1,4 @@
+# name: url
+# key: url
+# --
+\url{$1} $0

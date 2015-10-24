@@ -1,0 +1,4 @@
+# name: yisajax
+# key: yisajax
+# --
+Yii::app()->request->isAjaxRequest

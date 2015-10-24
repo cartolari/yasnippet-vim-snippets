@@ -1,0 +1,4 @@
+# name: rn
+# key: rn
+# --
+render nothing: ${0:true}

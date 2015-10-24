@@ -1,0 +1,4 @@
+# name: deli
+# key: deli
+# --
+delete_if { |${1:e}| $0 }

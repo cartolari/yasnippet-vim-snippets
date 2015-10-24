@@ -1,0 +1,4 @@
+# name: procedure declaration
+# key: procd
+# --
+procedure $1;$0

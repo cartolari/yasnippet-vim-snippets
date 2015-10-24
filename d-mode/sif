@@ -1,0 +1,6 @@
+# name: sif
+# key: sif
+# --
+static if(${1:cond}) {
+	$2
+}

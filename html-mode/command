@@ -1,0 +1,4 @@
+# name: command
+# key: command
+# --
+<command type="command" label="$1" icon="$0" />

@@ -1,0 +1,6 @@
+# name: description environment
+# key: desc
+# --
+\begin{description}
+	\item[$1] $0
+\end{description}

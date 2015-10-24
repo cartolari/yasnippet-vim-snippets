@@ -1,0 +1,5 @@
+# name: fn
+# key: fn
+# --
+${1:fn} :: ${2:a} -> ${3:a}
+$1 $4 = ${0:undefined}

@@ -1,0 +1,6 @@
+# name: \subparagraph
+# key: subp
+# --
+\subparagraph{${1:subparagraph name}}
+\label{subp:${2:$1}}
+$0

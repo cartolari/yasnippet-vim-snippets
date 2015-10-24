@@ -1,0 +1,5 @@
+# name: lia+
+# key: lia+
+# --
+<li><a href="${2:#}">$1</a></li>
+lia+

@@ -1,0 +1,4 @@
+# name: cl
+# key: cl
+# --
+console.log($0);

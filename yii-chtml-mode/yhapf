@@ -1,0 +1,4 @@
+# name: yhapf
+# key: yhapf
+# --
+echo CHtml::activePasswordField(${1:model}, '${2:attribute}',array('${3:optionName}'=>${0:optionValue}));

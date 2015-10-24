@@ -1,0 +1,4 @@
+# name: sphereDetails
+# key: sphereDetails
+# --
+sphereDetail(${0:n});

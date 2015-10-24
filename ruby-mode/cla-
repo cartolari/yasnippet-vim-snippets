@@ -1,0 +1,10 @@
+# name: cla-
+# key: cla-
+# --
+class ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`} < DelegateClass(${2:ParentClass})
+	def initialize(${3:args})
+		super(${4:del_obj})
+
+		$0
+	end
+end

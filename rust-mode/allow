@@ -1,0 +1,4 @@
+# name: "allow lint attribute" b
+# key: allow
+# --
+#[allow(${1:unused_variable})]

@@ -1,0 +1,4 @@
+# name: l_
+# key: l_
+# --
+l_ply(${1:list}, ${0:function})

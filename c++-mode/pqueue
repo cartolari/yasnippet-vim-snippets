@@ -1,0 +1,4 @@
+# name: pqueue
+# key: pqueue
+# --
+std::priority_queue<${1:T}> $2;

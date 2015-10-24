@@ -1,0 +1,4 @@
+# name: nexta
+# key: nexta
+# --
+${1:obj}.nextAll('${2:selector expression}')

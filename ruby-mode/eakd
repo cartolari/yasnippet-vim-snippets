@@ -1,0 +1,6 @@
+# name: eakd
+# key: eakd
+# --
+each_key do |${1:key}|
+	$0
+end

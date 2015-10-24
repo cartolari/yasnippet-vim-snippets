@@ -1,0 +1,4 @@
+# name: flatmap
+# key: flatmap
+# --
+${1:name}.flatMap${0:[T]}(a

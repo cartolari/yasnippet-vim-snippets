@@ -1,0 +1,4 @@
+# name: mav
+# key: mav
+# --
+after_validation :${0:method}

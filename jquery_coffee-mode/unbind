@@ -1,0 +1,4 @@
+# name: unbind
+# key: unbind
+# --
+${1:obj}.unbind('${2:event name}')

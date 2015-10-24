@@ -1,0 +1,90 @@
+# name: CSVIterator
+# key: CSVIterator
+# --
+	// http://snipplr.com/view.php?codeview&id=1986 // modified
+	class CSVIterator implements Iterator
+	{	
+		private $f;
+		private $curr;
+		private $rowCounter;
+		 /* opts keys:
+			* row_size
+			* escape
+			* enclosure
+			* delimiter
+			*/
+		public function __construct( $file_or_handle, $opts = array(4096, ',') )
+		{
+			$d = function($n) use(&$opts){ return isset($opts[$n]) ? $opts[$n] : false; };
+			$this->combine = $d('combine');
+			$this->headers = $d('headers');
+			$this->headerCheckFunction = $d('header_check_function');
+			$this->f =
+				is_string($file_or_handle)
+				? fopen( $file_or_handle, 'r' )
+				: $file_or_handle;
+			if (!$this->f) throw new Exception('bad file descriptor');
+			$this->fgetcsv_args = array(
+					$this->f,
+					isset($opts['row_size']) ? $opts['row_size'] : 4096,
+					isset($opts['delimiter']) ? $opts['delimiter'] : ',',
+					isset($opts['enclosure']) ? $opts['enclosure'] : '"',
+					isset($opts['escape']) ? $opts['escape'] : '\\',
+			);
+			$this->start();
+		}
+		protected function readRow(){
+			$this->curr = call_user_func_array('fgetcsv', $this->fgetcsv_args );
+			$this->rowCounter++;
+			if ($this->rowCounter == 1){
+				$this->processHeader();
+			} elseif ($this->curr) {
+				$this->processRow();
+			}
+		}
+		public function processHeader(){
+			if ($this->headers || $this->combine){
+				$this->header = $this->curr;
+				if ($this->headerCheckFunction){
+					$f = $this->headerCheckFunction;
+					$f($this->header);
+				}
+				$this->readRow();
+			}
+		}
+		public function processRow(){
+			if ($this->combine)
+				$this->curr = array_combine($this->header, $this->curr);
+		}
+		public function start(){
+			$this->rowCounter = 0;
+			rewind( $this->f );
+			$this->readRow();
+		}
+		public function rewind()
+		{
+			$this->start();
+		}
+		public function current()
+		{
+			$curr = $this->curr;
+			$this->readRow();
+			return $curr;
+		}
+		public function key()
+		{
+			return $this->rowCounter;
+		}
+		public function next()
+		{
+			return $this->curr;
+		}
+		public function valid(){
+			if( !$this->next() )
+			{
+				fclose( $this->f );
+				return FALSE;
+			}
+			return TRUE;
+		}
+	} // end class

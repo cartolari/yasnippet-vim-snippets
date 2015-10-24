@@ -1,0 +1,4 @@
+# name: as
+# key: as
+# --
+assert(${0:/* condition */});

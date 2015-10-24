@@ -1,0 +1,4 @@
+# name: throw
+# key: throw
+# --
+throw new ("${1:Exception()}");

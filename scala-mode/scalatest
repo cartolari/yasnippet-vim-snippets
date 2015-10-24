@@ -1,0 +1,5 @@
+# name: scalatest
+# key: scalatest
+# --
+${1:import org.scalatest.Suite}
+${0:import org.scalatest.FunSuite}

@@ -1,0 +1,4 @@
+# name: ma
+# key: ma
+# --
+maply(${1:matrix}, ${0:function})

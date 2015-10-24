@@ -1,0 +1,6 @@
+# name: table.
+# key: table.
+# --
+<table class="$1">
+	$0
+</table>

@@ -1,0 +1,4 @@
+# name: repf
+# key: repf
+# --
+div(ng-repeat='$1 in $2' | $3)

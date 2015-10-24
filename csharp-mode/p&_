@@ -1,0 +1,4 @@
+# name: p&|
+# key: p&|
+# --
+internal ${1:int} $2 { get; protected set; }

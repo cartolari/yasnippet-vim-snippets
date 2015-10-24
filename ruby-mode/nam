@@ -1,0 +1,6 @@
+# name: nam
+# key: nam
+# --
+namespace :${1:} do
+	$0
+end

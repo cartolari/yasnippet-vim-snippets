@@ -1,0 +1,6 @@
+# name: sst
+# key: sst
+# --
+shared static this($1) {
+	$0
+}

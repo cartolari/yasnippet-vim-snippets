@@ -1,0 +1,5 @@
+# name: $on
+# key: $on
+# --
+$scope.$on '${1:eventName}', (event, ${2:args}) ->
+	$3

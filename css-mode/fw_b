@@ -1,0 +1,4 @@
+# name: fw:b
+# key: fw:b
+# --
+font-weight: bold;

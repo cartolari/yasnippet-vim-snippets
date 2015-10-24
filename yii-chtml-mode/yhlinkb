@@ -1,0 +1,4 @@
+# name: yhlinkb
+# key: yhlinkb
+# --
+echo CHtml::linkButton('${1:lable}',array('${2:optionName}'=>${0:optionValue}));

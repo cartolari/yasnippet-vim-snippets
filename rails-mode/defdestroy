@@ -1,0 +1,12 @@
+# name: defdestroy
+# key: defdestroy
+# --
+def destroy
+	@${1:model_class_name} = ${2:ModelClassName}.find(params[:id])
+	@$1.destroy
+
+	respond_to do |format|
+		format.html { redirect_to($1s_url) }
+		format.xml  { head :ok }
+	end
+end

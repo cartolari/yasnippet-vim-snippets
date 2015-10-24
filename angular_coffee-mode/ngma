@@ -1,0 +1,5 @@
+# name: ngma
+# key: ngma
+# --
+${1:moduleName} = angular.module '$1', [${2:moduleDeps}]
+$3

@@ -1,0 +1,4 @@
+# name: param
+# key: param
+# --
+param(${0:s});

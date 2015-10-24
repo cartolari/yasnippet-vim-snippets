@@ -1,0 +1,4 @@
+# name: shorten
+# key: shorten
+# --
+shorten(${0:array});

@@ -1,0 +1,6 @@
+# name: keyTyped
+# key: keyTyped
+# --
+void keyTyped(){
+	$0
+}

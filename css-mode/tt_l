@@ -1,0 +1,4 @@
+# name: tt:l
+# key: tt:l
+# --
+text-transform: lowercase;

@@ -1,0 +1,4 @@
+# name: exp
+# key: exp
+# --
+exp(${0:value});

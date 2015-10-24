@@ -1,0 +1,5 @@
+# name: defm
+# key: defm
+# --
+(defmethod ${1:multifn} "${2:doc-string}" ${3:dispatch-val} [${4:args}]
+	$0)

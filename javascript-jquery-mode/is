@@ -1,0 +1,4 @@
+# name: is
+# key: is
+# --
+${1:obj}.is('${2:selector expression}')

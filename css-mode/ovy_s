@@ -1,0 +1,4 @@
+# name: ovy:s
+# key: ovy:s
+# --
+overflow-y: scroll;

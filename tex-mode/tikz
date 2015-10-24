@@ -1,0 +1,13 @@
+# name: figure environment (tikzpicture)
+# key: tikz
+# --
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=${1:1}]
+	$2
+\end{tikzpicture}
+\end{center}
+\caption{$3}
+\label{fig:$4}
+\end{figure}
+$0

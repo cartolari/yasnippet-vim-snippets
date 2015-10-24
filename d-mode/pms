@@ -1,0 +1,4 @@
+# name: pms
+# key: pms
+# --
+pragma(msg, ${1:Warning});

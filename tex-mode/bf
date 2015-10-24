@@ -1,0 +1,4 @@
+# name: bold face text
+# key: bf
+# --
+\textbf{${0:text}}

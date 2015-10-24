@@ -1,0 +1,4 @@
+# name: coord
+# key: coord
+# --
+${1:model/screen}${2:X}(${3:x}, ${4:y}, ${0:z});

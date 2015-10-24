@@ -1,0 +1,15 @@
+# name: file
+# key: file
+# --
+# File resource
+file ${1:"/path/to/file"} do # Path to the file
+	${2:#}backup ${3:5} # How many backups of this file to keep. Set to false if you want no backups.
+	${4:#}owner $5 # The owner for the file
+	${6:#}group $7 # The group owner of the file (string or id)
+	${8:#}mode $9 # The octal mode of the file (4-digit format)
+	${10:#}content ${11:nil} # A string to write to the file. This will replace any previous content if set
+
+	${12:#}${13:action :create} # Create this file (Default)
+	${14:#}${15:action :delete} # Delete this file
+	${16:#}${0:action :touch} # Touch this file (update the mtime/atime)
+end

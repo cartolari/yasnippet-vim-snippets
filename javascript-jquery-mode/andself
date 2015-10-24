@@ -1,0 +1,4 @@
+# name: andself
+# key: andself
+# --
+${1:obj}.andSelf()

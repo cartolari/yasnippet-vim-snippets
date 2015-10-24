@@ -1,0 +1,10 @@
+# name: doc
+# key: doc
+# --
+/**
+ *  ${1:Description}
+ *
+ *	@author ${2:name}
+ *	@since  ${3:`(format-time-string "%d/%m/%y %H:%M:%S")`}
+ */
+$0

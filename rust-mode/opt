@@ -1,0 +1,4 @@
+# name: "Option<T>"
+# key: opt
+# --
+Option<${1:i32}>

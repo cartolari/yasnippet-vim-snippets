@@ -1,0 +1,5 @@
+# name: change
+# key: change
+# --
+${1:obj}.change (${2:e}) ->
+	${0:// event handler}

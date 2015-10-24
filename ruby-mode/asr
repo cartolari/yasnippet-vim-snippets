@@ -1,0 +1,4 @@
+# name: asr
+# key: asr
+# --
+assert_raise ${1:Exception} { $0 }

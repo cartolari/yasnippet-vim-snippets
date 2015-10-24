@@ -1,0 +1,4 @@
+# name: F
+# key: F
+# --
+$_FILES['${1:variable}']

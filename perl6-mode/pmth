@@ -1,0 +1,6 @@
+# name: pmth
+# key: pmth
+# --
+method ${1:!}${2:method_name}(${3:$attr}) {
+	$4
+}

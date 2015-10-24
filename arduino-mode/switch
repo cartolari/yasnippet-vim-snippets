@@ -1,0 +1,10 @@
+# name: switch
+# key: switch
+# --
+switch (${1:/* variable */}) {
+	case ${2:/* variable case */}:
+		$3
+		${4:break;}$5
+	default:
+		$6
+}

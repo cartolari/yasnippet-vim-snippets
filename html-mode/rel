@@ -1,0 +1,4 @@
+# name: rel
+# key: rel
+# --
+rel="$1"

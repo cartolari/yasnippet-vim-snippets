@@ -1,0 +1,4 @@
+# name: bdi
+# key: bdi
+# --
+border-image url($1) ${2:0} ${3:0} ${4:0} ${5:0} ${6:stretch} ${0:stretch}

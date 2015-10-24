@@ -1,0 +1,4 @@
+# name: C
+# key: C
+# --
+$_COOKIE['${1:variable}']

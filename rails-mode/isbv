@@ -1,0 +1,4 @@
+# name: isbv
+# key: isbv
+# --
+it { should be_valid }

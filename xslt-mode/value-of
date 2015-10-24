@@ -1,0 +1,4 @@
+# name: value-of
+# key: value-of
+# --
+<xsl:value-of select="${1:*}" />

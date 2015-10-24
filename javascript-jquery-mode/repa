@@ -1,0 +1,4 @@
+# name: repa
+# key: repa
+# --
+${1:obj}.replaceAll(${2:target})

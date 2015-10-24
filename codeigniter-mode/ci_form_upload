@@ -1,0 +1,4 @@
+# name: ci_form_upload
+# key: ci_form_upload
+# --
+form_upload("${1:name}", "${2:value}");$3

@@ -1,0 +1,4 @@
+# name: norm
+# key: norm
+# --
+norm(${1:value}, ${2:low}, ${0:high});

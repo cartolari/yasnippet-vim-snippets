@@ -1,0 +1,6 @@
+# name: ms+
+# key: ms+
+# --
+public string $1($2) {
+	${0:return "";}
+}

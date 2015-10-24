@@ -1,0 +1,4 @@
+# name: yhb
+# key: yhb
+# --
+echo CHtml::button('${1:label}',array('${2:optionName}'=>${0:optionValue}));

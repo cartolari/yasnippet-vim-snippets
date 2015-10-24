@@ -1,0 +1,4 @@
+# name: yupdatea
+# key: yupdatea
+# --
+${1:ModelName}::model()->updateAll(${2:array('attributes')}, ${3:condition},array('${4:key}'=>${0:value}));

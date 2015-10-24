@@ -1,0 +1,6 @@
+# name: task
+# key: task
+# --
+task $1 is
+	entry $0
+end $1;

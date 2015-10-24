@@ -1,0 +1,4 @@
+# name: scale
+# key: scale
+# --
+scale(${1:x}, ${2:y}${3:, }${0:z});

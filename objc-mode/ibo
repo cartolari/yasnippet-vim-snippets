@@ -1,0 +1,4 @@
+# name: ibo
+# key: ibo
+# --
+IBOutlet ${1:NSSomeClass} *${2:$1};

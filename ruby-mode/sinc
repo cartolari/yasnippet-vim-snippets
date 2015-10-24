@@ -1,0 +1,4 @@
+# name: sinc
+# key: sinc
+# --
+class << self; self end

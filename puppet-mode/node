@@ -1,0 +1,6 @@
+# name: node
+# key: node
+# --
+node "${1:`(file-name-base)`}" {
+	$0
+}

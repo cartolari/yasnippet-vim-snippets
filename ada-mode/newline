@@ -1,0 +1,4 @@
+# name: Ada.Text_IO.New_Line
+# key: newline
+# --
+Ada.Text_IO.New_Line(${1:1});$0

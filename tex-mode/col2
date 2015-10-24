@@ -1,0 +1,11 @@
+# name: two-column environment
+# key: col2
+# --
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		$1
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		$0
+	\end{column}
+\end{columns}

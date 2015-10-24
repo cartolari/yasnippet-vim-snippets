@@ -1,0 +1,4 @@
+# name: pcl
+# key: pcl
+# --
+public class ${1:`(file-name-base)`} $0

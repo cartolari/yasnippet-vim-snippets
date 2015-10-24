@@ -1,0 +1,4 @@
+# name: hasc
+# key: hasc
+# --
+${1:obj}.hasClass('${2:className}')

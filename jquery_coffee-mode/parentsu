@@ -1,0 +1,4 @@
+# name: parentsu
+# key: parentsu
+# --
+${1:obj}.parentsUntil('${2:selector expression}'${3:, 'filter expression'})

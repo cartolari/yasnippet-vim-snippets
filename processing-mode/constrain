@@ -1,0 +1,4 @@
+# name: constrain
+# key: constrain
+# --
+constrain(${1:value}, ${2:min}, ${0:max});

@@ -1,0 +1,20 @@
+# name: props
+# key: props
+# --
+var ${1:my_object} = Object.defineProperties(
+	${2:new Object()},
+	{
+		${3:property} : {
+			get : function $1_$3_getter() {
+				// getter code
+			},
+			set : function $1_$3_setter(value) {
+				// setter code
+			},
+			value        : ${4:value},
+			writeable    : ${5:boolean},
+			enumerable   : ${6:boolean},
+			configurable : ${0:boolean}
+		}
+	}
+);

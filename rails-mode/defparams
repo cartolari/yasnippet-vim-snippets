@@ -1,0 +1,6 @@
+# name: defparams
+# key: defparams
+# --
+def ${1:model_class_name}_params
+	params.require(:$1).permit()
+end

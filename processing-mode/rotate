@@ -1,0 +1,4 @@
+# name: rotate
+# key: rotate
+# --
+rotate${1:X}(${0:angle});

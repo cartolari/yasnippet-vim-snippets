@@ -1,0 +1,4 @@
+# name: ec
+# key: ec
+# --
+echo $0;

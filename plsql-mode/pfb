@@ -1,0 +1,11 @@
+# name: pfb
+# key: pfb
+# --
+function ${1:name}(${2:args})
+  return ${3:type}
+as
+	l_res	$3;
+begin
+	${0:-- body};
+	return l_res;
+end $1;

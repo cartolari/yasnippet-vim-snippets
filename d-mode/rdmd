@@ -1,0 +1,4 @@
+# name: rdmd
+# key: rdmd
+# --
+#!/usr/bin/env rdmd

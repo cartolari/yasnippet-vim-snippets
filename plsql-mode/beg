@@ -1,0 +1,6 @@
+# name: beg
+# key: beg
+# --
+begin
+	$0
+end;

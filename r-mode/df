@@ -1,0 +1,4 @@
+# name: df
+# key: df
+# --
+${1:name}[${2:rows}, ${0:cols}]

@@ -1,0 +1,5 @@
+# name: generic type
+# key: gen
+# --
+generic
+	type $1 is $2;$0

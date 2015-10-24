@@ -1,0 +1,6 @@
+# name: rec
+# key: rec
+# --
+${1:Record} { ${2:recFieldA} = ${3:undefined}
+			, ${4:recFieldB} = ${0:undefined}
+			}

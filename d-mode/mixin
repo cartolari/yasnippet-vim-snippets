@@ -1,0 +1,4 @@
+# name: mixin
+# key: mixin
+# --
+mixin(${1:});

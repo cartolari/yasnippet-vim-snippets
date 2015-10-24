@@ -1,0 +1,4 @@
+# name: gl clear
+# key: gl
+# --
+gl.glClear(${1:GL.GL_COLOR_BUFFER_BIT}${2: | }${0:GL.GL_DEPTH_BUFFER_BIT});

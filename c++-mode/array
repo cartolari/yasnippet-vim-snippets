@@ -1,0 +1,4 @@
+# name: array
+# key: array
+# --
+std::array<${1:T}, ${2:N}> $3;

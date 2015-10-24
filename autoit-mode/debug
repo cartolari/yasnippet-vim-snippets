@@ -1,0 +1,4 @@
+# name: debug
+# key: debug
+# --
+MsgBox(0, "Debug", ${0:"Debug Message"})

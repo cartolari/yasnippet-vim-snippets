@@ -1,0 +1,6 @@
+# name: ngmfi
+# key: ngmfi
+# --
+filter '${1:filterName}', (${2:injectables}) ->
+	(input, ${3:args}) ->
+		$4

@@ -1,0 +1,6 @@
+# name: desc
+# key: desc
+# --
+describe ${1:`(replace-regexp-in-string "Spec" "" (s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) "")))) nil t)`} do
+	$0
+end

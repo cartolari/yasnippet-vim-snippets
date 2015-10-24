@@ -1,0 +1,4 @@
+# name: input:button
+# key: input:button
+# --
+<input type="button" name="$1" id="${2:$1}" value="$3" />

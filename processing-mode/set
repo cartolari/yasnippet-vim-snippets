@@ -1,0 +1,4 @@
+# name: pixel
+# key: set
+# --
+set(${1:x}, ${2:y}, ${0:color/image});

@@ -1,0 +1,4 @@
+# name: if .. do: ..
+# key: if:
+# --
+if ${1:condition}, do: $0

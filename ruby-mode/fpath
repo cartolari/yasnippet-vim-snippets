@@ -1,0 +1,4 @@
+# name: fpath
+# key: fpath
+# --
+File.join(File.dirname(__FILE__), *['${1:rel path here}'])

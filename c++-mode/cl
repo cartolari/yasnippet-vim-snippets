@@ -1,0 +1,12 @@
+# name: cl
+# key: cl
+# --
+class ${1:`(file-name-base)`}
+{
+public:
+	$1($2);
+	~$1();
+
+private:
+	${0:/* data */}
+};

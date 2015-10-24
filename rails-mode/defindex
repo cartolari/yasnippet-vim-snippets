@@ -1,0 +1,11 @@
+# name: defindex
+# key: defindex
+# --
+def index
+	@${1:model_class_name} = ${2:ModelClassName}.all
+
+	respond_to do |format|
+		format.html # index.html.erb
+		format.xml  { render xml: @$1s }
+	end
+end

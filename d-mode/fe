@@ -1,0 +1,6 @@
+# name: fe
+# key: fe
+# --
+foreach(${1:elem}; ${2:range}) {
+	$0
+}

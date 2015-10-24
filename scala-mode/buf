@@ -1,0 +1,4 @@
+# name: buf
+# key: buf
+# --
+Buffer${1:[T]}${0:()}

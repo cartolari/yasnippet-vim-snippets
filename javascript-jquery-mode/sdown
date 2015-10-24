@@ -1,0 +1,4 @@
+# name: sdown
+# key: sdown
+# --
+${1:obj}.slideDown('${2:slow/400/fast}')

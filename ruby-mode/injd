@@ -1,0 +1,6 @@
+# name: injd
+# key: injd
+# --
+inject(${1:init}) do |${2:mem}, ${3:var}|
+	$0
+end

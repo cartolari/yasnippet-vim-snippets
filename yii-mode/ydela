@@ -1,0 +1,4 @@
+# name: ydela
+# key: ydela
+# --
+${1:ModelName}::model()->deleteAll(${2:condition},array('${3:key}'=>${0:value}));

@@ -1,0 +1,5 @@
+# name: lib
+# key: lib
+# --
+#library('$1');
+$0

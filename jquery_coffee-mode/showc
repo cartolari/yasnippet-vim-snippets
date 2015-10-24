@@ -1,0 +1,5 @@
+# name: showc
+# key: showc
+# --
+${1:obj}.show '${2:slow/400/fast}', ->
+	${0:// callback}

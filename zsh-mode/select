@@ -1,0 +1,6 @@
+# name: select
+# key: select
+# --
+select ${1:answer} in ${2:choices}; do
+	${0:# statements}
+done

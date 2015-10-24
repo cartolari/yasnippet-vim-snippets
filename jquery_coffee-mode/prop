@@ -1,0 +1,4 @@
+# name: prop
+# key: prop
+# --
+${1:obj}.prop('${2:property name}')

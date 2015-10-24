@@ -1,0 +1,6 @@
+# name: \subsubsection
+# key: subs
+# --
+\subsubsection{${1:subsubsection name}}
+\label{ssub:${2:$1}}
+$0

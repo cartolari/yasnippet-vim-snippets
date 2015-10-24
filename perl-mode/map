@@ -1,0 +1,6 @@
+# name: map
+# key: map
+# --
+map {  ${0: body }    }  ${1: @array } ;
+
+

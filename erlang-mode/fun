@@ -1,0 +1,4 @@
+# name: fun
+# key: fun
+# --
+fun (${1:Parameters}) -> ${2:body} end

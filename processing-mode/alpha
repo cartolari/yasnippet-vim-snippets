@@ -1,0 +1,4 @@
+# name: alpha
+# key: alpha
+# --
+alpha(${0:color});

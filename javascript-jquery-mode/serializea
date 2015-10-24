@@ -1,0 +1,4 @@
+# name: serializea
+# key: serializea
+# --
+${1:obj}.serializeArray()

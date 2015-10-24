@@ -1,0 +1,4 @@
+# name: saturation
+# key: saturation
+# --
+saturation(${0:color});

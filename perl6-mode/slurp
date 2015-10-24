@@ -1,0 +1,4 @@
+# name: slurp
+# key: slurp
+# --
+my ${1:$var} = "${2:filename}".IO.slurp;

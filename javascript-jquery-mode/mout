@@ -1,0 +1,6 @@
+# name: mout
+# key: mout
+# --
+${1:obj}.mouseout(function (${2:e}) {
+	${0:// event handler}
+});

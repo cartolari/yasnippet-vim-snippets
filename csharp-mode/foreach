@@ -1,0 +1,6 @@
+# name: foreach
+# key: foreach
+# --
+foreach (${1:var} ${2:entry} in $3) {
+	$0
+}

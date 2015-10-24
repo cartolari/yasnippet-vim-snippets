@@ -1,0 +1,10 @@
+# name: eval
+# key: eval
+# --
+local $@;
+eval {
+	${1:# do something risky...}
+};
+if (my $e = $@) {
+	${0:# handle failure...}
+}

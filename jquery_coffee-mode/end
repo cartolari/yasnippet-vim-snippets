@@ -1,0 +1,4 @@
+# name: end
+# key: end
+# --
+${1:obj}.end()

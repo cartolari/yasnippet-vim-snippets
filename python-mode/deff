@@ -1,0 +1,5 @@
+# name: deff
+# key: deff
+# --
+def ${1:fname}(${2:}):
+	$0

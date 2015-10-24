@@ -1,0 +1,4 @@
+# name: "assert!"
+# key: as
+# --
+assert!(${1:predicate})

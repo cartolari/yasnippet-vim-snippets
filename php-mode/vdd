@@ -1,0 +1,4 @@
+# name: vdd
+# key: vdd
+# --
+var_dump($1); die(${0:});

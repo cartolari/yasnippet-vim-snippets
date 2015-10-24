@@ -1,0 +1,4 @@
+# name: input
+# key: input
+# --
+<input type="${1:text/submit/hidden/button/image}" name="$2" id="${3:$2}" value="$4" />

@@ -1,0 +1,4 @@
+# name: artnpp
+# key: artnpp
+# --
+assert_redirected_to ${1:parent}_${2:child}_path(${0:@$1})

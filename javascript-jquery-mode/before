@@ -1,0 +1,4 @@
+# name: before
+# key: before
+# --
+${1:obj}.before('${2:Some text <b>and bold!</b>}')

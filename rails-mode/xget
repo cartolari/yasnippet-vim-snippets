@@ -1,0 +1,4 @@
+# name: xget
+# key: xget
+# --
+xhr :get, :${1:show}, id: ${2:1}

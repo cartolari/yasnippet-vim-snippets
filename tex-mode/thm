@@ -1,0 +1,6 @@
+# name: thm (or arbitrary) environment with optional argument
+# key: thm
+# --
+\begin[${1:author}]{${2:thm}}
+	$0
+\end{$2}

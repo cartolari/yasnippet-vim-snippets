@@ -1,0 +1,4 @@
+# name: pixel
+# key: get
+# --
+get(${1:x}, ${2:y}${3:, }${4:width}${5:, }${0:height});

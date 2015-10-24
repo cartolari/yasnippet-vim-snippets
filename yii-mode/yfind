@@ -1,0 +1,4 @@
+# name: yfind
+# key: yfind
+# --
+${1:ModelName}::model()->find(${2:condition},array('${3:key}'=>${0:value}));

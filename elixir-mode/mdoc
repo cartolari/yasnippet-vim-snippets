@@ -1,0 +1,6 @@
+# name: mdoc
+# key: mdoc
+# --
+@moduledoc """
+$0
+"""

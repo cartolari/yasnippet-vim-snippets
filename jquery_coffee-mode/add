@@ -1,0 +1,4 @@
+# name: add
+# key: add
+# --
+${1:obj}.add('${2:selector expression}')

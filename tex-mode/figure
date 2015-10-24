@@ -1,0 +1,4 @@
+# name: reference to a figure
+# key: figure
+# --
+${1:Figure}~\ref{${2:fig:}}

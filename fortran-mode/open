@@ -1,0 +1,4 @@
+# name: open
+# key: open
+# --
+open (unit = ${1:fp}, file = ${2:filename}, status = unknown${3:, iostat = IERR }) $0

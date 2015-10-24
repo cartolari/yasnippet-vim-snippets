@@ -1,0 +1,4 @@
+# name: issf
+# key: issf
+# --
+it { should set_the_flash('$0') }

@@ -1,0 +1,6 @@
+# name: de
+# key: de
+# --
+debug {
+	$0
+}

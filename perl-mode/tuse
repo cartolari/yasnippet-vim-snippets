@@ -1,0 +1,6 @@
+# name: tuse
+# key: tuse
+# --
+use Test::More;
+use Test::Deep; # (); # uncomment to stop prototype errors
+use Test::Exception;

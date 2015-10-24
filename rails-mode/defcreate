@@ -1,0 +1,17 @@
+# name: defcreate
+# key: defcreate
+# --
+def create
+	@${1:model_class_name} = ${2:ModelClassName}.new($1_params)
+
+	respond_to do |format|
+		if @$1.save
+			flash[:notice] = '$2 was successfully created.'
+			format.html { redirect_to(@$1) }
+			format.xml  { render xml: @$1, status: :created, location: @$1 }
+		else
+			format.html { render action: 'new' }
+			format.xml  { render xml: @$1.errors, status: :unprocessable_entity }
+		end
+	end
+end

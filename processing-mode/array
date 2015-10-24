@@ -1,0 +1,4 @@
+# name: array
+# key: array
+# --
+${1:int}[] ${2:numbers}${3: = new $1}[${0:length}];

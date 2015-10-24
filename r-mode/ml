@@ -1,0 +1,4 @@
+# name: ml
+# key: ml
+# --
+mlply(${1:matrix}, ${0:function})

@@ -1,0 +1,4 @@
+# name: eawo
+# key: eawo
+# --
+each_with_object(${1:init}) { |${2:e}, ${3:var}| $0 }

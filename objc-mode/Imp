@@ -1,0 +1,4 @@
+# name: Imp
+# key: Imp
+# --
+#import <${1:Cocoa/Cocoa.h}>

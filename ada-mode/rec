@@ -1,0 +1,6 @@
+# name: record
+# key: rec
+# --
+record
+	$0
+end record;

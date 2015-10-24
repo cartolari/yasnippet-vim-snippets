@@ -1,0 +1,4 @@
+# name: mm
+# key: mm
+# --
+must_match /${0:regex}/

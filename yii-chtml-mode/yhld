@@ -1,0 +1,4 @@
+# name: yhld
+# key: yhld
+# --
+echo CHtml::listData(array($1),'${2:valueField}', '${3:textField}','${0:groupField}');

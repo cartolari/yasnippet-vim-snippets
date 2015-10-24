@@ -1,0 +1,4 @@
+# name: yreqtype
+# key: yreqtype
+# --
+Yii::app()->request->requestType

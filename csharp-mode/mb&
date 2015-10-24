@@ -1,0 +1,6 @@
+# name: mb&
+# key: mb&
+# --
+internal bool $1($2) {
+	${0:return false;}
+}

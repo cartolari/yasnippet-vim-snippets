@@ -1,0 +1,9 @@
+# name: head
+# key: head
+# --
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<title>${1:`(file-name-base)`}</title>
+	$0
+</head>

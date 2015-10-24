@@ -1,0 +1,4 @@
+# name: yherrs
+# key: yherrs
+# --
+echo CHtml::errorSummary(${1:model},'${2:headerHtml}','${0:footerHtml}');

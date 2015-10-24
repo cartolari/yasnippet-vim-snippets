@@ -1,0 +1,4 @@
+# name: text
+# key: text
+# --
+${1:FIELDNAME} = models.TextField(${0:blank=True})

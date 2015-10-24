@@ -1,0 +1,4 @@
+# name: yhata
+# key: yhata
+# --
+echo CHtml::activeTextArea(${1:model}, '${2:attribute}',array('${3:optionName}'=>${0:optionValue}));

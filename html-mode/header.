@@ -1,0 +1,6 @@
+# name: header.
+# key: header.
+# --
+<header class="$1">
+	$0
+</header>

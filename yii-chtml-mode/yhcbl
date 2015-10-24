@@ -1,0 +1,4 @@
+# name: yhcbl
+# key: yhcbl
+# --
+echo CHtml::checkBoxList('${1:name}', ${2:select}, array($3),array('${4:optionName}'=>${0:optionValue}));

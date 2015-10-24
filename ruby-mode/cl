@@ -1,0 +1,4 @@
+# name: cl
+# key: cl
+# --
+classify { |${1:e}| $0 }

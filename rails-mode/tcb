@@ -1,0 +1,5 @@
+# name: tcb
+# key: tcb
+# --
+t.boolean :${1:title}
+$0

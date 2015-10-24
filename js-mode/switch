@@ -1,0 +1,11 @@
+# name: switch
+# key: switch
+# --
+switch (${1:expression}) {
+	case '${3:case}':
+		$4
+		break;
+	$0
+	default:
+		$2
+}

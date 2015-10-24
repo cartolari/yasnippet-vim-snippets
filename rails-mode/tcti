@@ -1,0 +1,5 @@
+# name: tcti
+# key: tcti
+# --
+t.time :${1:title}
+$0

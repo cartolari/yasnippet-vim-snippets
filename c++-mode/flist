@@ -1,0 +1,4 @@
+# name: flist
+# key: flist
+# --
+std::forward_list<${1:T}> $2;

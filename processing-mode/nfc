@@ -1,0 +1,4 @@
+# name: nfc
+# key: nfc
+# --
+nfc(${1:value}${2:, }${0:right});

@@ -1,0 +1,4 @@
+# name: fail
+# key: fail
+# --
+fail("${1:message}")

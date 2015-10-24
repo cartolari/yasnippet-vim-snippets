@@ -1,0 +1,4 @@
+# name: box
+# key: box
+# --
+box(${1:width}, ${2:height}, ${0:depth});

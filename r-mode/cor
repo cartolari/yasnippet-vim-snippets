@@ -1,0 +1,4 @@
+# name: cor
+# key: cor
+# --
+cor.test(${1:x}, ${0:y})

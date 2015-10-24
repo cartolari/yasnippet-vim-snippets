@@ -1,0 +1,9 @@
+# name: select
+# key: select
+# --
+Select (${1:condition})
+Case ${2:case1}:
+	${3:; Case 1 code}
+Case Else:
+	${0:; Else code}
+EndSelect

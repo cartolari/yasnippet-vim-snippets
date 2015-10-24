@@ -1,0 +1,4 @@
+# name: textarea
+# key: textarea
+# --
+<textarea name="$1" id="${2:$1}" rows="${3:8}" cols="${4:40}">$5</textarea>

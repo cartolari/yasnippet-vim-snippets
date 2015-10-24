@@ -1,0 +1,5 @@
+# name: supc
+# key: supc
+# --
+${1:obj}.slideUp '${2:slow/400/fast}', ->
+	${0:// callback}

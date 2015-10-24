@@ -1,0 +1,5 @@
+# name: tci
+# key: tci
+# --
+t.integer :${1:title}
+$0

@@ -1,0 +1,5 @@
+# name: $va
+# key: $va
+# --
+$scope.${1:variable} = ${2:variable}
+$3

@@ -1,0 +1,4 @@
+# name: yhjs
+# key: yhjs
+# --
+echo CHtml::script('${0:test}');

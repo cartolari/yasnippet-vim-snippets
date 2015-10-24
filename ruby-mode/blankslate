@@ -1,0 +1,6 @@
+# name: class BlankSlate .. initialize .. end
+# key: blankslate
+# --
+class ${0:BlankSlate}
+	instance_methods.each { |meth| undef_method(meth) unless meth =~ /\A__/ }
+end

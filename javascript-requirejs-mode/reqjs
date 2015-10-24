@@ -1,0 +1,6 @@
+# name: reqjs
+# key: reqjs
+# --
+require(["${1:#dependencies1}"], function (${2:#dependencies2}) {
+	return ${0:TARGET};
+});

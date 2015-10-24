@@ -1,0 +1,4 @@
+# name: \stackrel{}{}
+# key: stackrel
+# --
+\stackrel{${1:above}}{${2:below}} $0

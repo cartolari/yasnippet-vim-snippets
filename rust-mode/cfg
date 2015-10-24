@@ -1,0 +1,4 @@
+# name: "cfg attribute" b
+# key: cfg
+# --
+#[cfg(${1:target_os = "linux"})]

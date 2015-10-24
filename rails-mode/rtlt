@@ -1,0 +1,4 @@
+# name: rtlt
+# key: rtlt
+# --
+render text: '${1:text to render}', layout: ${0:true}

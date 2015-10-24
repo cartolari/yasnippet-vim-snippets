@@ -1,0 +1,5 @@
+# name: frameRate
+# key: frameRate
+# --
+frameRate(${1:30});
+$0

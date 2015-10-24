@@ -1,0 +1,4 @@
+# name: wm
+# key: wm
+# --
+wont_match /${0:regex}/

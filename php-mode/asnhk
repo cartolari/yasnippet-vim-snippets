@@ -1,0 +1,4 @@
+# name: asnhk
+# key: asnhk
+# --
+this->assertArrayNotHasKey(${1:value}, ${2:array});

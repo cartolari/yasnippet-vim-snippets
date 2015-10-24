@@ -1,0 +1,4 @@
+# name: q:ru
+# key: q:ru
+# --
+quotes '\00AB' '\00BB' '\201E' '\201C'

@@ -1,0 +1,4 @@
+# name: rts
+# key: rts
+# --
+render text: '${1:text to render}', status: ${0:401}

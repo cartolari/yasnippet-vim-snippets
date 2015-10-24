@@ -1,0 +1,4 @@
+# name: divisibleby
+# key: divisibleby
+# --
+divisibleby:"$0"

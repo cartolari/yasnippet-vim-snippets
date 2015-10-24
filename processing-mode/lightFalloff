@@ -1,0 +1,4 @@
+# name: lightFalloff
+# key: lightFalloff
+# --
+lightFalloff(${1:constant}, ${2:linear}, ${0:quadratic});

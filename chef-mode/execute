@@ -1,0 +1,18 @@
+# name: execute
+# key: execute
+# --
+# Execute resource
+execute ${1:"command to execute"} do # The command to execute
+	${2:#}creates ${3:nil} # A file this command creates - if the file exists, the command will not be run.
+	${4:#}cwd ${5:nil} # Current working directory to run the command from.
+	${6:#}environment ${7:nil} # A hash of environment variables to set before running this command.
+	${8:#}group ${9:nil} # A group name or group ID that we should change to before running this command.
+	${10:#}path ${11:nil} # An array of paths to use when searching for the command. Nil uses system path.
+	${12:#}returns ${13:0} # The return value of the command - this resource raises an exception if the return value does not match.
+	${14:#}timeout ${15:nil} # How many seconds to let the command run before timing it out.
+	${16:#}user ${17:nil} # A user name or user ID that we should change to before running this command.
+	${18:#}umask ${19:nil} # Umask for files created by the command
+
+	${20:#}${21:action :run} # Run this command (Default)
+	${22:#}${0:action :nothing} # Do not run this command
+end

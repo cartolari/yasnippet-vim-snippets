@@ -1,0 +1,8 @@
+# name: try ... catch statement
+# key: t
+# --
+try
+	$1
+catch $2
+	$0
+endtry

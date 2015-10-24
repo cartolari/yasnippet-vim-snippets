@@ -1,0 +1,4 @@
+# name: redl
+# key: redl
+# --
+${1:name}.reduceLeft[${0:T}] {(

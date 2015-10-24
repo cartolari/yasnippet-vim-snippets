@@ -1,0 +1,7 @@
+# name: hover
+# key: hover
+# --
+${1:obj}.hover (${2:e}) ->
+	${3:// event handler}
+, ($2) ->
+	${4:// event handler}

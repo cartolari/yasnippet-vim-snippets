@@ -1,0 +1,4 @@
+# name: credirect
+# key: credirect
+# --
+<c:redirect url="$0" />

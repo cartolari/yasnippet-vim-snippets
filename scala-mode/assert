@@ -1,0 +1,4 @@
+# name: assert
+# key: assert
+# --
+assert(${1:a} === ${0:b})

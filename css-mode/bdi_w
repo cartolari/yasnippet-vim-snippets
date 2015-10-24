@@ -1,0 +1,4 @@
+# name: bdi:w
+# key: bdi:w
+# --
+-webkit-border-image: $0;

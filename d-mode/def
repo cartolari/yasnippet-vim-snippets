@@ -1,0 +1,5 @@
+# name: def
+# key: def
+# --
+default:
+	$0

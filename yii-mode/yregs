@@ -1,0 +1,4 @@
+# name: yregs
+# key: yregs
+# --
+Yii::app()->clientScript->registerScript('${1:id}', '$2', CClientScript::POS_${0:READY});

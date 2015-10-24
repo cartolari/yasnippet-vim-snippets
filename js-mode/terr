@@ -1,0 +1,4 @@
+# name: terr
+# key: terr
+# --
+throw new Error('${1:error message}')

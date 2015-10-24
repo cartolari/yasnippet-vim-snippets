@@ -1,0 +1,10 @@
+# name: contr
+# key: contr
+# --
+in {
+	$1
+} out {
+	$2
+} body {
+	$0
+}

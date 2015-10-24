@@ -1,0 +1,5 @@
+# name: include source code
+# key: incl
+# --
+include("$1")
+$0

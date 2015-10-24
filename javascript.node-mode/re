@@ -1,0 +1,4 @@
+# name: re
+# key: re
+# --
+var $1 = require('${2:module_name}');

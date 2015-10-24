@@ -1,0 +1,4 @@
+# name: scope
+# key: scope
+# --
+scope="${1:row}"

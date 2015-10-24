@@ -1,0 +1,6 @@
+# name: svm
+# key: svm
+# --
+${1:public }static void Main(string[] args) {
+	$0
+}

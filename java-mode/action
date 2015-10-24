@@ -1,0 +1,4 @@
+# name: action
+# key: action
+# --
+public static void ${1:index}(${2:args}) { $0 }

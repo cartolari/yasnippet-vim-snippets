@@ -1,0 +1,6 @@
+# name: forinlet
+# key: forinlet
+# --
+for ${1:name} in ${2:array}
+	let $1
+		$3

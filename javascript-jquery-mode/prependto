@@ -1,0 +1,4 @@
+# name: prependto
+# key: prependto
+# --
+${1:obj}.prependTo('${2:selector expression}')

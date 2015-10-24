@@ -1,0 +1,6 @@
+# name: for
+# key: for
+# --
+for (( ${2:i} = 0; $2 < ${1:count}; $2++ )); do
+	${0:# statements}
+done

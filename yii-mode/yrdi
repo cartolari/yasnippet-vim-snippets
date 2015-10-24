@@ -1,0 +1,4 @@
+# name: yrdi
+# key: yrdi
+# --
+$this->renderDynamic('${1:callback}', array('${2:key}'=>${0:value}));

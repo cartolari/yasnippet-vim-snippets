@@ -1,0 +1,5 @@
+# name: ngdlf
+# key: ngdlf
+# --
+(scope, element, attrs${1:ctrl}) ->
+	$2

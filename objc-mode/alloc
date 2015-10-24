@@ -1,0 +1,4 @@
+# name: alloc
+# key: alloc
+# --
+[[${1:foo} alloc] init$2];

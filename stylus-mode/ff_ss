@@ -1,0 +1,4 @@
+# name: ff:ss
+# key: ff:ss
+# --
+font-family ${0:Helvetica,Arial},sans-serif

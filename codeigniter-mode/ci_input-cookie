@@ -1,0 +1,4 @@
+# name: ci_input-cookie
+# key: ci_input-cookie
+# --
+$this->input->cookie("${1:index}");$2

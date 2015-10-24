@@ -1,0 +1,4 @@
+# name: eav
+# key: eav
+# --
+each_value { |${1:val}| $0 }

@@ -1,0 +1,4 @@
+# name: redr
+# key: redr
+# --
+${1:name}.reduceRight[${0:T}] {(

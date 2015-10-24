@@ -1,0 +1,4 @@
+# name: rena
+# key: rena
+# --
+renderArgs.put("$1", $2);

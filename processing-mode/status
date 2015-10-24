@@ -1,0 +1,4 @@
+# name: status
+# key: status
+# --
+status(${0:text});

@@ -1,0 +1,4 @@
+# name: asns
+# key: asns
+# --
+assert_not_same ${1:unexpected}, ${2:actual}

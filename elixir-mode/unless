@@ -1,0 +1,6 @@
+# name: unless .. do .. end
+# key: unless
+# --
+unless $1 do
+	$0
+end

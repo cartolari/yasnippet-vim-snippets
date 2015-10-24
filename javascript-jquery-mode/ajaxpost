@@ -1,0 +1,9 @@
+# name: ajaxpost
+# key: ajaxpost
+# --
+$.post('${1:mydomain.com/url}',
+	${2:{ param1: value1 },}
+	function (data, textStatus, jqXHR) {
+		${0:// success callback}
+	}
+);

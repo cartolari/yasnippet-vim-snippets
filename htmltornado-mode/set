@@ -1,0 +1,4 @@
+# name: set
+# key: set
+# --
+{% set ${1:x} = ${0:y} %}

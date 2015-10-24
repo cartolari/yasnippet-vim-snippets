@@ -1,0 +1,4 @@
+# name: togsh
+# key: togsh
+# --
+${1:obj}.toggle('${2:slow/400/fast}')

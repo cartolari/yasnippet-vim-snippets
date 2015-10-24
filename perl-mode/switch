@@ -1,0 +1,4 @@
+# name: switch
+# key: switch
+# --
+use feature 'switch';

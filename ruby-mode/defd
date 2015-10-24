@@ -1,0 +1,4 @@
+# name: defd
+# key: defd
+# --
+def_delegator :${1:@del_obj}, :${2:del_meth}, :${0:new_name}

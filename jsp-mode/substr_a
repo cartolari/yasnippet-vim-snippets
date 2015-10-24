@@ -1,0 +1,4 @@
+# name: substr:a
+# key: substr:a
+# --
+${fn:substringAfter(${1:string}, ${0:substr})}

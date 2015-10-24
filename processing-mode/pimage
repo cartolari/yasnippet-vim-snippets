@@ -1,0 +1,4 @@
+# name: pimage
+# key: pimage
+# --
+PImage(${1:width}, ${0:height});

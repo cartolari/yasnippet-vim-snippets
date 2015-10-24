@@ -1,0 +1,4 @@
+# name: autoescape
+# key: autoescape
+# --
+{% autoescape ${0:xhtml_escape | None} %}

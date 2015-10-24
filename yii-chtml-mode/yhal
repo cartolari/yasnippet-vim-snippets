@@ -1,0 +1,5 @@
+# name: yhal
+# key: yhal
+# --
+echo CHtml::activeLabel(${1:model}, '${2:attribute}',array('${3:optionName}'=>${0:optionValue}));
+

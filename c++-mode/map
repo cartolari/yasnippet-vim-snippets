@@ -1,0 +1,4 @@
+# name: map
+# key: map
+# --
+std::map<${1:Key}, ${2:T}> $3;

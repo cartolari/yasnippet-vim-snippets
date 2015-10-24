@@ -1,0 +1,13 @@
+# name: file
+# key: file
+# --
+file { "${1:filename}" :
+	ensure  => ${2:present},
+	owner   => "${3:root}",
+	group   => "${4:root}",
+	mode    => "${5:0644}",
+	source  => "puppet:///modules/${6:module}/${7:source}",
+	content => template("${8:module}/${9:template}"),
+	alias   => "${10:alias}",
+	require => [ Package["${11:package}"], File["${12:file}"], ],
+}

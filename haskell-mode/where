@@ -1,0 +1,5 @@
+# name: where
+# key: where
+# --
+where
+	${1:fn} = ${0:undefined}

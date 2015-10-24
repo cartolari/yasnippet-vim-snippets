@@ -1,0 +1,4 @@
+# name: eif
+# key: eif
+# --
+else if ($1) $0

@@ -1,0 +1,4 @@
+# name: t
+# key: t
+# --
+${1:/* condition */} ? ${2:a} : ${3:b}

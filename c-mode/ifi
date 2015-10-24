@@ -1,0 +1,4 @@
+# name: ifi
+# key: ifi
+# --
+if (${1:true}) $0;

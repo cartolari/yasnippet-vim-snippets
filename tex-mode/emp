@@ -1,0 +1,4 @@
+# name: emphasize text
+# key: emp
+# --
+\emph{${0:text}}

@@ -1,0 +1,12 @@
+# name: "Struct with new constructor"
+# key: stn
+# --
+pub struct ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`} {
+	$0
+}
+
+impl $1 {
+	pub fn new($2) -> $1 {
+		$1 { $3 };
+	}
+}

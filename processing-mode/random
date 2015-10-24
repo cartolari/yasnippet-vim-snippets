@@ -1,0 +1,4 @@
+# name: random
+# key: random
+# --
+random(${1:value1}${2:, }${0:value2});

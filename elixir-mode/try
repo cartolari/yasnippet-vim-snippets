@@ -1,0 +1,8 @@
+# name: try .. rescue .. end
+# key: try
+# --
+try do
+	$1
+rescue
+	$2 -> $0
+end

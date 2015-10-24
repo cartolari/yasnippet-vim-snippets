@@ -1,0 +1,4 @@
+# name: Dprog
+# key: Dprog
+# --
+${1:deferred}.progress(${2:callbacks})

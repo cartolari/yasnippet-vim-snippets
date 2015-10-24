@@ -1,0 +1,4 @@
+# name: ci_input-is_cli_request
+# key: ci_input-is_cli_request
+# --
+$this->input->is_cli_request();$1

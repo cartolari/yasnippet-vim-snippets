@@ -1,0 +1,4 @@
+# name: lipp
+# key: lipp
+# --
+<%= link_to "${1:Link text...}", ${0:model}s_path %>

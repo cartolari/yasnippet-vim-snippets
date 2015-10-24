@@ -1,0 +1,4 @@
+# name: isempty
+# key: isempty
+# --
+$.isEmptyObject(${1:obj})

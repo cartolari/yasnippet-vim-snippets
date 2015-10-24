@@ -1,0 +1,4 @@
+# name: isvc
+# key: isvc
+# --
+it { should validate_confirmation_of :$0 }

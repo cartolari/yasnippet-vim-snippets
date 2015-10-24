@@ -1,0 +1,4 @@
+# name: renj
+# key: renj
+# --
+renderJSON(${1:param});

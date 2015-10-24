@@ -1,0 +1,6 @@
+# name: when
+# key: when
+# --
+when (${1:case}) {
+	$0
+}

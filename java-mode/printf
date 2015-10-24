@@ -1,0 +1,4 @@
+# name: printf
+# key: printf
+# --
+System.out.printf("${1:Message}", ${0:args});

@@ -1,0 +1,4 @@
+# name: data
+# key: data
+# --
+data-$1="${2:$1}"

@@ -1,0 +1,4 @@
+# name: asrj
+# key: asrj
+# --
+assert_rjs :${1:replace}, '${0:dom id}'

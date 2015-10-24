@@ -1,0 +1,8 @@
+# name: doc_vp
+# key: doc_vp
+# --
+/**
+ * ${1:undocumented class variable}
+ *
+ * @var ${2:string}
+ */

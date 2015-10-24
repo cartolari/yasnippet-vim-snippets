@@ -1,0 +1,8 @@
+# name: except
+# key: except
+# --
+NSException *${1:badness};
+$1 = [NSException exceptionWithName:@"${2:$1Name}"
+                             reason:@"$0"
+                           userInfo:nil];
+[$1 raise];

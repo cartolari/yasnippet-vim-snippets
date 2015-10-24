@@ -1,0 +1,4 @@
+# name: li
+# key: li
+# --
+logger.info(${0:msg})

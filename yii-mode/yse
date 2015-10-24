@@ -1,0 +1,4 @@
+# name: yse
+# key: yse
+# --
+Yii::app()->session['$0'];

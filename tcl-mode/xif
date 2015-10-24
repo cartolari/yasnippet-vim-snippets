@@ -1,0 +1,4 @@
+# name: xif
+# key: xif
+# --
+${1:expr}? ${2:true} : ${0:false}

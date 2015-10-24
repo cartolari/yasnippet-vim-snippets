@@ -1,0 +1,4 @@
+# name: vdf
+# key: vdf
+# --
+error_log(print_r($${1:foo}, true), 3, '${2:/tmp/debug.log}');

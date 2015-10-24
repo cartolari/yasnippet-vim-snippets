@@ -1,0 +1,7 @@
+# name: M
+# key: M
+# --
++ (${1:id})${2:method}
+{
+	${0:return nil;}
+}

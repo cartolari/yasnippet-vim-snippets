@@ -1,0 +1,4 @@
+# name: coi
+# key: coi
+# --
+counter-increment: $0;

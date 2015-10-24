@@ -1,0 +1,4 @@
+# name: unless .. do: .. else:
+# key: unlesse:
+# --
+unless ${1:condition}, do: $2, else: $0

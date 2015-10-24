@@ -1,0 +1,4 @@
+# name: bdbli
+# key: bdbli
+# --
+border-bottom-left-image: url($0);

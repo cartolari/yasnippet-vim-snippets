@@ -1,0 +1,4 @@
+# name: ren
+# key: ren
+# --
+render(${1:param});

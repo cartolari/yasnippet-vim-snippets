@@ -1,0 +1,4 @@
+# name: contains
+# key: contains
+# --
+$.contains(${1:container}, ${0:contents});

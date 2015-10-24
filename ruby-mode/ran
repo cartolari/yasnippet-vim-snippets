@@ -1,0 +1,4 @@
+# name: ran
+# key: ran
+# --
+sort_by { rand }

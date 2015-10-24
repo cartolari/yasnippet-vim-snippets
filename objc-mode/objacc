@@ -1,0 +1,14 @@
+# name: objacc
+# key: objacc
+# --
+- (${1:id})${2:thing}
+{
+	return $2;
+}
+
+- (void)set$2:($1)${3:new$2}
+{
+	[$3 retain];
+	[$2 release];
+	$2 = $3;
+}

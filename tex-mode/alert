@@ -1,0 +1,6 @@
+# name: alertblock environment
+# key: alert
+# --
+\begin{alertblock}{${1:title}}
+$0
+\end{alertblock}

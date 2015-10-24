@@ -1,0 +1,4 @@
+# name: mout
+# key: mout
+# --
+-> { $1 }.must_output '$0'

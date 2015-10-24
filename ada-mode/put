@@ -1,0 +1,4 @@
+# name: Ada.Text_IO.Put
+# key: put
+# --
+Ada.Text_IO.Put($1);$0

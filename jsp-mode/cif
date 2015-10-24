@@ -1,0 +1,6 @@
+# name: cif
+# key: cif
+# --
+<c:if test="${$1}">
+	$0
+</c:if>

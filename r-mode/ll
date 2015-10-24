@@ -1,0 +1,4 @@
+# name: ll
+# key: ll
+# --
+llply(${1:list}, ${0:function})

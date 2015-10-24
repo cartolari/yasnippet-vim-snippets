@@ -1,0 +1,4 @@
+# name: debug19
+# key: debug19
+# --
+require 'debugger'; debugger

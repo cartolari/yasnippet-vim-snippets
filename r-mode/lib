@@ -1,0 +1,4 @@
+# name: lib
+# key: lib
+# --
+library(${0:package})

@@ -1,0 +1,7 @@
+# name: test function
+# key: test
+# --
+func Test${1:name}(t *testing.T) {
+	$2
+}
+$0

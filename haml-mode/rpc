@@ -1,0 +1,4 @@
+# name: rpc
+# key: rpc
+# --
+= render :partial => "${1:item}", :collection => ${0:@$1s}

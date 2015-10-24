@@ -1,0 +1,4 @@
+# name: "Result<T, E>"
+# key: res
+# --
+Result<${1:~str}, ${2:()}>

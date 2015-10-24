@@ -1,0 +1,4 @@
+# name: d.hm
+# key: d.hm
+# --
+Map<${1:Object}, ${2:Object}> ${3:map} = new HashMap<$1, $2>();$0

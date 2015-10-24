@@ -1,0 +1,4 @@
+# name: cut
+# key: cut
+# --
+cut:"$0"

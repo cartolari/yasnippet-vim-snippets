@@ -1,0 +1,4 @@
+# name: indexof
+# key: indexof
+# --
+${fn:indexOf(${1:string}, ${0:substr})}

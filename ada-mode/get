@@ -1,0 +1,4 @@
+# name: Ada.Text_IO.Get
+# key: get
+# --
+Ada.Text_IO.Get($1);$0

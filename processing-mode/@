@@ -1,0 +1,4 @@
+# name: @
+# key: @
+# --
+@${1:param/return/private/public}  ${1:parameter}  ${0:description}

@@ -1,0 +1,6 @@
+# name: "enum definition"
+# key: enum
+# --
+enum ${1:Name} {
+	$2,
+}

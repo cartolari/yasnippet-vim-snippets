@@ -1,0 +1,6 @@
+# name: blur
+# key: blur
+# --
+${1:obj}.blur(function (${2:e}) {
+	${0:// event handler}
+});

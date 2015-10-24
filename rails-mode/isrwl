@@ -1,0 +1,4 @@
+# name: isrwl
+# key: isrwl
+# --
+it { should render_with_layout $0 }

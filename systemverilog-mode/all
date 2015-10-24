@@ -1,0 +1,6 @@
+# name: all
+# key: all
+# --
+always_latch begin ${1:: statement_label}
+	$0
+end $1

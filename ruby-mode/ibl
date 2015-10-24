@@ -1,0 +1,4 @@
+# name: ibl
+# key: ibl
+# --
+it_behaves_like ${0:'shared examples name'}

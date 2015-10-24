@@ -1,0 +1,5 @@
+# name: $w
+# key: $w
+# --
+$scope.$watch '${1:watchExpr}', (newValue, oldValue) ->
+	$2

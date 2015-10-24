@@ -1,0 +1,4 @@
+# name: su
+# key: su
+# --
+[super ${1:init}]

@@ -1,0 +1,6 @@
+# name: one
+# key: one
+# --
+${1:obj}.one('${2:event name}', function (${3:e}) {
+	${0:// event handler}
+});

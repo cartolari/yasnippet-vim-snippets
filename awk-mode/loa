@@ -1,0 +1,4 @@
+# name: @load
+# key: loa
+# --
+@load "$1"$0

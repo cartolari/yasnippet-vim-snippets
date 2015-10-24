@@ -1,0 +1,4 @@
+# name: uind
+# key: uind
+# --
+create unique index ${1:name} on ${2:table}(${0:column});

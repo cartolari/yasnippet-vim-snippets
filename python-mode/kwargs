@@ -1,0 +1,4 @@
+# name: kwargs
+# key: kwargs
+# --
+**kwargs${1:,}$0

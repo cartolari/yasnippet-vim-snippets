@@ -1,0 +1,5 @@
+# name: new
+# key: new
+# --
+${1:auto} ${2:var} = new ${3:Object}($4);
+$0

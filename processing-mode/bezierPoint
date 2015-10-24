@@ -1,0 +1,4 @@
+# name: bezierPoint
+# key: bezierPoint
+# --
+bezierPoint(${1:a}, ${2:b}, ${3:c}, ${4:d}, ${0:t});

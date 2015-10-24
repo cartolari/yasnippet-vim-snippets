@@ -1,0 +1,8 @@
+# name: @interface
+# key: @interface
+# --
+@interface ${1:`(file-name-base)`} : ${2:NSObject}
+{$3
+}
+$0
+@end

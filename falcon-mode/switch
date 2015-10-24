@@ -1,0 +1,8 @@
+# name: switch
+# key: switch
+# --
+switch ${1:expression}
+	case ${2:item}
+	case ${0:item}
+	default
+end

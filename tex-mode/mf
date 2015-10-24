@@ -1,0 +1,4 @@
+# name: mathfrak
+# key: mf
+# --
+\mathfrak{${0:text}}

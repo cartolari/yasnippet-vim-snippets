@@ -1,0 +1,6 @@
+# name: ngmc
+# key: ngmc
+# --
+${1:moduleName} = angular.module('$1', [${2:moduleDeps}], (${3:configDeps}) ->
+	$4
+)

@@ -1,0 +1,6 @@
+# name: scale
+# key: scale
+# --
+d3.scale.linear()
+  .domain($1)
+  .range($2)

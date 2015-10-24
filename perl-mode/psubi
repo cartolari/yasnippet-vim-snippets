@@ -1,0 +1,9 @@
+# name: psubi
+# key: psubi
+# --
+=head2 ${1:MethodName}
+
+${0:Summary...}
+
+
+=cut

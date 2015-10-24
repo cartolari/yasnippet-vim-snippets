@@ -1,0 +1,4 @@
+# name: ci_form_dropdown
+# key: ci_form_dropdown
+# --
+form_dropdown("${1:name}", $${2:options}, $${3:selected);$4

@@ -1,0 +1,4 @@
+# name: ci_input-post
+# key: ci_input-post
+# --
+$this->input->post("${1:index}");$2

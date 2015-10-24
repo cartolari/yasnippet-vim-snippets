@@ -1,0 +1,4 @@
+# name: glob
+# key: glob
+# --
+FILE(GLOB ${1:SRCS} *.${0:cpp})

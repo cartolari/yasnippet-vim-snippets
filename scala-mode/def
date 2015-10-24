@@ -1,0 +1,4 @@
+# name: def
+# key: def
+# --
+def ${1:name}(${2:arg}) = ${0:}

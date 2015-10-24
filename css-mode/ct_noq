@@ -1,0 +1,4 @@
+# name: ct:noq
+# key: ct:noq
+# --
+content: no-open-quote;

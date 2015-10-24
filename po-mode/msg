@@ -1,0 +1,7 @@
+# name: msg
+# key: msg
+# --
+msgid "$1"
+msgstr "$2"
+
+$0

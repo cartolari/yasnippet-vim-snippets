@@ -1,0 +1,5 @@
+# name: td
+# key: td
+# --
+// Typedef is deprecated. Use alias instead.
+typedef

@@ -1,0 +1,6 @@
+# name: eif
+# key: eif
+# --
+elsif ${1) {
+	$2
+}

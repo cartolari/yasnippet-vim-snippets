@@ -1,0 +1,4 @@
+# name: mapc
+# key: mapc
+# --
+${1:map}.${2:connect} '${0:controller/:action/:id}'

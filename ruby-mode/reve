@@ -1,0 +1,4 @@
+# name: reve
+# key: reve
+# --
+reverse_each { |${1:e}| $0 }

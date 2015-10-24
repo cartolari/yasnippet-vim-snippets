@@ -1,0 +1,10 @@
+# name: setup
+# key: setup
+# --
+void setup(){
+	$1
+}
+
+void draw(){
+	$0
+}

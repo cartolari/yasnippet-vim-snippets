@@ -1,0 +1,10 @@
+# name: docs
+# key: docs
+# --
+"""
+File: ${1:`(file-name-nondirectory (buffer-file-name))`}
+Author: `"Name"`
+Email: `"Email"`
+Github: `"Github user"`
+Description: $0
+"""

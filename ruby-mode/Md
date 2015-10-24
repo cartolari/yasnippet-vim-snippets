@@ -1,0 +1,4 @@
+# name: Md
+# key: Md
+# --
+File.open('${1:path/to/file.dump}', 'wb') { |${2:file}| Marshal.dump(${3:obj}, $2) }

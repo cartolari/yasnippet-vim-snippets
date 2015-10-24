@@ -1,0 +1,6 @@
+# name: forp
+# key: forp
+# --
+for ${1:i},${2:v} in pairs(${3:table_name}) do
+   ${0:-- body}
+end

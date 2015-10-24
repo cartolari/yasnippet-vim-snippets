@@ -1,0 +1,5 @@
+# name: defp
+# key: defp
+# --
+(defprotocol ${1:name}
+	$0)

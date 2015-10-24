@@ -1,0 +1,4 @@
+# name: show
+# key: show
+# --
+div(ng-show='$1')

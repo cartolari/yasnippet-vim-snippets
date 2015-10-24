@@ -1,0 +1,4 @@
+# name: isfp
+# key: isfp
+# --
+it { should filter_param :${0:key} }

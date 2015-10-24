@@ -1,0 +1,4 @@
+# name: gist-short
+# key: gist-short
+# --
+{% gist ${0:gist_id} %}

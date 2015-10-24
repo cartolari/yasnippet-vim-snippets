@@ -1,0 +1,4 @@
+# name: asne
+# key: asne
+# --
+$this->assertNotEquals(${1:expected}, ${2:actual});

@@ -1,0 +1,6 @@
+# name: script
+# key: script
+# --
+<script type="text/javascript" charset="utf-8">
+	$0
+</script>

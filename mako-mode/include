@@ -1,0 +1,4 @@
+# name: include
+# key: include
+# --
+<%include file="${0:filename}" />

@@ -1,0 +1,5 @@
+# name: const
+# key: const
+# --
+${1:name} :: ${2:a}
+$1 = ${0:undefined}

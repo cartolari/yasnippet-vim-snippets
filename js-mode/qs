@@ -1,0 +1,4 @@
+# name: qs
+# key: qs
+# --
+${1:document}.querySelector('${0:CSS selector}')

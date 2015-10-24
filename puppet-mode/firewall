@@ -1,0 +1,8 @@
+# name: firewall
+# key: firewall
+# --
+firewall { "${1:comment}" :
+	proto	=> ${2:tcp},
+	action	=> ${3:accept},
+	port	=> $4,
+}

@@ -1,0 +1,4 @@
+# name: link
+# key: link
+# --
+link(${1:url}${2:, }${0:target});

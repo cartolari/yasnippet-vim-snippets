@@ -1,0 +1,4 @@
+# name: vu
+# key: vu
+# --
+validates :${0:attribute}, uniqueness: true

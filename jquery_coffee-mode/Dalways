@@ -1,0 +1,4 @@
+# name: Dalways
+# key: Dalways
+# --
+${1:deferred}.always(${2:callbacks})

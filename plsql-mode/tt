@@ -1,0 +1,4 @@
+# name: tt
+# key: tt
+# --
+type tt_${1:name} is table of tr_${0:name};

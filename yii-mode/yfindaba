@@ -1,0 +1,4 @@
+# name: yfindaba
+# key: yfindaba
+# --
+${1:ModelName}::model()->findAllByAttributes(array('${2:attributeName}'=>${3:attributeValue}), ${4:condition}, array('${5:key}'=>${0:value}));

@@ -1,0 +1,6 @@
+# name: mix
+# key: mix
+# --
+@mixin ${1:name}($2) {
+	$0
+}

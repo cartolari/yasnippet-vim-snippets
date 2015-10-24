@@ -1,0 +1,6 @@
+# name: open
+# key: open
+# --
+my $fh = open "${1:filename}", ${2::r|:w|:a};
+${3:# actions};
+$fh.close;

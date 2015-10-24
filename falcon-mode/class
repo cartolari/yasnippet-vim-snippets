@@ -1,0 +1,6 @@
+# name: class
+# key: class
+# --
+class ${1:class_name}(${2:class_params})
+	${0:/* members/methods */}
+end

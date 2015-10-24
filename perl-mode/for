@@ -1,0 +1,6 @@
+# name: for
+# key: for
+# --
+foreach my $${1:x} (@${2:array}) {
+	$0
+}

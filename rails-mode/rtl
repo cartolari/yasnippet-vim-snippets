@@ -1,0 +1,4 @@
+# name: rtl
+# key: rtl
+# --
+render text: '${1:text to render}', layout: '${0:layoutname}'

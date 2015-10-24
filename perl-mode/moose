@@ -1,0 +1,8 @@
+# name: moose
+# key: moose
+# --
+use Moose;
+use namespace::autoclean;
+${1:#}BEGIN {extends '${2:ParentClass}'};
+
+$0

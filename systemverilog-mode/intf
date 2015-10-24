@@ -1,0 +1,11 @@
+# name: intf
+# key: intf
+# --
+interface ${1:program_name} ();
+	// nets
+	$0
+	// clocking
+
+	// modports
+
+endinterface : $1

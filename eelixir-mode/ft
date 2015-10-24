@@ -1,0 +1,6 @@
+# name: ft
+# key: ft
+# --
+<%= form_tag(${1:"/users"}, method: ${2::post}) %>
+	$0
+</form>

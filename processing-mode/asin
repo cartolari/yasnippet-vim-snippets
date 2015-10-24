@@ -1,0 +1,4 @@
+# name: asin
+# key: asin
+# --
+asin(${0:rad});

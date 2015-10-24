@@ -1,0 +1,6 @@
+# name: fore
+# key: fore
+# --
+foreach ${1:x} {${2:#list}} {
+	$0
+}

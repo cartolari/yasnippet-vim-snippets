@@ -1,0 +1,4 @@
+# name: kvt
+# key: kvt
+# --
+kv.test(${1:x}, ${0:y})

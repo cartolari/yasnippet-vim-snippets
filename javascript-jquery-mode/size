@@ -1,0 +1,4 @@
+# name: size
+# key: size
+# --
+${1:obj}.size()

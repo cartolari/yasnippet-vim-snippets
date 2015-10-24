@@ -1,0 +1,4 @@
+# name: isvu
+# key: isvu
+# --
+it { should validate_uniqueness_of :$0 }

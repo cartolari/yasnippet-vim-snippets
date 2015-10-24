@@ -1,0 +1,4 @@
+# name: nfp
+# key: nfp
+# --
+nfp(${2:value}, ${3:left}${4:, }${0:right});

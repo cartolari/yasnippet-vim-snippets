@@ -1,0 +1,4 @@
+# name: set
+# key: set
+# --
+SET(${1:var} ${0:val})

@@ -1,0 +1,8 @@
+# name: propf
+# key: propf
+# --
+private ${1:int} ${2:myVar};
+	public $1 ${3:MyProperty} {
+		get { return $2; }
+		set { $2 = value; }
+	}

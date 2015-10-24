@@ -1,0 +1,4 @@
+# name: R
+# key: R
+# --
+$_REQUEST['${1:variable}']

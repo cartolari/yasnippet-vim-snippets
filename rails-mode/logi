@@ -1,0 +1,4 @@
+# name: logi
+# key: logi
+# --
+logger.info { '${1:message}' }

@@ -1,0 +1,4 @@
+# name: string
+# key: string
+# --
+String ${1:str}${2: = "}${0:CCCP"};

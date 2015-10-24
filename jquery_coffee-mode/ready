@@ -1,0 +1,6 @@
+# name: ready
+# key: ready
+# --
+$(() ->
+	$0
+)

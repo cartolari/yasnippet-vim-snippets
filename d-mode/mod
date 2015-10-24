@@ -1,0 +1,4 @@
+# name: mod
+# key: mod
+# --
+module ${1:main};$0

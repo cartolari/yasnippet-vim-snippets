@@ -1,0 +1,4 @@
+# name: op:ms
+# key: op:ms
+# --
+-ms-filter 'progid:DXImageTransform.Microsoft.Alpha(Opacity=${0:100})'

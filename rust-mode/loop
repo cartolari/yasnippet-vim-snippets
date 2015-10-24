@@ -1,0 +1,6 @@
+# name: "loop {}" b
+# key: loop
+# --
+loop {
+	$0
+}

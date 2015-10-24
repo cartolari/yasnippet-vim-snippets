@@ -1,0 +1,4 @@
+# name: inline_template
+# key: inline_template
+# --
+inline_template("<%= $1 %>")

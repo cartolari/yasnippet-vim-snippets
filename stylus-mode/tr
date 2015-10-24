@@ -1,0 +1,4 @@
+# name: tr
+# key: tr
+# --
+text-replace $0

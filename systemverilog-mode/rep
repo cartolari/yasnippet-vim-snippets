@@ -1,0 +1,6 @@
+# name: rep
+# key: rep
+# --
+repeat ($1) begin
+	$0
+end

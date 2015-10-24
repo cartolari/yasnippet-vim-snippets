@@ -1,0 +1,4 @@
+# name: ci_session_set_flashdata
+# key: ci_session_set_flashdata
+# --
+$this->session->set_flashdata("${1:item}", "${2:value}");$3

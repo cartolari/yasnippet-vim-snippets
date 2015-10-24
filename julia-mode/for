@@ -1,0 +1,6 @@
+# name: standard for loop
+# key: for
+# --
+for $1 = $2
+	$0
+end

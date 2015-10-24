@@ -1,0 +1,6 @@
+# name: ENDFILE { ... }
+# key: endf
+# --
+ENDFILE {
+	$0
+}

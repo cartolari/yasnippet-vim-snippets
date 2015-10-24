@@ -1,0 +1,4 @@
+# name: time
+# key: time
+# --
+${1:FIELDNAME} = models.TimeField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})

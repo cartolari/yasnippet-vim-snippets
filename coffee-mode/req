@@ -1,0 +1,4 @@
+# name: req
+# key: req
+# --
+${2:$1} = require '${1:sys}'

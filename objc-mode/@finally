@@ -1,0 +1,6 @@
+# name: @finally
+# key: @finally
+# --
+@finally {
+	${0:statements}
+}

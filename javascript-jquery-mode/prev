@@ -1,0 +1,4 @@
+# name: prev
+# key: prev
+# --
+${1:obj}.prev('${2:selector expression}')

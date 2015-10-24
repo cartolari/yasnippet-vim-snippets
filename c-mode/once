@@ -1,0 +1,10 @@
+# name: once
+# key: once
+# --
+#ifndef ${1:}
+
+#define $1
+
+$0
+
+#endif /* end of include guard: $1 */

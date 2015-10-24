@@ -1,0 +1,4 @@
+# name: repw
+# key: repw
+# --
+${1:obj}.replaceWith(${2:content})

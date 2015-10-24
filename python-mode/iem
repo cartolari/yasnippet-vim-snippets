@@ -1,0 +1,4 @@
+# name: iem
+# key: iem
+# --
+import IPython; IPython.embed()

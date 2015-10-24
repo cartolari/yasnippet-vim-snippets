@@ -1,0 +1,6 @@
+# name: mailalias
+# key: mailalias
+# --
+mailalias { "${1:localpart}":
+	recipient => "${0:recipient}",
+}

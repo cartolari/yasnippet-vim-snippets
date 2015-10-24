@@ -1,0 +1,6 @@
+# name: doc_dp
+# key: doc_dp
+# --
+/**
+ * ${1:undocumented constant}
+ */

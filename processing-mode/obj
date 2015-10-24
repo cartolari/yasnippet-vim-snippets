@@ -1,0 +1,4 @@
+# name: obj
+# key: obj
+# --
+${1:private/public }${2:Object} ${3:o}${4: = new }$2($0);

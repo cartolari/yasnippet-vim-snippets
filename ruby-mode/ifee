@@ -1,0 +1,10 @@
+# name: ifee
+# key: ifee
+# --
+if ${1:condition}
+	$2
+elsif ${3:condition}
+	$4
+else
+	$0
+end

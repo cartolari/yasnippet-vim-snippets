@@ -1,0 +1,4 @@
+# name: attr
+# key: attr
+# --
+${1:obj}.attr('${2:attribute}', '${3:value}')

@@ -1,0 +1,25 @@
+# name: sing
+# key: sing
+# --
+function ${1:Singleton} (${2:argument}) {
+	// the cached instance
+	var instance;
+
+	// rewrite the constructor
+	$1 = function $1($2) {
+		return instance;
+	};
+
+	// carry over the prototype properties
+	$1.prototype = this;
+
+	// the instance
+	instance = new $1();
+
+	// reset the constructor pointer
+	instance.constructor = $1;
+
+	$0
+
+	return instance;
+}

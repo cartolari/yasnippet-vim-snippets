@@ -1,0 +1,4 @@
+# name: yregcf
+# key: yregcf
+# --
+Yii::app()->clientScript->registerCssFile('${0:file}');

@@ -1,0 +1,6 @@
+# name: forc
+# key: forc
+# --
+for ${1:i} in ${2:l_var}.first .. $2.last loop
+	${0: -- dbms_output.put_line($2($1)); }
+end loop;

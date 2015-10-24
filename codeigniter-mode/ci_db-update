@@ -1,0 +1,4 @@
+# name: ci_db-update
+# key: ci_db-update
+# --
+$this->db->update("${1:table}", $${2:set}, $${3:where});$4

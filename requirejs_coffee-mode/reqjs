@@ -1,0 +1,5 @@
+# name: reqjs
+# key: reqjs
+# --
+require ["${1:#dependencies1}"], (${2:#dependencies2}) ->
+	${0:TARGET}

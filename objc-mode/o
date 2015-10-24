@@ -1,0 +1,4 @@
+# name: o
+# key: o
+# --
+${1:NSObject} *${2:foo} = [${3:$1 alloc}]$4;

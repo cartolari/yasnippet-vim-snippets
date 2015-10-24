@@ -1,0 +1,4 @@
+# name: by.
+# key: by.
+# --
+${1:document}.getElementsByClassName('${0:class}')

@@ -1,0 +1,4 @@
+# name: trig
+# key: trig
+# --
+${1:obj}.trigger('${2:event name}')

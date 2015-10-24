@@ -1,0 +1,4 @@
+# name: yjec
+# key: yjec
+# --
+CJSON::encode(${0:text});

@@ -1,0 +1,6 @@
+# name: define
+# key: define
+# --
+define $1 ($2) {
+	$0
+}

@@ -1,0 +1,4 @@
+# name: yhjsf
+# key: yhjsf
+# --
+echo CHtml::scriptFile('${0:url}');

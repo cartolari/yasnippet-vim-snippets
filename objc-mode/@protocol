@@ -1,0 +1,6 @@
+# name: @protocol
+# key: @protocol
+# --
+@protocol ${1:`(concat (file-name-base) "Delegate")`} ${2:<NSObject>}
+$0
+@end

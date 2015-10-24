@@ -1,0 +1,4 @@
+# name: unl
+# key: unl
+# --
+${1:action} unless ${0:condition}

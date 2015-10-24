@@ -1,0 +1,6 @@
+# name: feri
+# key: feri
+# --
+foreach_reverse(${1:i}, ${2:elem}; ${3:range}) {
+	$0  
+}

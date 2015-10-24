@@ -1,0 +1,4 @@
+# name: println
+# key: println
+# --
+println("${1:}::${2:method}() "${3: +} $0);

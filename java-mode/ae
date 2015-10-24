@@ -1,0 +1,4 @@
+# name: ae
+# key: ae
+# --
+assertEquals("${1:Failure message}", ${2:expected}, ${3:actual});

@@ -1,0 +1,4 @@
+# name: Cadd
+# key: Cadd
+# --
+${1:callbacks}.add(${2:callbacks})

@@ -1,0 +1,4 @@
+# name: lt
+# key: lt
+# --
+= link_to ${1:name}, ${2:dest}

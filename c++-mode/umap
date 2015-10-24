@@ -1,0 +1,4 @@
+# name: umap
+# key: umap
+# --
+std::unordered_map<${1:Key}, ${2:T}> $3;

@@ -1,0 +1,4 @@
+# name: join
+# key: join
+# --
+${fn:join(${1:collection}, ${0:delims})}

@@ -1,0 +1,4 @@
+# name: lam
+# key: lam
+# --
+lambda { |${1:args}| $0 }

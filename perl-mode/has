@@ -1,0 +1,12 @@
+# name: has
+# key: has
+# --
+has ${1:attribute} => (
+	is	    => '${2:ro|rw}',
+	isa 	=> '${3:Str|Int|HashRef|ArrayRef|etc}',
+	default => sub {
+		${4:defaultvalue}
+	},
+	${0:# other attributes}
+);
+

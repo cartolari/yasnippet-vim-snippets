@@ -1,0 +1,4 @@
+# name: mb
+# key: mb
+# --
+must_be $0

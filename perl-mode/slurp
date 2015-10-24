@@ -1,0 +1,5 @@
+# name: slurp
+# key: slurp
+# --
+my $${1:var} = do { local $/; open my $file, '<', "${2:file}"; <$file> };
+$0

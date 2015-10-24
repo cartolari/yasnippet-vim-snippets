@@ -1,0 +1,4 @@
+# name: join
+# key: join
+# --
+join(${1:strgArray}${2: , }${0:seperator});

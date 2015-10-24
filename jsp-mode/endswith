@@ -1,0 +1,4 @@
+# name: endswith
+# key: endswith
+# --
+${fn:endsWith(${1:string}, ${0:suffix})}

@@ -1,0 +1,4 @@
+# name: thr
+# key: thr
+# --
+throw $0

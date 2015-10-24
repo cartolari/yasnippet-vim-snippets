@@ -1,0 +1,4 @@
+# name: isbtcc
+# key: isbtcc
+# --
+it { should belong_to(:$1).counter_cache ${0:true} }

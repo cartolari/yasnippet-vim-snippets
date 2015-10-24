@@ -1,0 +1,4 @@
+# name: amc
+# key: amc
+# --
+alias_method_chain :${1:method_name}, :${0:feature}

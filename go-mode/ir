@@ -1,0 +1,7 @@
+# name: ir
+# key: ir
+# --
+if err != nil {
+	return err
+}
+$0

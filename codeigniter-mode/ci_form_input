@@ -1,0 +1,4 @@
+# name: ci_form_input
+# key: ci_form_input
+# --
+form_input("${1:name}", "${2:value}");$3

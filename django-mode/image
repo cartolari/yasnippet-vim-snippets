@@ -1,0 +1,4 @@
+# name: image
+# key: image
+# --
+${1:FIELDNAME} = models.ImageField(upload_to=${2:path/for/upload}${3:, height_field=height, width_field=width}${0:, max_length=100})

@@ -1,0 +1,4 @@
+# name: clearq
+# key: clearq
+# --
+${1:obj}.clearQueue(${2:'queue name'})

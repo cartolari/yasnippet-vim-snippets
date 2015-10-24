@@ -1,0 +1,4 @@
+# name: yre
+# key: yre
+# --
+$this->redirect(array('${1:controller}/${0:action}'));

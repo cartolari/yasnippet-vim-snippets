@@ -1,0 +1,6 @@
+# name: class
+# key: class
+# --
+class ${1:`(file-name-base)`} {
+	$0
+}

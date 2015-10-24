@@ -1,0 +1,4 @@
+# name: yhnurl
+# key: yhnurl
+# --
+echo CHtml::normalizeUrl(array('$0'));

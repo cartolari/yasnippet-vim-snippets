@@ -1,0 +1,4 @@
+# name: Ml
+# key: Ml
+# --
+File.open('${1:path/to/file.dump}', 'rb') { |${2:file}| Marshal.load($2) }

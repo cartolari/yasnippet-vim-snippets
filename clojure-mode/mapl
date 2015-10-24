@@ -1,0 +1,4 @@
+# name: mapl
+# key: mapl
+# --
+(map #(${1:lambda}) ${0:coll})

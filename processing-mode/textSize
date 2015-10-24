@@ -1,0 +1,4 @@
+# name: textSize
+# key: textSize
+# --
+textSize(${0:size});

@@ -1,0 +1,7 @@
+# name: script reload guard
+# key: guard
+# --
+if exists('${1:did_}') || &cp${2: || version < 700}
+	finish
+endif
+let $1 = 1$0

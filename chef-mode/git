@@ -1,0 +1,19 @@
+# name: git
+# key: git
+# --
+# SCM Resource, Chef::Provider::Git
+git ${1:"/destination/path"} do # Path to clone/checkout/export the source to
+	${2:#}repository $3 # URI of the repository
+	${4:#}revision ${5:"HEAD"} # revision to checkout. can be symbolic, like "HEAD" or an SCM specific revision id
+	${6:#}reference $7 # (Git only) alias for revision
+	${8:#}user ${9:nil} # System user to own the checked out code
+	${10:#}group ${11:nil} # System group to own the checked out code
+	${12:#}depth ${13:nil} # (Git only) Number of past revisions to include in Git shallow clone
+	${14:#}enable_submodules ${15:"false"} # (Git only) performs a submodule init and submodule update
+	${16:#}remote ${17:"origin"} # (Git only) remote repository to use for syncing an existing clone
+	${18:#}ssh_wrapper $19 # (Git only) path to a wrapper script for running SSH with git. GIT_SSH environment variable is set to this.
+
+	${20:#}${21:action :sync} # Update the source to the specified revision, or get a new clone (Default)
+	${22:#}${23:action :checkout} # Clone the source. Does nothing if a checkout is available
+	${24:#}${0:action :export} # Export the source, excluding or removing any version control artifacts
+end

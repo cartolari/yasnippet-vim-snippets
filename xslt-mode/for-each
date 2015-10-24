@@ -1,0 +1,5 @@
+# name: for-each
+# key: for-each
+# --
+<xsl:for-each select="${1:*}">$2
+</xsl:for-each>

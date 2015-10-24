@@ -1,0 +1,4 @@
+# name: ind
+# key: ind
+# --
+create index ${0:$1_$2} on ${1:table}(${2:column});

@@ -1,0 +1,4 @@
+# name: dcol
+# key: dcol
+# --
+${1:name}	date	${3:default sysdate}	${0:not null}

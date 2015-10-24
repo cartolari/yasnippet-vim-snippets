@@ -1,0 +1,9 @@
+# name: loadf
+# key: loadf
+# --
+${1:obj}.load('${2:mydomain.com/url}',
+	${2:{ param1: value1 },}
+	function (responseText, textStatus, xhr) {
+		${0:// success callback}
+	}
+});

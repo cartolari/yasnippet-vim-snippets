@@ -1,0 +1,4 @@
+# name: lw
+# key: lw
+# --
+logger.warning(${0:msg})

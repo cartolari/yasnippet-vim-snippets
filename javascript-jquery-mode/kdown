@@ -1,0 +1,6 @@
+# name: kdown
+# key: kdown
+# --
+${1:obj}.keydown(function (${2:e}) {
+	${0:// event handler}
+});

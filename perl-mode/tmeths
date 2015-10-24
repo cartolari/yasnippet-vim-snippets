@@ -1,0 +1,4 @@
+# name: tmeths
+# key: tmeths
+# --
+$ENV{TEST_METHOD} = '${0:regex}';

@@ -1,0 +1,6 @@
+# name: rejd
+# key: rejd
+# --
+reject do |${1:e}|
+	$0
+end

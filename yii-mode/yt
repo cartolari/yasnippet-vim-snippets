@@ -1,0 +1,4 @@
+# name: yt
+# key: yt
+# --
+Yii::t('${1:category}', '${2:message}',array($0));

@@ -1,0 +1,4 @@
+# name: bgo
+# key: bgo
+# --
+background-origin: $0;

@@ -1,0 +1,4 @@
+# name: lf
+# key: lf
+# --
+log.Printf("%${1:s}", ${2:var})

@@ -1,0 +1,4 @@
+# name: when
+# key: whe
+# --
+when $1 => $2;$0

@@ -1,0 +1,7 @@
+# name: named for each
+# key: nfore
+# --
+$1:
+for $2 of $3 loop
+	$0
+end loop $1;

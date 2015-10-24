@@ -1,0 +1,4 @@
+# name: slug
+# key: slug
+# --
+${1:FIELDNAME} = models.SlugField(max_length=${2:50}${0:, blank=True})

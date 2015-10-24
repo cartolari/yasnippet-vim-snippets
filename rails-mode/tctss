@@ -1,0 +1,5 @@
+# name: tctss
+# key: tctss
+# --
+t.timestamps
+$0

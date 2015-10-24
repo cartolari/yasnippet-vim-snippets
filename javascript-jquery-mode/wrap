@@ -1,0 +1,4 @@
+# name: wrap
+# key: wrap
+# --
+${1:obj}.wrap('${2:&lt;div class="extra-wrapper"&gt;&lt;/div&gt;}')

@@ -1,0 +1,4 @@
+# name: fadein
+# key: fadein
+# --
+${1:obj}.fadeIn('${2:slow/400/fast}')

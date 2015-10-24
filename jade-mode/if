@@ -1,0 +1,4 @@
+# name: if
+# key: if
+# --
+div(ng-if='$1')

@@ -1,0 +1,6 @@
+# name: hidec
+# key: hidec
+# --
+${1:obj}.hide('${2:slow/400/fast}', function () {
+	${0:// callback}
+});

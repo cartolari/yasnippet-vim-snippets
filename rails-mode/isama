@@ -1,0 +1,4 @@
+# name: isama
+# key: isama
+# --
+it { should allow_mass_assignment_of :$0 }

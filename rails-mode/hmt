@@ -1,0 +1,4 @@
+# name: hmt
+# key: hmt
+# --
+has_many :${1:object}, through: :${0:object}

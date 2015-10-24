@@ -1,0 +1,4 @@
+# name: smallint
+# key: smallint
+# --
+${1:FIELDNAME} = models.SmallIntegerField($0)

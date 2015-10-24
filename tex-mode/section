@@ -1,0 +1,4 @@
+# name: reference to a section
+# key: section
+# --
+${1:Section}~\ref{sec:$2} $0

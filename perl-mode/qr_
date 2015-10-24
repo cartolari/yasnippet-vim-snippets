@@ -1,0 +1,4 @@
+# name: qr/
+# key: qr/
+# --
+qr/${0:regex}/x

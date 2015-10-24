@@ -1,0 +1,4 @@
+# name: ld
+# key: ld
+# --
+${1:var} = lambda ${2:vars} : ${0:action}

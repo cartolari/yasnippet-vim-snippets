@@ -1,0 +1,4 @@
+# name: with
+# key: with
+# --
+with ${1:what}${0: with}

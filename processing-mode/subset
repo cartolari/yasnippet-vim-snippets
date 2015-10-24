@@ -1,0 +1,4 @@
+# name: subset
+# key: subset
+# --
+subset(${1:array}, ${0:offset});

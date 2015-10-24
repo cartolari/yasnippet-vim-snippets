@@ -1,0 +1,5 @@
+# name: menter
+# key: menter
+# --
+${1:obj}.mouseenter (${2:e}) ->
+	${0:// event handler}

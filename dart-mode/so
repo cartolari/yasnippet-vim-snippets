@@ -1,0 +1,5 @@
+# name: so
+# key: so
+# --
+#source('$1');
+$0

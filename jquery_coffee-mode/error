@@ -1,0 +1,5 @@
+# name: error
+# key: error
+# --
+${1:obj}.error (${2:e}) ->
+	${0:// event handler}

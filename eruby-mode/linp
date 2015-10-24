@@ -1,0 +1,4 @@
+# name: linp
+# key: linp
+# --
+<%= link_to "${1:Link text...}", ${2:parent}_${3:child}_path(${4:@$2}, ${0:@$3}) %>

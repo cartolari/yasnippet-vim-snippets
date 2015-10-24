@@ -1,0 +1,4 @@
+# name: gist-full
+# key: gist-full
+# --
+{% gist ${1:gist_id} ${0:filename} %}

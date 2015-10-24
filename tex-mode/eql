@@ -1,0 +1,7 @@
+# name: Labeled equation environment
+# key: eql
+# --
+\begin{equation}
+	\label{eq:$2}
+$0
+\end{equation}

@@ -1,0 +1,4 @@
+# name: sc
+# key: sc
+# --
+scope :${1:name}, -> { where(${2:field}: ${0:value}) }

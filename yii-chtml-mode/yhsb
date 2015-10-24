@@ -1,0 +1,4 @@
+# name: yhsb
+# key: yhsb
+# --
+echo CHtml::submitButton('${1:label}',array('${2:optionName}'=>${0:optionValue}));

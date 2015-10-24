@@ -1,0 +1,4 @@
+# name: ydelbp
+# key: ydelbp
+# --
+${1:ModelName}::model()->deleteByPk(${2:pk}, ${3:condition}, array('${4:key}'=>${0:value}));

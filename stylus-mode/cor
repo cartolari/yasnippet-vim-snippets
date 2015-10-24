@@ -1,0 +1,4 @@
+# name: cor
+# key: cor
+# --
+counter-reset $0

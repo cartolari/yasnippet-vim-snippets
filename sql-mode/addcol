@@ -1,0 +1,4 @@
+# name: addcol
+# key: addcol
+# --
+alter table ${1:table} add (${2:column} ${0:type});

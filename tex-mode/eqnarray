@@ -1,0 +1,6 @@
+# name: eqnarray environment
+# key: eqnarray
+# --
+\begin{eqnarray}
+	$0
+\end{eqnarray}

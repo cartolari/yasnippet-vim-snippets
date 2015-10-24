@@ -1,0 +1,6 @@
+# name: elif
+# key: elif
+# --
+else if (${1:true}) {
+	$0
+}

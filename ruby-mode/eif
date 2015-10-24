@@ -1,0 +1,5 @@
+# name: eif
+# key: eif
+# --
+elsif ${1:condition}
+	$0

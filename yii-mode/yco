@@ -1,0 +1,4 @@
+# name: yco
+# key: yco
+# --
+Yii::app()->request->cookies['$0']

@@ -1,0 +1,4 @@
+# name: isho
+# key: isho
+# --
+it { should have_one :$0 }

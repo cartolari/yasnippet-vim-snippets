@@ -1,0 +1,4 @@
+# name: rpl
+# key: rpl
+# --
+= render :partial => "${1:item}", :locals => { :${2:$1} => ${0:@$1}

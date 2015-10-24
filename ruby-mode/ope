@@ -1,0 +1,4 @@
+# name: ope
+# key: ope
+# --
+open('${1:path/or/url/or/pipe}', '${2:w}') { |${3:io}| $0 }

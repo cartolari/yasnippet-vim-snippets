@@ -1,0 +1,5 @@
+# name: forrexb
+# key: forrexb
+# --
+for ${1:name} from ${2:start} til ${3:finish} by ${4:step}
+	$5

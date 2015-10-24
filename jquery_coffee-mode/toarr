@@ -1,0 +1,4 @@
+# name: toarr
+# key: toarr
+# --
+${0:obj}.toArray()

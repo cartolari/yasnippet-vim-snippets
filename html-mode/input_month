@@ -1,0 +1,4 @@
+# name: input:month
+# key: input:month
+# --
+<input type="month" name="$1" id="${2:$1}" value="$3" />

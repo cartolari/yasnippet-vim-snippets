@@ -1,0 +1,4 @@
+# name: isrf
+# key: isrf
+# --
+it { should rescue_from ${0:exception} }

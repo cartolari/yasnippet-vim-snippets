@@ -1,0 +1,4 @@
+# name: bf
+# key: bf
+# --
+before_filter :${0:method}

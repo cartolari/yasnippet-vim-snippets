@@ -1,0 +1,4 @@
+# name: dir
+# key: dir
+# --
+Filename.dirname(__FILE__)

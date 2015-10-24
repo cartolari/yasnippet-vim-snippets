@@ -1,0 +1,4 @@
+# name: boolean
+# key: boolean
+# --
+boolean ${1:b}${2: = }${0:true};

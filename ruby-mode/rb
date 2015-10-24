@@ -1,0 +1,4 @@
+# name: rb
+# key: rb
+# --
+#!/usr/bin/env ruby -wKU

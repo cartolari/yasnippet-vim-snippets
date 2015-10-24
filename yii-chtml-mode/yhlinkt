@@ -1,0 +1,4 @@
+# name: yhlinkt
+# key: yhlinkt
+# --
+echo CHtml::linkTag('${1:relation}', '${2:type}', '${3:href}', '${4:media}',array('${5:optionName}'=>${0:optionValue}));

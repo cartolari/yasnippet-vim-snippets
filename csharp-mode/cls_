@@ -1,0 +1,6 @@
+# name: cls|
+# key: cls|
+# --
+protected class ${1:} {
+	$0
+}

@@ -1,0 +1,4 @@
+# name: rel
+# key: rel
+# --
+[${0:foo} release];

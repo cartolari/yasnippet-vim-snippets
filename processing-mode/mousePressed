@@ -1,0 +1,6 @@
+# name: mousePressed
+# key: mousePressed
+# --
+void mousePressed(){
+	$0
+}

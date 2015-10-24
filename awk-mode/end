@@ -1,0 +1,6 @@
+# name: END { ... }
+# key: end
+# --
+END {
+	$0
+}

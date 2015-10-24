@@ -1,0 +1,4 @@
+# name: mbc
+# key: mbc
+# --
+before_create :${0:method}

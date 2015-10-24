@@ -1,0 +1,4 @@
+# name: reduce
+# key: reduce
+# --
+(reduce ${1:(fn [p n] $3)} $2)

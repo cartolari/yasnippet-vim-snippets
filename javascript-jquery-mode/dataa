@@ -1,0 +1,4 @@
+# name: dataa
+# key: dataa
+# --
+$.data('${1:selector expression}', '${2:key}'${3:, 'value'})

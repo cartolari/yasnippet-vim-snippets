@@ -1,0 +1,4 @@
+# name: m2m
+# key: m2m
+# --
+${1:FIELDNAME} = models.ManyToManyField(${2:OtherModel}${3:, related_name=''}${4:, limit_choices_to=}${5:, symmetrical=False}${6:, through=''}${0:, db_table=''})

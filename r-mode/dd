@@ -1,0 +1,4 @@
+# name: dd
+# key: dd
+# --
+ddply(${1:frame}, ${2:variables}, ${0:function})

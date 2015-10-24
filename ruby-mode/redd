@@ -1,0 +1,6 @@
+# name: redd
+# key: redd
+# --
+reduce(${1:init}) do |${2:mem}, ${3:var}|
+	$0
+end

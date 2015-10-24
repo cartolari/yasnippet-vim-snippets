@@ -1,0 +1,4 @@
+# name: log
+# key: log
+# --
+Rails.logger.${1:debug} $0

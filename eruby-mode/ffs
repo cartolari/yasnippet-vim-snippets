@@ -1,0 +1,4 @@
+# name: ffs
+# key: ffs
+# --
+<%= ${1:f}.submit "${0:submit}" %>

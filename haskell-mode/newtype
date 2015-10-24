@@ -1,0 +1,4 @@
+# name: newtype
+# key: newtype
+# --
+newtype ${1:Type} = ${2:$1} ${0:Int}

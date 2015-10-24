@@ -1,0 +1,4 @@
+# name: aa
+# key: aa
+# --
+aaply(${1:array}, ${2:margin}, ${0:function})

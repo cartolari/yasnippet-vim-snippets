@@ -1,0 +1,4 @@
+# name: bgi
+# key: bgi
+# --
+background-image: url($0);

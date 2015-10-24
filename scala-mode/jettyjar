@@ -1,0 +1,4 @@
+# name: jettyjar
+# key: jettyjar
+# --
+"org.mortbay.jetty" % "jetty" % "${0:version}" % "test->default",

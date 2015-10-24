@@ -1,0 +1,4 @@
+# name: epost
+# key: epost
+# --
+${1:app}.post('${2:route}', ${3:handler});

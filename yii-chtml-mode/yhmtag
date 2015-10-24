@@ -1,0 +1,4 @@
+# name: yhmtag
+# key: yhmtag
+# --
+echo CHtml::metaTag('${1:content}', '${2:name}', '${3:httpEquiv}',array('${4:optionName}'=>${0:optionValue}));

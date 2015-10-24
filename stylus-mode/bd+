@@ -1,0 +1,4 @@
+# name: bd+
+# key: bd+
+# --
+border ${1:1px} ${2:solid} $0

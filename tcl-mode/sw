@@ -1,0 +1,11 @@
+# name: sw
+# key: sw
+# --
+switch ${1:var} {
+	${3:pattern 1} {
+		${0:#do something}
+	}
+	default {
+		${2:#do something}
+	}
+}

@@ -1,0 +1,6 @@
+# name: object
+# key: object
+# --
+<object data="$1" type="$2">
+	$3
+</object>

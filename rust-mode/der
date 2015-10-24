@@ -1,0 +1,4 @@
+# name: "#[derive(..)]" b
+# key: der
+# --
+#[derive(${1:Debug})]

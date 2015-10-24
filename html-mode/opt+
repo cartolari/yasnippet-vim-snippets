@@ -1,0 +1,5 @@
+# name: opt+
+# key: opt+
+# --
+<option value="$1">${2:$1}</option>
+opt+$0

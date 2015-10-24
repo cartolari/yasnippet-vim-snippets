@@ -1,0 +1,7 @@
+# name: case
+# key: case
+# --
+case $1 do
+	$2 ->
+		$0
+end

@@ -1,0 +1,4 @@
+# name: sel
+# key: sel
+# --
+select { |${1:e}| $0 }

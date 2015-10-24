@@ -1,0 +1,6 @@
+# name: ead
+# key: ead
+# --
+<% $1.each do |$2| %>
+	$0
+<% end %>

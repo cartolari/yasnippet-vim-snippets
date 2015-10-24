@@ -1,0 +1,5 @@
+# name: expression function
+# key: fune
+# --
+function $1 return $2 is
+	($3);$0

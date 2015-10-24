@@ -1,0 +1,4 @@
+# name: del
+# key: del
+# --
+delegate (${1:int x}) => $2${3:;} 

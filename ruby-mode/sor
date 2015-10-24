@@ -1,0 +1,4 @@
+# name: sor
+# key: sor
+# --
+sort { |a, b| $0 }

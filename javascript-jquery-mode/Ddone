@@ -1,0 +1,4 @@
+# name: Ddone
+# key: Ddone
+# --
+${1:deferred}.done(${2:callbacks})

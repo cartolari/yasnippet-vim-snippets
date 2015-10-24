@@ -1,0 +1,6 @@
+# name: focusout
+# key: focusout
+# --
+${1:obj}.focusOut(function (${2:e}) {
+	${0:// event handler}
+});

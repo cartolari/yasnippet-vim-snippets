@@ -1,0 +1,4 @@
+# name: pkget
+# key: pkget
+# --
+__PACKAGE__->get_${0:package_method}()

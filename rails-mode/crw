@@ -1,0 +1,4 @@
+# name: crw
+# key: crw
+# --
+cattr_accessor :${0:attr_names}

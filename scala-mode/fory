@@ -1,0 +1,6 @@
+# name: fory
+# key: fory
+# --
+for {
+	${1:item} <- ${2:obj}
+} yield $0

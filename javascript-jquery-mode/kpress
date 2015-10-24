@@ -1,0 +1,6 @@
+# name: kpress
+# key: kpress
+# --
+${1:obj}.keypress(function (${2:e}) {
+	${0:// event handler}
+});

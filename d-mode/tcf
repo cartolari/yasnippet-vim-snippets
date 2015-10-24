@@ -1,0 +1,10 @@
+# name: tcf
+# key: tcf
+# --
+try {
+	$0
+} catch(${1:Exception} ${2:e}) {
+	$3
+} finally {
+	$4
+}

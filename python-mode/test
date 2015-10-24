@@ -1,0 +1,5 @@
+# name: test
+# key: test
+# --
+def test_${1:description}(${2:}):
+	$0

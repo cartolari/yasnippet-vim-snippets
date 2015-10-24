@@ -1,0 +1,4 @@
+# name: macr
+# key: macr
+# --
+after_create :${0:method}

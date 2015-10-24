@@ -1,0 +1,4 @@
+# name: lisi
+# key: lisi
+# --
+list-style-image url($0)

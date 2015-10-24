@@ -1,0 +1,7 @@
+# name: ajaxsuccess
+# key: ajaxsuccess
+# --
+$.ajaxSuccess(function (${1:e}, xhr, settings) {
+	${2:// handler for when any AJAX call is successfully completed};
+});
+$0

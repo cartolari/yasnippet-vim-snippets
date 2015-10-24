@@ -1,0 +1,4 @@
+# name: emissive
+# key: emissive
+# --
+emissive(${1:value1}, ${2:value2}, ${0:value3});

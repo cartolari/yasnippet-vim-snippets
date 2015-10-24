@@ -1,0 +1,4 @@
+# name: iframe
+# key: iframe
+# --
+<iframe src="$1" frameborder="0"></iframe>

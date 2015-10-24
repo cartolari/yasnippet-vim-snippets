@@ -1,0 +1,6 @@
+# name: for loop iterating over iterable container
+# key: forc
+# --
+for $1 in $2
+	$0
+end

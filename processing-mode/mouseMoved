@@ -1,0 +1,6 @@
+# name: mouseMoved
+# key: mouseMoved
+# --
+void mouseMoved(){
+	$0
+}

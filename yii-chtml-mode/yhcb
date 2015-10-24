@@ -1,0 +1,4 @@
+# name: yhcb
+# key: yhcb
+# --
+echo CHtml::checkBox('${1:name}', ${2:false}, array('${3:optionName}'=>${0:optionValue}));

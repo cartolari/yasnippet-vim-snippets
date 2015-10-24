@@ -1,0 +1,6 @@
+# name: menu:c
+# key: menu:c
+# --
+<menu type="context">
+	$0
+</menu>

@@ -1,0 +1,4 @@
+# name: yhrsb
+# key: yhrsb
+# --
+echo CHtml::resetButton('${1:label}',array('${2:optionName}'=>${0:optionValue}));

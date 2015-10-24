@@ -1,0 +1,4 @@
+# name: m
+# key: m
+# --
+${1:void} ${2:method}($3) ${4:throws }

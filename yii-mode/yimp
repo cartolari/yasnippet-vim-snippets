@@ -1,0 +1,4 @@
+# name: yimp
+# key: yimp
+# --
+Yii::import('$0');

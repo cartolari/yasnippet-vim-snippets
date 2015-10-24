@@ -1,0 +1,7 @@
+# name: named loop
+# key: nlo
+# --
+$1:
+loop
+	$0
+end loop $1;

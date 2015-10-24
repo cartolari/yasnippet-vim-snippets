@@ -1,0 +1,6 @@
+# name: map#
+# key: map#
+# --
+<map name="$1" id="${2:$1}>
+	$0
+</map>

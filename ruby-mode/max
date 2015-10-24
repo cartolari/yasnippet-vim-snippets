@@ -1,0 +1,4 @@
+# name: max
+# key: max
+# --
+max { |a, b| $0 }

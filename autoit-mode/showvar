@@ -1,0 +1,4 @@
+# name: showvar
+# key: showvar
+# --
+MsgBox(0, "${0:VarName}", $1)

@@ -1,0 +1,4 @@
+# name: logd
+# key: logd
+# --
+logger.debug { '${1:message}' }

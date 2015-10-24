@@ -1,0 +1,5 @@
+# name: reset
+# key: reset
+# --
+${1:obj}.reset (${2:e}) ->
+	${0:// event handler}

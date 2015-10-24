@@ -1,0 +1,4 @@
+# name: delegate .. to .. prefix .. allow_nil
+# key: dele
+# --
+delegate :${1:methods}, to: :${2:object}, prefix: :${3:prefix}, allow_nil: ${0:allow_nil}

@@ -1,0 +1,4 @@
+# name: wbko
+# key: wbko
+# --
+wont_be_kind_of ${0:Class}

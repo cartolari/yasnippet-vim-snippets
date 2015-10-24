@@ -1,0 +1,9 @@
+# name: "Bench function" b
+# key: bench
+# --
+#[bench]
+fn ${1:bench_function_name}(b: &mut test::Bencher) {
+	b.iter(|| {
+		$0
+	})
+}

@@ -1,0 +1,4 @@
+# name: degrees
+# key: degrees
+# --
+degrees(${0:rad});

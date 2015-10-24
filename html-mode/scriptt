@@ -1,0 +1,6 @@
+# name: scriptt
+# key: scriptt
+# --
+<script type="$1" id="$2">
+	$0
+</script>

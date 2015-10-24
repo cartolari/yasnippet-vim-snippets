@@ -1,0 +1,4 @@
+# name: ovx:h
+# key: ovx:h
+# --
+overflow-x: hidden;

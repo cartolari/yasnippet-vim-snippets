@@ -1,0 +1,6 @@
+# name: @implementation
+# key: @implementation
+# --
+@implementation ${1:`(file-name-base)`}
+$0
+@end

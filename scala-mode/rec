@@ -1,0 +1,6 @@
+# name: rec
+# key: rec
+# --
+def ${1:name}(${0:arg}) =
+	if($2) $2
+	else $1($2)

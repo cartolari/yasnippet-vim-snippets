@@ -1,0 +1,4 @@
+# name: bang
+# key: bang
+# --
+#!/usr/bin/env rdmd

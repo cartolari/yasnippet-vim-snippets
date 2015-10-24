@@ -1,0 +1,4 @@
+# name: ril
+# key: ril
+# --
+render inline: "${1:<%= 'hello' %>}", locals: { ${2:name}: '${3:value}'$0 }

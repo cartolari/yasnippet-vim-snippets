@@ -1,0 +1,4 @@
+# name: ci_form_validation-set_rules
+# key: ci_form_validation-set_rules
+# --
+$this->form_validation->set_rules("${1:field}", "${2:label}", "${3:trim|required}");$4

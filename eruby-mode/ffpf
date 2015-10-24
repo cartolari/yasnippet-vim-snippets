@@ -1,0 +1,4 @@
+# name: ffpf
+# key: ffpf
+# --
+<%= ${1:f}.password_field :${0:attribute} %>

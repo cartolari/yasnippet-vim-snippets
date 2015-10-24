@@ -1,0 +1,6 @@
+# name: with-param
+# key: call-template
+# --
+<xsl:call-template name="${1:template}">
+	<xsl:with-param name="${2:param}">$3</xsl:with-param>$4
+</xsl:call-template>

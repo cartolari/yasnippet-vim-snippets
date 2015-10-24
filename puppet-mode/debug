@@ -1,0 +1,4 @@
+# name: debug
+# key: debug
+# --
+debug("${1:message}")

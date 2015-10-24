@@ -1,0 +1,4 @@
+# name: bdb+
+# key: bdb+
+# --
+border-bottom ${1:1px} ${2:solid} $0

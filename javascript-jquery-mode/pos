@@ -1,0 +1,4 @@
+# name: pos
+# key: pos
+# --
+${1:obj}.position()

@@ -1,0 +1,4 @@
+# name: charset
+# key: charset
+# --
+charset="${1:utf-8}"

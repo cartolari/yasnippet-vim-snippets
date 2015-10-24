@@ -1,0 +1,4 @@
+# name: td:u
+# key: td:u
+# --
+text-decoration: underline;

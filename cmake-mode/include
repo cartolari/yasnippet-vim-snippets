@@ -1,0 +1,6 @@
+# name: include
+# key: include
+# --
+INCLUDE_DIRECTORIES(
+	${${0:INCLUDE_DIR}}
+)

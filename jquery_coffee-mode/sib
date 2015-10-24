@@ -1,0 +1,4 @@
+# name: sib
+# key: sib
+# --
+${1:obj}.siblings('${2:selector expression}')

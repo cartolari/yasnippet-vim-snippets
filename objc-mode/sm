@@ -1,0 +1,8 @@
+# name: sm
+# key: sm
+# --
+- (${1:id})${2:method}
+{
+	[super $2];$0
+	return self;
+}

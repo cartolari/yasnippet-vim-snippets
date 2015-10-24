@@ -1,0 +1,8 @@
+# name: header
+# key: header
+# --
+---
+title: ${1:title}
+layout: post
+date: ${2:date} ${0:hour:minute:second} -05:00
+---

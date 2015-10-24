@@ -1,0 +1,4 @@
+# name: rem
+# key: rem
+# --
+${1:obj}.remove()

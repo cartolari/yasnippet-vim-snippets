@@ -1,0 +1,4 @@
+# name: inarr
+# key: inarr
+# --
+$.inArray(${1:value}, ${0:array});

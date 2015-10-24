@@ -1,0 +1,4 @@
+# name: yhrb
+# key: yhrb
+# --
+echo CHtml::radioButton('${1:name}', ${2:false},array(${3:optionName}=>${0:optionValue} );

@@ -1,0 +1,6 @@
+# name: form#
+# key: form#
+# --
+<form id="$1" action="$2" method="${3:post}">
+	$0
+</form>

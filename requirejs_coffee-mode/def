@@ -1,0 +1,5 @@
+# name: def
+# key: def
+# --
+define ["${1:#dependencies1}"], (${2:#dependencies2}) ->
+	${0:TARGET}

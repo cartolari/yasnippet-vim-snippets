@@ -1,0 +1,4 @@
+# name: wbsa
+# key: wbsa
+# --
+wont_be_same_as ${0:other}

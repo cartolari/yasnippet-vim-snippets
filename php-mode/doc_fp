@@ -1,0 +1,9 @@
+# name: doc_fp
+# key: doc_fp
+# --
+/**
+ * ${1:undocumented function}
+ *
+ * @return ${2:void}
+ * @author ${3:`"Name"`}
+ */

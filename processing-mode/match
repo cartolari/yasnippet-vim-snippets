@@ -1,0 +1,4 @@
+# name: match
+# key: match
+# --
+match(${1:str}, ${0:regexp});

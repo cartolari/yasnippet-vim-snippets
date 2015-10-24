@@ -1,0 +1,6 @@
+# name: function definition
+# key: fun
+# --
+function $1($2)
+	$0
+end

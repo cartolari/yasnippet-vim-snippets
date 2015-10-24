@@ -1,0 +1,4 @@
+# name: last
+# key: last
+# --
+${1:obj}.last('${1:selector expression}')

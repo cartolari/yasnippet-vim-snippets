@@ -1,0 +1,4 @@
+# name: isresw
+# key: isresw
+# --
+it { should respond_to(:$1).with($0).arguments }

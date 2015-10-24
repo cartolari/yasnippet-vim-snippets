@@ -1,0 +1,4 @@
+# name: pgbb:r
+# key: pgbb:r
+# --
+page-break-before: right;

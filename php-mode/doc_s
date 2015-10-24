@@ -1,0 +1,10 @@
+# name: doc_s
+# key: doc_s
+# --
+/**
+ * ${4:undocumented function}
+ *
+ * @return ${5:void}
+ * @author ${6:`"Name"`}
+ */
+$1function $2($3);

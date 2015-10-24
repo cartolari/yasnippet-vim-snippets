@@ -1,0 +1,4 @@
+# name: queuee
+# key: queuee
+# --
+$.queue(${1:element}${2:, name}${3:, newQueue})

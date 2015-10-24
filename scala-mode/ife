@@ -1,0 +1,7 @@
+# name: ife
+# key: ife
+# --
+if ($1)
+	$2
+else
+	$0

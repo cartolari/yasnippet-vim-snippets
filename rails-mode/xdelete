@@ -1,0 +1,4 @@
+# name: xdelete
+# key: xdelete
+# --
+xhr :delete, :${1:destroy}, id: ${2:1}

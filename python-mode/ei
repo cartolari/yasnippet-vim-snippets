@@ -1,0 +1,5 @@
+# name: ei
+# key: ei
+# --
+elif ${1:condition}:
+	$0

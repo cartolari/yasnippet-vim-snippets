@@ -1,0 +1,4 @@
+# name: noiseSeed
+# key: noiseSeed
+# --
+noiseSeed(${0:x});

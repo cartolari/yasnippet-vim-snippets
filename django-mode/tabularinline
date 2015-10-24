@@ -1,0 +1,5 @@
+# name: tabularinline
+# key: tabularinline
+# --
+class ${0:ModelName}Inline(admin.TabularInline):
+	model = $1

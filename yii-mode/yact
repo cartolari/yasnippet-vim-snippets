@@ -1,0 +1,8 @@
+# name: yact
+# key: yact
+# --
+public function action${1:Index}(${2:params})
+{
+	$0
+}
+

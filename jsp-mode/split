@@ -1,0 +1,4 @@
+# name: split
+# key: split
+# --
+${fn:split(${1:string}, ${0:delims})}

@@ -1,0 +1,4 @@
+# name: fil
+# key: fil
+# --
+fill(${1:range}) { |${2:i}| $0 }

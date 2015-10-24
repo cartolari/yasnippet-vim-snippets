@@ -1,0 +1,4 @@
+# name: reverse
+# key: reverse
+# --
+reverse(${0:array});

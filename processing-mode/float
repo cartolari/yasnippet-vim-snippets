@@ -1,0 +1,4 @@
+# name: float
+# key: float
+# --
+float ${1:f}${2: = }${0:0.0f};

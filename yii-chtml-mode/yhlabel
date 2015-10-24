@@ -1,0 +1,4 @@
+# name: yhlabel
+# key: yhlabel
+# --
+echo CHtml::label('${1:label}', '${2:for}',array('${3:optionName}'=>${0:optionValue}));

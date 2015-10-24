@@ -1,0 +1,4 @@
+# name: ca
+# key: ca
+# --
+console.assert(${1:expression}, ${0:obj});

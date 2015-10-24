@@ -1,0 +1,6 @@
+# name: tempif
+# key: tempif
+# --
+template ${1:`(file-name-base)`}(${2:T}) if(${3:isSomeString!}$2) {
+	$0	
+}

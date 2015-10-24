@@ -1,0 +1,4 @@
+# name: lang
+# key: lang
+# --
+lang="${1:en}"

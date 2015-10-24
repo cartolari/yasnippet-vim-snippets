@@ -1,0 +1,6 @@
+# name: case
+# key: case
+# --
+case ${1:/* variable case */}:
+	$2
+	${3:break;}

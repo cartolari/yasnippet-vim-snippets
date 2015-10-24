@@ -1,0 +1,7 @@
+# name: for [key, value] in loop
+# key: forkv
+# --
+for [$1,$2] in items($3)
+	$0
+	unlet $1 $2
+endfor

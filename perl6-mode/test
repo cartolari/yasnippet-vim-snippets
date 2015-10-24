@@ -1,0 +1,8 @@
+# name: test
+# key: test
+# --
+use v6;
+use Test;
+${1:use lib 'lib';}
+
+plan ${2:$num-tests};

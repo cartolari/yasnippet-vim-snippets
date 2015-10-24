@@ -1,0 +1,4 @@
+# name: append
+# key: append
+# --
+${1:obj}.append('${2:Some text <b>and bold!</b>}')

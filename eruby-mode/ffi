@@ -1,0 +1,4 @@
+# name: ffi
+# key: ffi
+# --
+<%= ${1:f}.input :${0:attribute} %>

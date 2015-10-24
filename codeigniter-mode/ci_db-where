@@ -1,0 +1,4 @@
+# name: ci_db-where
+# key: ci_db-where
+# --
+$this->db->where("${1:key}", "${2:value}");$3

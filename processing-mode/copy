@@ -1,0 +1,6 @@
+# name: copy
+# key: copy
+# --
+copy(${1:srcImg}${2:, }${3:x}, ${4:y}, ${5:width}, ${6:height}, ${7:dx}, ${8:dy}, ${9:dwidth}, ${0:dheight});
+
+

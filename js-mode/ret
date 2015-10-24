@@ -1,0 +1,5 @@
+# name: ret
+# key: ret
+# --
+return ${0:result};
+

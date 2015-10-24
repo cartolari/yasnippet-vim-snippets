@@ -1,0 +1,4 @@
+# name: ci_input-user_agent
+# key: ci_input-user_agent
+# --
+$this->input->user_agent();$1

@@ -1,0 +1,6 @@
+# name: do
+# key: do
+# --
+DO${1: Clauses}:
+	$0
+END.

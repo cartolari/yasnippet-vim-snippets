@@ -1,0 +1,4 @@
+# name: each_cons(..) { |group| .. }
+# key: eac-
+# --
+each_cons(${1:2}) { |${2:group}| $0 }

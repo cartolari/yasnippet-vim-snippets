@@ -1,0 +1,5 @@
+# name: dump
+# key: dump
+# --
+use Data::Dump qw(dump);
+warn dump ${1:variable}

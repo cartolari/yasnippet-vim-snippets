@@ -1,0 +1,6 @@
+# name: fori
+# key: fori
+# --
+for ${1:item} <- ${2:items}, into: $3 do
+	$0
+end

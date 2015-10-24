@@ -1,0 +1,4 @@
+# name: isss
+# key: isss
+# --
+it { should set_session :${0:key} }

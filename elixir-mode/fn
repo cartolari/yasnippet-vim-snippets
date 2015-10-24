@@ -1,0 +1,4 @@
+# name: fn
+# key: fn
+# --
+fn ${1:args} -> $0 end

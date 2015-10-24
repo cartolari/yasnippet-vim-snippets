@@ -1,0 +1,4 @@
+# name: m_
+# key: m_
+# --
+m_ply(${1:matrix}, ${0:function})

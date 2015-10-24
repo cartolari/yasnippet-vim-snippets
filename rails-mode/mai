@@ -1,0 +1,4 @@
+# name: mai
+# key: mai
+# --
+add_index :${1:table_name}, :${0:column_name}

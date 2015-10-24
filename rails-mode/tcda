@@ -1,0 +1,5 @@
+# name: tcda
+# key: tcda
+# --
+t.date :${1:title}
+$0

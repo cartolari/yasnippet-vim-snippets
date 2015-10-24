@@ -1,0 +1,5 @@
+# name: with
+# key: with
+# --
+with ${1:expr} as ${2:var}:
+	$0

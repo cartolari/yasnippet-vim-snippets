@@ -1,0 +1,4 @@
+# name: ist
+# key: ist
+# --
+<%= image_submit_tag('${1:agree.png}', id: '${2:id}'$0) %>

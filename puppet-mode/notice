@@ -1,0 +1,4 @@
+# name: notice
+# key: notice
+# --
+notice("${1:message}")

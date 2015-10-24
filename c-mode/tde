@@ -1,0 +1,6 @@
+# name: tde
+# key: tde
+# --
+typedef enum {
+	${1:/* data */}
+} ${2:foo};

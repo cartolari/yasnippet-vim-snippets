@@ -1,0 +1,4 @@
+# name: yhlo
+# key: yhlo
+# --
+echo CHtml::listOptions('${1:selection}', array($2), array('${3:optionName}'=>${0:optionValue}));

@@ -1,0 +1,4 @@
+# name: attr
+# key: attr
+# --
+${1:attribute}="${0:property}"

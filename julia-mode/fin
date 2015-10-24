@@ -1,0 +1,5 @@
+# name: finally statement
+# key: fin
+# --
+finally
+	$0

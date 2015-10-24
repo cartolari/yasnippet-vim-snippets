@@ -1,0 +1,4 @@
+# name: link:atom
+# key: link:atom
+# --
+<link rel="alternate" href="${1:atom.xml}" title="Atom" type="application/atom+xml" />

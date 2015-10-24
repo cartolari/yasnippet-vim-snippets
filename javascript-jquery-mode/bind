@@ -1,0 +1,6 @@
+# name: bind
+# key: bind
+# --
+${1:obj}.bind('${2:event name}', function (${3:e}) {
+	${0:// event handler}
+});

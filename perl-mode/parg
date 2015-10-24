@@ -1,0 +1,36 @@
+# name: parg
+# key: parg
+# --
+=over 2
+
+=item
+Arguments
+
+
+=over 3
+
+=item
+C<${1:DataStructure}>
+
+  ${2:Sample}
+
+
+=back
+
+
+=item
+Return
+
+=over 3
+
+
+=item
+C<${0:...return data}>
+
+
+=back
+
+
+=back
+
+

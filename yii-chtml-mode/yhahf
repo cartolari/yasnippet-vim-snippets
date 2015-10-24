@@ -1,0 +1,4 @@
+# name: yhahf
+# key: yhahf
+# --
+echo CHtml::activeHiddenField(${1:model}, '${2:attribute}',array('${3:optionName}'=>${0:optionValue}));

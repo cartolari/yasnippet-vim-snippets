@@ -1,0 +1,4 @@
+# name: ylog
+# key: ylog
+# --
+Yii::log('${1:msg}', '${0:info}');

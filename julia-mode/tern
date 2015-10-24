@@ -1,0 +1,4 @@
+# name: ternary operator
+# key: tern
+# --
+$1 ? $2 : ${3:nothing}

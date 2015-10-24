@@ -1,0 +1,6 @@
+# name: style
+# key: style
+# --
+<style type="text/css" media="${1:all}">
+	$0
+</style>

@@ -1,0 +1,4 @@
+# name: mix
+# key: mix
+# --
+$1($0)

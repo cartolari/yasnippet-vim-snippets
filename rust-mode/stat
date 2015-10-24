@@ -1,0 +1,4 @@
+# name: "static item declaration"
+# key: stat
+# --
+static $1: ${2:usize} = $0;

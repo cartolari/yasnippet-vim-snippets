@@ -1,0 +1,5 @@
+# name: tct
+# key: tct
+# --
+t.text :${1:title}
+$0

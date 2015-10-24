@@ -1,0 +1,16 @@
+# name: package
+# key: package
+# --
+# Package resource
+package ${1:"package_name"} do # Name of the package to install
+	${2:#}version ${3:nil} # The version of the package to install/upgrade
+	${4:#}response_file ${5:nil} # An optional response file - used to pre-seed packages (note: the file is fetched by Remote File)
+	${6:#}source $7 # Used to provide an optional package source for providers that use a local file (rubygems, dpkg and rpm)
+	${8:#}options ${9:nil} # Add additional options to the underlying package command
+	${10:#}gem_binary ${11:gem} # A gem_package attribut to specify a gem binary. Useful for installing ruby 1.9 gems while running chef in ruby 1.8
+
+	${12:#}${13:action :install} # Install a package - if version is provided, install that specific version (Default)
+	${14:#}${15:action :upgrade} # Upgrade a package - if version is provided, upgrade to that specific version
+	${16:#}${17:action :remove} # Remove a package
+	${18:#}${0:action :purge} # Purge a package (this usually entails removing configuration files as well as the package itself)
+end

@@ -1,0 +1,6 @@
+# name: accept
+# key: acc
+# --
+accept $1($2) do
+	$0
+end $1;

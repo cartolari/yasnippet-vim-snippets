@@ -1,0 +1,4 @@
+# name: Extlookup with defaults and custom data file
+# key: extlookup
+# --
+extlookup("${1:variable}", "${2:default}", "${3:data source}")

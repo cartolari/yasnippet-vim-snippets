@@ -1,0 +1,13 @@
+# name: interface
+# key: interface
+# --
+/**
+ * ${2:undocumented class}
+ *
+ * @package ${3:default}
+ * @author ${4:`"Name"`}
+ */
+interface ${1:}
+{
+	$0
+}

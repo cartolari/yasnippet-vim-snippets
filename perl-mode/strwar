@@ -1,0 +1,5 @@
+# name: strwar
+# key: strwar
+# --
+use strict;
+use warnings;

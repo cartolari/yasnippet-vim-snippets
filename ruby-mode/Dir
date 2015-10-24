@@ -1,0 +1,4 @@
+# name: Dir[".."]
+# key: Dir
+# --
+Dir[${1:'glob/**/*.rb'}]

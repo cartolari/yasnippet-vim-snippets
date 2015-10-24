@@ -1,0 +1,5 @@
+# name: is
+# key: is
+# --
+${1:name}.isInstanceOf[${2:T}]
+

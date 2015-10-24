@@ -1,0 +1,4 @@
+# name: strf
+# key: strf
+# --
+strftime('${1:%Y-%m-%d %H:%M:%S %z}')$0

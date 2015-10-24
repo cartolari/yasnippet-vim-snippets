@@ -1,0 +1,4 @@
+# name: ishro
+# key: ishro
+# --
+it { should have_readonly_attribute :$0 }

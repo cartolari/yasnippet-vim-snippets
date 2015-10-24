@@ -1,0 +1,39 @@
+# name: deploy
+# key: deploy
+# --
+# Deploy resource
+deploy ${1:"/deploy/dir/"} do # Path to deploy to
+	${2:#}deploy_to $3 # The "meta root" for your application.
+	${4:#}repository $5 # URI of the repository
+	${6:#}repo $7 # alias for repository
+	${8:#}revision ${9:"HEAD"} # revision to checkout. can be symbolic, like "HEAD" or an SCM specific revision id
+	${10:#}branch $11 # alias for revision
+	${12:#}user ${13:nil} # System user to run the deploy as
+	${14:#}group ${15:nil} # System group to run the deploy as
+	${16:#}svn_username $17 # (Subversion only) Username for Subversion operations}
+	${18:#}svn_password $19 # (Subversion only) Password for Subversion operations}
+	${20:#}svn_arguments $21 # (Subversion only) Extra arguments passed to the subversion command}
+	${22:#}shallow_clone ${23:nil} # (Git only) boolean, true sets clone depth to 5
+	${24:#}enable_submodules ${25:false} # (Git only) performs a submodule init and submodule update
+	${26:#}remote ${27:"origin"} # (Git only) remote repository to use for syncing an existing clone
+	${28:#}ssh_wrapper $29 # (Git only) path to a wrapper script for running SSH with git. GIT_SSH environment variable is set to this.
+	${30:#}git_ssh_wrapper $31 # alias for ssh_wrapper
+	${32:#}scm_provider ${33:Chef::Provider::Git} # SCM Provider to use.
+	${34:#}repository_cache ${35: "cached-copy"} # Name of the subdirectory where the pristine copy of your app's source is kept
+	${36:#}environment $37 # A hash of the form {"ENV_VARIABLE"=>"VALUE"}}
+	${38:#}purge_before_symlink ${39:%w(log tmp/pids public/system)} # An array of paths, relative to app root, to be removed from a checkout before symlinking
+	${40:#}create_dirs_before_symlink ${41:%w(tmp public config)} # Directories to create before symlinking. Runs after purge_before_symlink
+	${42:#}symlinks ${43:"system" => "public/system", "pids" => "tmp/pids", "log" => "log"} # A hash that maps files in the shared directory to their paths in the current release
+	${44:#}symlink_before_migrate ${45:"config/database.yml" => "config/database.yml"} # A hash that maps files in the shared directory into the current release. Runs before migration
+	${46:#}migrate ${47:false} # Should the migration command be executed? (true or false)
+	${48:#}migration_command $49 # A string containing a shell command to execute to run the migration
+	${50:#}restart_command ${51:nil} # A code block to evaluate or a string containing a shell command
+	${52:#}before_migrate ${53:"deploy/before_migrate.rb"} # A block or path to a file containing chef code to run before migrating
+	${54:#}before_symlink ${55:"deploy/before_symlink.rb"} # A block or path to a file containing chef code to run before symlinking
+	${56:#}before_restart ${57:"deploy/before_restart.rb"} # A block or path to a file containing chef code to run before restarting
+	${58:#}after_restart ${59:"deploy/after_restart.rb"} # A block or path to a file containing chef code to run after restarting
+
+	${60:#}${61::deploy} # Deploy the application (Default)
+	${62:#}${63::force_deploy} # For the revision deploy strategy, this removes any existing release of the same code version and re-deploys in its place
+	${64:#}${0::rollback} # Rollback the application to the previous release
+end

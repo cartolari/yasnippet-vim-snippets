@@ -1,0 +1,6 @@
+# name: seld
+# key: seld
+# --
+select do |${1:e}|
+	$0
+end

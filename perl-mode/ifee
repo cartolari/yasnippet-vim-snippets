@@ -1,0 +1,12 @@
+# name: ifee
+# key: ifee
+# --
+if ($1) {
+	$2
+}
+elsif ($3) {
+	${4:# elsif...}
+}
+else {
+	$0
+}

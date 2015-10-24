@@ -1,0 +1,4 @@
+# name: Dresw
+# key: Dresw
+# --
+${1:deferred}.resolveWith(${2:this}, ${3:args})

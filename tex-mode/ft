@@ -1,0 +1,4 @@
+# name: \footnote
+# key: ft
+# --
+\footnote{${0:text}}

@@ -1,0 +1,7 @@
+# name: fori
+# key: fori
+# --
+for (var ${1:prop} in ${2:object}) {
+	${0:$2[$1]}
+}
+

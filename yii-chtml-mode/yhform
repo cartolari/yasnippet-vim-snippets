@@ -1,0 +1,4 @@
+# name: yhform
+# key: yhform
+# --
+echo CHtml::form(array('$1'), '${2:post}',array('${3:optionName}'=>${0:optionValue}));

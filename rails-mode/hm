@@ -1,0 +1,4 @@
+# name: hm
+# key: hm
+# --
+has_many :${0:object}

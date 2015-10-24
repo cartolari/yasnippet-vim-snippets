@@ -1,0 +1,4 @@
+# name: bdr+
+# key: bdr+
+# --
+border-right ${1:1px} ${2:solid} $0

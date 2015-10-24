@@ -1,0 +1,4 @@
+# name: keyval
+# key: keyval
+# --
+${1:key}->${2:val}${0:, keyval}

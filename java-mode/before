@@ -1,0 +1,5 @@
+# name: before
+# key: before
+# --
+@Before
+static void ${1:intercept}(${2:args}) { $0 }

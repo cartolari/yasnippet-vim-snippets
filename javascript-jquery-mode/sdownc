@@ -1,0 +1,6 @@
+# name: sdownc
+# key: sdownc
+# --
+${1:obj}.slideDown('${2:slow/400/fast}', function () {
+	${0:// callback};
+});

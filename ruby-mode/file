@@ -1,0 +1,4 @@
+# name: File.read()
+# key: file
+# --
+File.read(${1:'path/to/file'})

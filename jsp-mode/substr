@@ -1,0 +1,4 @@
+# name: substr
+# key: substr
+# --
+${fn:substring(${1:string}, ${2:begin}, ${0:end})}

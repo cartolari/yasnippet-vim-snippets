@@ -1,0 +1,5 @@
+# name: comm
+# key: comm
+# --
+(comment
+	$0)

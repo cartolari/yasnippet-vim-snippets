@@ -1,0 +1,4 @@
+# name: Clock
+# key: Clock
+# --
+${1:callbacks}.lock()

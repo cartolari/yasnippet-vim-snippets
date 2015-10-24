@@ -1,0 +1,4 @@
+# name: map
+# key: map
+# --
+Map[${1:T},${2:T}]${0:(keyval)}

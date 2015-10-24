@@ -1,0 +1,6 @@
+# name: main
+# key: main
+# --
+void main() {
+	$0
+}

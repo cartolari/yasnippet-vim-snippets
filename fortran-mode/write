@@ -1,0 +1,4 @@
+# name: write
+# key: write
+# --
+write( unit = ${1:fp}, file = ${2:filename}${3:, iostat = IERR }) $0

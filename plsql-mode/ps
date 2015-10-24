@@ -1,0 +1,7 @@
+# name: ps
+# key: ps
+# --
+create or replace package ${1:name}
+as
+	${0:-- spec}
+end; -- end of package spec $1

@@ -1,0 +1,4 @@
+# name: remp
+# key: remp
+# --
+${1:obj}.removeProp('${2:property name}')

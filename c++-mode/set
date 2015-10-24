@@ -1,0 +1,4 @@
+# name: set
+# key: set
+# --
+std::set<${1:T}> $2;

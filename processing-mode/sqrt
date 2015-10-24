@@ -1,0 +1,4 @@
+# name: sqrt
+# key: sqrt
+# --
+sqrt(${0:value});

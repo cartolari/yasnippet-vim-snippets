@@ -1,0 +1,4 @@
+# name: d_
+# key: d_
+# --
+d_ply(${1:frame}, ${2:variables}, ${0:function})

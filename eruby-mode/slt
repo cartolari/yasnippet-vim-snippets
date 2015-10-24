@@ -1,0 +1,4 @@
+# name: slt
+# key: slt
+# --
+<%= stylesheet_link_tag ${1::all}, :cache => ${0:true} %>

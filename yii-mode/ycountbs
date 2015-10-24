@@ -1,0 +1,4 @@
+# name: ycountbs
+# key: ycountbs
+# --
+${1:ModelName}::model()->countBySql(${2:sql},array('${3:key}'=>${0:value}));

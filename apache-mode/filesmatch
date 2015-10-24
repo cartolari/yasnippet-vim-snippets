@@ -1,0 +1,6 @@
+# name: filesmatch
+# key: filesmatch
+# --
+<FilesMatch "${1:regex}">
+	$0
+</FilesMatch>

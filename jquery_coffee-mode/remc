@@ -1,0 +1,4 @@
+# name: remc
+# key: remc
+# --
+${1:obj}.removeClass('${2:class name}')

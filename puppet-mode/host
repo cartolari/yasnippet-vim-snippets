@@ -1,0 +1,6 @@
+# name: host
+# key: host
+# --
+host { "${1:hostname}":
+	ip => ${0:127.0.0.1},
+}

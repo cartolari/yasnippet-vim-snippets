@@ -1,0 +1,4 @@
+# name: ci_db-delete
+# key: ci_db-delete
+# --
+$this->db->delete("${1:table}", "${2:where}");$3

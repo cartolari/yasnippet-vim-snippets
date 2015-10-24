@@ -1,0 +1,6 @@
+# name: fun
+# key: fun
+# --
+${1:function_name}() {
+	${0:# function_body}
+}

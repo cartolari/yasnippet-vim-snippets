@@ -1,0 +1,4 @@
+# name: tan
+# key: tan
+# --
+tan(${0:rad});

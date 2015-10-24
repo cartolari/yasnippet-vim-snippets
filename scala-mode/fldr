@@ -1,0 +1,4 @@
+# name: fldr
+# key: fldr
+# --
+${1:name}.foldRight(${0:first}) {(

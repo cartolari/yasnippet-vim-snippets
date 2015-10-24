@@ -1,0 +1,4 @@
+# name: pn
+# key: pn
+# --
+panic("${0:msg}")

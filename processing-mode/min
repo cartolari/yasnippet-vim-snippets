@@ -1,0 +1,4 @@
+# name: array
+# key: min
+# --
+min(${0:array});

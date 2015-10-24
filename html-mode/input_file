@@ -1,0 +1,4 @@
+# name: input:file
+# key: input:file
+# --
+<input type="file" name="$1" id="${2:$1}" value="$3" />

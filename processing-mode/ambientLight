@@ -1,0 +1,4 @@
+# name: ambientLight
+# key: ambientLight
+# --
+ambientLight(${1:v1}, ${2:v2}, ${3:v3}${7:, ${4:x}, ${5:y}, ${0:z}});

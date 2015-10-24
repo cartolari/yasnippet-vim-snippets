@@ -1,0 +1,4 @@
+# name: ff:c
+# key: ff:c
+# --
+font-family: ${0:'Monotype Corsiva','Comic Sans MS'},cursive;

@@ -1,0 +1,7 @@
+# name: ifelif
+# key: ifelif
+# --
+if ($1)
+	$2
+else if ($3)
+	$0

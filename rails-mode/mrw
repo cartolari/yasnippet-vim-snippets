@@ -1,0 +1,4 @@
+# name: mrw
+# key: mrw
+# --
+mattr_accessor :${0:attr_names}

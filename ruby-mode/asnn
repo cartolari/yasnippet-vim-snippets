@@ -1,0 +1,4 @@
+# name: asnn
+# key: asnn
+# --
+assert_not_nil ${1:instance}

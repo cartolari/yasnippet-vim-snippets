@@ -1,0 +1,4 @@
+# name: iiexp
+# key: iiexp
+# --
+it { is_expected.to $0 }

@@ -1,0 +1,4 @@
+# name: scf
+# key: scf
+# --
+scope(failure) $1

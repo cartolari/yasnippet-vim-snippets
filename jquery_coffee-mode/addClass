@@ -1,0 +1,4 @@
+# name: addClass
+# key: addClass
+# --
+${1:obj}.addClass('${2:class name}')

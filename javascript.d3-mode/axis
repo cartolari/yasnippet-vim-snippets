@@ -1,0 +1,6 @@
+# name: axis
+# key: axis
+# --
+d3.svg.axis()
+  .orient($1)
+  .scale($2)

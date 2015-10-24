@@ -1,0 +1,4 @@
+# name: Disrej
+# key: Disrej
+# --
+${1:deferred}.isRejected()

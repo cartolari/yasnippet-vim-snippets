@@ -1,0 +1,6 @@
+# name: bef
+# key: bef
+# --
+before :${1:each} do
+	$0
+end

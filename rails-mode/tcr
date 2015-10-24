@@ -1,0 +1,5 @@
+# name: tcr
+# key: tcr
+# --
+t.references :${1:taggable}, polymorphic: { default: '${2:Photo}' }
+$0

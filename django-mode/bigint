@@ -1,0 +1,4 @@
+# name: bigint
+# key: bigint
+# --
+${1:FIELDNAME} = models.BigIntegerField($0)

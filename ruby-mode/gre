@@ -1,0 +1,4 @@
+# name: gre
+# key: gre
+# --
+grep(${1:/pattern/}) { |${2:match}| $0 }

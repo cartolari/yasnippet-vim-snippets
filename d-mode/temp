@@ -1,0 +1,6 @@
+# name: temp
+# key: temp
+# --
+template ${1:`(file-name-base)`}(${2:T}) {
+	$0
+}

@@ -1,0 +1,6 @@
+# name: fori
+# key: fori
+# --
+for ${1:needle} in ${2:haystack}; do
+	${0:#statements}
+done

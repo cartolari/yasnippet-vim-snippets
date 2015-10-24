@@ -1,0 +1,4 @@
+# name: ve
+# key: ve
+# --
+validates :${1:attribute}, exclusion: { in: ${0:%w( mov avi )} }

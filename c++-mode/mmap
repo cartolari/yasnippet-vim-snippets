@@ -1,0 +1,4 @@
+# name: mmap
+# key: mmap
+# --
+std::multimap<${1:Key}, ${2:T}> $3;

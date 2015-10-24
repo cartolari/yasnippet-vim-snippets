@@ -1,0 +1,6 @@
+# name: asrd
+# key: asrd
+# --
+assert_raise ${1:Exception} do
+	$0
+end

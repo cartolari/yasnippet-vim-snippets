@@ -1,0 +1,6 @@
+# name: nest
+# key: nest
+# --
+d3.nest()
+  .key($1)
+  .entries($2)

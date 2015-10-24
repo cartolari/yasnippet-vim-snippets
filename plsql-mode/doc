@@ -1,0 +1,6 @@
+# name: doc
+# key: doc
+# --
+/*
+ *	${0: comment ...}
+ */

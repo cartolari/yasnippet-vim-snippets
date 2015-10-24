@@ -1,0 +1,6 @@
+# name: m|
+# key: m|
+# --
+protected ${1:void} $2($3) {
+	$0
+}

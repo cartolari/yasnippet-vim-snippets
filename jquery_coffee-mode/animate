@@ -1,0 +1,4 @@
+# name: animate
+# key: animate
+# --
+${1:obj}.animate({${2:param1: value1, param2: value2}}, ${3:speed})

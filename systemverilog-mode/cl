@@ -1,0 +1,12 @@
+# name: cl
+# key: cl
+# --
+class ${1:class_name};
+	// data or class properties
+	$0
+
+	// initialization
+	function new();
+	endfunction : new
+
+endclass : $1

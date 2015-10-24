@@ -1,0 +1,4 @@
+# name: isei
+# key: isei
+# --
+it { should ensure_inclusion_of :$0 }

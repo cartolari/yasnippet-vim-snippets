@@ -1,0 +1,4 @@
+# name: Dnotifyw
+# key: Dnotifyw
+# --
+${1:deferred}.notifyWith(${2:this}, ${3:args})

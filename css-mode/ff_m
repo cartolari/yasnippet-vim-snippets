@@ -1,0 +1,4 @@
+# name: ff:m
+# key: ff:m
+# --
+font-family: ${0:Monaco,'Courier New'},monospace;

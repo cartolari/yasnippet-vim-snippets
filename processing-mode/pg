@@ -1,0 +1,5 @@
+# name: pg
+# key: pg
+# --
+PGraphics pg;
+pg = createGraphics(${1:width}, ${2:height}${3:, }${0:applet});

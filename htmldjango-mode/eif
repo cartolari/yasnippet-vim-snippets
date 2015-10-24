@@ -1,0 +1,5 @@
+# name: eif
+# key: eif
+# --
+{% elif $1 %}
+	$0

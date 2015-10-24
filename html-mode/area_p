@@ -1,0 +1,4 @@
+# name: area:p
+# key: area:p
+# --
+<area shape="poly" coords="$1" href="$2" alt="$0" />

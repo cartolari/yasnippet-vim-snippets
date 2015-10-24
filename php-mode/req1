@@ -1,0 +1,4 @@
+# name: req1
+# key: req1
+# --
+require_once '${1:file}';

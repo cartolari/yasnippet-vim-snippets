@@ -1,0 +1,4 @@
+# name: 3D
+# key: curveVertex
+# --
+curveVertex(${1:x}, ${2:y}, ${0:z});

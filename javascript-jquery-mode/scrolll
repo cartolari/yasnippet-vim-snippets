@@ -1,0 +1,4 @@
+# name: scrolll
+# key: scrolll
+# --
+${1:obj}.scrollLeft(${2:value})

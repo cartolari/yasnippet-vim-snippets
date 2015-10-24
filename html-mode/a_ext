@@ -1,0 +1,4 @@
+# name: a:ext
+# key: a:ext
+# --
+<a href="http://${1:example.com}">${0:$1}</a>

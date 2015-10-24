@@ -1,0 +1,4 @@
+# name: det
+# key: det
+# --
+detect { |${1:e}| $0 }

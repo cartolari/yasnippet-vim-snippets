@@ -1,0 +1,6 @@
+# name: fun
+# key: fun
+# --
+function ${2:function_name}($3)
+	$0
+end

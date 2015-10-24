@@ -1,0 +1,12 @@
+# name: @try
+# key: @try
+# --
+@try {
+	${1:statements}
+}
+@catch (NSException * e) {
+	${2:handler}
+}
+@finally {
+	${0:statements}
+}

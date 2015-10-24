@@ -1,0 +1,4 @@
+# name: Disres
+# key: Disres
+# --
+${1:deferred}.isResolved()

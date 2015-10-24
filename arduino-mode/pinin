@@ -1,0 +1,4 @@
+# name: pinin
+# key: pinin
+# --
+pinMode($1, INPUT);

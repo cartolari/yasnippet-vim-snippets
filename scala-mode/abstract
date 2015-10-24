@@ -1,0 +1,7 @@
+# name: abstract
+# key: abstract
+# --
+abstract class ${1:name}${2:(arg)}${3: extends }${4: with} {
+	${5:override def toString = "$1"}
+	$0
+}

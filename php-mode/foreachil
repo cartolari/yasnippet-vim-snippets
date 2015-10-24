@@ -1,0 +1,6 @@
+# name: foreachil
+# key: foreachil
+# --
+<?php foreach ($${1:variable} as $${2:value}): ?>
+	${0:<!-- html... -->}
+<?php endforeach; ?>

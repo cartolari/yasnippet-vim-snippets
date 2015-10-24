@@ -1,0 +1,13 @@
+# name: begin
+# key: begin
+# --
+begin
+	fail 'A test exception.'
+rescue Exception => e
+	puts e.message
+	puts e.backtrace.inspect
+else
+	# other exception
+ensure
+	# always executed
+end

@@ -1,0 +1,4 @@
+# name: nextu
+# key: nextu
+# --
+${1:obj}.nextUntil('${2:selector expression}'${3:, 'filter expression'})

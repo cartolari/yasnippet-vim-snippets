@@ -1,0 +1,4 @@
+# name: \frac{}{}
+# key: frac
+# --
+\frac{${1:num}}{${2:denom}} $0

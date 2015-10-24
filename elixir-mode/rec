@@ -1,0 +1,7 @@
+# name: rec
+# key: rec
+# --
+receive do
+	$1 ->
+		$0
+end

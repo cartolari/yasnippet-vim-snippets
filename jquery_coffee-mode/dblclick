@@ -1,0 +1,5 @@
+# name: dblclick
+# key: dblclick
+# --
+${1:obj}.dblclick (${2:e}) ->
+	${0:// event handler}

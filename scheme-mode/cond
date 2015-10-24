@@ -1,0 +1,5 @@
+# name: cond
+# key: cond
+# --
+(cond	((${1:predicate}) (${2:action}))
+		((${3:predicate}) (${0:action})))

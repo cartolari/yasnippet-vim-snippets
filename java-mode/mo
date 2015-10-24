@@ -1,0 +1,5 @@
+# name: mo
+# key: mo
+# --
+@ManyToOne
+$0

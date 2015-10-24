@@ -1,0 +1,25 @@
+# name: l_s
+# key: l_s
+# --
+/*!
+* \namespace $1
+* \class     $2
+*
+* \author    ${6:}
+* \date      
+*/
+
+namespace Services\\$1;
+
+use ${3:Repositories\\${4:Interface}};
+
+class ${2:} {
+	protected $${5:repo};
+
+	/*!
+	* \fn      __construct
+	*/
+	public function __construct($4 $repo) {
+		$this->$5 = $repo;
+	}
+}

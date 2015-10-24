@@ -1,0 +1,4 @@
+# name: mars
+# key: mars
+# --
+around_save :${0:method}

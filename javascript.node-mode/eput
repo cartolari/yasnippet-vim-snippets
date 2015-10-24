@@ -1,0 +1,4 @@
+# name: eput
+# key: eput
+# --
+${1:app}.put('${2:route}', ${3:handler});

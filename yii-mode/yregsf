@@ -1,0 +1,4 @@
+# name: yregsf
+# key: yregsf
+# --
+Yii::app()->clientScript->registerScriptFile('${1:scriptUrl}', CClientScript::POS_${0:END});

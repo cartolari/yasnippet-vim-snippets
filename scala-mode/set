@@ -1,0 +1,4 @@
+# name: set
+# key: set
+# --
+Set${1:[T]}${0:()}

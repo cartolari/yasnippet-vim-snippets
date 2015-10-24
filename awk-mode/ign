@@ -1,0 +1,4 @@
+# name: IGNORECASE
+# key: ign
+# --
+IGNORECASE = ${1:1}

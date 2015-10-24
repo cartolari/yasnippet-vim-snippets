@@ -1,0 +1,4 @@
+# name: isnum
+# key: isnum
+# --
+isNumeric!${1:N}

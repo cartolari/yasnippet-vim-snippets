@@ -1,0 +1,6 @@
+# name: cath
+# key: cath
+# --
+@interface ${1:`(file-name-base)`} (${2:MyCategory})
+$0
+@end

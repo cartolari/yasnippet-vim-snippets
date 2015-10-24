@@ -1,0 +1,11 @@
+# name: doc_h
+# key: doc_h
+# --
+/**
+ * $1
+ *
+ * @author ${2:`"Name"`}
+ * @version ${3:$Id$}
+ * @copyright ${4:$2}, 
+ * @package ${0:default}
+ */

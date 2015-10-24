@@ -1,0 +1,4 @@
+# name: fftf
+# key: fftf
+# --
+<%= ${1:f}.text_field :${0:attribute} %>

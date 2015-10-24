@@ -1,0 +1,4 @@
+# name: mp
+# key: mp
+# --
+map(&:${0:id})

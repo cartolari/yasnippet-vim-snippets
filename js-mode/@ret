@@ -1,0 +1,4 @@
+# name: @ret
+# key: @ret
+# --
+@return {${1:type}} ${0:description}

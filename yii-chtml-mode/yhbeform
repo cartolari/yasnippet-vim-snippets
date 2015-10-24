@@ -1,0 +1,6 @@
+# name: yhbeform
+# key: yhbeform
+# --
+echo CHtml::beginForm(array('$1'), '${2:post}',array('${3:optionName}'=>${4:optionValue}));
+$0
+echo CHtml::endForm();

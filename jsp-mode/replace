@@ -1,0 +1,4 @@
+# name: replace
+# key: replace
+# --
+${fn:replace(${1:string}, ${2:substr}, ${0:replace})}

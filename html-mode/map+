@@ -1,0 +1,6 @@
+# name: map+
+# key: map+
+# --
+<map name="$1">
+	<area shape="$2" coords="$3" href="$4" alt="$5" />$6
+</map>

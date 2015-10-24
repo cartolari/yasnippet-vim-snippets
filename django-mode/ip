@@ -1,0 +1,4 @@
+# name: ip
+# key: ip
+# --
+${1:FIELDNAME} = models.IPAddressField($0)

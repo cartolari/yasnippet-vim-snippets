@@ -1,0 +1,7 @@
+# name: select+
+# key: select+
+# --
+<select name="$1" id="${2:$1}">
+	<option value="$3">${4:$3}</option>
+	opt+$0
+</select>

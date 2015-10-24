@@ -1,0 +1,13 @@
+# name: epydoc
+# key: epydoc
+# --
+"""${1:Description}
+
+@param ${2:param}: ${3: Description}
+@type  $2: ${4: Type}
+
+@return: ${5: Description}
+@rtype : ${6: Type}
+
+@raise e: ${0: Description}
+"""

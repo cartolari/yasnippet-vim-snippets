@@ -1,0 +1,4 @@
+# name: loo
+# key: loo
+# --
+loop { $0 }

@@ -1,0 +1,4 @@
+# name: remd
+# key: remd
+# --
+${1:obj}.removeData('${2:key name}')

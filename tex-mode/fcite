@@ -1,0 +1,4 @@
+# name: \footcite[]{}
+# key: fcite
+# --
+\footcite[$1]{$2}$0

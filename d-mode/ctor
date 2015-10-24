@@ -1,0 +1,6 @@
+# name: ctor
+# key: ctor
+# --
+this($1) {
+	$0
+} 

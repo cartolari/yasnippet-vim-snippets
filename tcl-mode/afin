@@ -1,0 +1,4 @@
+# name: afin
+# key: afin
+# --
+after info ${0:id}

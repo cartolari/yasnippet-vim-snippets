@@ -1,0 +1,4 @@
+# name: remdd
+# key: remdd
+# --
+$.removeData(${1:element}${2:, 'key name}')

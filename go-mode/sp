@@ -1,0 +1,4 @@
+# name: sp
+# key: sp
+# --
+fmt.Sprintf("%${1:s}", ${2:var})

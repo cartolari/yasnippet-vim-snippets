@@ -1,0 +1,4 @@
+# name: unhex
+# key: unhex
+# --
+unhex(${0:c});

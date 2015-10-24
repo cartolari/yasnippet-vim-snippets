@@ -1,0 +1,4 @@
+# name: hasd
+# key: hasd
+# --
+$.hasData('${0:selector expression}')

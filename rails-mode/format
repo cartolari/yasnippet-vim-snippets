@@ -1,0 +1,4 @@
+# name: format
+# key: format
+# --
+format.${1:js|xml|html} { $0 }

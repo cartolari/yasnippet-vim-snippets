@@ -1,0 +1,4 @@
+# name: maf
+# key: maf
+# --
+after_find :${0:method}

@@ -1,0 +1,4 @@
+# name: ini
+# key: ini
+# --
+INITIAL ${0:?}

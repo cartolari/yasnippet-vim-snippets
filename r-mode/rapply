@@ -1,0 +1,4 @@
+# name: rapply
+# key: rapply
+# --
+rapply(${1:list}, ${0:function})

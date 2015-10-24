@@ -1,0 +1,4 @@
+# name: as
+# key: as
+# --
+assert ${1:test} : "${2:Failure message}";

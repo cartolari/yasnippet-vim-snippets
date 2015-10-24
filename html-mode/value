@@ -1,0 +1,4 @@
+# name: value
+# key: value
+# --
+value="$1"

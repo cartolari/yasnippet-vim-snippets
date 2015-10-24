@@ -1,0 +1,4 @@
+# name: yispost
+# key: yispost
+# --
+Yii::app()->request->isPostRequest

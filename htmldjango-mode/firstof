@@ -1,0 +1,4 @@
+# name: firstof
+# key: firstof
+# --
+{% firstof $1 %}

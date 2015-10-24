@@ -1,0 +1,8 @@
+# name: function
+# key: fun
+# --
+function $1($2) return $3 is
+	$4
+begin
+	$0
+end $1;

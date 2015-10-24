@@ -1,0 +1,4 @@
+# name: clone
+# key: clone
+# --
+${1:obj}.clone()

@@ -1,0 +1,4 @@
+# name: pgbb:a
+# key: pgbb:a
+# --
+page-break-before: auto;

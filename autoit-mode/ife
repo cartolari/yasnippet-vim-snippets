@@ -1,0 +1,8 @@
+# name: ife
+# key: ife
+# --
+If ${1:condition} Then
+	${2:; True code}
+Else
+	${0:; Else code}
+EndIf

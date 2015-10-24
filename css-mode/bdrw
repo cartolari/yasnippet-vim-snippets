@@ -1,0 +1,4 @@
+# name: bdrw
+# key: bdrw
+# --
+border-right-width: $0;

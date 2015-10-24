@@ -1,0 +1,4 @@
+# name: lang
+# key: lang
+# --
+{-# LANGUAGE ${0:OverloadedStrings} #-}

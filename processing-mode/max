@@ -1,0 +1,4 @@
+# name: array
+# key: max
+# --
+max(${0:array});

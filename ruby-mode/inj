@@ -1,0 +1,4 @@
+# name: inj
+# key: inj
+# --
+inject(${1:init}) { |${2:mem}, ${3:var}| $0 }

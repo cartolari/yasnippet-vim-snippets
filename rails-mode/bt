@@ -1,0 +1,4 @@
+# name: bt
+# key: bt
+# --
+belongs_to :${0:association}

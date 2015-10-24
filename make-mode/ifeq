@@ -1,0 +1,6 @@
+# name: ifeq
+# key: ifeq
+# --
+ifeq (${1:cond0}, ${2:cond1})
+	$0
+endif

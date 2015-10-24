@@ -1,0 +1,5 @@
+# name: cau:
+# key: cau:
+# --
+.. caution::
+	${0:Watch out!}

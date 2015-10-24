@@ -1,0 +1,4 @@
+# name: underline text
+# key: under
+# --
+\underline{${0:text}}

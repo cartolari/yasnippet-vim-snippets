@@ -1,0 +1,5 @@
+# name: err
+# key: err
+# --
+error("$1")
+$0

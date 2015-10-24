@@ -1,0 +1,6 @@
+# name: wh
+# key: wh
+# --
+while ${1:condition}; do
+	${0:# statements}
+done

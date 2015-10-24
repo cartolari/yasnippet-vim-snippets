@@ -1,0 +1,6 @@
+# name: foreach
+# key: foreach
+# --
+foreach ($${1:variable} as $${2:value}) {
+	$0
+}

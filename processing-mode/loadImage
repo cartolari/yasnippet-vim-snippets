@@ -1,0 +1,4 @@
+# name: loadImage
+# key: loadImage
+# --
+loadImage(${0:filename});

@@ -1,0 +1,4 @@
+# name: crit
+# key: crit
+# --
+crit("${1:message}")

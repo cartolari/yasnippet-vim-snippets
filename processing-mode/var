@@ -1,0 +1,4 @@
+# name: var
+# key: var
+# --
+${1:private/public }${2:static }${3:String} ${4:str}${5: =}${0:value};

@@ -1,0 +1,6 @@
+# name: expect
+# key: expect
+# --
+expect(${1:what}) {
+	$0
+}

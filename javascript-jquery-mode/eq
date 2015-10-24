@@ -1,0 +1,4 @@
+# name: eq
+# key: eq
+# --
+${1:obj}.eq(${2:element index})

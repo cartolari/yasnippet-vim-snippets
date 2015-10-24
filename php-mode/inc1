@@ -1,0 +1,4 @@
+# name: inc1
+# key: inc1
+# --
+include_once '${1:file}';

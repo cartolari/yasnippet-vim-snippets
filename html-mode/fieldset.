@@ -1,0 +1,6 @@
+# name: fieldset.
+# key: fieldset.
+# --
+<fieldset class="$1">
+	$0
+</fieldset>

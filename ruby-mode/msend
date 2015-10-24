@@ -1,0 +1,4 @@
+# name: msend
+# key: msend
+# --
+must_send [ ${1:what}, :${2:method}, ${3:args} ]

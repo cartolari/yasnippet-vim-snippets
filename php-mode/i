@@ -1,0 +1,7 @@
+# name: i
+# key: i
+# --
+interface ${1:}
+{
+	$0
+}

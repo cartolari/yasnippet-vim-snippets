@@ -1,0 +1,6 @@
+# name: text
+# key: text
+# --
+<%text>
+	${0:}
+</%text>

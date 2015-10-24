@@ -1,0 +1,4 @@
+# name: Dpipe
+# key: Dpipe
+# --
+${1:deferred}.then(${2:doneFilter}, ${3:failFilter}, ${4:progressFilter})

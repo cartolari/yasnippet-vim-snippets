@@ -1,0 +1,4 @@
+# name: reference to a page
+# key: page
+# --
+${1:page}~\pageref{$2} $0

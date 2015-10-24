@@ -1,0 +1,4 @@
+# name: prevu
+# key: prevu
+# --
+${1:obj}.prevUntil('${2:selector expression}'${3:, 'filter expression'})

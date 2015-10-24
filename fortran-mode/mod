@@ -1,0 +1,6 @@
+# name: mod
+# key: mod
+# --
+module ${1:modulename}
+	$0
+end module $1

@@ -1,0 +1,4 @@
+# name: audio
+# key: audio
+# --
+<audio src="$1>$0</audio>

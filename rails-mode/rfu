@@ -1,0 +1,4 @@
+# name: rfu
+# key: rfu
+# --
+render file: '${1:filepath}', use_full_path: ${0:false}

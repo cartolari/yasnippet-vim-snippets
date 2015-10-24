@@ -1,0 +1,4 @@
+# name: xml-
+# key: xml-
+# --
+REXML::Document.new(File.read('${1:path/to/file}'))

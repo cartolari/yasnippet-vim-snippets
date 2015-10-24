@@ -1,0 +1,7 @@
+# name: optgroup
+# key: optgroup
+# --
+<optgroup>
+	<option value="$1">${2:$1}</option>
+	opt+$0
+</optgroup>

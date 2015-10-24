@@ -1,0 +1,6 @@
+# name: eapd
+# key: eapd
+# --
+each_pair do |${1:name}, ${2:val}|
+	$0
+end

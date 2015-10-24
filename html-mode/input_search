@@ -1,0 +1,4 @@
+# name: input:search
+# key: input:search
+# --
+<input type="search" name="$1" id="${2:$1}" value="$3" />

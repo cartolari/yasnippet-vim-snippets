@@ -1,0 +1,4 @@
+# name: @fi
+# key: @fi
+# --
+@file ${0:`(file-name-base)`}.java

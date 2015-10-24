@@ -1,0 +1,6 @@
+# name: mb|
+# key: mb|
+# --
+protected bool $1($2) {
+	${0:return false;}
+}

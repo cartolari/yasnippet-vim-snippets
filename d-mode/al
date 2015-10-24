@@ -1,0 +1,5 @@
+# name: al
+# key: al
+# --
+alias ${1:b} = ${2:a};
+$0

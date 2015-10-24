@@ -1,0 +1,4 @@
+# name: mk
+# key: mk
+# --
+make(${1:[]string}, ${0:0})

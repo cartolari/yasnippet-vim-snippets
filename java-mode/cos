@@ -1,0 +1,4 @@
+# name: cos
+# key: cos
+# --
+static public final String ${1:var} = "$2";

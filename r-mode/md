@@ -1,0 +1,4 @@
+# name: md
+# key: md
+# --
+mdply(${1:matrix}, ${0:function})

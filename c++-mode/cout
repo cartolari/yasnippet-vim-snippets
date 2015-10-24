@@ -1,0 +1,4 @@
+# name: cout
+# key: cout
+# --
+std::cout << $1 << std::endl;

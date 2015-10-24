@@ -1,0 +1,4 @@
+# name: wob:l
+# key: wob:l
+# --
+word-break: loose;

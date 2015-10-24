@@ -1,0 +1,6 @@
+# name: qu
+# key: qu
+# --
+quote do
+	$1
+end

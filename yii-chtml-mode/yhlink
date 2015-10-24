@@ -1,0 +1,4 @@
+# name: yhlink
+# key: yhlink
+# --
+echo CHtml::link('${1:text}',array($2),array('${3:optionName}'=>${0:optionValue}));

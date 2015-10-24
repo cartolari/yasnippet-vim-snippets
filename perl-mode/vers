@@ -1,0 +1,7 @@
+# name: vers
+# key: vers
+# --
+## no critic
+our $VERSION = '${0:version}';
+eval $VERSION;
+## use critic

@@ -1,0 +1,4 @@
+# name: yhhf
+# key: yhhf
+# --
+echo CHtml::hiddenField('${1:name}', '${2:value}',array('${3:optionName}'=>${0:optionValue}));

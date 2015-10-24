@@ -1,0 +1,4 @@
+# name: :nc
+# key: :nc
+# --
+:nth-child($0)

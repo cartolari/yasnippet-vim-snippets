@@ -1,0 +1,4 @@
+# name: saveFrame
+# key: saveFrame
+# --
+saveFrame("${1:filename-####}${0:.ext}");

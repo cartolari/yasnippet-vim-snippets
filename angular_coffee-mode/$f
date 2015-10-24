@@ -1,0 +1,5 @@
+# name: $f
+# key: $f
+# --
+$scope.${1:functionName} = (${2:args}) ->
+	$3

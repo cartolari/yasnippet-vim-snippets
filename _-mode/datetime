@@ -1,0 +1,4 @@
+# name: datetime
+# key: datetime
+# --
+`(format-time-string "%Y-%m-%d %H:%M")`

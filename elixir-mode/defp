@@ -1,0 +1,6 @@
+# name: defp
+# key: defp
+# --
+defp ${1:name} do
+	$0
+end

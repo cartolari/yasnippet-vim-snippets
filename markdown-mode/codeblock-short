@@ -1,0 +1,6 @@
+# name: codeblock-short
+# key: codeblock-short
+# --
+{% codeblock %}
+${0:code_snippet}
+{% endcodeblock %}

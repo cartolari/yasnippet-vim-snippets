@@ -1,0 +1,4 @@
+# name: md
+# key: md
+# --
+- (${1:id})${2:method};

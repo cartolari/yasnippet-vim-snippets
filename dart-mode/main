@@ -1,0 +1,6 @@
+# name: main
+# key: main
+# --
+static void main() {
+  $0
+}

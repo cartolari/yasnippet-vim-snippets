@@ -1,0 +1,4 @@
+# name: yharb
+# key: yharb
+# --
+echo CHtml::activeRadioButton(${1:model}, '${2:attribute}',array('${3:optionName}'=>${0:optionValue}));

@@ -1,0 +1,4 @@
+# name: length
+# key: length
+# --
+${fn:length(${0:collection_or_string})}

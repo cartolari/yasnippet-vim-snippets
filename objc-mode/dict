@@ -1,0 +1,4 @@
+# name: dict
+# key: dict
+# --
+NSMutableDictionary *${1:dict} = [NSMutableDictionary dictionary];

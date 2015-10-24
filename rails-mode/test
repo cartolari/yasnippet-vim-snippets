@@ -1,0 +1,6 @@
+# name: test
+# key: test
+# --
+test 'should ${1:do something}' do
+	$0
+end

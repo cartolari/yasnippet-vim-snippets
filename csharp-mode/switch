@@ -1,0 +1,7 @@
+# name: switch
+# key: switch
+# --
+switch (${1:switch_on}) {
+	$0
+	default:
+}

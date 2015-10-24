@@ -1,0 +1,4 @@
+# name: bdw
+# key: bdw
+# --
+border-width $0

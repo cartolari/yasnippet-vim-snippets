@@ -1,0 +1,4 @@
+# name: pgbi
+# key: pgbi
+# --
+page-break-inside: $0;

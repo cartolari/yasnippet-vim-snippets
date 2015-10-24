@@ -1,0 +1,4 @@
+# name: lim
+# key: lim
+# --
+<%= link_to ${1:model}.${2:name}, ${3:$1}_path(${0:$1}) %>

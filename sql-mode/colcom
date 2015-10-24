@@ -1,0 +1,4 @@
+# name: colcom
+# key: colcom
+# --
+comment on column ${1:table}.${2:column} is '${0:comment}';

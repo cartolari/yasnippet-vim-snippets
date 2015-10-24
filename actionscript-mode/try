@@ -1,0 +1,10 @@
+# name: try
+# key: try
+# --
+try {
+	$1
+} catch (error:ErrorType) {
+	$2
+} finally {
+	$0
+}

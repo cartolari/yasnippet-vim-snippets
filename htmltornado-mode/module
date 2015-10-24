@@ -1,0 +1,4 @@
+# name: module
+# key: module
+# --
+{% module ${0:expression} %}

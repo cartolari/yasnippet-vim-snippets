@@ -1,0 +1,4 @@
+# name: cos
+# key: cos
+# --
+cos(${0:rad});

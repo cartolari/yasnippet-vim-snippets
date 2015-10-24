@@ -1,0 +1,6 @@
+# name: conf
+# key: conf
+# --
+<% content_for :${1:head} do %>
+	$0
+<% end %>

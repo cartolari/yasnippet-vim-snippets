@@ -1,0 +1,4 @@
+# name: op:ie
+# key: op:ie
+# --
+filter progid:DXImageTransform.Microsoft.Alpha(Opacity=${0:100})

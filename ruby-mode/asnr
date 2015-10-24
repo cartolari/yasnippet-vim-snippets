@@ -1,0 +1,4 @@
+# name: asnr
+# key: asnr
+# --
+assert_nothing_raised ${1:Exception} { $0 }

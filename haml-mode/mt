@@ -1,0 +1,4 @@
+# name: mt
+# key: mt
+# --
+= mail_to ${1:email_address}, ${2:name}

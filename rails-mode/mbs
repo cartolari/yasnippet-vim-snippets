@@ -1,0 +1,4 @@
+# name: mbs
+# key: mbs
+# --
+before_save :${0:method}

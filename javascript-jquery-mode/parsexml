@@ -1,0 +1,4 @@
+# name: parsexml
+# key: parsexml
+# --
+$.parseXML(${1:data})

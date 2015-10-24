@@ -1,0 +1,4 @@
+# name: ba
+# key: ba
+# --
+before_action :${0:method}

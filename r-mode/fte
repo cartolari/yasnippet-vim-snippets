@@ -1,0 +1,4 @@
+# name: fte
+# key: fte
+# --
+var.test(${1:x}, ${0:y})

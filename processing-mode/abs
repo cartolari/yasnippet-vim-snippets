@@ -1,0 +1,4 @@
+# name: abs
+# key: abs
+# --
+abs(${0:value});

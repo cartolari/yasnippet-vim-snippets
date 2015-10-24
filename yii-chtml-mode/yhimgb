@@ -1,0 +1,4 @@
+# name: yhimgb
+# key: yhimgb
+# --
+echo CHtml::imageButton('${1:src}',array('${2:optionName}'=>${0:optionValue}));

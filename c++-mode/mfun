@@ -1,0 +1,6 @@
+# name: mfun
+# key: mfun
+# --
+${4:void} ${1:`(file-name-base)`}::${2:memberFunction}($3) {
+	$0
+}

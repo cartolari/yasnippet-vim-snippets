@@ -1,0 +1,6 @@
+# name: "Function definition"
+# key: pfn
+# --
+pub fn ${1:function_name}($2)$3 {
+	$0
+}

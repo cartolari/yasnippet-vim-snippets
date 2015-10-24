@@ -1,0 +1,4 @@
+# name: input:email
+# key: input:email
+# --
+<input type="email" name="$1" id="${2:$1}" value="$3" />

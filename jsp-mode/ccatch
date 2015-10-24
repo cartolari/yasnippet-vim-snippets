@@ -1,0 +1,4 @@
+# name: ccatch
+# key: ccatch
+# --
+<c:catch var="$0" />

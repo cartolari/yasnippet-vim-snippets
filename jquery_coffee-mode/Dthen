@@ -1,0 +1,4 @@
+# name: Dthen
+# key: Dthen
+# --
+${1:deferred}.then(${2:doneCallbacks}, ${3:failCallbacks}, ${4:progressCallbacks})

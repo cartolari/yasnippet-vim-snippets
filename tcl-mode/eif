@@ -1,0 +1,6 @@
+# name: eif
+# key: eif
+# --
+elseif {$1} {
+	$0
+}

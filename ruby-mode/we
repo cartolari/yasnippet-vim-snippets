@@ -1,0 +1,4 @@
+# name: we
+# key: we
+# --
+wont_equal ${0:other}

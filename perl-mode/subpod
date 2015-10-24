@@ -1,0 +1,12 @@
+# name: subpod
+# key: subpod
+# --
+=head2 $1
+
+Summary of $1
+
+=cut
+
+sub ${1:subroutine_name} {
+	$0
+}

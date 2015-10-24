@@ -1,0 +1,8 @@
+# name: asub
+# key: asub
+# --
+sub {
+	$0
+}
+
+

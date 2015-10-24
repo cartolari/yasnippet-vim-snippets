@@ -1,0 +1,4 @@
+# name: td.
+# key: td.
+# --
+<td class="$1">$0</td>

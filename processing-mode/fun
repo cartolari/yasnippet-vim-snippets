@@ -1,0 +1,7 @@
+# name: fun
+# key: fun
+# --
+${1:void/private/protected/public}${2: static} ${3:name}($4) {
+	${5://if not void return null;}
+}
+$0

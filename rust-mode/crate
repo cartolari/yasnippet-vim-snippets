@@ -1,0 +1,11 @@
+# name: "Define create meta attributes"
+# key: crate
+# --
+// Crate name
+#![crate_name = "${1:crate_name}"]
+// Additional metadata attributes
+#![desc = "${2:Descrption.}"]
+#![license = "${3:BSD}"]
+#![comment = "${4:Comment.}"]
+// Specify the output type
+#![crate_type = "${5:lib}"]

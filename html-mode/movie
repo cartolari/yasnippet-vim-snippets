@@ -1,0 +1,14 @@
+# name: movie
+# key: movie
+# --
+<object width="$2" height="$3" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+codebase="http://www.apple.com/qtactivex/qtplugin.cab">
+	<param name="src" value="$1" />
+	<param name="controller" value="$4" />
+	<param name="autoplay" value="$5" />
+	<embed src="${1:movie.mov}"
+		width="${2:320}" height="${3:240}"
+		controller="${4:true}" autoplay="${5:true}"
+		scale="tofit" cache="true"
+		pluginspage="http://www.apple.com/quicktime/download/" />
+</object>

@@ -1,0 +1,9 @@
+# name: service
+# key: service
+# --
+service { "${1:service}" :
+	ensure    => running,
+	enable    => true,
+	require   => [ Package["${2:package}"], File["${3:file}"], ],
+	subscribe => [ File["${4:configfile1}"], File["${5:configfile2}"], Package["${6:package}"], ],
+}

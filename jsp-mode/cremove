@@ -1,0 +1,4 @@
+# name: cremove
+# key: cremove
+# --
+<c:remove var="$1" scope="${0:page}" />

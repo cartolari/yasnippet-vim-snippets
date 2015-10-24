@@ -1,0 +1,4 @@
+# name: defvar
+# key: defvar
+# --
+DEFINE VARIABLE ${1:VariableName} AS $0.

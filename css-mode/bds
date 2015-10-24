@@ -1,0 +1,4 @@
+# name: bds
+# key: bds
+# --
+border-style: $0;

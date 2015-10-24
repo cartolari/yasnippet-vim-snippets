@@ -1,0 +1,4 @@
+# name: sorb
+# key: sorb
+# --
+sort_by { |${1:e}| $0 }

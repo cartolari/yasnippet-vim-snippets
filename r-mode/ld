@@ -1,0 +1,4 @@
+# name: ld
+# key: ld
+# --
+ldply(${1:list}, ${0:function})

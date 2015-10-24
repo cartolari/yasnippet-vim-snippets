@@ -1,0 +1,4 @@
+# name: yheca
+# key: yheca
+# --
+echo CHtml::encodeArray(array($0));

@@ -1,0 +1,6 @@
+# name: on
+# key: on
+# --
+on('${1:event_name}', function(${2:stream}) {
+  $3
+});

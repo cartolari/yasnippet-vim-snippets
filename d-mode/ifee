@@ -1,0 +1,10 @@
+# name: ifee
+# key: ifee
+# --
+if($1) {
+	$2	
+} else if($3) {
+	$4
+} else {
+	$5
+}

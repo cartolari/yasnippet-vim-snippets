@@ -1,0 +1,4 @@
+# name: in
+# key: in
+# --
+interface ${1:`(file-name-base)`} ${2:extends Parent}

@@ -1,0 +1,6 @@
+# name: forin
+# key: forin
+# --
+for ${1:element} in ${2:container}
+	$0
+end

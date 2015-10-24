@@ -1,0 +1,6 @@
+# name: scroll
+# key: scroll
+# --
+${1:obj}.scroll(function (${2:e}) {
+	${0:// event handler}
+});

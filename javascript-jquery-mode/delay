@@ -1,0 +1,4 @@
+# name: delay
+# key: delay
+# --
+${1:obj}.delay('${2:slow/400/fast}'${3:, 'queue name'})

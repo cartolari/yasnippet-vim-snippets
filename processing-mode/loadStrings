@@ -1,0 +1,4 @@
+# name: loadStrings
+# key: loadStrings
+# --
+loadStrings("${0:filename}");

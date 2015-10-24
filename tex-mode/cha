@@ -1,0 +1,6 @@
+# name: \chapter
+# key: cha
+# --
+\chapter{${1:chapter name}}
+\label{cha:${2:$1}}
+$0

@@ -1,0 +1,9 @@
+# name: "Test module" b
+# key: testmod
+# --
+#[cfg(test)]
+mod tests {
+	use super::${1:*};
+
+	test$0
+}

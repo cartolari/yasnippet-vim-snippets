@@ -1,0 +1,4 @@
+# name: min
+# key: min
+# --
+min { |a, b| $0 }

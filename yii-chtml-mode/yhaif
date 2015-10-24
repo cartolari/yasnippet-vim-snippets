@@ -1,0 +1,4 @@
+# name: yhaif
+# key: yhaif
+# --
+echo CHtml::activeInputField('${1:type}', ${2:model}, '${3:attribute}',array('${4:optionName}'=>${0:optionValue}));

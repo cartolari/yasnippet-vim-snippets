@@ -1,0 +1,4 @@
+# name: yhajl
+# key: yhajl
+# --
+echo CHtml::ajaxLink('${1:label}', '${2:url}',array('${3:ajaxOptionName}'=>${4:ajaxOptionValue}),array('${5:optionName}'=>${0:optionValue}));

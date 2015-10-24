@@ -1,0 +1,4 @@
+# name: wob:bs
+# key: wob:bs
+# --
+word-break: break-strict;

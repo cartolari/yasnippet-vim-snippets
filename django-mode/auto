@@ -1,0 +1,4 @@
+# name: auto
+# key: auto
+# --
+${1:FIELDNAME} = models.AutoField($0)

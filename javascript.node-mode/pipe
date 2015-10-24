@@ -1,0 +1,4 @@
+# name: pipe
+# key: pipe
+# --
+pipe(${1:stream})$2

@@ -1,0 +1,4 @@
+# name: stdout
+# key: stdout
+# --
+process.stdout

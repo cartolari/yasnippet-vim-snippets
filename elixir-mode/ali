@@ -1,0 +1,4 @@
+# name: ali
+# key: ali
+# --
+alias ${0:module_name}

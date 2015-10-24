@@ -1,0 +1,6 @@
+# name: fei
+# key: fei
+# --
+foreach(${1:i}, ${2:elem}; ${3:range}) {
+	$0	
+} 

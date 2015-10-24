@@ -1,0 +1,4 @@
+# name: select
+# key: variable
+# --
+<xsl:variable select="${1:*}" />

@@ -1,0 +1,6 @@
+# name: BEGINFILE { ... }
+# key: begf
+# --
+BEGINFILE {
+	$0
+}

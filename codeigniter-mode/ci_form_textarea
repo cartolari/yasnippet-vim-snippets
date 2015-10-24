@@ -1,0 +1,4 @@
+# name: ci_form_textarea
+# key: ci_form_textarea
+# --
+form_textarea("${1:name}", "${2:value}");$3

@@ -1,0 +1,4 @@
+# name: yield
+# key: yield
+# --
+<%= yield ${1::content_symbol} %>

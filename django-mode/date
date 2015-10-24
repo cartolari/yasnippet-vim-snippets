@@ -1,0 +1,4 @@
+# name: date
+# key: date
+# --
+${1:FIELDNAME} = models.DateField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})

@@ -1,0 +1,4 @@
+# name: nw
+# key: nw
+# --
+new(${0:type})

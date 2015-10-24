@@ -1,0 +1,4 @@
+# name: float
+# key: float
+# --
+${1:FIELDNAME} = models.FloatField($0)

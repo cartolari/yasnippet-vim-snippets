@@ -1,0 +1,4 @@
+# name: curveTightness
+# key: curveTightness
+# --
+curveTightness(${0:squishy});

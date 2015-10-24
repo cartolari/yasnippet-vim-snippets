@@ -1,0 +1,4 @@
+# name: Crem
+# key: Crem
+# --
+${1:callbacks}.remove(${2:callbacks})

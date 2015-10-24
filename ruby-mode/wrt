@@ -1,0 +1,4 @@
+# name: wrt
+# key: wrt
+# --
+wont_respond_to :${0:method}

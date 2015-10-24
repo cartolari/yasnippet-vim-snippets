@@ -1,0 +1,11 @@
+# name: try
+# key: try
+# --
+try {
+	$1
+} catch {
+	case e: FileNotFoundException => $2
+	case e: IOException => $3
+} finally {
+	$0
+}

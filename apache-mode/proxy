@@ -1,0 +1,6 @@
+# name: proxy
+# key: proxy
+# --
+<Proxy ${1:*}>
+	$0
+</Proxy>

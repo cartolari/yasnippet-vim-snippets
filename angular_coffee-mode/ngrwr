@@ -1,0 +1,9 @@
+# name: ngrwr
+# key: ngrwr
+# --
+$routeProvider.when '${1:url}',
+	templateUrl: '${2:templateUrl}'
+	controller: '${3:controller}'
+	resolve:
+		$4
+$5

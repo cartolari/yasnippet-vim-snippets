@@ -1,0 +1,10 @@
+# name: try
+# key: try
+# --
+{% try %}
+  $1
+{% except %}
+  $2
+{% finallly %}
+  $0
+{% end %}

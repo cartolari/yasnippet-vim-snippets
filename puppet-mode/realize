@@ -1,0 +1,4 @@
+# name: realize
+# key: realize
+# --
+realize(${1:Resource}[${2:name}])

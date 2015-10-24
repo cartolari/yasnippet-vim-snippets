@@ -1,0 +1,6 @@
+# name: fore
+# key: fore
+# --
+for (${1:auto} ${2:i} : ${3:container}) {
+	$4
+}

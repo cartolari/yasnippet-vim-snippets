@@ -1,0 +1,7 @@
+# name: dowh
+# key: dowh
+# --
+while True:
+	$1
+	if ${0:condition}:
+		break

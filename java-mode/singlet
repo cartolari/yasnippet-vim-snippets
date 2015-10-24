@@ -1,0 +1,12 @@
+# name: singlet
+# key: singlet
+# --
+private static class Holder {
+	private static final ${1:`(file-name-base)`} INSTANCE = new $1();
+}
+
+private $1() { }
+
+public static $1 getInstance() {
+	return Holder.INSTANCE;
+}

@@ -1,0 +1,4 @@
+# name: defined
+# key: defined
+# --
+defined(${1:Resource}["${2:name}"])

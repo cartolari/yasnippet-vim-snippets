@@ -1,0 +1,5 @@
+# name: psi
+# key: psi
+# --
+private static immutable ${1:int} ${2:Constant} = ${3:1};
+$0

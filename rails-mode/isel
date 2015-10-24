@@ -1,0 +1,4 @@
+# name: isel
+# key: isel
+# --
+it { should ensure_length_of :$0 }

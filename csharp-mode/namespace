@@ -1,0 +1,6 @@
+# name: namespace
+# key: namespace
+# --
+namespace ${1:MyNamespace} {
+	$0
+}

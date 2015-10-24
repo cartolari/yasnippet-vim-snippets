@@ -1,0 +1,4 @@
+# name: hrefc
+# key: hrefc
+# --
+\href{}{$1} $0

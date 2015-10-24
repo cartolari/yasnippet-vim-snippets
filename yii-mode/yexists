@@ -1,0 +1,4 @@
+# name: yexists
+# key: yexists
+# --
+${1:ModelName}::model()->exists(${2:condition}, array('${3:key}'=>${0:value}));

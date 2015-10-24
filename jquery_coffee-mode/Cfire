@@ -1,0 +1,4 @@
+# name: Cfire
+# key: Cfire
+# --
+${1:callbacks}.fire(${2:args})

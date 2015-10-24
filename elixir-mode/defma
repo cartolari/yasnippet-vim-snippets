@@ -1,0 +1,6 @@
+# name: defma
+# key: defma
+# --
+defmacro ${1:name} do
+	$0
+end

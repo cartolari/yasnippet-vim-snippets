@@ -1,0 +1,4 @@
+# name: asi
+# key: asi
+# --
+assert_includes ${1:collection}, ${2:object}

@@ -1,0 +1,4 @@
+# name: lapply
+# key: lapply
+# --
+lapply(${1:list}, ${0:function})

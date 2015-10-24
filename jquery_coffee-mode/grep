@@ -1,0 +1,6 @@
+# name: grep
+# key: grep
+# --
+$.grep(${1:array}, (item, index) >
+	$2
+${0:, true})

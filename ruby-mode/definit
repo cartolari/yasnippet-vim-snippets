@@ -1,0 +1,6 @@
+# name: definit
+# key: definit
+# --
+def initialize(${1:args})
+	$0
+end

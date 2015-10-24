@@ -1,0 +1,6 @@
+# name: test
+# key: test
+# --
+test("${1:description}") {
+	$0
+}

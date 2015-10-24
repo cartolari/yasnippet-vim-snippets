@@ -1,0 +1,4 @@
+# name: log
+# key: log
+# --
+NSLog(@"${1:%@}"$2);

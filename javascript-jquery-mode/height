@@ -1,0 +1,4 @@
+# name: height
+# key: height
+# --
+${1:obj}.height(${2:integer})

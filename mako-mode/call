@@ -1,0 +1,6 @@
+# name: call
+# key: call
+# --
+<%call expr="${1:name}">
+	${0:}
+</%call>

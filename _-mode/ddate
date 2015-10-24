@@ -1,0 +1,4 @@
+# name: ddate
+# key: ddate
+# --
+`(format-time-string "%B %d, %Y")`

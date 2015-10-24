@@ -1,0 +1,6 @@
+# name: fors
+# key: fors
+# --
+for ${1:rec} in (${2: select}) loop
+	$0
+end loop;

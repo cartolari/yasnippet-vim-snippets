@@ -1,0 +1,7 @@
+# name: align(ed) environment
+# key: ali
+# --
+\begin{align${1:ed}}
+	\label{eq:$2}
+	$0
+\end{align$1}

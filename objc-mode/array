@@ -1,0 +1,4 @@
+# name: array
+# key: array
+# --
+NSMutableArray *${1:array} = [NSMutable array];

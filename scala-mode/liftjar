@@ -1,0 +1,4 @@
+# name: liftjar
+# key: liftjar
+# --
+"net.liftweb" %% "${0:lib}" % liftVersion % "compile->default",

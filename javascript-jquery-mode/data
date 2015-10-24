@@ -1,0 +1,4 @@
+# name: data
+# key: data
+# --
+${1:obj}.data(${2:obj})

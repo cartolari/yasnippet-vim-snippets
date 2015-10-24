@@ -1,0 +1,4 @@
+# name: bd
+# key: bd
+# --
+border: $0;

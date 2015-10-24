@@ -1,0 +1,6 @@
+# name: form
+# key: form
+# --
+class ${1:FormName}(forms.Form):
+	"""${2:docstring}"""
+	$0

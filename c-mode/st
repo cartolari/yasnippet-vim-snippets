@@ -1,0 +1,6 @@
+# name: st
+# key: st
+# --
+struct ${1:} {
+	${2:/* data */}
+}${3: /* optional variable list */};

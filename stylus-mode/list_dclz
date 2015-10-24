@@ -1,0 +1,4 @@
+# name: list:dclz
+# key: list:dclz
+# --
+list-style-type decimal-leading-zero

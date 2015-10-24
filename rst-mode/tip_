@@ -1,0 +1,5 @@
+# name: tip:
+# key: tip:
+# --
+.. tip::
+	${0:my tips}

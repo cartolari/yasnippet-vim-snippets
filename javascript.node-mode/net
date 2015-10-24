@@ -1,0 +1,11 @@
+# name: net
+# key: net
+# --
+net.createServer(function(${1:socket}){
+	$1.on('data', function('data'){
+	  $2
+	]});
+	$1.on('end', function(){
+	  $3
+	});
+}).listen(${4:8124});

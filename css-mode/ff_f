@@ -1,0 +1,4 @@
+# name: ff:f
+# key: ff:f
+# --
+font-family: ${0:Capitals,Impact},fantasy;

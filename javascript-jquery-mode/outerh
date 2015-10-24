@@ -1,0 +1,4 @@
+# name: outerh
+# key: outerh
+# --
+${1:obj}.outerHeight()

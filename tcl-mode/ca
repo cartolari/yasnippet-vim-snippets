@@ -1,0 +1,6 @@
+# name: ca
+# key: ca
+# --
+${1:pattern} {
+	${2:#do something}
+}

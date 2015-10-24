@@ -1,0 +1,4 @@
+# name: queue
+# key: queue
+# --
+${1:obj}.queue(${2:name}${3:, newQueue})

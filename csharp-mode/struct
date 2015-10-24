@@ -1,0 +1,6 @@
+# name: struct
+# key: struct
+# --
+public struct ${1:} {
+	$0
+}

@@ -1,0 +1,6 @@
+# name: eif
+# key: eif
+# --
+@else if ${1:condition} {
+	$0
+}

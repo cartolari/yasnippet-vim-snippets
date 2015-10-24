@@ -1,0 +1,4 @@
+# name: hmap
+# key: hmap
+# --
+HashMap[${1:T},${2:T}]${0:(keyval)}

@@ -1,0 +1,8 @@
+# name: class .. extends .. constructor: ..
+# key: cla
+# --
+class ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`} extends ${2:ParentClass}
+	constructor: (${3:args}) ->
+		$4
+
+	$0

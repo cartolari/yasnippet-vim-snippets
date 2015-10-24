@@ -1,0 +1,4 @@
+# name: a_
+# key: a_
+# --
+a_ply(${1:array}, ${2:margin}, ${0:function})

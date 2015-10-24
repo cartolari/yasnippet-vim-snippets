@@ -1,0 +1,4 @@
+# name: import
+# key: import
+# --
+<xsl:import href="${1:stylesheet}" />

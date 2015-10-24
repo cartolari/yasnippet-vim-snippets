@@ -1,0 +1,4 @@
+# name: yhimg
+# key: yhimg
+# --
+echo CHtml::image('${1:src}', '${2:alt}',array('${3:optionName}'=>${0:optionValue}));

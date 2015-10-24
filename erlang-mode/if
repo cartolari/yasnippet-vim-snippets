@@ -1,0 +1,7 @@
+# name: if
+# key: if
+# --
+if
+    ${1:guard} ->
+        ${0:body}
+end

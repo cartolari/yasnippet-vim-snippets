@@ -1,0 +1,5 @@
+# name: tcdt
+# key: tcdt
+# --
+t.datetime :${1:title}
+$0

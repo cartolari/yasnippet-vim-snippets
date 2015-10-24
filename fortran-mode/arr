@@ -1,0 +1,4 @@
+# name: arr
+# key: arr
+# --
+${1:type}, allocatable, dimension(${2::}) :: $0

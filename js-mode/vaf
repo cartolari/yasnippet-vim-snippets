@@ -1,0 +1,6 @@
+# name: vaf
+# key: vaf
+# --
+var ${1:function_name} = function($2) {
+	$0
+};

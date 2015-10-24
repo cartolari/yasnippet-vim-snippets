@@ -1,0 +1,4 @@
+# name: yregc
+# key: yregc
+# --
+Yii::app()->clientScript->registerCss('${1:id}', '$0');

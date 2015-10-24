@@ -1,0 +1,6 @@
+# name: "Trait definition"
+# key: trait
+# --
+trait ${1:Name} {
+	$0
+}

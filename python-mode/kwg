@@ -1,0 +1,4 @@
+# name: kwg
+# key: kwg
+# --
+self.${1:var_name} = kwargs.get('$1', ${2:None})

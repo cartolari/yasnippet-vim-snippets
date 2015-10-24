@@ -1,0 +1,6 @@
+# name: foreachkil
+# key: foreachkil
+# --
+<?php foreach ($${1:variable} as $${2:key} => $${3:value}): ?>
+	${0:<!-- html... -->}
+<?php endforeach; ?>

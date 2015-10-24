@@ -1,0 +1,4 @@
+# name: iss
+# key: iss
+# --
+it { should serialize :$0 }

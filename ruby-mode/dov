@@ -1,0 +1,6 @@
+# name: dov
+# key: dov
+# --
+do |${1:v}|
+	$2
+end

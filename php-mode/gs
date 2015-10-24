@@ -1,0 +1,25 @@
+# name: gs
+# key: gs
+# --
+/**
+ * Gets the value of ${1:foo}
+ *
+ * @return ${2:$1}
+ */
+public function get${3:$2}()
+{
+	return $this->${4:$1};
+}
+
+/**
+ * Sets the value of $1
+ *
+ * @param $2 $$1 ${5:description}
+ *
+ * @return ${6:}
+ */
+public function set$3(${7:$2 }$$1)
+{
+	$this->$4 = $$1;
+	return $this;
+}

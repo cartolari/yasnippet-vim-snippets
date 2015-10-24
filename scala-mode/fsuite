@@ -1,0 +1,6 @@
+# name: fsuite
+# key: fsuite
+# --
+class ${1:name} extends FunSuite {
+	test("${0:description}") {
+}

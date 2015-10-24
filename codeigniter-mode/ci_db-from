@@ -1,0 +1,4 @@
+# name: ci_db-from
+# key: ci_db-from
+# --
+$this->db->from("${1:table}");$2

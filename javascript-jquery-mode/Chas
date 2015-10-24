@@ -1,0 +1,4 @@
+# name: Chas
+# key: Chas
+# --
+${1:callbacks}.has(${2:callback})

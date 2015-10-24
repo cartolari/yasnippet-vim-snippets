@@ -1,0 +1,4 @@
+# name: yupdatebp
+# key: yupdatebp
+# --
+${1:ModelName}::model()->updateByPk(${2:pk}, ${3:array('attributes')}, ${4:condition},array('${5:key}'=>${0:value}));

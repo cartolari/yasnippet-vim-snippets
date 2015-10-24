@@ -1,0 +1,6 @@
+# name: deft
+# key: deft
+# --
+def test_${1:case_name}
+	$0
+end

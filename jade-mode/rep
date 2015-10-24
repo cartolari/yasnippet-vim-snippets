@@ -1,0 +1,4 @@
+# name: rep
+# key: rep
+# --
+div(ng-repeat='$1 in $2')

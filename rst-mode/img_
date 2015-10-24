@@ -1,0 +1,4 @@
+# name: img:
+# key: img:
+# --
+.. |${0:alias}| image:: ${1:img}

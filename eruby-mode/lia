@@ -1,0 +1,4 @@
+# name: lia
+# key: lia
+# --
+<%= link_to '${1:link text...}', :action => '${0:index}' %>

@@ -1,0 +1,4 @@
+# name: ovdef
+# key: ovdef
+# --
+override def ${1:name}(${2:arg}) = ${0:}

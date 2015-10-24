@@ -1,0 +1,9 @@
+# name: cat
+# key: cat
+# --
+@interface ${1:NSObject} (${2:MyCategory})
+@end
+
+@implementation $1 ($2)
+$0
+@end

@@ -1,0 +1,6 @@
+# name: focus
+# key: focus
+# --
+${1:obj}.focus(function (${2:e}) {
+	${0:// event handler}
+});

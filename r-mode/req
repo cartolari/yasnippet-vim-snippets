@@ -1,0 +1,4 @@
+# name: req
+# key: req
+# --
+require(${0:package})

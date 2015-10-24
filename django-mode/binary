@@ -1,0 +1,4 @@
+# name: binary
+# key: binary
+# --
+${1:FIELDNAME} = models.BinaryField($0)

@@ -1,0 +1,12 @@
+# name: exc
+# key: exc
+# --
+public class ${1:MyException} : ${2:Exception} {
+	public $1() { }
+	public $1(string message) : base(message) { }
+	public $1(string message, Exception inner) : base(message, inner) { }
+	protected $1(
+		System.Runtime.Serialization.SerializationInfo info,
+		System.Runtime.Serialization.StreamingContext context)
+			: base(info, context) { }
+}

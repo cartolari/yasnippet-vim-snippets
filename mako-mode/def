@@ -1,0 +1,6 @@
+# name: def
+# key: def
+# --
+<%def name="${1:name}">
+	${0:}
+</%def>

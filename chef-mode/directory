@@ -1,0 +1,13 @@
+# name: directory
+# key: directory
+# --
+# Directory resource
+directory ${1:"/path/to/dir"} do # The path to the directory
+	${2:#}group $3 # The group owner of the directory (string or id)
+	${4:#}mode $5 # The octal mode of the directory, eg 0755
+	${6:#}owner $7 # The owner for the directory
+	${10:#}recursive ${11:false} # When deleting the directory, delete it recursively. When creating the directory, create recursively (ie, mkdir -p)
+
+	${12:#}${13:action :create} # Create this directory (Default)
+	${14:#}${0:action :delete} # Delete this directory
+end

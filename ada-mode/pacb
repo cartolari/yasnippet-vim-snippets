@@ -1,0 +1,6 @@
+# name: package body
+# key: pacb
+# --
+package body $1 is
+	$0
+end $1;

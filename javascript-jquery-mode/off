@@ -1,0 +1,4 @@
+# name: off
+# key: off
+# --
+${1:obj}.off('${2:events}', '${3:selector expression}'${4:, handler})

@@ -1,0 +1,4 @@
+# name: Pn-
+# key: Pn-
+# --
+PStore.new('${1:file_name.pstore}')

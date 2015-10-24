@@ -1,0 +1,4 @@
+# name: loge
+# key: loge
+# --
+logger.error { '${1:message}' }

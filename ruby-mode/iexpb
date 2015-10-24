@@ -1,0 +1,4 @@
+# name: iexpb
+# key: iexpb
+# --
+it { expect { ${1:object} }.$1 $0 }

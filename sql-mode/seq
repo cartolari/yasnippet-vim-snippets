@@ -1,0 +1,4 @@
+# name: seq
+# key: seq
+# --
+create sequence ${1:name} start with ${2:1} increment by ${3:1} minvalue ${0:1};

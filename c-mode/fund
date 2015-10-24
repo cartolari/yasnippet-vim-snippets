@@ -1,0 +1,4 @@
+# name: fund
+# key: fund
+# --
+${1:void} ${2:function_name}($3);

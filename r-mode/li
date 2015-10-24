@@ -1,0 +1,4 @@
+# name: li
+# key: li
+# --
+list(${0:items})

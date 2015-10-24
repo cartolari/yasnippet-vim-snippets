@@ -1,0 +1,4 @@
+# name: main
+# key: main
+# --
+def main(args: Array[String]):${1:T} = ${0:}

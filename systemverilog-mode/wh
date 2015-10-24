@@ -1,0 +1,6 @@
+# name: wh
+# key: wh
+# --
+while ($1) begin
+	$0
+end

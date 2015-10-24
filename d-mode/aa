@@ -1,0 +1,4 @@
+# name: aa
+# key: aa
+# --
+${1:int}[${2:string}] ${3:dict} = $0;

@@ -1,0 +1,5 @@
+# name: bind
+# key: bind
+# --
+${1:obj}.bind('${2:event name}', (${3:e}) ->
+	${0:// event handler}

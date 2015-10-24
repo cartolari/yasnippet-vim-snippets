@@ -1,0 +1,5 @@
+# name: cs
+# key: cs
+# --
+case ${1:value}:
+	$0

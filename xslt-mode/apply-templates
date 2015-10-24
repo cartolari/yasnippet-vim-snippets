@@ -1,0 +1,4 @@
+# name: plain
+# key: apply-templates
+# --
+<xsl:apply-templates select="${1:*}" />

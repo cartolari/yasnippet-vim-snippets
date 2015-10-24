@@ -1,0 +1,4 @@
+# name: ps|
+# key: ps|
+# --
+protected string $1 { get; set; }

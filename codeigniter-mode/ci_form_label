@@ -1,0 +1,4 @@
+# name: ci_form_label
+# key: ci_form_label
+# --
+form_label("${1:label text}", "${2:id}");$3

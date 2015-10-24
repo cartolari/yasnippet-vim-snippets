@@ -1,0 +1,4 @@
+# name: df
+# key: df
+# --
+def ${1:name}, do: $2

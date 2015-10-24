@@ -1,0 +1,4 @@
+# name: subdir
+# key: subdir
+# --
+ADD_SUBDIRECTORY(${0:src})

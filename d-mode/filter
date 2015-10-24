@@ -1,0 +1,5 @@
+# name: filter
+# key: filter
+# --
+filter!(${1:p})(${2:xs});
+$0

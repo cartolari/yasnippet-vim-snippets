@@ -1,0 +1,8 @@
+# name: tog
+# key: tog
+# --
+${1:obj}.toggle  (${2:e}) ->
+	${3:// event handler}
+, ($2) ->
+	${4:// event handler}
+$0

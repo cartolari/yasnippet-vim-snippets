@@ -1,0 +1,4 @@
+# name: isn
+# key: isn
+# --
+it { should_not $0 }

@@ -1,0 +1,4 @@
+# name: input:url
+# key: input:url
+# --
+<input type="url" name="$1" id="${2:$1}" value="$3" />

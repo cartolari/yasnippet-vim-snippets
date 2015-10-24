@@ -1,0 +1,4 @@
+# name: include
+# key: include
+# --
+{% include "${0:filename}" %}

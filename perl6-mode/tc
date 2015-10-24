@@ -1,0 +1,4 @@
+# name: tc
+# key: tc
+# --
+${1:condition} ?? ${2:value-if-true} !! ${3:value-if-false};

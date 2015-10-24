@@ -1,0 +1,4 @@
+# name: perspective
+# key: perspective
+# --
+perspective(${1:fov}, ${2:aspect}, ${3:zNear}, ${0:zFar});

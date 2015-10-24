@@ -1,0 +1,4 @@
+# name: output
+# key: output
+# --
+DEFINE OUTPUT PARAMETER ${1:ParamName} AS ${0:ParamType}.

@@ -1,0 +1,4 @@
+# name: timeout
+# key: timeout
+# --
+setTimeout(function () {$0}$2, ${1:10});

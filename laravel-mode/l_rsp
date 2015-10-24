@@ -1,0 +1,37 @@
+# name: l_rsp
+# key: l_rsp
+# --
+/*!
+* \namespace   $2
+* \class       $3
+*
+* \author      ${4:}
+* \date        
+*/
+
+namespace ${2:Repositories\\${1:}};
+
+use Entities\\$1;
+use $2\\$1Repository;
+use Illuminate\Support\ServiceProvider;
+
+class ${3:} extends ServiceProvider {
+	/*!
+	* \var     defer
+	* \brief   Defer service
+	*/
+	protected $defer = ${5:true};
+
+	public function register() {
+			$this->app->bind('$2\\$1Interface', function($app) {
+					return new $1Repository(new $1());
+			});
+	}
+
+	/*!
+	* \brief   If $defer == true need this fn
+	*/ 
+	public function provides() {
+			return ['$2\\$1Interface'];
+	}
+}

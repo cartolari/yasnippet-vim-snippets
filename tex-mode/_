@@ -1,0 +1,6 @@
+# name: unnumbered equation: \[ ... \]
+# key: \
+# --
+\[
+	$0
+\]

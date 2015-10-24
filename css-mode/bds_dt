@@ -1,0 +1,4 @@
+# name: bds:dt
+# key: bds:dt
+# --
+border-style: dotted;

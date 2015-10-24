@@ -1,0 +1,4 @@
+# name: tti
+# key: tti
+# --
+type tt_${1:name} is table of tr_${0:name} index by binary_integer;

@@ -1,0 +1,4 @@
+# name: ofcfs
+# key: ofcfs
+# --
+<%= options_from_collection_for_select ${1:collection}, ${2:value_method}, ${3:text_method}, ${0:selected_value} %>

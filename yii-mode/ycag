@@ -1,0 +1,4 @@
+# name: ycag
+# key: ycag
+# --
+Yii::app()->cache->get('${0:key}');

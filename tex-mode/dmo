@@ -1,0 +1,4 @@
+# name: \DeclareMathOperator
+# key: dmo
+# --
+\DeclareMathOperator{$1}{$2} $0

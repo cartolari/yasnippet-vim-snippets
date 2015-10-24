@@ -1,0 +1,4 @@
+# name: yhot
+# key: yhot
+# --
+echo CHtml::openTag('${1:tag}', array('${2:optionName}'=>${0:optionValue}));

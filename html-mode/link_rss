@@ -1,0 +1,4 @@
+# name: link:rss
+# key: link:rss
+# --
+<link rel="alternate" href="${1:rss.xml}" title="RSS" type="application/atom+xml" />

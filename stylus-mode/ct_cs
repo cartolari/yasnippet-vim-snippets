@@ -1,0 +1,4 @@
+# name: ct:cs
+# key: ct:cs
+# --
+content counters($0)

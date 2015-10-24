@@ -1,0 +1,4 @@
+# name: sub
+# key: sub
+# --
+${1:g}sub(${2:/pattern/}) { |${3:match}| $0 }

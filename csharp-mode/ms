@@ -1,0 +1,6 @@
+# name: ms
+# key: ms
+# --
+${1:public} string $2($3) {
+	${0:return "";}
+}

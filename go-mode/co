@@ -1,0 +1,7 @@
+# name: co
+# key: co
+# --
+const (
+	${1:NAME1} = iota
+	${0:NAME2}
+)

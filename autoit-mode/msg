@@ -1,0 +1,4 @@
+# name: msg
+# key: msg
+# --
+MsgBox(${0:MsgType}, ${1:"Title"}, ${2:"Message Text"})

@@ -1,0 +1,6 @@
+# name: cls+^
+# key: cls+^
+# --
+public static class ${1:} {
+	$0
+}

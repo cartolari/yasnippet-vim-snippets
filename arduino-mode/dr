@@ -1,0 +1,4 @@
+# name: dr
+# key: dr
+# --
+digitalRead($1);

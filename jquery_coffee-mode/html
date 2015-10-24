@@ -1,0 +1,4 @@
+# name: html
+# key: html
+# --
+${1:obj}.html('${2:Some text <b>and bold!</b>}')

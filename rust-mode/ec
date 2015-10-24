@@ -1,0 +1,4 @@
+# name: "extern crate"
+# key: ec
+# --
+extern crate ${1:sync};

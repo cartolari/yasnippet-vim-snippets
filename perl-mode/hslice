@@ -1,0 +1,5 @@
+# name: hslice
+# key: hslice
+# --
+@{ ${1:hash}  }{ ${0:array} }
+

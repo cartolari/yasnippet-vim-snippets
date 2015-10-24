@@ -1,0 +1,4 @@
+# name: lc
+# key: lc
+# --
+logger.critical(${0:msg})

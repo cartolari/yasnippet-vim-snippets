@@ -1,0 +1,6 @@
+# name: mul
+# key: mul
+# --
+multi ${1:function_name}(${2:Str $var}) {
+	$3
+}

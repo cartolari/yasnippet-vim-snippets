@@ -1,0 +1,6 @@
+# name: filtert
+# key: filtert
+# --
+${1:obj}.filter(function (${2:index}) {
+	$3
+})

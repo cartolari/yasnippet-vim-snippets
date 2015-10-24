@@ -1,0 +1,8 @@
+# name: dealloc
+# key: dealloc
+# --
+- (void) dealloc
+{
+	${0:deallocations}
+	[super dealloc];
+}

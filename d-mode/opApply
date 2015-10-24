@@ -1,0 +1,6 @@
+# name: opApply
+# key: opApply
+# --
+int opApply(Dg)(Dg dg) if(ParameterTypeTuble!Dg.length == 2) {
+	$0
+}

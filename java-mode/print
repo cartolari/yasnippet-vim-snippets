@@ -1,0 +1,4 @@
+# name: print
+# key: print
+# --
+System.out.print("${0:Message}");

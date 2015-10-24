@@ -1,0 +1,4 @@
+# name: yht
+# key: yht
+# --
+echo CHtml::tag('${1:tag}',array('${2:optionName}'=>${3:optionValue}),${4:false},${0:true});

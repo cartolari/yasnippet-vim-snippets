@@ -1,0 +1,4 @@
+# name: defbuf
+# key: defbuf
+# --
+DEFINE BUFFER b_${1:TableName} FOR $1 $0.

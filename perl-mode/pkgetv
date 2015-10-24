@@ -1,0 +1,4 @@
+# name: pkgetv
+# key: pkgetv
+# --
+__PACKAGE__->get_${1:package_method}(${0:var})

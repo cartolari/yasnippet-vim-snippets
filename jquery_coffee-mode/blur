@@ -1,0 +1,5 @@
+# name: blur
+# key: blur
+# --
+${1:obj}.blur (${2:e}) ->
+	${0:// event handler}

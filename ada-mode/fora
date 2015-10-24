@@ -1,0 +1,4 @@
+# name: for all
+# key: fora
+# --
+for all $1 ${2:in} $3 => $0

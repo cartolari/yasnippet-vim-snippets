@@ -1,0 +1,6 @@
+# name: ifc
+# key: ifc
+# --
+if { [catch {${1:#do something...}} ${2:err}] } {
+	${0:# handle failure...}
+}

@@ -1,0 +1,4 @@
+# name: yhass
+# key: yhass
+# --
+echo CHtml::asset('${0:path}');

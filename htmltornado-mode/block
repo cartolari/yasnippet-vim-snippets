@@ -1,0 +1,6 @@
+# name: block
+# key: block
+# --
+{% block $1 %}
+  $0
+{% end %}

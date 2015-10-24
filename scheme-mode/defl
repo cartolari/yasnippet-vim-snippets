@@ -1,0 +1,5 @@
+# name: defl
+# key: defl
+# --
+(define ${1:name}
+		(lambda (x)(${0:definition})))

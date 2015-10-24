@@ -1,0 +1,4 @@
+# name: bgc
+# key: bgc
+# --
+background-color: #${0:FFF};

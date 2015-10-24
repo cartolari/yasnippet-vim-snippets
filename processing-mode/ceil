@@ -1,0 +1,4 @@
+# name: ceil
+# key: ceil
+# --
+ceil(${0:value});

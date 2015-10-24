@@ -1,0 +1,6 @@
+# name: datatemplate
+# key: datatemplate
+# --
+<datatemplate>
+	$0
+</datatemplate>

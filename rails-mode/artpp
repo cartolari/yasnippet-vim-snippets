@@ -1,0 +1,4 @@
+# name: artpp
+# key: artpp
+# --
+assert_redirected_to ${0:model}s_path

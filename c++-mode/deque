@@ -1,0 +1,4 @@
+# name: deque
+# key: deque
+# --
+std::deque<${1:T}> $2;

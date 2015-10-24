@@ -1,0 +1,4 @@
+# name: ntc
+# key: ntc
+# --
+<%= number_to_currency($1) %>

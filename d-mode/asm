@@ -1,0 +1,6 @@
+# name: asm
+# key: asm
+# --
+asm {
+	$1
+}

@@ -1,0 +1,6 @@
+# name: ns
+# key: ns
+# --
+namespace ${1:`(file-name-base)`} {
+	$0
+} /* namespace $1 */

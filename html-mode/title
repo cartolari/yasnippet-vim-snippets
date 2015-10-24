@@ -1,0 +1,4 @@
+# name: title
+# key: title
+# --
+<title>${0:`(file-name-base)`}</title>

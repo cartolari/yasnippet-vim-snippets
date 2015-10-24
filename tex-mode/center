@@ -1,0 +1,6 @@
+# name: center environment
+# key: center
+# --
+\begin{center}
+	$0
+\end{center}

@@ -1,0 +1,9 @@
+# name: declare named block
+# key: decn
+# --
+$1:
+declare
+	$2
+begin
+	$0
+end $1;

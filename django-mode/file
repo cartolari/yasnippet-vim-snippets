@@ -1,0 +1,4 @@
+# name: file
+# key: file
+# --
+${1:FIELDNAME} = models.FileField(upload_to=${2:path/for/upload}${0:, max_length=100})

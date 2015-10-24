@@ -1,0 +1,6 @@
+# name: defmo
+# key: defmo
+# --
+defmodule ${1:module_name} do
+	$0
+end

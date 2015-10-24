@@ -1,0 +1,6 @@
+# name: un
+# key: un
+# --
+unittest {
+	$0
+}

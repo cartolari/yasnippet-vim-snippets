@@ -1,0 +1,4 @@
+# name: posint
+# key: posint
+# --
+${1:FIELDNAME} = models.PositiveIntegerField($0)

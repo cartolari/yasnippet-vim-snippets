@@ -1,0 +1,6 @@
+# name: fore
+# key: fore
+# --
+for (final ${2:item} in ${1:itemList}) {
+  $0
+}

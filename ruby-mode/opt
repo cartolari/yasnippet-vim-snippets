@@ -1,0 +1,6 @@
+# name: opt
+# key: opt
+# --
+opts.on('-${1:o}', '--${2:long-option-name}', ${3:String}, '${4:Option description.}') do |${5:opt}|
+	$0
+end

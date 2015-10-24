@@ -1,0 +1,4 @@
+# name: regsubst
+# key: regsubst
+# --
+regsubst(${1:hay stack}, ${2:needle}, "${3:replacement}")

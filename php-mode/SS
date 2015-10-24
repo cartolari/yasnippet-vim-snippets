@@ -1,0 +1,4 @@
+# name: SS
+# key: SS
+# --
+$_SESSION['${1:variable}']

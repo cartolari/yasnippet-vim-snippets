@@ -1,0 +1,4 @@
+# name: trim
+# key: trim
+# --
+trim(${0:str});

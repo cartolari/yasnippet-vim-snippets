@@ -1,0 +1,4 @@
+# name: ffta
+# key: ffta
+# --
+<%= ${1:f}.text_area :${0:attribute} %>

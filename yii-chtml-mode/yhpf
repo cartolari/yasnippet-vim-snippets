@@ -1,0 +1,4 @@
+# name: yhpf
+# key: yhpf
+# --
+echo CHtml::passwordField('${1:name}', '${2:value}',array('${3:optionName}'=>${0:optionValue}));

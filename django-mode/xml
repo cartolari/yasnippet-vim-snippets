@@ -1,0 +1,4 @@
+# name: xml
+# key: xml
+# --
+${1:FIELDNAME} = models.XMLField(schema_path=${2:None}${0:, blank=True})

@@ -1,0 +1,6 @@
+# name: class << self .. end
+# key: claself
+# --
+class << ${1:self}
+	$0
+end

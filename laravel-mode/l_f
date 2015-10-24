@@ -1,0 +1,23 @@
+# name: l_f
+# key: l_f
+# --
+/*!
+* \namespace   $1
+* \class       $2
+*
+* \author      ${5:}
+* \date        
+*/
+
+namespace ${1:Services};
+
+use \Illuminate\Support\Facades\Facade;
+
+class ${2:} extends Facade {
+	/*!
+	* \fn          getFacadeAccessor
+	*
+	* \return      string
+	*/
+	protected static function getFacadeAccessor() { return '${4:$3Service}'; }
+}

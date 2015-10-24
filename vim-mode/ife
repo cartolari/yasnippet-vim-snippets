@@ -1,0 +1,8 @@
+# name: if ... else statement
+# key: ife
+# --
+if $1
+	$2
+else
+	$0
+endif

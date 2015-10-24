@@ -1,0 +1,4 @@
+# name: isana
+# key: isana
+# --
+it { should accept_nested_attributes_for :$0 }

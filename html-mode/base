@@ -1,0 +1,4 @@
+# name: base
+# key: base
+# --
+<base href="$1" target="$0" />

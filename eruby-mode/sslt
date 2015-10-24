@@ -1,0 +1,4 @@
+# name: sslt
+# key: sslt
+# --
+<%= stylesheet_link_tag "$0" %>

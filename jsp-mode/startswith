@@ -1,0 +1,4 @@
+# name: startswith
+# key: startswith
+# --
+${fn:startsWith(${1:string}, ${0:prefix})}

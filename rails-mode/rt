@@ -1,0 +1,4 @@
+# name: rt
+# key: rt
+# --
+render text: '${0:text to render}'

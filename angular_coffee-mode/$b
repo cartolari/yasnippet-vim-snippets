@@ -1,0 +1,5 @@
+# name: $b
+# key: $b
+# --
+$scope.$broadcast '${1:eventName}', ${2:eventArgs}
+$3

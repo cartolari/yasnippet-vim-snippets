@@ -1,0 +1,4 @@
+# name: eltrim
+# key: eltrim
+# --
+$.trim('${1:string}')

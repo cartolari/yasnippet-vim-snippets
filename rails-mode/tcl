@@ -1,0 +1,5 @@
+# name: tcl
+# key: tcl
+# --
+t.integer :lock_version, null: false, default: 0
+$0

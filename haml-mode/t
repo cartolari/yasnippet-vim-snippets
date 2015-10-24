@@ -1,0 +1,10 @@
+# name: t
+# key: t
+# --
+%table
+	%tr
+		%th
+			${1:headers}
+	%tr
+		%td
+			${0:headers}

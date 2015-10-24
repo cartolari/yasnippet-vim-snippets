@@ -1,0 +1,5 @@
+# name: when
+# key: when
+# --
+<xsl:when test="${1:test}">$0
+</xsl:when>

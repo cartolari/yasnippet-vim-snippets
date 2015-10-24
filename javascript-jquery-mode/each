@@ -1,0 +1,6 @@
+# name: each
+# key: each
+# --
+${1:obj}.each(function (index) {
+	${0:this.innerHTML = this + " is the element, " + index + " is the position";}
+});

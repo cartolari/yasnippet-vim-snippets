@@ -1,0 +1,4 @@
+# name: ycountm
+# key: ycountm
+# --
+${1:ModelName}::model()->count(${2:condition}, array('${3:key}'=>${0:value}));

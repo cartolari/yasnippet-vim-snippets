@@ -1,0 +1,4 @@
+# name: cast
+# key: cast
+# --
+cast(${1:T})(${2:val});

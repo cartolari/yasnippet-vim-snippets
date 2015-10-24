@@ -1,0 +1,4 @@
+# name: description \item
+# key: itd
+# --
+\item[${1:description}] ${0:item}

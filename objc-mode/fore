@@ -1,0 +1,6 @@
+# name: fore
+# key: fore
+# --
+for (${1:object} in ${2:array}) {
+	${0:statements}
+}

@@ -1,0 +1,4 @@
+# name: rej
+# key: rej
+# --
+reject { |${1:e}| $0 }

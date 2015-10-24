@@ -1,0 +1,4 @@
+# name: Cdis
+# key: Cdis
+# --
+${1:callbacks}.disable()

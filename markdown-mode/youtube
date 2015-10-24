@@ -1,0 +1,5 @@
+# name: youtube
+# key: youtube
+# --
+{% youtube ${0:video_id} %}
+

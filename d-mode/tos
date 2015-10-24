@@ -1,0 +1,5 @@
+# name: tos
+# key: tos
+# --
+to!string(${1:x});
+$0

@@ -1,0 +1,4 @@
+# name: S
+# key: S
+# --
+$_SERVER['${1:variable}']

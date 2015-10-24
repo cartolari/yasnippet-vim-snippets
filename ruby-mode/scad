@@ -1,0 +1,6 @@
+# name: scad
+# key: scad
+# --
+scan(${1:/pattern/}) do |${2:match}|
+	$0
+end

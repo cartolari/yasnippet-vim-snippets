@@ -1,0 +1,6 @@
+# name: for each
+# key: fore
+# --
+for $1 of $2 loop
+	$0
+end loop;

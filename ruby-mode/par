@@ -1,0 +1,4 @@
+# name: par
+# key: par
+# --
+partition { |${1:e}| $0 }

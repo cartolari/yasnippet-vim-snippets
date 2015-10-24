@@ -1,0 +1,6 @@
+# name: aw
+# key: aw
+# --
+array_walk($${1:foo}, function(&$${2:v}, $${3:k}) {
+	$$2 = $0;
+});

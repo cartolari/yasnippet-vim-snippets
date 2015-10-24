@@ -1,0 +1,4 @@
+# name: Dfail
+# key: Dfail
+# --
+${1:deferred}.fail(${2:callbacks})

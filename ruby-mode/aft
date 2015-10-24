@@ -1,0 +1,6 @@
+# name: aft
+# key: aft
+# --
+after :${1:each} do
+	$0
+end

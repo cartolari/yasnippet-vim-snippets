@@ -1,0 +1,4 @@
+# name: asio
+# key: asio
+# --
+assert_instance_of ${1:ExpectedClass}, ${2:actual_instance}

@@ -1,0 +1,8 @@
+# name: setup
+# key: setup
+# --
+void setup()
+{
+	$0
+	Serial.begin(9600);
+}

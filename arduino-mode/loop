@@ -1,0 +1,7 @@
+# name: loop
+# key: loop
+# --
+void loop()
+{
+	$0
+}

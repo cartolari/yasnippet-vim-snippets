@@ -1,0 +1,4 @@
+# name: gett
+# key: gett
+# --
+getElementBy${1:Id}('$0')

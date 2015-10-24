@@ -1,0 +1,4 @@
+# name: edel
+# key: edel
+# --
+${1:app}.delete('${2:route}', ${3:handler});

@@ -1,0 +1,13 @@
+# name: link
+# key: link
+# --
+# Link resource
+link ${1:"/target/file"} do # The file name of the link
+	${2:#}to $3 # The real file you want to link to
+	${4:#}link_type ${5:symbolic} # Either :symbolic or :hard
+	${6:#}owner $7 # The owner of the symlink
+	${8:#}group $9 # The group of the symlink
+
+	${10:#}${11:action :create} # Create a link (Default)
+	${12:#}${0:action :delete} # Delete a link
+end

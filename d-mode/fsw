@@ -1,0 +1,6 @@
+# name: fsw
+# key: fsw
+# --
+final switch($1) {
+	$0
+}

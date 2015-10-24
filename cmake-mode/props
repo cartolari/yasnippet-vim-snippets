@@ -1,0 +1,7 @@
+# name: props
+# key: props
+# --
+SET_TARGET_PROPERTIES(${1:target}
+	${2:PROPERTIES} ${3:COMPILE_FLAGS}
+	${0:"-O3 -Wall -pedantic"}
+)

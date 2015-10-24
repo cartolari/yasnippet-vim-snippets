@@ -1,0 +1,4 @@
+# name: ci_db-get
+# key: ci_db-get
+# --
+$this->db->get("${1:table}", ${2:limit}, ${3:offset});$4

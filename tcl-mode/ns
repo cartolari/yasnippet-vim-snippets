@@ -1,0 +1,4 @@
+# name: ns
+# key: ns
+# --
+namespace eval ${1:path} {${0:#script...}}

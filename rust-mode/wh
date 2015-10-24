@@ -1,0 +1,6 @@
+# name: "while loop"
+# key: wh
+# --
+while ${1:condition} {
+	$0
+}

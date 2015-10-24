@@ -1,0 +1,6 @@
+# name: hgroup
+# key: hgroup
+# --
+<hgroup>
+	$0
+</hgroup>

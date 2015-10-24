@@ -1,0 +1,4 @@
+# name: filter
+# key: filter
+# --
+${1:obj}.filter('${2:selector expression}')

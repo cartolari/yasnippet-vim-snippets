@@ -1,0 +1,4 @@
+# name: link:favicon
+# key: link:favicon
+# --
+<link rel="shortcut icon" href="${1:favicon.ico}" type="image/x-icon" />

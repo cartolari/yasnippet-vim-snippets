@@ -1,0 +1,4 @@
+# name: [
+# key: [
+# --
+[${1:text}](http://${2:address})

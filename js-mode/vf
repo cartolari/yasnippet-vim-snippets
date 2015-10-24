@@ -1,0 +1,6 @@
+# name: vf
+# key: vf
+# --
+var ${1:function_name} = function $1($2) {
+	$0
+};

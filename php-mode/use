@@ -1,0 +1,5 @@
+# name: use
+# key: use
+# --
+use ${1:Foo\Bar\Baz};
+$0

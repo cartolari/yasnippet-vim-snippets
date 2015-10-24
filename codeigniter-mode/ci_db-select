@@ -1,0 +1,4 @@
+# name: ci_db-select
+# key: ci_db-select
+# --
+$this->db->select("${1:id, ...}");$2

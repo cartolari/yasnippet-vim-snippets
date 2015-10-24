@@ -1,0 +1,4 @@
+# name: ns
+# key: ns
+# --
+(ns ${0:name})

@@ -1,0 +1,4 @@
+# name: loadBytes
+# key: loadBytes
+# --
+loadBytes("${0:filename}");

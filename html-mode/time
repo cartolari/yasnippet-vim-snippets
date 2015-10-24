@@ -1,0 +1,4 @@
+# name: time
+# key: time
+# --
+<time datetime="$1" pubdate="${2:$1}">${0:$1}</time>

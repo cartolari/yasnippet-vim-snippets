@@ -1,0 +1,4 @@
+# name: input:image
+# key: input:image
+# --
+<input type="image" name="$1" id="${2:$1}" src="$3" alt="$4" />

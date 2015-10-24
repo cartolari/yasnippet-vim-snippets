@@ -1,0 +1,4 @@
+# name: bdsp
+# key: bdsp
+# --
+border-spacing: $0;

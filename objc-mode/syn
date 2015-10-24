@@ -1,0 +1,4 @@
+# name: syn
+# key: syn
+# --
+@synthesize ${1:property};

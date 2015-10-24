@@ -1,0 +1,4 @@
+# name: its
+# key: its
+# --
+its(:${1:method}) { should $0 }

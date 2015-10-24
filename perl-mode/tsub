@@ -1,0 +1,8 @@
+# name: tsub
+# key: tsub
+# --
+sub t${1:number}_${2:test_case} :Test(${3:num_of_tests}) {
+	my $self = shift;
+	$0
+
+}

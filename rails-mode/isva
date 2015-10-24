@@ -1,0 +1,4 @@
+# name: isva
+# key: isva
+# --
+it { should validate_acceptance_of :$0 }

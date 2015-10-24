@@ -1,0 +1,4 @@
+# name: ggp
+# key: ggp
+# --
+ggplot(${1:data}, aes(${0:aesthetics}))

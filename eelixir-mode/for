@@ -1,0 +1,6 @@
+# name: for
+# key: for
+# --
+<%= for ${1:item} <- ${2:items} ${3:@conn} do %>
+	$0
+<% end %>

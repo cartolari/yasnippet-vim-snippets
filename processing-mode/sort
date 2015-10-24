@@ -1,0 +1,4 @@
+# name: sort
+# key: sort
+# --
+sort(${1:dataArray}${2:, }${0:count});

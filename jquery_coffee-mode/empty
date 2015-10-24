@@ -1,0 +1,4 @@
+# name: empty
+# key: empty
+# --
+${1:obj}.empty()

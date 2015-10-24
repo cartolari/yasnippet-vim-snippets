@@ -1,0 +1,4 @@
+# name: trigh
+# key: trigh
+# --
+${1:obj}.triggerHandler('${2:event name}')

@@ -1,0 +1,4 @@
+# name: eget
+# key: eget
+# --
+${1:app}.get('${2:route}', ${3:handler});

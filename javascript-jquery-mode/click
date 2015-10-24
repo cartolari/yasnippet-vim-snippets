@@ -1,0 +1,6 @@
+# name: click
+# key: click
+# --
+${1:obj}.click(function (${2:e}) {
+	${0:// event handler}
+});

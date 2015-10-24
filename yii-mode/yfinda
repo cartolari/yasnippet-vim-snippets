@@ -1,0 +1,4 @@
+# name: yfinda
+# key: yfinda
+# --
+${1:ModelName}::model()->findAll(${2:condition},array('${3:key}'=>${0:value}));

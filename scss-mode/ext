@@ -1,0 +1,4 @@
+# name: ext
+# key: ext
+# --
+@extend $0;

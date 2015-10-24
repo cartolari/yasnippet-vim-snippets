@@ -1,0 +1,8 @@
+# name: hover
+# key: hover
+# --
+${1:obj}.hover(function (${2:e}) {
+	${3:// event handler}
+}, function ($2) {
+	${4:// event handler}
+});

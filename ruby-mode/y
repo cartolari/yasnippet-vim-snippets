@@ -1,0 +1,4 @@
+# name: y
+# key: y
+# --
+:yields: ${0:arguments}

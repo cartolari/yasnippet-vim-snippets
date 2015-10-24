@@ -1,0 +1,6 @@
+# name: mb
+# key: mb
+# --
+${1:public} bool $2($3) {
+	${0:return false;}
+}

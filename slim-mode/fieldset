@@ -1,0 +1,5 @@
+# name: fieldset
+# key: fieldset
+# --
+fieldset
+	legend $1

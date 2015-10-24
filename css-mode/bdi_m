@@ -1,0 +1,4 @@
+# name: bdi:m
+# key: bdi:m
+# --
+-moz-border-image: $0;

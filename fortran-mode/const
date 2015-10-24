@@ -1,0 +1,4 @@
+# name: const
+# key: const
+# --
+${1:type}, parameter :: $2 = $0

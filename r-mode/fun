@@ -1,0 +1,6 @@
+# name: fun
+# key: fun
+# --
+${1:name} <- function (${2:variables}) {
+	$0
+}

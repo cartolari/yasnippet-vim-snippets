@@ -1,0 +1,6 @@
+# name: sl
+# key: sl
+# --
+scope :${1:name}, lambda do |${2:value}|
+	where('${3:field = ?}', ${0:value})
+end

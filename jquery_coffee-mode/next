@@ -1,0 +1,4 @@
+# name: next
+# key: next
+# --
+${1:obj}.next('${2:selector expression}')

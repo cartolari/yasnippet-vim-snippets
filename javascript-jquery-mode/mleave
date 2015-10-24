@@ -1,0 +1,6 @@
+# name: mleave
+# key: mleave
+# --
+${1:obj}.mouseleave(function (${2:e}) {
+	${0:// event handler}
+});

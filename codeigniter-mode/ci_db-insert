@@ -1,0 +1,4 @@
+# name: ci_db-insert
+# key: ci_db-insert
+# --
+$this->db->insert("${1:table}", $${2:data});$3

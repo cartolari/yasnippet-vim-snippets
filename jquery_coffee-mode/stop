@@ -1,0 +1,4 @@
+# name: stop
+# key: stop
+# --
+${1:obj}.stop('${2:queue}', ${3:false}, ${4:false})

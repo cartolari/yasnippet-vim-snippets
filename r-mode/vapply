@@ -1,0 +1,4 @@
+# name: vapply
+# key: vapply
+# --
+vapply(${1:list}, ${2:function}, ${0:type})

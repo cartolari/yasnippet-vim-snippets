@@ -1,0 +1,4 @@
+# name: exp
+# key: exp
+# --
+expect(${1:object}).to $0

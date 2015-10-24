@@ -1,0 +1,4 @@
+# name: wob:ba
+# key: wob:ba
+# --
+word-break: break-all;

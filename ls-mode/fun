@@ -1,0 +1,5 @@
+# name: fun
+# key: fun
+# --
+(${1:args}) ->
+	$2

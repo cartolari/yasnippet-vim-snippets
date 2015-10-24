@@ -1,0 +1,4 @@
+# name: color
+# key: color
+# --
+color ${1:c}${2: = color(}${3:value1, }${4:value2, }${0:value3)};

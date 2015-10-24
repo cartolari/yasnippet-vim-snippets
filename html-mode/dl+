@@ -1,0 +1,8 @@
+# name: dl+
+# key: dl+
+# --
+<dl>
+	<dt>$1</dt>
+	<dd>$2</dd>
+	dt+$0
+</dl>

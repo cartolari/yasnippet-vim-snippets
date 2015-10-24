@@ -1,0 +1,4 @@
+# name: it
+# key: it
+# --
+<%= image_tag "$1"$0 %>

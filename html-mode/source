@@ -1,0 +1,4 @@
+# name: source
+# key: source
+# --
+<source src="$1" type="$2" media="$0" />

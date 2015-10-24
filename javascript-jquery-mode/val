@@ -1,0 +1,4 @@
+# name: val
+# key: val
+# --
+${1:obj}.val('${2:text}')

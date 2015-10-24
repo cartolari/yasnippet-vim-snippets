@@ -1,0 +1,4 @@
+# name: ci_form_radio
+# key: ci_form_radio
+# --
+form_radio("${1:name}", "${2:value}");$3

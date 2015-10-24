@@ -1,0 +1,4 @@
+# name: ssi
+# key: ssi
+# --
+{% ssi $0 %}

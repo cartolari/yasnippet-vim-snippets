@@ -1,0 +1,4 @@
+# name: crdef
+# key: crdef
+# --
+def ${1:name}(${2:arg})(${3:arg}) = ${0:}

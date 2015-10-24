@@ -1,0 +1,6 @@
+# name: ifn
+# key: ifn
+# --
+if (!${1:/* condition */}) {
+	$2
+}

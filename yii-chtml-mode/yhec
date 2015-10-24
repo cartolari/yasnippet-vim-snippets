@@ -1,0 +1,4 @@
+# name: yhec
+# key: yhec
+# --
+echo CHtml::encode(${0:text});

@@ -1,0 +1,6 @@
+# name: "spawn a scoped thread"
+# key: scoped
+# --
+thread::scoped(${1:move }|| {
+	$0
+});

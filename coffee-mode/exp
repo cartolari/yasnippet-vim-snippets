@@ -1,0 +1,4 @@
+# name: exp
+# key: exp
+# --
+${0:root} = exports ? this

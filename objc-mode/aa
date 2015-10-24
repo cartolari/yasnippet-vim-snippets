@@ -1,0 +1,4 @@
+# name: aa
+# key: aa
+# --
+NSArray * array;

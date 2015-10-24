@@ -1,0 +1,6 @@
+# name: interface
+# key: interface
+# --
+interface name {
+	function method($1):${0:returntype};
+}

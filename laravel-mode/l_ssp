@@ -1,0 +1,25 @@
+# name: l_ssp
+# key: l_ssp
+# --
+/*!
+* \namespace   $1
+* \class       $2
+*
+* \author      ${3:}
+* \date        
+*/
+
+namespace ${1:Services};
+
+use Illuminate\Support\ServiceProvider;
+
+class ${2:} extends ServiceProvider {
+	
+	public function register() {
+		$this->app->bind('$4Service', function ($app) {
+			return new $5(
+				$app->make('Repositories\\$6Interface')
+			);
+		});
+	}
+}

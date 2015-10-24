@@ -1,0 +1,4 @@
+# name: pi
+# key: pi
+# --
+${1:public} int $2 { get; set; }

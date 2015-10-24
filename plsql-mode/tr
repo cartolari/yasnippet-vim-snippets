@@ -1,0 +1,4 @@
+# name: tr
+# key: tr
+# --
+type tr_${1:name} is record (${0:/* columns */});

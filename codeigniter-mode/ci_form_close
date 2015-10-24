@@ -1,0 +1,4 @@
+# name: ci_form_close
+# key: ci_form_close
+# --
+form_close();$1

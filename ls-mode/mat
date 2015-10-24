@@ -1,0 +1,6 @@
+# name: mat
+# key: mat
+# --
+match ${1:object}
+| ${2:value} => $3
+| otherwise => void

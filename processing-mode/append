@@ -1,0 +1,4 @@
+# name: append
+# key: append
+# --
+append(${1:array}, ${0:element});

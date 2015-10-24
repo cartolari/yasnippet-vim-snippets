@@ -1,0 +1,8 @@
+# name: procedure
+# key: proc
+# --
+procedure $1($2) is
+	$3
+begin
+	$0
+end $1;

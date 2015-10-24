@@ -1,0 +1,18 @@
+# name: ajax
+# key: ajax
+# --
+$.ajax({
+	url: '${1:mydomain.com/url}',
+	type: '${2:POST}',
+	dataType: '${3:xml/html/script/json}',
+	data: $.param( $('${4:Element or Expression}') ),
+	complete: function (jqXHR, textStatus) {
+		${5:// callback}
+	},
+	success: function (data, textStatus, jqXHR) {
+		${6:// success callback}
+	},
+	error: function (jqXHR, textStatus, errorThrown) {
+		${0:// error callback}
+	}
+});

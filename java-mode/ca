@@ -1,0 +1,4 @@
+# name: ca
+# key: ca
+# --
+catch(${1:Exception} ${2:e}) $0

@@ -1,0 +1,4 @@
+# name: roman font text
+# key: rm
+# --
+\textrm{${0:text}}

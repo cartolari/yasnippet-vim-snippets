@@ -1,0 +1,4 @@
+# name: clafn
+# key: clafn
+# --
+split('::').inject(Object) { |par, const| par.const_get(const) }

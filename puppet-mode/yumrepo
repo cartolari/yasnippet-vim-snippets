@@ -1,0 +1,7 @@
+# name: yumrepo
+# key: yumrepo
+# --
+yumrepo { "${1:repo name}":
+	descr   => "${2:$1}",
+	enabled => ${0:1},
+}

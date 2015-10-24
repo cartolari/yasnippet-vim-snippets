@@ -1,0 +1,6 @@
+# name: reset
+# key: reset
+# --
+${1:obj}.reset(function (${2:e}) {
+	${0:// event handler}
+});

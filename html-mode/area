@@ -1,0 +1,4 @@
+# name: area
+# key: area
+# --
+<area shape="${1:rect}" coords="$2" href="$3" alt="$0" />

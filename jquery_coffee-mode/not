@@ -1,0 +1,4 @@
+# name: not
+# key: not
+# --
+${1:obj}.not('${2:selector expression}')

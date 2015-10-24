@@ -1,0 +1,4 @@
+# name: isav
+# key: isav
+# --
+it { should allow_value($1).for :$0 }

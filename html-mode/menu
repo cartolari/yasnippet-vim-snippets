@@ -1,0 +1,6 @@
+# name: menu
+# key: menu
+# --
+<menu>
+	$0
+</menu>

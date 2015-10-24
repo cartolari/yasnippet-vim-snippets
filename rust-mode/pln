@@ -1,0 +1,4 @@
+# name: "println!"
+# key: pln
+# --
+println!("$1");

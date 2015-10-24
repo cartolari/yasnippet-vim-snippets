@@ -1,0 +1,6 @@
+# name: menu:t
+# key: menu:t
+# --
+<menu type="toolbar">
+	$0
+</menu>

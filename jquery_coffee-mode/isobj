@@ -1,0 +1,4 @@
+# name: isobj
+# key: isobj
+# --
+$.isPlainObject(${1:obj})

@@ -1,0 +1,5 @@
+# name: impl
+# key: impl
+# --
+implicit none
+	$0

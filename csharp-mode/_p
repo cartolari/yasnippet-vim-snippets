@@ -1,0 +1,4 @@
+# name: <p
+# key: <p
+# --
+<param name="$1">${2:$1}</param>

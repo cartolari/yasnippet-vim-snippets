@@ -1,0 +1,6 @@
+# name: clock
+# key: clock
+# --
+clocking ${1:clocking_name} @(${2:posedge} ${3:clk});
+	$0
+endclocking : $1

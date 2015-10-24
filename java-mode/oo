@@ -1,0 +1,5 @@
+# name: oo
+# key: oo
+# --
+@OneToOne
+$1

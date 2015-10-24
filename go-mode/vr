@@ -1,0 +1,4 @@
+# name: vr
+# key: vr
+# --
+var ${1:t} ${0:string}

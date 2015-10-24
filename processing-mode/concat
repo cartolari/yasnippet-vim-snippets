@@ -1,0 +1,4 @@
+# name: concat
+# key: concat
+# --
+concat(${1:array1}, ${0:array2});

@@ -1,0 +1,4 @@
+# name: ct:a
+# key: ct:a
+# --
+content attr($0)

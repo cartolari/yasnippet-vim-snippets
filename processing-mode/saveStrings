@@ -1,0 +1,4 @@
+# name: saveStrings
+# key: saveStrings
+# --
+saveStrings(${1:filename}, ${0:strings});

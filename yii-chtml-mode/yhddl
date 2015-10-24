@@ -1,0 +1,4 @@
+# name: yhddl
+# key: yhddl
+# --
+echo CHtml::dropDownList('${1:name}', '${2:select}', array($3),array('${4:optionName}'=>${0:optionValue}));

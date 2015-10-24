@@ -1,0 +1,16 @@
+# name: yadp
+# key: yadp
+# --
+$dataProvider = new CActiveDataProvider('$1', array(
+  'criteria' => array(
+		'condition' => '$2',
+		'order' => '$3',
+		'with' => array('$4')
+	),
+//'pagination' => false,
+	'pagination' => array(
+		'pageSize'=>$5,
+	),
+));
+$0
+// $dataProvider->getData() will return a list of Post objects

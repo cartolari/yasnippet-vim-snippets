@@ -1,0 +1,6 @@
+# name: forto
+# key: forto
+# --
+for ${1:lowerbound} to ${2:upperbound}
+	$0
+end

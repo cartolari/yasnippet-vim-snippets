@@ -1,0 +1,8 @@
+# name: dfr
+# key: dfr
+# --
+defer func() {
+	if err := recover(); err != nil {
+		$0
+	}
+}()

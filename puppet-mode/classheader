@@ -1,0 +1,41 @@
+# name: classheader
+# key: classheader
+# --
+# == Class: ${1:}
+#
+# ${2:Full description of class $1 here}
+#
+# === Parameters
+#
+# Document parameters here.
+#
+# [*parameter1*]
+#   Explanation of what this parameter affects and what it defaults to.
+#   e.g. "Specify one or more upstream ntp servers as an array."
+#
+# === Variables
+#
+# Here you should define a list of variables that this module would require.
+#
+# [*variable1*]
+#   Explanation of how this variable affects the funtion of this class and
+#   if it has a default. e.g. "The parameter enc_ntp_servers must be set by the
+#   External Node Classifier as a comma separated list of hostnames."
+#
+# === Examples
+#
+#  class { '$1':
+#    parameter1 => [ 'just', 'an', 'example', ]
+#  }
+#
+# === Authors
+#
+# `"Name"` <`"Email"`>
+#
+# === Copyright
+#
+# Copyright `(format-time-string "%Y")` `"Name"`
+#
+class $1 ($3){
+	$4
+}

@@ -1,0 +1,5 @@
+# name: elsif
+# key: eif
+# --
+elsif $1 then
+	$0

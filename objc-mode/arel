@@ -1,0 +1,4 @@
+# name: arel
+# key: arel
+# --
+[${0:foo} autorelease];

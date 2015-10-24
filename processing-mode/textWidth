@@ -1,0 +1,4 @@
+# name: textWidth
+# key: textWidth
+# --
+textWidth(${0:data});

@@ -1,0 +1,4 @@
+# name: wi
+# key: wi
+# --
+wont_include ${0:what}

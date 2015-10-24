@@ -1,0 +1,4 @@
+# name: detach
+# key: detach
+# --
+${1:obj}.detach('${2:selector expression}')

@@ -1,0 +1,5 @@
+# name: on
+# key: on
+# --
+${1:obj}.on '${2:events}', '${3:selector expression}', (${4:e}) ->
+	${0:// event handler}

@@ -1,0 +1,4 @@
+# name: parent
+# key: parent
+# --
+${1:obj}.parent('${2:selector expression}')

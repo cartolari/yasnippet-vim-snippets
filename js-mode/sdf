@@ -1,0 +1,11 @@
+# name: sdf
+# key: sdf
+# --
+var ${1:function_name} = function (${2:argument}) {
+	$3
+
+	$1 = function ($2) {
+		$0
+	};
+};
+

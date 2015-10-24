@@ -1,0 +1,7 @@
+# name: ajaxstop
+# key: ajaxstop
+# --
+$.ajaxStop(function () {
+	${1:// handler for when all AJAX calls have been completed};
+});
+$0

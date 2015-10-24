@@ -1,0 +1,4 @@
+# name: dd.
+# key: dd.
+# --
+<dd class="$1">$0</dd>

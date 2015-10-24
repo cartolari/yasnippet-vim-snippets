@@ -1,0 +1,4 @@
+# name: Cfired
+# key: Cfired
+# --
+${1:callbacks}.fired()

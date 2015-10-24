@@ -1,0 +1,6 @@
+# name: comment
+# key: comment
+# --
+{% comment %}
+	$0
+{% endcomment %}

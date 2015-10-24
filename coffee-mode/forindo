@@ -1,0 +1,6 @@
+# name: forindo
+# key: forindo
+# --
+for ${1:name} in ${2:array}
+	do ($1) ->
+		${0:// body}

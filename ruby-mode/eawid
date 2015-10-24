@@ -1,0 +1,6 @@
+# name: eawid
+# key: eawid
+# --
+each_with_index do |${1:e}, ${2:i}|
+	$0
+end

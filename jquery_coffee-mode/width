@@ -1,0 +1,4 @@
+# name: width
+# key: width
+# --
+${1:obj}.width(${2:integer})

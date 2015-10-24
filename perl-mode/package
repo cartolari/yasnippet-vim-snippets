@@ -1,0 +1,10 @@
+# name: package
+# key: package
+# --
+package ${1:`(file-name-base)`};
+
+$0
+
+1;
+
+__END__

@@ -1,0 +1,4 @@
+# name: la
+# key: la
+# --
+laply(${1:list}, ${0:function})

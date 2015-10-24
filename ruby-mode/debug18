@@ -1,0 +1,4 @@
+# name: debug18
+# key: debug18
+# --
+require 'ruby-debug'; debugger

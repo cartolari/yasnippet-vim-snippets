@@ -1,0 +1,6 @@
+# name: enum+
+# key: enum+
+# --
+public enum $1 {
+	$0
+}

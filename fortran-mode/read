@@ -1,0 +1,4 @@
+# name: read
+# key: read
+# --
+read( unit = ${1:fp}, file = ${2:filename}${3:, iostat = IERR }) $0

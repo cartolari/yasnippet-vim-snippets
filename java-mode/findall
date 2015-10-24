@@ -1,0 +1,4 @@
+# name: findall
+# key: findall
+# --
+List<${1:listName}> ${2:items} = $1.findAll();

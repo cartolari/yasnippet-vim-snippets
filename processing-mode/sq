@@ -1,0 +1,4 @@
+# name: sq
+# key: sq
+# --
+sq(${0:value});

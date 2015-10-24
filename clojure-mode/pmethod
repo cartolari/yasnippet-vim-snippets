@@ -1,0 +1,4 @@
+# name: pmethod
+# key: pmethod
+# --
+(${1:name} [${2:this} ${0:args}])

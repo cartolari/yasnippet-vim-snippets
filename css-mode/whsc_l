@@ -1,0 +1,4 @@
+# name: whsc:l
+# key: whsc:l
+# --
+white-space-collapse: loose;

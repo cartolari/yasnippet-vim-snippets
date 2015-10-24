@@ -1,0 +1,4 @@
+# name: pps
+# key: pps
+# --
+procedure ${1:name}(${0:args});

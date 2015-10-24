@@ -1,0 +1,6 @@
+# name: set
+# key: set
+# --
+${1:public} void set${3:}(${2:String} ${0:}){
+	this.$4 = $4;
+}

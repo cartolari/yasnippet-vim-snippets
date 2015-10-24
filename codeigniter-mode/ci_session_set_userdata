@@ -1,0 +1,4 @@
+# name: ci_session_set_userdata
+# key: ci_session_set_userdata
+# --
+$this->session->set_userdata($${1:array});$2

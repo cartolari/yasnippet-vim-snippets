@@ -1,0 +1,4 @@
+# name: expand
+# key: expand
+# --
+expand(${1:array}${2:, }${0:newSize});

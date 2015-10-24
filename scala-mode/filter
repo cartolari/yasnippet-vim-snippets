@@ -1,0 +1,4 @@
+# name: filter
+# key: filter
+# --
+${0:name}.filter (a

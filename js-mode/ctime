@@ -1,0 +1,4 @@
+# name: ctime
+# key: ctime
+# --
+console.time(${0:label});

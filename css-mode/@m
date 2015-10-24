@@ -1,0 +1,6 @@
+# name: @m
+# key: @m
+# --
+@media ${1:print} {
+	$0
+}

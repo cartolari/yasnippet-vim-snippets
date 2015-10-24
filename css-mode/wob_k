@@ -1,0 +1,4 @@
+# name: wob:k
+# key: wob:k
+# --
+word-break: keep-all;

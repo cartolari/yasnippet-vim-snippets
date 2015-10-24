@@ -1,0 +1,6 @@
+# name: filter
+# key: filter
+# --
+{% filter $1 %}
+	$0
+{% endfilter %}

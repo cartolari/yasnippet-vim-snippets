@@ -1,0 +1,4 @@
+# name: escape
+# key: escape
+# --
+${fn:escapeXml(${0:string})}

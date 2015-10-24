@@ -1,0 +1,18 @@
+# name: svn
+# key: svn
+# --
+# SCM Resource, Chef::Provider::Subversion
+svn ${1:"/destination/path"} do # Path to clone/checkout/export the source to
+	${2:#}repository $3 # URI of the repository
+	${4:#}revision ${5:"HEAD"} # revision to checkout. can be symbolic, like "HEAD" or an SCM specific revision id
+	${6:#}reference $7 # (Git only) alias for revision
+	${8:#}user ${9:nil} # System user to own the checked out code
+	${10:#}group ${11:nil} # System group to own the checked out code
+	${12:#}svn_username $13 # (Subversion only) Username for Subversion operations
+	${14:#}svn_password $15 # (Subversion only) Password for Subversion operations
+	${16:#}svn_arguments $17 # (Subversion only) Extra arguments passed to the subversion command
+
+	${18:#}${19:action :sync} # Update the source to the specified revision, or get a new checkout (Default)
+	${20:#}${21:action :checkout} # Checkout the source. Does nothing if a checkout is available
+	${22:#}${0:action :export} # Export the source, excluding or removing any version control artifacts
+end

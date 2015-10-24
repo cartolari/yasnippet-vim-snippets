@@ -1,0 +1,4 @@
+# name: mrt
+# key: mrt
+# --
+must_respond_to :${0:method}

@@ -1,0 +1,4 @@
+# name: has
+# key: has
+# --
+has ${1:Type} ${2:$!identifier};

@@ -1,0 +1,5 @@
+# name: filtert
+# key: filtert
+# --
+${1:obj}.filter (${2:index}) ->
+	$3

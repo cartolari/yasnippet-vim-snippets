@@ -1,0 +1,5 @@
+# name: foro
+# key: foro
+# --
+for ${1:key}, ${2:value} of ${3:object}
+	${0:# body...}

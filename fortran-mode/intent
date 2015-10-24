@@ -1,0 +1,4 @@
+# name: intent
+# key: intent
+# --
+${1:type}, intent(inout) :: $0

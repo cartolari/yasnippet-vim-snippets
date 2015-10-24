@@ -1,0 +1,4 @@
+# name: round
+# key: round
+# --
+round(${0:value}};

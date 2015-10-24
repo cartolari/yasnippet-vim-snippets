@@ -1,0 +1,8 @@
+# name: class
+# key: class
+# --
+${1:public|internal} class ${2:name} ${0:extends } {
+	public function $2 (	) {
+		("start");
+	}
+}

@@ -1,0 +1,4 @@
+# name: afc
+# key: afc
+# --
+after cancel ${0:id or script}

@@ -1,0 +1,9 @@
+# name: csshooks
+# key: csshooks
+# --
+$.cssHooks['${1:CSS prop}'] = {
+	get: (elem, computed, extra) ->
+		${2: // handle getting the CSS property}
+	set: (elem, value) ->
+		${0: // handle setting the CSS value}
+}

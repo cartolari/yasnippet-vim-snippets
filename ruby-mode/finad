@@ -1,0 +1,6 @@
+# name: finad
+# key: finad
+# --
+find_all do |${1:e}|
+	$0
+end

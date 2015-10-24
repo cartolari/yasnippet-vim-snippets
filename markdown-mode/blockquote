@@ -1,0 +1,6 @@
+# name: blockquote
+# key: blockquote
+# --
+{% blockquote %}
+${0:quote}
+{% endblockquote %}

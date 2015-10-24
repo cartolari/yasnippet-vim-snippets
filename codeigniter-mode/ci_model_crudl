@@ -1,0 +1,61 @@
+# name: ci_model_crudl
+# key: ci_model_crudl
+# --
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class ${1:ClassName_model} extends CI_Model
+{
+	private $table = '${2:table_name}';
+
+	function __construct()
+	{
+		parent::__construct();
+		${3:// code...}
+	}
+
+	public function create($data)
+	{
+		if($this->db->insert($this->table, $data))
+			return true;
+		else
+			return false;
+	}
+
+	public function read($id)
+	{
+		return $this->db->get_where($this->table, array('id', $id))->result();
+	}
+
+	public function update($id, $data)
+	{
+		if($this->db->update($this->table, $data, array('id' => $id)))
+			return true;
+		else
+			return false;
+	}
+
+	public function delete($id)
+	{
+		if(is_array($id))
+		{
+			$this->db->trans_start();
+			foreach($id as $elem)
+				$this->db->delete($this->table, array('id' => $elem));
+			$this->db->trans_complete();
+		}
+		else
+		{
+			if($this->db->delete($this->table, array('id' => $id)))
+				return true;
+			else
+				return false;
+		}
+	}
+
+	public function listRows($limit = null, $offset = 0)
+	{
+		if(!is_null($limit))
+			$this->db->limit($limit, $offset);
+		return $this->db->get($this->table)->result();
+	}
+}

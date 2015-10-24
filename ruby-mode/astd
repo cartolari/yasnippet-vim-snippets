@@ -1,0 +1,6 @@
+# name: astd
+# key: astd
+# --
+assert_throws :${1:expected} do
+	$0
+end

@@ -1,0 +1,4 @@
+# name: funl
+# key: funl
+# --
+function (${1:int x}) => $2${3:;}

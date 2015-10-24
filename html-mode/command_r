@@ -1,0 +1,4 @@
+# name: command:r
+# key: command:r
+# --
+<command type="radio" radiogroup="$1" label="$2" icon="$0" />

@@ -1,0 +1,4 @@
+# name: yhcssf
+# key: yhcssf
+# --
+echo CHtml::cssFile('${1:url}','${0:media}');

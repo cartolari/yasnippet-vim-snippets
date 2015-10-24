@@ -1,0 +1,5 @@
+# name: "extern crate log"
+# key: ecl
+# --
+#[macro_use]
+extern crate log;

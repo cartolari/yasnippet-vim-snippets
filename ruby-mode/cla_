@@ -1,0 +1,8 @@
+# name: class .. < ParentClass .. initialize .. end
+# key: cla<
+# --
+class ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`} < ${2:ParentClass}
+	def initialize(${3:args})
+		$0
+	end
+end

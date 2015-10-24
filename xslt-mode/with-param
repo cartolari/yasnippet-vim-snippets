@@ -1,0 +1,4 @@
+# name: select
+# key: with-param
+# --
+<xsl:with-param name="${1:name}" select="${0:*}" />

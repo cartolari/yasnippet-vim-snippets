@@ -1,0 +1,4 @@
+# name: truncatewords
+# key: truncatewords
+# --
+truncatewords:$0

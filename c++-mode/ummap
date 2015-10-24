@@ -1,0 +1,4 @@
+# name: ummap
+# key: ummap
+# --
+std::unordered_multimap<${1:Key}, ${2:T}> $3;

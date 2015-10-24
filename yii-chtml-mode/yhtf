@@ -1,0 +1,4 @@
+# name: yhtf
+# key: yhtf
+# --
+echo CHtml::textField('${1:name}', '${2:value}',array('${3:optionName}'=>${0:optionValue}));

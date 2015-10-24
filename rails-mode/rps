@@ -1,0 +1,4 @@
+# name: rps
+# key: rps
+# --
+render partial: '${1:item}', status: ${0:500}

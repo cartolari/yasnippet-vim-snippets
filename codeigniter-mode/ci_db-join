@@ -1,0 +1,4 @@
+# name: ci_db-join
+# key: ci_db-join
+# --
+$this->db->join("${1:table}", "${2:condition}", "${3:type}");$4

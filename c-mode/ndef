@@ -1,0 +1,6 @@
+# name: ndef
+# key: ndef
+# --
+#ifndef $1
+#define ${1:SYMBOL} ${2:value}
+#endif

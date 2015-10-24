@@ -1,0 +1,4 @@
+# name: lic
+# key: lic
+# --
+<%= link_to '${1:link text...}', :controller => '${0:items}' %>

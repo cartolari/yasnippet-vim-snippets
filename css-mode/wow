@@ -1,0 +1,4 @@
+# name: wow
+# key: wow
+# --
+word-wrap: $0;

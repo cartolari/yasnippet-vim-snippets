@@ -1,0 +1,29 @@
+# name: all
+# key: all
+# --
+package name {
+
+	${1:public|internal|final} class ${2:name} ${0:extends } {
+		private|public| static const FOO = "abc";
+		private|public| static var BAR = "abc";
+
+		// class initializer - no JIT !! one time setup
+		if Cababilities.os == "Linux|MacOS" {
+			FOO = "other";
+		}
+
+		// constructor:
+		public function $2 (	){
+			super2();
+			trace("start");
+		}
+		public function name (a, b...){
+			super.name(..);
+			lable:break
+		}
+	}
+}
+
+function A(){
+	// A can only be accessed within this file
+}

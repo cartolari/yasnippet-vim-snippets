@@ -1,0 +1,4 @@
+# name: bdrs
+# key: bdrs
+# --
+border-right-style $0

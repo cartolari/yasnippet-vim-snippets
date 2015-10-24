@@ -1,0 +1,4 @@
+# name: merge
+# key: merge
+# --
+$.merge(${1:target}, ${0:original})

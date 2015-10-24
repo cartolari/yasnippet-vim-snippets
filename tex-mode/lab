@@ -1,0 +1,4 @@
+# name: \label
+# key: lab
+# --
+\label{${1:eq:}${2:fig:}${3:tab:}$0}

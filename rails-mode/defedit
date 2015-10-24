@@ -1,0 +1,6 @@
+# name: defedit
+# key: defedit
+# --
+def edit
+	@${1:model_class_name} = ${0:ModelClassName}.find(params[:id])
+end

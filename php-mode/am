@@ -1,0 +1,7 @@
+# name: am
+# key: am
+# --
+$${1:foo} = array_map(function($${2:v}) {
+	$0
+	return $$2;
+}, $$1);

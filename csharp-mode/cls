@@ -1,0 +1,6 @@
+# name: cls
+# key: cls
+# --
+${2:public} class ${1:} {
+	$0
+}

@@ -1,0 +1,4 @@
+# name: output
+# key: output
+# --
+<output>$0</output>

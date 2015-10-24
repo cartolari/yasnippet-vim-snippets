@@ -1,0 +1,4 @@
+# name: ce
+# key: ce
+# --
+console.err($0);

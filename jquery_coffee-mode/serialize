@@ -1,0 +1,4 @@
+# name: serialize
+# key: serialize
+# --
+${1:obj}.serialize()

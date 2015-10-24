@@ -1,0 +1,6 @@
+# name: for
+# key: for
+# --
+for (int ${2:i} = 0; $2 < ${1:Things}.length; $2${3:++}) {
+	${0:$1[$2]}
+};

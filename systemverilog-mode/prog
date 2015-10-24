@@ -1,0 +1,6 @@
+# name: prog
+# key: prog
+# --
+program ${1:program_name} ();
+	$0
+endprogram : $1

@@ -1,0 +1,4 @@
+# name: typewriter (monospace) text
+# key: tt
+# --
+\texttt{${0:text}}

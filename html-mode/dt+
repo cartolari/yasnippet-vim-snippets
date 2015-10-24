@@ -1,0 +1,6 @@
+# name: dt+
+# key: dt+
+# --
+<dt>$1</dt>
+<dd>$2</dd>
+dt+$0

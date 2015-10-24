@@ -1,0 +1,4 @@
+# name: ch
+# key: ch
+# --
+chan ${0:int}

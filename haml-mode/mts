@@ -1,0 +1,4 @@
+# name: mts
+# key: mts
+# --
+= mail_to ${1:email_address}, ${2:name}, :subject => $3, :body => $4

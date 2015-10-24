@@ -1,0 +1,14 @@
+# name: webproject
+# key: webproject
+# --
+import sbt._
+
+class ${1:Name}(info: ProjectInfo) extends DefaultWebProject(info) {
+	val liftVersion = "${0:2.3}"
+
+	override def libraryDependencies = Set(
+
+	) ++ super.libraryDependencies
+
+	val snapshots = ScalaToolsSnapshots
+}

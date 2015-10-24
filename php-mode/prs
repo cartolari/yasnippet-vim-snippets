@@ -1,0 +1,4 @@
+# name: prs
+# key: prs
+# --
+print_r($0, 1);

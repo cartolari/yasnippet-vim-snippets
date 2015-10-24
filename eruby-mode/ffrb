@@ -1,0 +1,4 @@
+# name: ffrb
+# key: ffrb
+# --
+<%= ${1:f}.radio_button :${2:attribute}, :${0:tag_value} %>

@@ -1,0 +1,4 @@
+# name: warning
+# key: warning
+# --
+warning("${1:message}")

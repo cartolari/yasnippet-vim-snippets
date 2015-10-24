@@ -1,0 +1,4 @@
+# name: mbko
+# key: mbko
+# --
+must_be_kind_of ${0:Class}

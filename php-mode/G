@@ -1,0 +1,4 @@
+# name: G
+# key: G
+# --
+$_GET['${1:variable}']

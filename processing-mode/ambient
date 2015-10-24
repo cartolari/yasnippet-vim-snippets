@@ -1,0 +1,4 @@
+# name: ambient
+# key: ambient
+# --
+ambient(${1:value1}, ${2:value2}, ${0:value3});

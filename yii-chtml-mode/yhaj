@@ -1,0 +1,4 @@
+# name: yhaj
+# key: yhaj
+# --
+echo CHtml::ajax(array($0));

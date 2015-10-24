@@ -1,0 +1,4 @@
+# name: isr
+# key: isr
+# --
+it { should route(:${1:method}, '${0:path}') }

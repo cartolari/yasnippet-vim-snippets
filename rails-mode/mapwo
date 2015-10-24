@@ -1,0 +1,7 @@
+# name: mapwo
+# key: mapwo
+# --
+${1:map}.with_options ${2:controller}: '${3:thing}' do |$3|
+	$0
+end
+

@@ -1,0 +1,14 @@
+# name: gamg
+# key: gamg
+# --
+${1:p}
+{
+	solver          GAMG;
+	tolerance       1e-${2:6};
+	relTol          ${0:0.0};
+	smoother        GaussSeidel;
+	cacheAgglomeration true;
+	nCellsInCoarsestLevel 10;
+	agglomerator    faceAreaPair;
+	mergeLevels     1;
+}

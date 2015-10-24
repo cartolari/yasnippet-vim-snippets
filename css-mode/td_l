@@ -1,0 +1,4 @@
+# name: td:l
+# key: td:l
+# --
+text-decoration: line-through;

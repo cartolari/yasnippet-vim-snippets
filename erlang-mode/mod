@@ -1,0 +1,12 @@
+# name: mod
+# key: mod
+# --
+-module(${1:`(file-name-base)`}).
+
+-compile([export_all]).
+
+start() ->
+    $0
+
+stop() ->
+    ok.

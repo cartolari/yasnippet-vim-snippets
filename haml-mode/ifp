@@ -1,0 +1,5 @@
+# name: ifp
+# key: ifp
+# --
+- if ${1:condition}.presence?
+	$0

@@ -1,0 +1,4 @@
+# name: errln
+# key: errln
+# --
+System.err.println("${0:Message}");

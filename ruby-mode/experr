@@ -1,0 +1,4 @@
+# name: experr
+# key: experr
+# --
+expect { ${1:object} }.to raise_error ${2:StandardError}, /${0:message_regex}/

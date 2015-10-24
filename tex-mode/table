@@ -1,0 +1,4 @@
+# name: reference to a table
+# key: table
+# --
+${1:Table}~\ref{${2:tab:}}

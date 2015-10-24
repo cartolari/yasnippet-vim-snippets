@@ -1,0 +1,4 @@
+# name: rjson
+# key: rjson
+# --
+render json: '${0:text to render}'

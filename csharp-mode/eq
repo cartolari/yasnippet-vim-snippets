@@ -1,0 +1,10 @@
+# name: eq
+# key: eq
+# --
+public override bool Equals(object obj) {
+	if (obj == null || GetType() != obj.GetType()) {
+		return false;
+	}
+	${0:throw new NotImplementedException();}
+	return base.Equals(obj);
+}

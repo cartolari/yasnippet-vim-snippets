@@ -1,0 +1,4 @@
+# name: undele
+# key: undele
+# --
+${1:obj}.undelegate(${2:selector expression}, ${3:event}, ${4:handler})

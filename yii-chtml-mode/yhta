@@ -1,0 +1,4 @@
+# name: yhta
+# key: yhta
+# --
+echo CHtml::textArea('${1:name}', '${2:value}',array('${3:optionName}'=>${0:optionValue}));

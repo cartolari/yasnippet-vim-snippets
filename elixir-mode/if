@@ -1,0 +1,6 @@
+# name: if .. do .. end
+# key: if
+# --
+if $1 do
+	$0
+end

@@ -1,0 +1,4 @@
+# name: pow
+# key: pow
+# --
+pow(${1:num}, ${0:exponent});

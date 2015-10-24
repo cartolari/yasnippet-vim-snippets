@@ -1,0 +1,4 @@
+# name: mra
+# key: mra
+# --
+-> { $1 }.must_raise ${0:Exception}

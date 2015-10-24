@@ -1,0 +1,4 @@
+# name: jsons
+# key: jsons
+# --
+JSON.stringify ${0:object}

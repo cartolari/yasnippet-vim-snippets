@@ -1,0 +1,4 @@
+# name: datetime
+# key: datetime
+# --
+${1:FIELDNAME} = models.DateTimeField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})

@@ -1,0 +1,4 @@
+# name: prepend
+# key: prepend
+# --
+${1:obj}.prepend('${2:Some text <b>and bold!</b>}')

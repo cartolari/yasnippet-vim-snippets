@@ -1,0 +1,9 @@
+# name: defd
+# key: defd
+# --
+@doc """
+${1:doc string}
+"""
+def ${2:name} do
+	$0
+end

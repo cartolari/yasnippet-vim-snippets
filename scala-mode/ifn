@@ -1,0 +1,5 @@
+# name: ifn
+# key: ifn
+# --
+if (!$1)
+	$0

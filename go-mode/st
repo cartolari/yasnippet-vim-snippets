@@ -1,0 +1,7 @@
+# name: st
+# key: st
+# --
+struct ${1:name} {
+	${2:/* data */}
+}
+$0

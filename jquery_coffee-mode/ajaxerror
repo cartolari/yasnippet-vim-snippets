@@ -1,0 +1,6 @@
+# name: ajaxerror
+# key: ajaxerror
+# --
+${1:obj}.ajaxError (${1:e}, xhr, settings, thrownError) ->
+	${2:// error callback}
+$0

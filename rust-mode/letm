@@ -1,0 +1,4 @@
+# name: "let mut variable declaration"
+# key: letm
+# --
+let mut ${1:name}${2:: ${3:type}} = $4;

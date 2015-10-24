@@ -1,0 +1,4 @@
+# name: die
+# key: die
+# --
+${1:obj}.die(${2:event}, ${3:handler})

@@ -1,0 +1,4 @@
+# name: beh
+# key: beh
+# --
+-behaviour(${1:behaviour}).

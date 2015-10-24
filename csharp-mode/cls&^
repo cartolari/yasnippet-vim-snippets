@@ -1,0 +1,6 @@
+# name: cls&^
+# key: cls&^
+# --
+internal static class ${1:} {
+	$0
+}

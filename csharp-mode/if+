@@ -1,0 +1,6 @@
+# name: if+
+# key: if+
+# --
+public interface ${1:} {
+	$0
+}

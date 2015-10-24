@@ -1,0 +1,4 @@
+# name: tw:s
+# key: tw:s
+# --
+text-wrap: suppress;

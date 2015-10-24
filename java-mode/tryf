@@ -1,0 +1,8 @@
+# name: tryf
+# key: tryf
+# --
+try {
+	$0
+} catch(${1:Exception} ${2:e}) {
+} finally {
+}

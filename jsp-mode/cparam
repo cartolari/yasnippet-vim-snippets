@@ -1,0 +1,4 @@
+# name: cparam
+# key: cparam
+# --
+<c:param name="$1" value="$0" />

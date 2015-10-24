@@ -1,0 +1,5 @@
+# name: named
+# key: template
+# --
+<xsl:template name="${1:name}">$0
+</xsl:template>

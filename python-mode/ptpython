@@ -1,0 +1,5 @@
+# name: ptpython
+# key: ptpython
+# --
+from ptpython.repl import embed
+embed(globals(), locals(), vi_mode=${1:False}, history_filename=${2:None})

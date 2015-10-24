@@ -1,0 +1,4 @@
+# name: rf
+# key: rf
+# --
+render file: '${0:filepath}'

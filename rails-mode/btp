@@ -1,0 +1,4 @@
+# name: btp
+# key: btp
+# --
+belongs_to :${1:association}, polymorphic: true

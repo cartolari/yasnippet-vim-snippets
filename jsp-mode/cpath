@@ -1,0 +1,4 @@
+# name: cpath
+# key: cpath
+# --
+${pageContext.request.contextPath}

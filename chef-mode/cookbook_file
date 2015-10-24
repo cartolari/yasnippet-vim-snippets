@@ -1,0 +1,16 @@
+# name: cookbook_file
+# key: cookbook_file
+# --
+# Cookbook File resource
+cookbook_file ${1:"/path/to/file"} do # The remote path where the file will reside
+	${2:#}backup $3 # How many backups of this file to keep. Set to false  if you want no backups
+	${4:#}group $5 # The group owner of the file (string or id)
+	${6:#}mode $7 # The octal mode of the file - e.g. 0755
+	${8:#}owner $9 # The owner for the file
+	${10:#}source $11 # The basename of the source file
+	${12:#}cookbook $13 # The cookbook this file is stored in
+
+	${14:#}${15: action :create} # Create this file (Default)
+	${16:#}${17: action :create_if_missing} # Create only if it doesn't exist yet
+	${18:#}${0: action :delete} # Delete this file
+end

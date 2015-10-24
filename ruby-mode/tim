@@ -1,0 +1,4 @@
+# name: tim
+# key: tim
+# --
+times { |${1:n}| $0 }

@@ -1,0 +1,6 @@
+# name: smth
+# key: smth
+# --
+submethod ${1:submethod_name}(${2:$attr}) {
+	$3
+}

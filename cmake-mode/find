@@ -1,0 +1,4 @@
+# name: find
+# key: find
+# --
+FIND_PACKAGE(${0:LIBRARY})

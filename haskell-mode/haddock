@@ -1,0 +1,4 @@
+# name: haddock
+# key: haddock
+# --
+{-# OPTIONS_HADDOCK ${0:hide} #-}

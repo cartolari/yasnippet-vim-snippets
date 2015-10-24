@@ -1,0 +1,6 @@
+# name: tabular (or arbitrary) environment
+# key: tab
+# --
+\begin{${1:tabular}}{${2:c}}
+	$0
+\end{$1}

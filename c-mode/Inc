@@ -1,0 +1,4 @@
+# name: Inc
+# key: Inc
+# --
+#include "${1:`(concat (file-name-base) ".h")`}"

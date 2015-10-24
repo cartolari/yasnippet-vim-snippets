@@ -1,0 +1,7 @@
+# name: case
+# key: case
+# --
+case '${1:case}':
+	$2
+	break;
+$0

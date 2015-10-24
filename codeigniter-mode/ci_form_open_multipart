@@ -1,0 +1,4 @@
+# name: ci_form_open_multipart
+# key: ci_form_open_multipart
+# --
+form_open_multipart("${1:action}");$2

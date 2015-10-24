@@ -1,0 +1,4 @@
+# name: meta
+# key: meta
+# --
+<meta http-equiv="$1" content="$2" />

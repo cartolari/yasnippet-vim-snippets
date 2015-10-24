@@ -1,0 +1,4 @@
+# name: link:touch
+# key: link:touch
+# --
+<link rel="apple-touch-icon" href="${1:favicon.png}" />

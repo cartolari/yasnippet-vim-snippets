@@ -1,0 +1,4 @@
+# name: defpr
+# key: defpr
+# --
+defprotocol ${1:name}, [${0:function}]

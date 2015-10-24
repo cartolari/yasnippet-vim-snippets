@@ -1,0 +1,5 @@
+# name: pry
+# key: pry
+# --
+require IEx; IEx.pry
+$0

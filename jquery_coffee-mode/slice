@@ -1,0 +1,4 @@
+# name: slice
+# key: slice
+# --
+${1:obj}.slice(${2:start}${3:, end})

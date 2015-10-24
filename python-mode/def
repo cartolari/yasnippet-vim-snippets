@@ -1,0 +1,6 @@
+# name: def
+# key: def
+# --
+def ${1:fname}(${2:}):
+	"""${3:docstring for $1}"""
+	$0

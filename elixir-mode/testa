@@ -1,0 +1,6 @@
+# name: testa
+# key: testa
+# --
+test "${1:test_name}", %{${2:arg: arg}} do
+	$0
+end

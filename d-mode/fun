@@ -1,0 +1,6 @@
+# name: fun
+# key: fun
+# --
+${1:auto} ${2:func}(${3:params}) {
+	$0
+}

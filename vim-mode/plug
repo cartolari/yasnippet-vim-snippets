@@ -1,0 +1,4 @@
+# name: Vundle.vim Plugin definition
+# key: plug
+# --
+Plugin '$0'

@@ -1,0 +1,4 @@
+# name: ci_input-is_ajax_request
+# key: ci_input-is_ajax_request
+# --
+$this->input->is_ajax_request();$1

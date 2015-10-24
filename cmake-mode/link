@@ -1,0 +1,6 @@
+# name: link
+# key: link
+# --
+TARGET_LINK_LIBRARIES(${1:bin}
+	${0:somelib}
+)

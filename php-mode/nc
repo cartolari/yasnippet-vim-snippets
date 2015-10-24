@@ -1,0 +1,9 @@
+# name: nc
+# key: nc
+# --
+namespace ${1:};
+
+${2:abstract }class ${3:}
+{
+	$0
+}

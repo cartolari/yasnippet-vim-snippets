@@ -1,0 +1,4 @@
+# name: info
+# key: info
+# --
+Logger.info(${1:param});

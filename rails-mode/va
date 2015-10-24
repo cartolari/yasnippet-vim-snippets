@@ -1,0 +1,4 @@
+# name: validates .., acceptance: true
+# key: va
+# --
+validates :${0:terms}, acceptance: true

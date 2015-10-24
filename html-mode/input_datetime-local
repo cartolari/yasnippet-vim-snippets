@@ -1,0 +1,4 @@
+# name: input:datetime-local
+# key: input:datetime-local
+# --
+<input type="datetime-local" name="$1" id="${2:$1}" value="$3" />

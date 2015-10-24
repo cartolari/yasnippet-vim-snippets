@@ -1,0 +1,4 @@
+# name: yhmt
+# key: yhmt
+# --
+echo CHtml::mailto('${1:text}', '${2:email}',array('${3:optionName}'=>${0:optionValue}));

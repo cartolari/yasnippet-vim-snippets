@@ -1,0 +1,4 @@
+# name: args
+# key: args
+# --
+*args${1:,}$0

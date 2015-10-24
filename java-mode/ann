@@ -1,0 +1,4 @@
+# name: ann
+# key: ann
+# --
+assertNotNull("${1:Failure message}", ${2:object});

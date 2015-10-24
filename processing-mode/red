@@ -1,0 +1,4 @@
+# name: red
+# key: red
+# --
+red(${0:color});

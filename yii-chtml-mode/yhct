@@ -1,0 +1,4 @@
+# name: yhct
+# key: yhct
+# --
+echo CHtml::closeTag('${0:tag}');

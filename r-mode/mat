@@ -1,0 +1,4 @@
+# name: mat
+# key: mat
+# --
+matrix(${1:data}, nrow = ${2:rows}, ncol = ${0:cols})

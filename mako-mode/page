@@ -1,0 +1,4 @@
+# name: page
+# key: page
+# --
+<%page args="${0:}" />

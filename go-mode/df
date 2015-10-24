@@ -1,0 +1,4 @@
+# name: df
+# key: df
+# --
+defer ${0:func}()

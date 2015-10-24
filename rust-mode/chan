@@ -1,0 +1,4 @@
+# name: "Declare (Sender, Receiver) pair of asynchronous channel()"
+# key: chan
+# --
+let (${1:tx}, ${2:rx}): (Sender<${3:i32}>, Receiver<${4:i32}>) = channel();

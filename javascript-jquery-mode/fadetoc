@@ -1,0 +1,6 @@
+# name: fadetoc
+# key: fadetoc
+# --
+${1:obj}.fadeTo('slow/400/fast', ${2:0.5}, function () {
+	${0:// callback};
+});

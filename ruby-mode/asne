@@ -1,0 +1,4 @@
+# name: asne
+# key: asne
+# --
+assert_not_equal ${1:unexpected}, ${2:actual}

@@ -1,0 +1,11 @@
+# name: archive
+# key: archive
+# --
+archive { "${1:filename}" :
+	ensure     => ${2:present},
+	url        => "http://${3:url}",
+	extension  => "${4:tgz}",
+	target     => "${5:target}",
+	checksum   => ${6:false},
+	src_target => "${7:/tmp}",
+}

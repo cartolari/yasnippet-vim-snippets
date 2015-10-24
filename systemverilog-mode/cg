@@ -1,0 +1,6 @@
+# name: cg
+# key: cg
+# --
+covergroup ${1:group_name} @(${2:posedge} ${3:clk});
+	$0
+endgroup : $1

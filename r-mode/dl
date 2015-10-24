@@ -1,0 +1,4 @@
+# name: dl
+# key: dl
+# --
+dlply(${1:frame}, ${2:variables}, ${0:function})

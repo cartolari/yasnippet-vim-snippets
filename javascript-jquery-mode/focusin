@@ -1,0 +1,6 @@
+# name: focusin
+# key: focusin
+# --
+${1:obj}.focusIn(function (${2:e}) {
+	${0:// event handler}
+});

@@ -1,0 +1,14 @@
+# name: doc_c
+# key: doc_c
+# --
+/**
+ * ${3:undocumented class}
+ *
+ * @package ${4:default}
+ * @subpackage ${5:default}
+ * @author ${6:`"Name"`}
+ */
+${1:}class ${2:}
+{
+	$0
+} // END $1class $2

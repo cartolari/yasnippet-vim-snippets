@@ -1,0 +1,4 @@
+# name: vp
+# key: vp
+# --
+validates :${0:attribute}, presence: true

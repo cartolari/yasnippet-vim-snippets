@@ -1,0 +1,6 @@
+# name: theusual
+# key: theusual
+# --
+import std.stdio, std.string, std.array;
+import std.traits, std.conv, std.algorithm;
+import std.math, std.regex;

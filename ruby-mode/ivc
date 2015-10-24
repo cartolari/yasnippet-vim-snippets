@@ -1,0 +1,4 @@
+# name: ivc
+# key: ivc
+# --
+@${1:variable_name} ||= ${0:cached_value}

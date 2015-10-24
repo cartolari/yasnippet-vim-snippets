@@ -1,0 +1,4 @@
+# name: tc
+# key: tc
+# --
+public class ${1:`(file-name-base)`} extends ${0:TestCase}

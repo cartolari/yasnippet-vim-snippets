@@ -1,0 +1,4 @@
+# name: as
+# key: as
+# --
+${1:name}.asInstanceOf[${2:T}]

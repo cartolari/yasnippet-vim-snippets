@@ -1,0 +1,4 @@
+# name: bgr:x
+# key: bgr:x
+# --
+background-repeat repeat-x

@@ -1,0 +1,4 @@
+# name: nf
+# key: nf
+# --
+nf(${2:value}, ${3:left}${4:, }${0:right});

@@ -1,0 +1,6 @@
+# name: inter
+# key: inter
+# --
+interface I${1:`(file-name-base)`} {
+	$0
+}

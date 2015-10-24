@@ -1,0 +1,4 @@
+# name: tra
+# key: tra
+# --
+transaction(${1:true}) { $0 }

@@ -1,0 +1,5 @@
+# name: font
+# key: font
+# --
+PFont ${1:font};
+$1 = loadFont("${0:FFScala-32.vlw}");

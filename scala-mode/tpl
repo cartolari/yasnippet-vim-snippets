@@ -1,0 +1,4 @@
+# name: tpl
+# key: tpl
+# --
+Tuple${1:2}[${2:T},${0:T}]

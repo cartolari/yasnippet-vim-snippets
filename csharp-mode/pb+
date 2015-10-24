@@ -1,0 +1,4 @@
+# name: pb+
+# key: pb+
+# --
+public bool $1 { get; set; }

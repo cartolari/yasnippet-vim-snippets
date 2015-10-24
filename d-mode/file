@@ -1,0 +1,5 @@
+# name: file
+# key: file
+# --
+auto ${1:f} = File(${2:"useful_info.xml"}, ${3:"rw"});
+$0

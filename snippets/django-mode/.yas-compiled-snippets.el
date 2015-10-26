@@ -1,0 +1,41 @@
+;;; Compiled snippets and support files for `django-mode'
+;;; Snippet definitions:
+;;;
+(yas-define-snippets 'django-mode
+                     '(("xml" "${1:FIELDNAME} = models.XMLField(schema_path=${2:None}${0:, blank=True})" "xml" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/xml" nil nil)
+                       ("url" "${1:FIELDNAME} = models.URLField(${2:verify_exists=False}${3:, max_length=200}${0:, blank=True})" "url" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/url" nil nil)
+                       ("time" "${1:FIELDNAME} = models.TimeField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})" "time" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/time" nil nil)
+                       ("text" "${1:FIELDNAME} = models.TextField(${0:blank=True})" "text" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/text" nil nil)
+                       ("tabularinline" "class ${0:ModelName}Inline(admin.TabularInline):\n	model = $1\n" "tabularinline" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/tabularinline" nil nil)
+                       ("stackedinline" "class ${0:ModelName}Inline(admin.StackedInline):\n	model = $1\n" "stackedinline" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/stackedinline" nil nil)
+                       ("smallint" "${1:FIELDNAME} = models.SmallIntegerField($0)" "smallint" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/smallint" nil nil)
+                       ("slug" "${1:FIELDNAME} = models.SlugField(max_length=${2:50}${0:, blank=True})" "slug" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/slug" nil nil)
+                       ("r2r" "return render_to_response('${1:template.html}', {\n		$2\n	}${0:, context_instance=RequestContext(request)}\n)" "r2r" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/r2r" nil nil)
+                       ("possmallint" "${1:FIELDNAME} = models.PositiveSmallIntegerField($0)" "possmallint" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/possmallint" nil nil)
+                       ("posint" "${1:FIELDNAME} = models.PositiveIntegerField($0)" "posint" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/posint" nil nil)
+                       ("o2o" "${1:FIELDNAME} = models.OneToOneField(${2:OtherModel}${3:, parent_link=True}${4:, related_name=''}${5:, limit_choices_to=}${0:, to_field=''})\n\n" "o2o" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/o2o" nil nil)
+                       ("nullbool" "${1:FIELDNAME} = models.NullBooleanField($0)" "nullbool" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/nullbool" nil nil)
+                       ("modeladmin" "class ${1:ModelName}Admin(admin.ModelAdmin):\n	$0\n\nadmin.site.register($1, $1Admin)\n" "modeladmin" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/modeladmin" nil nil)
+                       ("model" "class ${1:ModelName}(models.Model):\n	\"\"\"${2:docstring}\"\"\"\n	$3\n\n	class Meta:\n		$4\n\n	def __unicode__(self):\n		$5\n\n	def save(self, *args, **kwargs):\n		$6\n\n	@models.permalink\n	def get_absolute_url(self):\n		return ('${7:view_or_url_name}' $0)\n" "model" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/model" nil nil)
+                       ("m2m" "${1:FIELDNAME} = models.ManyToManyField(${2:OtherModel}${3:, related_name=''}${4:, limit_choices_to=}${5:, symmetrical=False}${6:, through=''}${0:, db_table=''})" "m2m" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/m2m" nil nil)
+                       ("ip" "${1:FIELDNAME} = models.IPAddressField($0)" "ip" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/ip" nil nil)
+                       ("int" "${1:FIELDNAME} = models.IntegerField($0)" "int" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/int" nil nil)
+                       ("image" "${1:FIELDNAME} = models.ImageField(upload_to=${2:path/for/upload}${3:, height_field=height, width_field=width}${0:, max_length=100})" "image" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/image" nil nil)
+                       ("form" "class ${1:FormName}(forms.Form):\n	\"\"\"${2:docstring}\"\"\"\n	$0\n" "form" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/form" nil nil)
+                       ("float" "${1:FIELDNAME} = models.FloatField($0)" "float" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/float" nil nil)
+                       ("fk" "${1:FIELDNAME} = models.ForeignKey(${2:OtherModel}${3:, related_name=''}${4:, limit_choices_to=}${0:, to_field=''})" "fk" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/fk" nil nil)
+                       ("filepath" "${1:FIELDNAME} = models.FilePathField(path=${2:\"/abs/path/to/dir\"}${3:, max_length=100}${4:, match=\"*.ext\"}${5:, recursive=True}${0:, blank=True, })" "filepath" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/filepath" nil nil)
+                       ("file" "${1:FIELDNAME} = models.FileField(upload_to=${2:path/for/upload}${0:, max_length=100})" "file" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/file" nil nil)
+                       ("email" "${1:FIELDNAME} = models.EmailField(max_length=${2:75}${0:, blank=True})" "email" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/email" nil nil)
+                       ("decimal" "${1:FIELDNAME} = models.DecimalField(max_digits=$2, decimal_places=$0)" "decimal" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/decimal" nil nil)
+                       ("datetime" "${1:FIELDNAME} = models.DateTimeField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})" "datetime" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/datetime" nil nil)
+                       ("date" "${1:FIELDNAME} = models.DateField(${2:auto_now_add=True, auto_now=True}${0:, blank=True, null=True})" "date" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/date" nil nil)
+                       ("comma" "${1:FIELDNAME} = models.CommaSeparatedIntegerField(max_length=$2${0:, blank=True})" "comma" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/comma" nil nil)
+                       ("char" "${1:FIELDNAME} = models.CharField(max_length=$2${0:, blank=True})" "char" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/char" nil nil)
+                       ("bool" "${1:FIELDNAME} = models.BooleanField(${0:default=True})" "bool" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/bool" nil nil)
+                       ("binary" "${1:FIELDNAME} = models.BinaryField($0)" "binary" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/binary" nil nil)
+                       ("bigint" "${1:FIELDNAME} = models.BigIntegerField($0)" "bigint" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/bigint" nil nil)
+                       ("auto" "${1:FIELDNAME} = models.AutoField($0)" "auto" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/django-mode/auto" nil nil)))
+
+
+;;; Do not edit! File generated at Sun Oct 25 17:07:30 2015

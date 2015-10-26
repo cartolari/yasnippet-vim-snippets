@@ -1,0 +1,41 @@
+;;; Compiled snippets and support files for `c-mode'
+;;; Snippet definitions:
+;;;
+(yas-define-snippets 'c-mode
+                     '(("wh" "while (${1:/* condition */}) {\n	$2\n}" "wh" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/wh" nil nil)
+                       ("tds" "typedef struct ${2:_$1 }{\n	${3:/* data */}\n} ${1:};\n" "tds" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/tds" nil nil)
+                       ("tde" "typedef enum {\n	${1:/* data */}\n} ${2:foo};" "tde" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/tde" nil nil)
+                       ("td" "typedef ${1:int} ${2:MyCustomType};" "td" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/td" nil nil)
+                       ("t" "${1:/* condition */} ? ${2:a} : ${3:b}" "t" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/t" nil nil)
+                       ("switchndef" "switch (${1:/* variable */}) {\n	case ${2:/* variable case */}:\n		$3\n		${4:break;}$5\n}" "switchndef" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/switchndef" nil nil)
+                       ("switch" "switch (${1:/* variable */}) {\n	case ${2:/* variable case */}:\n		$3\n		${4:break;}$5\n	default:\n		$6\n}" "switch" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/switch" nil nil)
+                       ("st" "struct ${1:} {\n	${2:/* data */}\n}${3: /* optional variable list */};" "st" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/st" nil nil)
+                       ("ret" "return $0;" "ret" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/ret" nil nil)
+                       ("pr" "printf(\"${1:%s}\\n\"$2);" "pr" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/pr" nil nil)
+                       ("once" "#ifndef ${1:}\n\n#define $1\n\n$0\n\n#endif /* end of include guard: $1 */" "once" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/once" nil nil)
+                       ("ndef" "#ifndef $1\n#define ${1:SYMBOL} ${2:value}\n#endif" "ndef" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/ndef" nil nil)
+                       ("mainn" "int main(void)\n{\n	$0\n	return 0;\n}" "mainn" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/mainn" nil nil)
+                       ("main" "int main(int argc, const char *argv[])\n{\n	$0\n	return 0;\n}" "main" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/main" nil nil)
+                       ("inc" "#include <${1:stdio}.h>" "inc" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/inc" nil nil)
+                       ("ifi" "if (${1:true}) $0;" "ifi" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/ifi" nil nil)
+                       ("ife" "if (${1:true}) {\n	$2\n} else {\n	$0\n}" "ife" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/ife" nil nil)
+                       ("ifdef" "#ifdef ${1:FOO}\n	${2:#define }\n#endif" "ifdef" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/ifdef" nil nil)
+                       ("if" "if (${1:true}) {\n	$0\n}" "if" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/if" nil nil)
+                       ("getopt" "int choice;\nwhile (1)\n{\n	static struct option long_options[] =\n	{\n		/* Use flags like so:\n		{\"verbose\",	no_argument,	&verbose_flag, 'V'}*/\n		/* Argument styles: no_argument, required_argument, optional_argument */\n		{\"version\", no_argument,	0,	'v'},\n		{\"help\",	no_argument,	0,	'h'},\n		$1\n		{0,0,0,0}\n	};\n\n	int option_index = 0;\n\n	/* Argument parameters:\n		no_argument: \" \"\n		required_argument: \":\"\n		optional_argument: \"::\" */\n\n	choice = getopt_long( argc, argv, \"vh\",\n				long_options, &option_index);\n\n	if (choice == -1)\n		break;\n\n	switch( choice )\n	{\n		case 'v':\n			$2\n			break;\n\n		case 'h':\n			$3\n			break;\n\n		case '?':\n			/* getopt_long will have already printed an error */\n			break;\n\n		default:\n			/* Not sure how to get here... */\n			return EXIT_FAILURE;\n	}\n}\n\n/* Deal with non-option arguments here */\nif ( optind < argc )\n{\n	while ( optind < argc )\n	{\n		$0\n	}\n}" "getopt" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/getopt" nil nil)
+                       ("fund" "${1:void} ${2:function_name}($3);" "fund" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/fund" nil nil)
+                       ("fun" "${1:void} ${2:function_name}($3)\n{\n	$4\n}" "fun" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/fun" nil nil)
+                       ("fpr" "fprintf(${1:stderr}, \"${2:%s}\\n\"$3);" "fpr" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/fpr" nil nil)
+                       ("forr" "for (${1:i} = ${2:0}; ${3:$1 < 10}; $1${4:++}) {\n	$5\n}" "forr" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/forr" nil nil)
+                       ("for" "for (${2:i} = 0; $2 < ${1:count}; $2${3:++}) {\n	$4\n}" "for" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/for" nil nil)
+                       ("enum" "enum ${1:name} { $0 };" "enum" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/enum" nil nil)
+                       ("elif" "else if (${1:true}) {\n	$0\n}" "elif" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/elif" nil nil)
+                       ("el" "else {\n	$0\n}" "el" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/el" nil nil)
+                       ("do" "do {\n	$2\n} while (${1:/* condition */});" "do" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/do" nil nil)
+                       ("def" "#define" "def" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/def" nil nil)
+                       ("case" "case ${1:/* variable case */}:\n	$2\n	${3:break;}" "case" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/case" nil nil)
+                       ("." "[$1]" "." nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/_" nil nil)
+                       ("Inc" "#include \"${1:`(concat (file-name-base) \".h\")`}\"" "Inc" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/Inc" nil nil)
+                       ("#if" "#if ${1:FOO}\n	$0\n#endif" "#if" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/c-mode/#if" nil nil)))
+
+
+;;; Do not edit! File generated at Sun Oct 25 17:07:29 2015

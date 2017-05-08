@@ -1,7 +1,7 @@
 # name: gen_server
 # key: gen_server
 # --
--module(${0:`(file-name-base)`}).
+-module(${0:}).
 
 -behaviour(gen_server).
 

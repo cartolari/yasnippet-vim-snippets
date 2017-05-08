@@ -2,7 +2,7 @@
 # key: ife
 # --
 if ${1:condition}; then
-	${2:# statements}
+  ${2:`yas-selected-text`}
 else
-	${0:# statements}
+  ${0:# statements}
 fi

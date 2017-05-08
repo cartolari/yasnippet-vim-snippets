@@ -2,7 +2,7 @@
 # key: fun
 # --
 function $1($2) return $3 is
-	$4
+  $4
 begin
-	$0
+  $0
 end $1;

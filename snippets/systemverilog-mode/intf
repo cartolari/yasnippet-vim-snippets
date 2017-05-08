@@ -2,10 +2,10 @@
 # key: intf
 # --
 interface ${1:program_name} ();
-	// nets
-	$0
-	// clocking
+  // nets
+  $0
+  // clocking
 
-	// modports
+  // modports
 
 endinterface : $1

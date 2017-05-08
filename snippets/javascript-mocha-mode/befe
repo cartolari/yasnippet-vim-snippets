@@ -1,0 +1,6 @@
+# name: "beforeEach(() => { ... })" b
+# key: befe
+# --
+beforeEach(() => {
+  ${0:`yas-selected-text`}
+});

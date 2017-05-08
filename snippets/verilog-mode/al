@@ -1,0 +1,6 @@
+# name: al
+# key: al
+# --
+always @(${1:/* sensitive list */}) begin
+  $0
+end

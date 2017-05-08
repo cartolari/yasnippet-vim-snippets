@@ -1,6 +1,6 @@
 # name: do
 # key: do
 # --
-do ${1:i} = ${2:start},${3:end}, ${4:incr}
-	$4
+do ${1:i} = ${2:start}, ${3:end}, ${4:incr}
+  $0
 end do

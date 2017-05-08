@@ -1,15 +1,16 @@
-# name: sm
+# name: "PHP Class Setter"
 # key: sm
 # --
 /**
  * Sets the value of ${1:foo}
  *
- * @param ${2:$1} $$1 ${3:description}
+ * @param ${2:string} $$1 ${3:description}
  *
  * @return ${4:}
  */
-${5:public} function set${6:$2}(${7:$2 }$$1)
+${5:public} function set${6:$1}(${7:$2 }$$1)
 {
-	$this->${8:$1} = $$1;
-	return $this;
+  $this->${8:$1} = $$1;
+
+  return $this;
 }

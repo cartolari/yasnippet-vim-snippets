@@ -2,5 +2,5 @@
 # key: pac
 # --
 package $1 is
-	$0
+  $0
 end $1;

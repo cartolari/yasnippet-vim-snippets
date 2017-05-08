@@ -3,12 +3,12 @@
 # --
 forces
 {
-	type				forces;
-	functionObjectLibs	("libforces.so");
-	enabled				true;
-	outputControl		${1:timeStep};
-	outputInterval		${2:1};
-	patches				($3);
-	log					${4:true};
-	CofR				(${0:0 0 0});
+  type				forces;
+  functionObjectLibs	("libforces.so");
+  enabled				true;
+  outputControl		${1:timeStep};
+  outputInterval		${2:1};
+  patches				($3);
+  log					${4:true};
+  CofR				(${0:0 0 0});
 }

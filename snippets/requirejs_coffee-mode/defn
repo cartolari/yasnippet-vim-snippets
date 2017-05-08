@@ -2,4 +2,4 @@
 # key: defn
 # --
 define "${1:#name}", ["${2:#dependencies1}"], (${3:#dependencies2}) ->
-	${0:TARGET}
+  ${0:TARGET}

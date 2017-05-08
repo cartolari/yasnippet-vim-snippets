@@ -2,4 +2,4 @@
 # key: ajaxprefilter
 # --
 $.ajaxPrefilter (${1:options}, ${2:originalOptions}, jqXHR) ->
-	${0: // Modify options, control originalOptions, store jqXHR, etc}
+  ${0: // Modify options, control originalOptions, store jqXHR, etc}

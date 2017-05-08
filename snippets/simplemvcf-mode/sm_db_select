@@ -1,0 +1,4 @@
+# name: sm_db_select
+# key: sm_db_select
+# --
+$this->db->select(${1:sql}, ${2:where});

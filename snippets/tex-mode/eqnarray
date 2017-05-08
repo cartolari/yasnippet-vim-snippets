@@ -1,6 +1,6 @@
 # name: eqnarray environment
 # key: eqnarray
 # --
-\begin{eqnarray}
-	$0
-\end{eqnarray}
+\\begin{eqnarray}
+  ${0:`yas-selected-text`}
+\\end{eqnarray}

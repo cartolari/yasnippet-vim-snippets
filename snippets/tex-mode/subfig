@@ -1,0 +1,11 @@
+# name: subfigure environment
+# key: subfig
+# --
+\\begin{subfigure}[$1]{${2:\\textwidth}}
+\\begin{center}
+  $3
+\\end{center}
+\\caption{$4}
+\\label{fig:$5}
+\\end{subfigure}
+$0

@@ -1,0 +1,11 @@
+# name: modall
+# key: modall
+# --
+-module(${1:}).
+-compile([export_all]).
+ 
+start() ->
+  $0
+ 
+stop() ->
+  ok.

@@ -1,0 +1,4 @@
+# name: asex
+# key: asex
+# --
+?assertExit(${1:Pattern}, ${0:Expression})

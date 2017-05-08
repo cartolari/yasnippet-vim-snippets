@@ -2,5 +2,5 @@
 # key: package
 # --
 package { "${1:package name}":
-	ensure	=> ${0:present},
+  ensure	=> ${0:present},
 }

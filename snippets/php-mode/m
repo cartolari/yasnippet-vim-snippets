@@ -3,5 +3,5 @@
 # --
 ${1:protected} function ${2:foo}()
 {
-	$0
+  ${0:`yas-selected-text`}
 }

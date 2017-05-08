@@ -1,0 +1,4 @@
+# name: binc
+# key: binc
+# --
+#include <boost/${1:shared_ptr}.hpp>

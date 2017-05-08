@@ -2,5 +2,5 @@
 # key: elif
 # --
 else if (${1:true}) {
-	$0
+  ${0:`yas-selected-text`}
 }

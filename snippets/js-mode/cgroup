@@ -1,0 +1,6 @@
+# name: "console.group"
+# key: cgroup
+# --
+console.group("${1:label}");
+${0:`yas-selected-text`}
+console.groupEnd();

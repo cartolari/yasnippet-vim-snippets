@@ -1,0 +1,8 @@
+# name: ife
+# key: ife
+# --
+ifeq (${1:cond0}, ${2:cond1})
+  ${3:`yas-selected-text`}
+else
+  $0
+endif

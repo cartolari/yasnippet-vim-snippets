@@ -2,4 +2,5 @@
 # key: ns
 # --
 namespace ${1:Foo\Bar\Baz};
-$0
+
+${0:`yas-selected-text`}

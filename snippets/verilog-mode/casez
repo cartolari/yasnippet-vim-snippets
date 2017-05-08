@@ -1,0 +1,11 @@
+# name: casez
+# key: casez
+# --
+casez (${1:/* variable */})
+  ${2:/* value */}: begin
+  	$3
+  end
+  default: begin
+  	$4
+  end
+endcase

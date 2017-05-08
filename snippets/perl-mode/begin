@@ -2,5 +2,5 @@
 # key: begin
 # --
 BEGIN {
-	$0
+  $0
 }

@@ -2,5 +2,5 @@
 # key: im
 # --
 import (
-	"${1:package}"
+  "${1:package}"
 )

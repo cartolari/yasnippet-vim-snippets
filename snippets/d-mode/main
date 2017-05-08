@@ -2,5 +2,5 @@
 # key: main
 # --
 void main() {
-	$0
+  $0
 }

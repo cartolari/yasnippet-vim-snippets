@@ -1,0 +1,9 @@
+# name: ieunit
+# key: ieunit
+# --
+-ifdef(TEST).
+-include_lib("eunit/include/eunit.hrl").
+
+$0
+
+-endif.

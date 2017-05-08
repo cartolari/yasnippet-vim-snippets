@@ -1,4 +1,4 @@
-# name: "let variable declaration"
+# name: "let variable declaration with type inference"
 # key: let
 # --
-let ${1:name}${2:: ${3:type}} = $4;
+let $1 = $2;

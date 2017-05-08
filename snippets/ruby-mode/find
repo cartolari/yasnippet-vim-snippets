@@ -2,5 +2,5 @@
 # key: find
 # --
 find do |${1:e}|
-	$0
+  $0
 end

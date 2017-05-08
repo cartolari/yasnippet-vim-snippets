@@ -2,5 +2,5 @@
 # key: vaf
 # --
 var ${1:function_name} = function($2) {
-	$0
+  ${0:`yas-selected-text`}
 };

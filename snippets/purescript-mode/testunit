@@ -1,0 +1,16 @@
+# name: testunit
+# key: testunit
+# --
+module Test.Main where
+
+import Prelude
+import Test.Unit (suite, test)
+import Test.Unit.Main (runTest)
+import Test.Unit.Assert as Assert
+
+main = runTest do
+  suite "$1" do
+  	test "${2:the tests run}" do
+  		Assert.equal
+  			"Hello, world!"
+  			"Hello, sailor!"

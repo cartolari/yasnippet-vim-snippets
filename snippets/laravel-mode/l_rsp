@@ -16,22 +16,22 @@ use $2\\$1Repository;
 use Illuminate\Support\ServiceProvider;
 
 class ${3:} extends ServiceProvider {
-	/*!
-	* \var     defer
-	* \brief   Defer service
-	*/
-	protected $defer = ${5:true};
+  /*!
+  * \var     defer
+  * \brief   Defer service
+  */
+  protected $defer = ${5:true};
 
-	public function register() {
-			$this->app->bind('$2\\$1Interface', function($app) {
-					return new $1Repository(new $1());
-			});
-	}
+  public function register() {
+  		$this->app->bind('$2\\$1Interface', function($app) {
+  				return new $1Repository(new $1());
+  		});
+  }
 
-	/*!
-	* \brief   If $defer == true need this fn
-	*/ 
-	public function provides() {
-			return ['$2\\$1Interface'];
-	}
+  /*!
+  * \brief   If $defer == true need this fn
+  */ 
+  public function provides() {
+  		return ['$2\\$1Interface'];
+  }
 }

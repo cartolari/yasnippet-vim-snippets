@@ -2,5 +2,5 @@
 # key: swi
 # --
 switch ${1:object}
-	when ${2:value}
-		${0:# body...}
+  when ${2:value}
+  	${0:# body...}

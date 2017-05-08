@@ -1,0 +1,6 @@
+# name: enumerate environment
+# key: enuma
+# --
+\\begin{enumerate}[(a)]
+  \\item $0
+\\end{enumerate}

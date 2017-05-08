@@ -2,5 +2,5 @@
 # key: ver
 # --
 version(${1:Posix}) {
-	$0
+  $0
 }

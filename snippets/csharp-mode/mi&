@@ -1,6 +1,7 @@
 # name: mi&
 # key: mi&
 # --
-internal int $1($2) {
-	${0:return 0;}
+internal int $1($2)
+{
+  ${0:return 0;}
 }

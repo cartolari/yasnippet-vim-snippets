@@ -2,6 +2,6 @@
 # key: fun
 # --
 func ${1:funcName}($2) ${3:error} {
-	$4
+  $4
 }
 $0

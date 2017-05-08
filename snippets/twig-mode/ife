@@ -1,0 +1,8 @@
+# name: "{% if %} .. {% else %} .. {% endif %}"
+# key: ife
+# --
+{% if $1 %}
+${2:`yas-selected-text`}
+{% else %}
+$0
+{% endif %}

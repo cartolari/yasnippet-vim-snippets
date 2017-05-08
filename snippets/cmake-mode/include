@@ -1,6 +1,4 @@
 # name: include
 # key: include
 # --
-INCLUDE_DIRECTORIES(
-	${${0:INCLUDE_DIR}}
-)
+include_directories(${${0:include_dir}})

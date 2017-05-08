@@ -2,9 +2,9 @@
 # key: setup
 # --
 void setup(){
-	$1
+  $1
 }
 
 void draw(){
-	$0
+  $0
 }

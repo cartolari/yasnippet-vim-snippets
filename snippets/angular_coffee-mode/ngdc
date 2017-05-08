@@ -2,8 +2,8 @@
 # key: ngdc
 # --
 directive '${1:directiveName}', factory = (${2:injectables}) ->
-	directiveDefinitionObject =
-		${3:directiveAttrs}
-		compile: compile = (tElement, tAttrs, transclude) ->
-			(scope, element, attrs) ->
-	directiveDefinitionObject
+  directiveDefinitionObject =
+  	${3:directiveAttrs}
+  	compile: compile = (tElement, tAttrs, transclude) ->
+  		(scope, element, attrs) ->
+  directiveDefinitionObject

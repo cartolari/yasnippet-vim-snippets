@@ -2,4 +2,4 @@
 # key: cau:
 # --
 .. caution::
-	${0:Watch out!}
+  ${0:Watch out!}

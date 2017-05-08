@@ -3,13 +3,13 @@
 # --
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title>${1:`(file-name-base)`}</title>
-		${2:link}
-	</head>
-	<body>
-		${0:body}
-	</body>
+  <head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width" />
+  	<title>${1:`(file-name-base)`}</title>
+  	${2:link}
+  </head>
+  <body>
+  	${0:body}
+  </body>
 </html>

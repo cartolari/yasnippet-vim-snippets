@@ -2,5 +2,5 @@
 # key: conf
 # --
 <% content_for :${1:head} do %>
-	$0
+  $0
 <% end %>

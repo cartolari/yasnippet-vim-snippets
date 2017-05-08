@@ -1,0 +1,4 @@
+# name: "console.clear"
+# key: cclear
+# --
+console.clear();

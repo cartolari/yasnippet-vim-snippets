@@ -2,4 +2,4 @@
 # key: foro
 # --
 for ${1:key}, ${2:value} of ${3:object}
-	$4
+  $4

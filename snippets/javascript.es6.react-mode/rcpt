@@ -1,0 +1,6 @@
+# name: rcpt
+# key: rcpt
+# --
+static propTypes = {
+  $1: PropTypes.$0,
+}

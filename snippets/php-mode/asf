@@ -1,4 +1,4 @@
-# name: asf
+# name: "$this->assertFalse($a)"
 # key: asf
 # --
-$this->assertFalse(${1:Something});
+$this->assertFalse($1);

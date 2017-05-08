@@ -2,8 +2,8 @@
 # key: user
 # --
 user { "${1:user}":
-	ensure      => present,
-	comment     => "${2:$1}",
-	managehome  => true,
-	home        => "${0:/home/$1}",
+  ensure      => present,
+  comment     => "${2:$1}",
+  managehome  => true,
+  home        => "${0:/home/$1}",
 }

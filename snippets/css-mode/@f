@@ -2,6 +2,6 @@
 # key: @f
 # --
 @font-face {
-	font-family: $1;
-	src: url($0);
+  font-family: $1;
+  src: url($0);
 }

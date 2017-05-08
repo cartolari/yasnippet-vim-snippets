@@ -2,5 +2,5 @@
 # key: proc
 # --
 procedure ${1:name}
-	$0
+  $0
 end procedure $1

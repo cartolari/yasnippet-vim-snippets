@@ -6,5 +6,5 @@ require 'optparse'
 options = { ${0:default: 'args'} }
 
 ARGV.options do |opts|
-	opts.banner = "Usage: #{File.basename($PROGRAM_NAME)}"
+  opts.banner = "Usage: #{File.basename($PROGRAM_NAME)}"
 end

@@ -2,6 +2,6 @@
 # key: ajaxsend
 # --
 ${1:obj}.ajaxSend(function (${1:request, settings}) {
-	${2:// error callback}
+  ${2:// error callback}
 });
 $0

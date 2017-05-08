@@ -1,4 +1,4 @@
 # name: arr
 # key: arr
 # --
-${1:type}, allocatable, dimension(${2::}) :: $0
+${1:type}, ${2:allocatable, }dimension(${3::}) :: $0

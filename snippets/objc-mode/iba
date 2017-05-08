@@ -3,5 +3,5 @@
 # --
 - (IBAction)${1:method}:(${2:id})sender
 {
-	$0
+  $0
 }

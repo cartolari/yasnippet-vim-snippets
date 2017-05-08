@@ -1,0 +1,5 @@
+# name: libx
+# key: libx
+# --
+library UNISIM;
+use UNISIM.VCOMPONENTS.ALL;

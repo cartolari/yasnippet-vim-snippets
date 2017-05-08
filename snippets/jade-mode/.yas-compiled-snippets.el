@@ -10,4 +10,4 @@
                        ("hide" "div(ng-hide='$1')\n" "hide" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/jade-mode/hide" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:30 2015
+;;; Do not edit! File generated at Mon May  8 02:40:51 2017

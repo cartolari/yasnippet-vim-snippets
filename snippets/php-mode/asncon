@@ -1,0 +1,4 @@
+# name: "$this->assertNotContains($needle, $haystack)"
+# key: asncon
+# --
+$this->assertNotContains(${1:$needle}, ${2:$haystack});

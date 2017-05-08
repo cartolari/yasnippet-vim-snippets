@@ -1,4 +1,4 @@
 # name: mathcal
 # key: mc
 # --
-\mathcal{${0:text}}
+\\mathcal{${0:${VISUAL:text}}}

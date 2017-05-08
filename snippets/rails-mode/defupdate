@@ -2,16 +2,16 @@
 # key: defupdate
 # --
 def update
-	@${1:model_class_name} = ${2:ModelClassName}.find(params[:id])
+  @${1:model_class_name} = ${2:ModelClassName}.find(params[:id])
 
-	respond_to do |format|
-		if @$1.update($1_params)
-			flash[:notice] = '$2 was successfully updated.'
-			format.html { redirect_to(@$1) }
-			format.xml  { head :ok }
-		else
-			format.html { render action: 'edit' }
-			format.xml  { render xml: @$1.errors, status: :unprocessable_entity }
-		end
-	end
+  respond_to do |format|
+  	if @$1.update($1_params)
+  		flash[:notice] = '$2 was successfully updated.'
+  		format.html { redirect_to(@$1) }
+  		format.xml  { head :ok }
+  	else
+  		format.html { render action: 'edit' }
+  		format.xml  { render xml: @$1.errors, status: :unprocessable_entity }
+  	end
+  end
 end

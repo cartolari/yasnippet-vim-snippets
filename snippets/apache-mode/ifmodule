@@ -2,5 +2,5 @@
 # key: ifmodule
 # --
 <IfModule ${1:mod_example.c}>
-	$0
+  ${0:`yas-selected-text`}
 </IfModule>

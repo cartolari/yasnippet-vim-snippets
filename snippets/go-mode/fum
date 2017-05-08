@@ -2,6 +2,6 @@
 # key: fum
 # --
 func (${1:receiver} ${2:type}) ${3:funcName}($4) ${5:error} {
-	$6
+  $6
 }
 $0

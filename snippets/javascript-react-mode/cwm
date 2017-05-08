@@ -1,0 +1,6 @@
+# name: cwm
+# key: cwm
+# --
+componentWillMount() {
+  $1
+}

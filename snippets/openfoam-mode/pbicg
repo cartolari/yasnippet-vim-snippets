@@ -3,8 +3,8 @@
 # --
 ${1:U}
 {
-	solver          PBiCG;
-	preconditioner  DILU;
-	tolerance       1e-${2:6};
-	relTol          ${0:0.0};
+  solver          PBiCG;
+  preconditioner  DILU;
+  tolerance       1e-${2:6};
+  relTol          ${0:0.0};
 }

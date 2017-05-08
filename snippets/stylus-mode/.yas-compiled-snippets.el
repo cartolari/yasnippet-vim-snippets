@@ -218,6 +218,8 @@
                        ("l:a" "left auto" "l:a" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/l_a" nil nil)
                        ("l" "left $0" "l" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/l" nil nil)
                        ("keyf" "@keyframes $0" "keyf" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/keyf" nil nil)
+                       ("jc:c" "justify-content center" "jc:c" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/jc_c" nil nil)
+                       ("jc" "justify-content" "jc" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/jc" nil nil)
                        ("if" "if $0" "if" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/if" nil nil)
                        ("h:a" "height auto" "h:a" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/h_a" nil nil)
                        ("h" "height $0" "h" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/h" nil nil)
@@ -299,6 +301,7 @@
                        ("d:itb" "display inline-table" "d:itb" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/d_itb" nil nil)
                        ("d:ib" "display inline-block" "d:ib" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/d_ib" nil nil)
                        ("d:i" "display inline" "d:i" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/d_i" nil nil)
+                       ("d:f" "display flex" "d:f" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/d_f" nil nil)
                        ("d:cp" "display compact" "d:cp" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/d_cp" nil nil)
                        ("d:b" "display block" "d:b" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/d_b" nil nil)
                        ("d" "display $0" "d" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/d" nil nil)
@@ -500,4 +503,4 @@
                        ("!" "!important" "!" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/stylus-mode/!" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:31 2015
+;;; Do not edit! File generated at Mon May  8 02:40:53 2017

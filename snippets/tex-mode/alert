@@ -1,6 +1,6 @@
 # name: alertblock environment
 # key: alert
 # --
-\begin{alertblock}{${1:title}}
-$0
-\end{alertblock}
+\\begin{alertblock}{${1:title}}
+  ${0:`yas-selected-text`}
+\\end{alertblock}

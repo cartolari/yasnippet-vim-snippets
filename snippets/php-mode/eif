@@ -1,6 +1,6 @@
-# name: eif
+# name: "elseif(condition) { ... }"
 # key: eif
 # --
-elseif (${1:/* condition */}) {
-	$0
+elseif ($1) {
+  ${0:`yas-selected-text`}
 }

@@ -2,7 +2,7 @@
 # key: dfr
 # --
 defer func() {
-	if err := recover(); err != nil {
-		$0
-	}
+  if err := recover(); err != nil {
+  	${0:`yas-selected-text`}
+  }
 }()

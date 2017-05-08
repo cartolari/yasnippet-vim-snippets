@@ -1,4 +1,4 @@
 # name: zg
 # key: zg
 # --
-type		zeroGradient;
+type  	zeroGradient;

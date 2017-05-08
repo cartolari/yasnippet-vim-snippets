@@ -1,6 +1,11 @@
 # name: st
 # key: st
 # --
+/*! \struct $1
+ *  \brief ${3:Brief struct description}
+ *
+ *  ${4:Detailed description}
+ */
 struct ${1:} {
-	${2:/* data */}
-}${3: /* optional variable list */};
+  ${2:Data} /*!< ${4:Description} */
+}${5: /* optional variable list */};

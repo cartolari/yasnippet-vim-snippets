@@ -5,5 +5,5 @@
 ${1:doc string}
 """
 def ${2:name} do
-	$0
+  $0
 end

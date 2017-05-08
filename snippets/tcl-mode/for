@@ -2,5 +2,5 @@
 # key: for
 # --
 for {set ${2:var} 0} {$$2 < ${1:count}} {${3:incr} $2} {
-	$0
+  $0
 }

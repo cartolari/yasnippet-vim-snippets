@@ -2,5 +2,5 @@
 # key: if
 # --
 if ($1) {
-	$0
+  ${0:`yas-selected-text`}
 }

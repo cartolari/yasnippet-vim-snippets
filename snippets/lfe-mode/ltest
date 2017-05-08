@@ -1,0 +1,10 @@
+# name: ltest
+# key: ltest
+# --
+(defmodule ${1:}
+  (behaviour ltest-unit)
+  (export all))
+
+(include-lib "ltest/include/ltest-macros.lfe")
+
+$0

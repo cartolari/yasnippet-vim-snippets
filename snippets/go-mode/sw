@@ -3,9 +3,9 @@
 # --
 switch ${1:var} {
 case ${2:value1}:
-	$3
+  $3
 case ${4:value2}:
-	$5
+  $5
 default:
-	$0
+  $0
 }

@@ -1,6 +1,6 @@
 # name: exampleblock environment
 # key: example
 # --
-\begin{exampleblock}{${1:title}}
-$0
-\end{exampleblock}
+\\begin{exampleblock}{${1:title}}
+  ${0:`yas-selected-text`}
+\\end{exampleblock}

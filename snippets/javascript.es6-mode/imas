@@ -1,0 +1,4 @@
+# name: "import * as xyz from 'xyz'"
+# key: imas
+# --
+import * as $1 from '${2:$1}';

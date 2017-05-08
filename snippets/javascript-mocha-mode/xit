@@ -1,0 +1,6 @@
+# name: "xit('should do', () => { ... })" b
+# key: xit
+# --
+xit('${1:}', () => {
+  ${0:`yas-selected-text`}
+});

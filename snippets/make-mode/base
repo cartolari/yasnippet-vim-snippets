@@ -8,13 +8,13 @@ CFLAGS = -g -Wall
 all: $1
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c -o $@ $<
+  $(CC) $(CFLAGS) -c -o $@ $<
 
 ${1:out}: $1.o
-	$(CC) $(CFLAGS) -o $@ $+
+  $(CC) $(CFLAGS) -o $@ $+
 
 clean:
-	rm -f *.o core.*
+  rm -f *.o core.*
 
 mrproper: clean
-	rm -f $1
+  rm -f $1

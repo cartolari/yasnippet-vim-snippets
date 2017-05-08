@@ -1,0 +1,4 @@
+# name: "$this->assertContainsOnlyInstancesOf(Example::class, $haystack)"
+# key: asconoi
+# --
+$this->assertContainsOnlyInstancesOf(${1:Example}::class, ${2:$haystack});

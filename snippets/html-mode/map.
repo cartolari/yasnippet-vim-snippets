@@ -2,5 +2,5 @@
 # key: map.
 # --
 <map class="$1" name="$2">
-	$0
+  $0
 </map>

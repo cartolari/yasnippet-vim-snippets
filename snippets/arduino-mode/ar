@@ -1,0 +1,4 @@
+# name: ar
+# key: ar
+# --
+analogRead($1);

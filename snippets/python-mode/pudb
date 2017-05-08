@@ -1,4 +1,5 @@
 # name: pudb
 # key: pudb
 # --
-import pudb; pudb.set_trace()
+import pudb
+pudb.set_trace()

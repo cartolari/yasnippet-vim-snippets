@@ -2,5 +2,5 @@
 # key: alff
 # --
 always_ff @(posedge ${1:clk}) begin ${2:: statement_label}
-	$0
+  $0
 end $2

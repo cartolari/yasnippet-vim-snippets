@@ -4,11 +4,11 @@
 import sbt._
 
 class ${1:Name}(info: ProjectInfo) extends DefaultWebProject(info) {
-	val liftVersion = "${0:2.3}"
+  val liftVersion = "${0:2.3}"
 
-	override def libraryDependencies = Set(
+  override def libraryDependencies = Set(
 
-	) ++ super.libraryDependencies
+  ) ++ super.libraryDependencies
 
-	val snapshots = ScalaToolsSnapshots
+  val snapshots = ScalaToolsSnapshots
 }

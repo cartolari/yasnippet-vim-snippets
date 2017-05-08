@@ -3,6 +3,6 @@
 # --
 void setup()
 {
-	$0
-	Serial.begin(9600);
+  Serial.begin(${1:9600});
+  $2
 }

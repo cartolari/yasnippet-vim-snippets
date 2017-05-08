@@ -2,4 +2,4 @@
 # key: for
 # --
 for ${1:item} in ${2:items}:
-	$0
+  $0

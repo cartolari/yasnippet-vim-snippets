@@ -2,4 +2,4 @@
 # key: click
 # --
 ${1:obj}.click (${2:e}) ->
-	${0:// event handler}
+  ${0:// event handler}

@@ -2,12 +2,12 @@
 # key: begin
 # --
 begin
-	fail 'A test exception.'
+  fail 'A test exception.'
 rescue Exception => e
-	puts e.message
-	puts e.backtrace.inspect
+  puts e.message
+  puts e.backtrace.inspect
 else
-	# other exception
+  # other exception
 ensure
-	# always executed
+  # always executed
 end

@@ -1,4 +1,4 @@
 # name: open
 # key: open
 # --
-open (unit = ${1:fp}, file = ${2:filename}, status = unknown${3:, iostat = IERR }) $0
+open(unit = ${1:fp}, file = ${2:filename}, status = ${3:unknown}, iostat = ${4:ierr}) $0

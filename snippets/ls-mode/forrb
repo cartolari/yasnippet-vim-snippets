@@ -2,4 +2,4 @@
 # key: forrb
 # --
 for ${1:name} from ${2:start} to ${3:finish} by ${4:step}
-	$5
+  $5

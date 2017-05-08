@@ -1,0 +1,4 @@
+# name: sm_db_update
+# key: sm_db_update
+# --
+$this->db->update(${1:table}, ${2:data}, ${3:where});

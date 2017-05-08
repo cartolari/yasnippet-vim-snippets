@@ -1,4 +1,5 @@
 # name: ipdb
 # key: ipdb
 # --
-import ipdb; ipdb.set_trace()
+import ipdb
+ipdb.set_trace()

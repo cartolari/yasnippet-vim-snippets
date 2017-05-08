@@ -1,4 +1,5 @@
 # name: pprint
 # key: pprint
 # --
-import pprint; pprint.pprint($1)
+import pprint
+pprint.pprint($1)

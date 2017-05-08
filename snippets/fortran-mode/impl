@@ -2,4 +2,4 @@
 # key: impl
 # --
 implicit none
-	$0
+  $0

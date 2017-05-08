@@ -1,0 +1,4 @@
+# name: "is_null"
+# key: in
+# --
+is_null($${1:var})$0

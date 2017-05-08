@@ -1,0 +1,10 @@
+# name: e
+# key: e
+# --
+{
+  elem : '${1:name}',
+  content : [
+  	'${2:content}'
+  ]
+}
+

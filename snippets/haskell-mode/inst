@@ -2,4 +2,4 @@
 # key: inst
 # --
 instance ${1:Monoid} ${2:Type} where
-	$0
+  $0

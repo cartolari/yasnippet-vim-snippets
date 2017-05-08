@@ -2,4 +2,4 @@
 # key: tip:
 # --
 .. tip::
-	${0:my tips}
+  ${0:my tips}

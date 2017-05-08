@@ -1,0 +1,6 @@
+# name: forr
+# key: forr
+# --
+for ${1:e} := range ${2:collection} {
+  ${0:`yas-selected-text`}
+}

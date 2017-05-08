@@ -1,0 +1,4 @@
+# name: "$observer = $this->prophesize(SomeClass::class);"
+# key: proph
+# --
+$${1:observer} = $this->prophesize(${2:SomeClass}::class);

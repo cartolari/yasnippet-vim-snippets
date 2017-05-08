@@ -2,5 +2,5 @@
 # key: main
 # --
 <main role="main">
-	$0
+  $0
 </main>

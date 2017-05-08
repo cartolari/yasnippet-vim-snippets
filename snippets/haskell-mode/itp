@@ -1,0 +1,5 @@
+# name: itp
+# key: itp
+# --
+it "$1" $ property $
+  $0

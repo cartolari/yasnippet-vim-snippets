@@ -1,4 +1,4 @@
 # name: sr
 # key: sr
 # --
-serialRead();
+Serial.read();

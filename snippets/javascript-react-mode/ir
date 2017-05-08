@@ -1,0 +1,4 @@
+# name: ir
+# key: ir
+# --
+import React from 'react';

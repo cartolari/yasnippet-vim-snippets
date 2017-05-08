@@ -2,4 +2,4 @@
 # key: def
 # --
 default:
-	$0
+  $0

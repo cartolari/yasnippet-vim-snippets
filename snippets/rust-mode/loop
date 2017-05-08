@@ -2,5 +2,5 @@
 # key: loop
 # --
 loop {
-	$0
+  ${0:`yas-selected-text`}
 }

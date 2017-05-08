@@ -2,8 +2,8 @@
 # key: get_set
 # --
 function get ${1:name} {
-	return $2
+  return $2
 }
 function set $1 (newValue) {
-	$0
+  $0
 }

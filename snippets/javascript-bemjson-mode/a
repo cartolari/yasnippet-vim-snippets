@@ -1,0 +1,4 @@
+# name: a
+# key: a
+# --
+attrs : { ${1:attr} : '${2:val}' },

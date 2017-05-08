@@ -1,0 +1,4 @@
+# name: filtersort
+# key: filtersort
+# --
+${0:command} | Where-Object -FilterScript { $PSItem.${1:property} -${2:operator} '${3:expression}' } | Sort-Object -Property ${4:sortproperty}

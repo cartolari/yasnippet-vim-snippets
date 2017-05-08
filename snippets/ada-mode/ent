@@ -3,5 +3,5 @@
 # --
 entry $1($2) when $3 is
 begin
-	$0
+  $0
 end $1;

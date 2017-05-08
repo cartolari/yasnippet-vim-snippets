@@ -1,0 +1,6 @@
+# name: c=>
+# key: c=>
+# --
+const ${1:function_name} = ($2) => {
+  ${0:`yas-selected-text`}
+}

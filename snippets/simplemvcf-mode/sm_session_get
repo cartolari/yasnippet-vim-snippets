@@ -1,0 +1,4 @@
+# name: sm_session_get
+# key: sm_session_get
+# --
+Session::get(${1:key});

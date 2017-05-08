@@ -2,4 +2,4 @@
 # key: mover
 # --
 ${1:obj}.mouseover (${2:e}) ->
-	${0:// event handler}
+  ${0:// event handler}

@@ -1,0 +1,4 @@
+# name: "let mut variable declaration with explicit type annotation"
+# key: lettm
+# --
+let mut $1: $2  = $3;

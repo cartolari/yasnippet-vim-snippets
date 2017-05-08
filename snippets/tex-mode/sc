@@ -1,4 +1,4 @@
 # name: small caps text
 # key: sc
 # --
-\textsc{${0:text}}
+\\textsc{${0:${VISUAL:text}}}

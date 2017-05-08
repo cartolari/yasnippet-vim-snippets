@@ -1,6 +1,7 @@
 # name: ctor
 # key: ctor
 # --
-public ${1:}() {
-	$0
+public ${1:}()
+{
+  $0
 }

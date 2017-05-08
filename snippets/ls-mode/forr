@@ -2,4 +2,4 @@
 # key: forr
 # --
 for ${1:name} from ${2:start} to ${3:finish}
-	$4
+  $4

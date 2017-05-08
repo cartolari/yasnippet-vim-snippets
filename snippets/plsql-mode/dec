@@ -2,7 +2,7 @@
 # key: dec
 # --
 declare
-	$1
+  $1
 begin
-	$0
+  $0
 end;

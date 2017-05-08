@@ -2,4 +2,4 @@
 # key: imp
 # --
 (:import [${1:package}])
-	& {:keys [${1:keys}] :or {${0:defaults}}}
+  & {:keys [${1:keys}] :or {${0:defaults}}}

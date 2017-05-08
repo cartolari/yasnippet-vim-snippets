@@ -2,7 +2,7 @@
 # key: cron
 # --
 cron { "${1:name}":
-	command => "$2",
-	user    => "${3:root}",
-	$4    => $0,
+  command => "$2",
+  user    => "${3:root}",
+  $4    => $0,
 }

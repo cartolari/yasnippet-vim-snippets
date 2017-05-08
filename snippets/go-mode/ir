@@ -2,6 +2,6 @@
 # key: ir
 # --
 if err != nil {
-	return err
+  return err
 }
 $0

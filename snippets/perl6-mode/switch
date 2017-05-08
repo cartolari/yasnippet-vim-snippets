@@ -3,10 +3,10 @@
 # --
 given ${1:$var} {
   when ${2:condition} {
-	  ${3:# code block ...}
+    ${3:# code block ...}
   }
   $4
   default {
-	  $5
+    $5
   }
 }

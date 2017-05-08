@@ -1,0 +1,4 @@
+# name: proj
+# key: proj
+# --
+project(${0:Name})

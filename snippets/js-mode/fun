@@ -2,5 +2,5 @@
 # key: fun
 # --
 function ${1:function_name}($2) {
-	$0
+  ${0:`yas-selected-text`}
 }

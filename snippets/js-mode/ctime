@@ -1,4 +1,6 @@
-# name: ctime
+# name: "console.time ... console.timeEnd"
 # key: ctime
 # --
-console.time(${0:label});
+console.time("${1:label}");
+${0:`yas-selected-text`}
+console.timeEnd("$1");

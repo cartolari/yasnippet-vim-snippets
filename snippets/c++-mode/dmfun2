@@ -1,0 +1,14 @@
+# name: dmfun2
+# key: dmfun2
+# --
+/*! \brief ${8:Brief function description here}
+ *
+ *  ${9:Detailed description}
+ *
+ * \param $4 ${10:Parameter description}
+ * \param $6 ${11:Parameter description}
+ * \return ${12:Return parameter description}
+ */
+${7:void} ${1:`(file-name-base)`}::${2:memberFunction}(${3:Type} ${4:Parameter},${5:Type} ${6:Parameter}) {
+  $0
+}

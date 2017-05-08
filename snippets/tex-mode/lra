@@ -1,4 +1,4 @@
-# name: langle rangle 
+# name: langle rangle
 # key: lra
 # --
-\langle $0 \rangle
+\\langle $0 \\rangle

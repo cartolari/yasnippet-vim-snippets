@@ -2,5 +2,5 @@
 # key: filesmatch
 # --
 <FilesMatch "${1:regex}">
-	$0
+  ${0:`yas-selected-text`}
 </FilesMatch>

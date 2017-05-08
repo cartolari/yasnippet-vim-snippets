@@ -1,0 +1,6 @@
+# name: # {{#unless value}} ... {{/unless}}
+# key: ifn
+# --
+{{#unless ${1:value}}}
+${0:`yas-selected-text`}
+{{/unless}}

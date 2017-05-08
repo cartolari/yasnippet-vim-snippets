@@ -1,0 +1,4 @@
+# name: "str_replace"
+# key: sr
+# --
+str_replace(${1:search}, ${2:replace}, ${3:subject})$0

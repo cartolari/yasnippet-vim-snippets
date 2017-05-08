@@ -2,5 +2,5 @@
 # key: ?f
 # --
 <?php foreach ($${1:vars} as $${2:$var}): ?>
-	$0
+  ${0:`yas-selected-text`}
 <?php endforeach ?>

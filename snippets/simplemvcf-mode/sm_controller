@@ -1,0 +1,20 @@
+# name: sm_controller
+# key: sm_controller
+# --
+<?php
+  namespace Controllers;
+  use Core\View;
+  use Core\Controller;
+
+  class ${1:class_name} extends Controller
+  {
+  	public function __construct()
+  	{
+  		parent::__construct();
+  	}
+
+  	public function index()
+  	{
+  		${2:}
+  	}
+  }

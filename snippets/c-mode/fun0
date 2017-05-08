@@ -1,0 +1,7 @@
+# name: fun0
+# key: fun0
+# --
+${1:void} ${2:function_name}()
+{
+  $3
+}

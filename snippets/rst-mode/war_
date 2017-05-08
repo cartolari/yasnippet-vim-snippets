@@ -2,4 +2,4 @@
 # key: war:
 # --
 .. warning::
-	${0:attention!}
+  ${0:attention!}

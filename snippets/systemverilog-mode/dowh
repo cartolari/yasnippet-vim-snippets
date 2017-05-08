@@ -2,5 +2,5 @@
 # key: dowh
 # --
 do begin
-	$0
+  $0
 end while ($1);

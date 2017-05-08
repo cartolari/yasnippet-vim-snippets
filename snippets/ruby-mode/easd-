@@ -2,5 +2,5 @@
 # key: easd-
 # --
 each_slice(${1:2}) do |${2:group}|
-	$0
+  $0
 end

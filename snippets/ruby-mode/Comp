@@ -4,5 +4,5 @@
 include Comparable
 
 def <=>(other)
-	$0
+  $0
 end

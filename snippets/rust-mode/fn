@@ -2,5 +2,5 @@
 # key: fn
 # --
 fn ${1:function_name}($2)$3 {
-	$0
+  $0
 }

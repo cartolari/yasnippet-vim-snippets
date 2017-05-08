@@ -2,6 +2,6 @@
 # key: tprep
 # --
 sub prep${1:number}_${2:test_case} :Test(startup) {
-	my $self = shift;
-	$0
+  my $self = shift;
+  $0
 }

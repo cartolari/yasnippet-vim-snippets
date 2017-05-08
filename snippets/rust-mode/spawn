@@ -2,5 +2,5 @@
 # key: spawn
 # --
 thread::spawn(${1:move }|| {
-	$0
+  $0
 });

@@ -3,4 +3,4 @@
 # --
 .. code:: ${1:type}
 
-	${0:write some code}
+  ${0:write some code}

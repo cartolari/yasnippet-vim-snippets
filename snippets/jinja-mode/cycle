@@ -1,0 +1,4 @@
+# name: cycle
+# key: cycle
+# --
+{% cycle ${1:val1} ${2:val2} ${3:as $4} %}

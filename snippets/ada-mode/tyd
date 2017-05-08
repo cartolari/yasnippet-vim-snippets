@@ -2,4 +2,4 @@
 # key: tyd
 # --
 type $1 is $2
-	with Default_Value => $3;$0
+  with Default_Value => $3;$0

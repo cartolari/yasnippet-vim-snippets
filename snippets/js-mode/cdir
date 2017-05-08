@@ -1,5 +1,4 @@
-# name: cdir
+# name: "console.dir"
 # key: cdir
 # --
 console.dir(${0:obj});
-

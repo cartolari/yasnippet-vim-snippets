@@ -2,7 +2,7 @@
 # key: tryf
 # --
 try {
-	$0
+  ${0:`yas-selected-text`}
 } catch(${1:Exception} ${2:e}) {
 } finally {
 }

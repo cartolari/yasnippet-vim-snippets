@@ -2,6 +2,6 @@
 # key: cimport+
 # --
 <c:import url="$1">
-	<c:param name="$2" value="$3" />
-	cparam+$0
+  <c:param name="$2" value="$3" />
+  cparam+$0
 </c:import>

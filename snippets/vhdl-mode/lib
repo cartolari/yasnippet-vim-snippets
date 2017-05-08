@@ -1,0 +1,5 @@
+# name: lib
+# key: lib
+# --
+library $1
+use $1.$2

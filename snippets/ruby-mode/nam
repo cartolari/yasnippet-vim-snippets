@@ -2,5 +2,5 @@
 # key: nam
 # --
 namespace :${1:} do
-	$0
+  $0
 end

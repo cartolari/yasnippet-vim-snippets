@@ -1,6 +1,6 @@
 # name: test
 # key: test
 # --
-test "${1:test_name}" do
-	$0
+test "${1:test name}" do
+  $0
 end

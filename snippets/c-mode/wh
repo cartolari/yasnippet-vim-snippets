@@ -2,5 +2,5 @@
 # key: wh
 # --
 while (${1:/* condition */}) {
-	$2
+  ${0:`yas-selected-text`}
 }

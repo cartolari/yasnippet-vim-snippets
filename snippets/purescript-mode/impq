@@ -1,0 +1,4 @@
+# name: impq
+# key: impq
+# --
+import ${1:Data.List} as ${0:List}

@@ -1,6 +1,0 @@
-# name: eif
-# key: eif
-# --
-else if ($1) begin
-	$0
-end

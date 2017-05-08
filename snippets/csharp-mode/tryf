@@ -1,9 +1,11 @@
 # name: tryf
 # key: tryf
 # --
-try {
-	$0
+try
+{
+  ${0:`yas-selected-text`}
 }
-finally {
-	$1
+finally
+{
+  $1
 }

@@ -1,6 +1,7 @@
 # name: do
 # key: do
 # --
-do {
-	$0
+do
+{
+  ${0:`yas-selected-text`}
 } while (${1:true});

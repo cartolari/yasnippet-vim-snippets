@@ -1,0 +1,4 @@
+# name: ri2
+# key: ri2
+# --
+import React, { Component, PropTypes } from 'react'

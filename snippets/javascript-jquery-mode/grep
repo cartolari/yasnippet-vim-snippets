@@ -2,5 +2,5 @@
 # key: grep
 # --
 $.grep(${1:array}, function (item, index) {
-	$2
+  $2
 }${0:, true});

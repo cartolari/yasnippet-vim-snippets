@@ -1,6 +1,0 @@
-# name: fun
-# key: fun
-# --
-function do
-	$0
-end

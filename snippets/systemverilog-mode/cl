@@ -2,11 +2,11 @@
 # key: cl
 # --
 class ${1:class_name};
-	// data or class properties
-	$0
+  // data or class properties
+  $0
 
-	// initialization
-	function new();
-	endfunction : new
+  // initialization
+  function new();
+  endfunction : new
 
 endclass : $1

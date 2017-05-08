@@ -1,0 +1,10 @@
+# name: mod
+# key: mod
+# --
+module 
+  (
+  ) where
+
+  import Prelude
+
+  $0

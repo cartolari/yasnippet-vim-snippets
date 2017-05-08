@@ -1,0 +1,6 @@
+# name: enumerate environment
+# key: enumi
+# --
+\\begin{enumerate}[(i)]
+  \\item $0
+\\end{enumerate}

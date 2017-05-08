@@ -2,17 +2,17 @@
 # key: getopt
 # --
 try:
-	# Short option syntax: "hv:"
-	# Long option syntax: "help" or "verbose="
-	opts, args = getopt.getopt(sys.argv[1:], "${1:short_options}", [${2:long_options}])
+  # Short option syntax: "hv:"
+  # Long option syntax: "help" or "verbose="
+  opts, args = getopt.getopt(sys.argv[1:], "${1:short_options}", [${2:long_options}])
 
 except getopt.GetoptError, err:
-	# Print debug info
-	print str(err)
-	${3:error_action}
+  # Print debug info
+  print str(err)
+  ${3:error_action}
 
 for option, argument in opts:
-	if option in ("-h", "--help"):
-		$0
-	elif option in ("-v", "--verbose"):
-		verbose = argument
+  if option in ("-h", "--help"):
+  	$0
+  elif option in ("-v", "--verbose"):
+  	verbose = argument

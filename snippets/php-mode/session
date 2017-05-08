@@ -1,0 +1,4 @@
+# name: "session"
+# key: session
+# --
+$_SESSION['$1']

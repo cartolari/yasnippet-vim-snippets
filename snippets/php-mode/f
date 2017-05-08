@@ -3,5 +3,5 @@
 # --
 function $1($3)
 {
-	$0
+  ${0:`yas-selected-text`}
 }

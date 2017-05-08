@@ -2,4 +2,4 @@
 # key: $f
 # --
 $scope.${1:functionName} = (${2:args}) ->
-	$3
+  $3

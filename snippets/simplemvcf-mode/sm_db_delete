@@ -1,0 +1,4 @@
+# name: sm_db_delete
+# key: sm_db_delete
+# --
+$this->db->delete(${1:table}, ${2:where});

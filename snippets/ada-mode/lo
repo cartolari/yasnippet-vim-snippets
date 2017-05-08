@@ -2,5 +2,5 @@
 # key: lo
 # --
 loop
-	$0
+  $0
 end loop;

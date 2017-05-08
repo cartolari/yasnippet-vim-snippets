@@ -1,0 +1,15 @@
+# name: spec
+# key: spec
+# --
+module  (main, spec) where
+
+import Test.Hspec
+import Test.QuickCheck
+
+main :: IO ()
+main = hspec spec
+
+spec :: Spec
+spec =
+  describe "$1" $ do
+  	$0

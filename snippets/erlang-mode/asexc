@@ -1,0 +1,4 @@
+# name: asexc
+# key: asexc
+# --
+?assertException(${1:Class}, ${2:Pattern}, ${0:Expression})

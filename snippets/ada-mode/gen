@@ -2,4 +2,4 @@
 # key: gen
 # --
 generic
-	type $1 is $2;$0
+  type $1 is $2;$0

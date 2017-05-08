@@ -10,11 +10,11 @@ ${2:protected} $${3:foo};
 
 public function get${4:$3}()
 {
-	return $this->$3;
+  return $this->$3;
 }
 
 public function set$4(${5:$4 }$${6:$3})
 {
-	$this->$3 = $$6;
-	return $this;
+  $this->$3 = $$6;
+  return $this;
 }

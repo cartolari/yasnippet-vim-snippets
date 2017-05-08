@@ -1,0 +1,4 @@
+# name: "expect(...).to.deep.equal(...)" b
+# key: expd
+# --
+expect(${1:}).to.deep.equal($0);

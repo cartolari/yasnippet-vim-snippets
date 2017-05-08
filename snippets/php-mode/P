@@ -1,4 +1,4 @@
-# name: P
+# name: "_POST array"
 # key: P
 # --
 $_POST['${1:variable}']

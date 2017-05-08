@@ -1,4 +1,4 @@
-# name: left\{ right\} 
+# name: left\{ right\}
 # key: lr{
 # --
-\left\\{ $0 \right\\}
+\\left\\{ $0 \\right\\}

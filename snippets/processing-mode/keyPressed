@@ -2,5 +2,5 @@
 # key: keyPressed
 # --
 void keyPressed(){
-	$0
+  $0
 }

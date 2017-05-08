@@ -1,4 +1,4 @@
 # name: write
 # key: write
 # --
-write( unit = ${1:fp}, file = ${2:filename}${3:, iostat = IERR }) $0
+write(unit = ${1:fp}, file = ${2:filename}, iostat = ${3:ierr}) $0

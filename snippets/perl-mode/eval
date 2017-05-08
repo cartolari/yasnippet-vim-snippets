@@ -3,8 +3,8 @@
 # --
 local $@;
 eval {
-	${1:# do something risky...}
+  ${1:# do something risky...}
 };
 if (my $e = $@) {
-	${0:# handle failure...}
+  ${0:# handle failure...}
 }

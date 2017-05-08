@@ -2,6 +2,6 @@
 # key: dowh
 # --
 while True:
-	$1
-	if ${0:condition}:
-		break
+  $1
+  if ${0:condition}:
+  	break

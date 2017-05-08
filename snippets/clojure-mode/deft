@@ -2,4 +2,4 @@
 # key: deft
 # --
 (deftest ${1:name}
-	(is (= ${0:assertion})))
+  (is (= ${0:assertion})))

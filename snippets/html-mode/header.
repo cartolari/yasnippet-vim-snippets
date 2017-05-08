@@ -2,5 +2,5 @@
 # key: header.
 # --
 <header class="$1">
-	$0
+  $0
 </header>

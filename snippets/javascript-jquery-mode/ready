@@ -2,5 +2,5 @@
 # key: ready
 # --
 $(function () {
-	$0
+  $0
 });

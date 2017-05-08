@@ -1,0 +1,8 @@
+# name: rcom
+# key: rcom
+# --
+(props) => {
+  return (
+  	${0:<div></div>}
+  )
+}

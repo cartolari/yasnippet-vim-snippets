@@ -2,4 +2,4 @@
 # key: kdown
 # --
 ${1:obj}.keydown (${2:e}) ->
-	${0:// event handler}
+  ${0:// event handler}

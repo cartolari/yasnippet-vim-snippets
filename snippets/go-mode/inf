@@ -2,5 +2,5 @@
 # key: inf
 # --
 interface ${1:name} {
-	${2:/* methods */}
+  ${2:/* methods */}
 }

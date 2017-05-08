@@ -3,5 +3,5 @@
 # --
 switch ${1:object}
 case ${2:value}
-	$3
+  $3
 default void

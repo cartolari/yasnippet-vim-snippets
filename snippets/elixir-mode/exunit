@@ -1,0 +1,8 @@
+# name: exunit
+# key: exunit
+# --
+defmodule ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`} do
+  use ExUnit.Case, async: true
+
+  $0
+end

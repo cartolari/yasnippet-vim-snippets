@@ -1,0 +1,11 @@
+# name: bwm
+# key: bwm
+# --
+{
+  block : '${1:name}',
+  mods: { ${2:modName}: '${3:modVal}' },
+  content : [
+  	'${4:content}'
+  ]
+}
+

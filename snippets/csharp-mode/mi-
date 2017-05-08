@@ -1,6 +1,7 @@
 # name: mi-
 # key: mi-
 # --
-private int $1($2) {
-	${0:return 0;}
+private int $1($2)
+{
+  ${0:return 0;}
 }

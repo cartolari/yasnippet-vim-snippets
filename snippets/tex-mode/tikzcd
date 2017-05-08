@@ -1,0 +1,9 @@
+# name: tikzcd environment
+# key: tikzcd
+# --
+\begin{equation}
+\begin{tikzcd}
+  $1
+\end{tikzcd}
+\end{equation}
+$0

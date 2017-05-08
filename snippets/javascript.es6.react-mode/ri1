@@ -1,0 +1,4 @@
+# name: ri1
+# key: ri1
+# --
+import React from 'react'

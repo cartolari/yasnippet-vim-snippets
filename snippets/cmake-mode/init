@@ -1,0 +1,15 @@
+# name: init
+# key: init
+# --
+cmake_minimum_required(version ${1:2.8.2})
+project(${2:ProjectName})
+
+find_package(${3:library})
+
+include_directories(${$3_INCLUDE_DIRS})
+
+add_subdirectory(${0:src})
+
+add_executable($2)
+
+target_link_libraries($2 ${$3_LIBRARIES})

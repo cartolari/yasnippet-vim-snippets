@@ -2,4 +2,4 @@
 # key: fadetoc
 # --
 ${1:obj}.fadeTo 'slow/400/fast', ${2:0.5}, ->
-	${0:// callback}
+  ${0:// callback}

@@ -2,5 +2,5 @@
 # key: f
 # --
 fun! ${1:}${2:function_name}($3)
-	$0
+  $0
 endf

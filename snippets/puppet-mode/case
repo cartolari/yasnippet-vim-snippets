@@ -2,5 +2,5 @@
 # key: case
 # --
 case $${1:variable} {
-	default: { $0 }
+  default: { $0 }
 }

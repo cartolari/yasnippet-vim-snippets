@@ -1,0 +1,6 @@
+# name: # {{#if value}} ... {{/if}}
+# key: if
+# --
+{{#if ${1:value}}}
+${0:`yas-selected-text`}
+{{/if}}

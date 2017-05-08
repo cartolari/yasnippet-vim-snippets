@@ -2,7 +2,7 @@
 # key: exec
 # --
 exec { "${1:name}":
-	command => "${2:$1}",
-	user    => "${3:root}",
-	$4    => $0,
+  command => "${2:$1}",
+  user    => "${3:root}",
+  $4    => $0,
 }

@@ -2,4 +2,4 @@
 # key: fieldset
 # --
 fieldset
-	legend $1
+  legend $1

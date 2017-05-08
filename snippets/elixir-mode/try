@@ -2,7 +2,7 @@
 # key: try
 # --
 try do
-	$1
+  ${1:`yas-selected-text`}
 rescue
-	$2 -> $0
+  $2 -> $0
 end

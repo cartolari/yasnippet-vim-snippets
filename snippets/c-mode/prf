@@ -1,0 +1,4 @@
+# name: prf
+# key: prf
+# --
+printf("${1:} = %f\n", $1);

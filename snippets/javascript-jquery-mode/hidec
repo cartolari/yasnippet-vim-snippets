@@ -2,5 +2,5 @@
 # key: hidec
 # --
 ${1:obj}.hide('${2:slow/400/fast}', function () {
-	${0:// callback}
+  ${0:// callback}
 });

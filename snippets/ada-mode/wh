@@ -2,5 +2,5 @@
 # key: wh
 # --
 while $1 loop
-	$0
+  ${0:`yas-selected-text`}
 end loop;

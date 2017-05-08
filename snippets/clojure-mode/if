@@ -2,5 +2,5 @@
 # key: if
 # --
 (if ${1:test-expr}
-	${2:then-expr}
-	${0:else-expr})
+  ${2:then-expr}
+  ${0:else-expr})

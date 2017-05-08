@@ -1,0 +1,4 @@
+# name: sm_session_pull
+# key: sm_session_pull
+# --
+Session::pull(${1:key});

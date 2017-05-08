@@ -1,0 +1,4 @@
+# name: truncatewordshtml
+# key: truncatewordshtml
+# --
+truncatewords_html:$0

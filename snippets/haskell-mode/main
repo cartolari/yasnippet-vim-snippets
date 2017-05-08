@@ -1,0 +1,5 @@
+# name: main
+# key: main
+# --
+main :: IO ()
+main = ${0:undefined}

@@ -2,4 +2,4 @@
 # key: live
 # --
 ${1:obj}.live '${2:events}', (${3:e}) ->
-	${0:// event handler}
+  ${0:// event handler}

@@ -1,6 +1,7 @@
 # name: enum+
 # key: enum+
 # --
-public enum $1 {
-	$0
+public enum $1
+{
+  $0
 }

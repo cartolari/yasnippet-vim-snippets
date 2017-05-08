@@ -1,6 +1,7 @@
 # name: usi
 # key: usi
 # --
-using(${1:resource}) {
-	$0
+using (${1:resource})
+{
+  $0
 }

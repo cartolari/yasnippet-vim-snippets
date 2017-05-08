@@ -16,10 +16,10 @@
                        ("if" "<xsl:if test=\"${1:test}\">$2\n</xsl:if>\n" "if" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/if" nil nil)
                        ("for-each" "<xsl:for-each select=\"${1:*}\">$2\n</xsl:for-each>\n" "for-each" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/for-each" nil nil)
                        ("copy-of" "<xsl:copy-of select=\"${1:*}\" />\n" "copy-of" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/copy-of" nil nil)
-                       ("choose" "<xsl:choose>\n	<xsl:when test=\"${1:value}\">\n		$2\n	</xsl:when>\n</xsl:choose>\n" "choose" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/choose" nil nil)
-                       ("call-template" "<xsl:call-template name=\"${1:template}\">\n	<xsl:with-param name=\"${2:param}\">$3</xsl:with-param>$4\n</xsl:call-template>\n" "with-param" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/call-template" nil nil)
-                       ("attribute" "<xsl:attribute name=\"${1:name}\">\n	<xsl:value-of select=\"${2:*}\" />\n</xsl:attribute>\n" "value-of" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/attribute" nil nil)
+                       ("choose" "<xsl:choose>\n  <xsl:when test=\"${1:value}\">\n  	$2\n  </xsl:when>\n</xsl:choose>\n" "choose" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/choose" nil nil)
+                       ("call-template" "<xsl:call-template name=\"${1:template}\">\n  <xsl:with-param name=\"${2:param}\">$3</xsl:with-param>$4\n</xsl:call-template>\n" "with-param" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/call-template" nil nil)
+                       ("attribute" "<xsl:attribute name=\"${1:name}\">\n  <xsl:value-of select=\"${2:*}\" />\n</xsl:attribute>\n" "value-of" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/attribute" nil nil)
                        ("apply-templates" "<xsl:apply-templates select=\"${1:*}\" />\n" "plain" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/xslt-mode/apply-templates" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:31 2015
+;;; Do not edit! File generated at Mon May  8 02:40:53 2017

@@ -1,0 +1,4 @@
+# name: sm_db_insert
+# key: sm_db_insert
+# --
+$this->db->insert(${1:table}, ${2:data});

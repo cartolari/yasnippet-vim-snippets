@@ -1,4 +1,4 @@
 # name: rt
 # key: rt
 # --
-<%= render :template => "${1:file}"$0 %>
+<%= render template: "${1:file}"$0 %>

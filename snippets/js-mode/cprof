@@ -1,0 +1,6 @@
+# name: "console.profile"
+# key: cprof
+# --
+console.profile("${1:label}");
+${0:`yas-selected-text`}
+console.profileEnd();

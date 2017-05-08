@@ -1,0 +1,4 @@
+# name: "file_exists"
+# key: fe
+# --
+file_exists(${1:file})$0

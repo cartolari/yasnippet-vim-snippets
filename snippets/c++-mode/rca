@@ -1,0 +1,4 @@
+# name: rca
+# key: rca
+# --
+reinterpret_cast<${1:unsigned}>(${2:expr})$3

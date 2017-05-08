@@ -1,0 +1,4 @@
+# name: "$this->markTestSkipped()"
+# key: marks
+# --
+$this->markTestSkipped($1);

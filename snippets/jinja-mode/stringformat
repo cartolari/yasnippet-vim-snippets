@@ -1,0 +1,4 @@
+# name: stringformat
+# key: stringformat
+# --
+stringformat:"$0"

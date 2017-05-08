@@ -1,0 +1,4 @@
+# name: impe
+# key: impe
+# --
+import ${1:List} exposing (${0:map})

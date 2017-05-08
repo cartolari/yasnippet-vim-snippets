@@ -3,5 +3,5 @@
 # --
 class ${1:ExampleCase}(unittest.TestCase):
 
-	def test_${2:description}(self):
-		$0
+  def test_${2:description}(self):
+  	$0

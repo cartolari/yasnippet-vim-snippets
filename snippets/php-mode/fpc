@@ -1,0 +1,4 @@
+# name: "file_put_contents" b
+# key: fpc
+# --
+file_put_contents(${1:file}, ${2:content}${3:, FILE_APPEND});$0

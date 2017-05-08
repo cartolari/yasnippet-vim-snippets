@@ -1,0 +1,4 @@
+# name: sm_db_truncate
+# key: sm_db_truncate
+# --
+$this->db->delete(${1:table});

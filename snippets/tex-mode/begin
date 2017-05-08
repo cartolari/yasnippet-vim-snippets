@@ -1,6 +1,6 @@
 # name: \begin{} ... \end{} block
 # key: begin
 # --
-\begin{${1:env}}
-	$0
-\end{$1}
+\\begin{${1:env}}
+  ${0:`yas-selected-text`}
+\\end{$1}

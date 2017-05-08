@@ -2,5 +2,5 @@
 # key: resize
 # --
 ${1:obj}.resize(function (${2:e}) {
-	${0:// event handler}
+  ${0:// event handler}
 });

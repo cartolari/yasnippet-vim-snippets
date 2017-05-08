@@ -1,4 +1,4 @@
 # name: mathfrak
 # key: mf
 # --
-\mathfrak{${0:text}}
+\\mathfrak{${0:${VISUAL:text}}}

@@ -1,0 +1,14 @@
+# name: dfun1
+# key: dfun1
+# --
+/*! \brief ${1:Brief function description here}
+ *
+ *  ${2:Detailed description of the function}
+ *
+ * \param $3 ${4:Parameter description}
+ * \return ${5:Return parameter description}
+ */
+${6:void} ${7:function_name}(${8:Type} ${3:Parameter})
+{
+  $9
+}

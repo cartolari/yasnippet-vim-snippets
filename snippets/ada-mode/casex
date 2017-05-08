@@ -2,4 +2,4 @@
 # key: casex
 # --
 case $1 is
-	when $2 => $3,$0
+  when $2 => $3,$0

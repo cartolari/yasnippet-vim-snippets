@@ -1,7 +1,6 @@
-# name: case
+# name: "case 'xyz': ... break"
 # key: case
 # --
 case '${1:case}':
-	$2
-	break;
-$0
+  ${0:`yas-selected-text`}
+  break;

@@ -1,4 +1,4 @@
 # name: l
 # key: l
 # --
-l_$1		${0:number};
+l_$1  	${0:number};

@@ -2,5 +2,5 @@
 # key: cchoose
 # --
 <c:choose>
-	$0
+  $0
 </c:choose>

@@ -2,5 +2,5 @@
 # key: cother
 # --
 <c:otherwise>
-	$0
+  $0
 </c:otherwise>

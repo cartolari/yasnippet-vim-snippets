@@ -2,5 +2,5 @@
 # key: wh
 # --
 while ${1:condition}; do
-	${0:# statements}
+  ${0:`yas-selected-text`}
 done

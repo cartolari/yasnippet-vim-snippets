@@ -2,4 +2,4 @@
 # key: stackedinline
 # --
 class ${0:ModelName}Inline(admin.StackedInline):
-	model = $1
+  model = $1

@@ -2,7 +2,7 @@
 # key: select
 # --
 select ${1:variable}
-	case ${2:TypeSpec}
-	case ${0:TypeSpec}
-	default
+  case ${2:TypeSpec}
+  case ${0:TypeSpec}
+  default
 end

@@ -1,0 +1,6 @@
+# name: parfor
+# key: parfor
+# --
+parfor ${1:i} = ${2:1:n}
+  $0
+end

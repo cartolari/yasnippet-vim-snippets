@@ -1,0 +1,11 @@
+# name: wie
+# key: wie
+# --
+with(
+  ${1:item} <- ${2:items}
+) do
+  $3
+else
+  $4 ->
+  	$0
+end

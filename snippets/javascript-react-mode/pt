@@ -1,0 +1,6 @@
+# name: pt
+# key: pt
+# --
+static propTypes = {
+  $1: React.PropTypes.${2:type},
+}

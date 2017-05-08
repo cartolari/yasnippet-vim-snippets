@@ -1,4 +1,4 @@
 # name: lica
 # key: lica
 # --
-<%= link_to '${1:link text...}', :controller => '${2:items}', :action => '${0:index}' %>
+<%= link_to '${1:link text...}', controller: '${2:items}', action: '${0:index}' %>

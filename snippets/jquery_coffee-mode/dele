@@ -2,4 +2,4 @@
 # key: dele
 # --
 ${1:obj}.delegate '${2:selector expression}', '${3:event name}', (${4:e}) ->
-	${0:// event handler}
+  ${0:// event handler}

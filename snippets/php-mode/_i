@@ -2,5 +2,5 @@
 # key: ?i
 # --
 <?php if ($${1:var}): ?>
-	$0
+  ${0:`yas-selected-text`}
 <?php endif ?>

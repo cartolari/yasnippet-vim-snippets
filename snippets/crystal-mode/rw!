@@ -1,0 +1,4 @@
+# name: rw!
+# key: rw!
+# --
+property! ${0:name}

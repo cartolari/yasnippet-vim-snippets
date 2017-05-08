@@ -2,6 +2,6 @@
 # key: ul
 # --
 %ul
-	%li
-		${0:item}
-	%li
+  %li
+  	${0:item}
+  %li

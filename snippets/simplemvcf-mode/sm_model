@@ -1,0 +1,15 @@
+# name: sm_model
+# key: sm_model
+# --
+<?php 
+  namespace Models;
+ 
+  use Core\Model;
+  
+  class ${1:class_name} extends Model 
+  {    
+  	function __construct()
+  	{
+  		parent::__construct();
+  	}  
+  }

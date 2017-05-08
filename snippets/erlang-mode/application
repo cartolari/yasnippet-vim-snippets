@@ -1,7 +1,7 @@
 # name: application
 # key: application
 # --
--module(${1:`(file-name-base)`}).
+-module(${1:}).
 
 -behaviour(application).
 
@@ -12,7 +12,7 @@ start(_Type, _StartArgs) ->
         {ok, Pid} ->
             {ok, Pid};
         Other ->
-	          {error, Other}
+            {error, Other}
     end.
 
 stop(_State) ->

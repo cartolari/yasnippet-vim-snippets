@@ -1,0 +1,4 @@
+# name: ird
+# key: ird
+# --
+import ReactDOM from 'react-dom';

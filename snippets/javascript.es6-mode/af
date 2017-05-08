@@ -1,0 +1,6 @@
+# name: af
+# key: af
+# --
+($1) => {
+  ${0:`yas-selected-text`}
+}

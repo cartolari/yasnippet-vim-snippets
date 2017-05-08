@@ -1,0 +1,4 @@
+# name: spaceless
+# key: spaceless
+# --
+{% spaceless %}$0{% endspaceless %}

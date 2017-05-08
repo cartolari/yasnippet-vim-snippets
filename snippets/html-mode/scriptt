@@ -2,5 +2,5 @@
 # key: scriptt
 # --
 <script type="$1" id="$2">
-	$0
+  $0
 </script>

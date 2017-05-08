@@ -1,4 +1,5 @@
 # name: rpdb
 # key: rpdb
 # --
-import rpdb; rpdb.set_trace()
+import rpdb
+rpdb.set_trace()

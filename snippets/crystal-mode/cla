@@ -1,0 +1,6 @@
+# name: class .. end
+# key: cla
+# --
+class ${1:}
+  $0
+end

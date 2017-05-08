@@ -1,6 +1,6 @@
-# name: for
+# name: "for ($i = 0; $i < $count; $i++) { ... }"
 # key: for
 # --
 for ($${2:i} = 0; $$2 < ${1:count}; $$2${3:++}) {
-	$0
+  ${0:`yas-selected-text`}
 }

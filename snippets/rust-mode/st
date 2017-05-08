@@ -2,5 +2,5 @@
 # key: st
 # --
 struct ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`} {
-	$0
+  $0
 }

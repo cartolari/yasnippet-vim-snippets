@@ -2,5 +2,5 @@
 # key: menu:c
 # --
 <menu type="context">
-	$0
+  $0
 </menu>

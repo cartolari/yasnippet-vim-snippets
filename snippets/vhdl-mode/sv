@@ -1,0 +1,4 @@
+# name: sv
+# key: sv
+# --
+signal $1 : std_logic_vector ($2 downto 0);

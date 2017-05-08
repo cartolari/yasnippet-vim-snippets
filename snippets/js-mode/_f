@@ -2,5 +2,5 @@
 # key: :f
 # --
 ${1:method_name}: function (${2:attribute}) {
-	$3
+  ${0:`yas-selected-text`}
 },

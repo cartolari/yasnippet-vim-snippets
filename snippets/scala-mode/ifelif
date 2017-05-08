@@ -2,6 +2,6 @@
 # key: ifelif
 # --
 if ($1)
-	$2
+  ${2:`yas-selected-text`}
 else if ($3)
-	$0
+  ${0:`yas-selected-text`}

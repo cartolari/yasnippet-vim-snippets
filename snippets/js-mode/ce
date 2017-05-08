@@ -1,4 +1,4 @@
-# name: ce
+# name: "console.error"
 # key: ce
 # --
-console.err($0);
+console.error($0);

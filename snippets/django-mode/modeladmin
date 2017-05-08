@@ -2,6 +2,6 @@
 # key: modeladmin
 # --
 class ${1:ModelName}Admin(admin.ModelAdmin):
-	$0
+  $0
 
 admin.site.register($1, $1Admin)

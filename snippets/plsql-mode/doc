@@ -2,5 +2,5 @@
 # key: doc
 # --
 /*
- *	${0: comment ...}
+ *  ${0: comment ...}
  */

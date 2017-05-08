@@ -1,0 +1,4 @@
+# name: left right
+# key: lr
+# --
+\\left$1 $0 \\right$1

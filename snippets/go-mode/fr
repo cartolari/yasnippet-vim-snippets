@@ -1,7 +1,0 @@
-# name: fr
-# key: fr
-# --
-for ${1:k}, ${2:v} := range $3 {
-	$4
-}
-$0

@@ -1,0 +1,9 @@
+# name: # {{#value}} ... {{/value}} {{^value}} ... {{/value}}
+# key: ife
+# --
+{{#${1:value}}}
+${2:`yas-selected-text`}
+{{/$1}}
+{{^$1}}
+$3
+{{/$1}}

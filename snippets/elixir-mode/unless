@@ -2,5 +2,5 @@
 # key: unless
 # --
 unless $1 do
-	$0
+  ${0:`yas-selected-text`}
 end

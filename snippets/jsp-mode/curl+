@@ -2,7 +2,7 @@
 # key: curl+
 # --
 <c:url value="$1" var="$2">
-	<c:param name="$4" value="$5" />
-	cparam+$0
+  <c:param name="$4" value="$5" />
+  cparam+$0
 </c:url>
 <a href="${$2}">$3</a>

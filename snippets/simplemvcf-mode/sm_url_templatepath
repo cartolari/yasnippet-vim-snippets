@@ -1,0 +1,4 @@
+# name: sm_url_templatepath
+# key: sm_url_templatepath
+# --
+Url:templatePath();

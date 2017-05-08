@@ -1,0 +1,5 @@
+# name: fn0
+# key: fn0
+# --
+${1:name} :: ${2:a}
+$1 = ${0:undefined}

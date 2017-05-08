@@ -1,0 +1,5 @@
+# name: beh
+# key: beh
+# --
+@behaviour ${1:Mix.Task}
+$0

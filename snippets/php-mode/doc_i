@@ -1,0 +1,11 @@
+# name: "interface someClass {}"
+# key: doc_i
+# --
+/**
+ * $1
+ * @package ${2:default}
+ * @author ${3:}
+ **/
+interface ${1:someClass}
+{$4
+}

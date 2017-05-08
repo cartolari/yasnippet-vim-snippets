@@ -1,0 +1,7 @@
+# name: btc
+# key: btc
+# --
+{
+   block : '${1:name}',
+   content: '${2:content}'
+}

@@ -1,0 +1,12 @@
+# name: marginconvention
+# key: marginconvention
+# --
+var ${1:margin} = { top: ${2:10}, right: ${3:10}, bottom: ${4:10}, left: ${5:10} };
+var ${6:width} = ${7:970} - $1.left - $1.right;
+var ${8:height} = ${9:500} - $1.top - $1.bottom;
+
+var ${10:svg} = d3.select("$11").append("svg")
+  .attr("width", $6 + $1.left + $1.right)
+  .attr("height", $8 + $1.top + $1.bottom)
+    .append("g")
+  .attr("transform", "translate(" + $1.left + "," + $1.top + ")")

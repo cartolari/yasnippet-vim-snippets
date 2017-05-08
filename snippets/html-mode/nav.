@@ -2,5 +2,5 @@
 # key: nav.
 # --
 <nav class="$1">
-	$0
+  $0
 </nav>

@@ -2,5 +2,5 @@
 # key: beg
 # --
 begin
-	$0
+  $0
 end;

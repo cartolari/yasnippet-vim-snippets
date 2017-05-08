@@ -2,7 +2,7 @@
 # key: info
 # --
 -- |
--- Module      :  ${1:Module.Namespace}
+-- Module      :  ${1:}
 -- Copyright   :  ${2:Author} ${3:2011-2012}
 -- License     :  ${4:BSD3}
 --

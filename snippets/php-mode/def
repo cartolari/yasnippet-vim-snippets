@@ -1,4 +1,4 @@
-# name: def
+# name: "define('VARIABLE_NAME', 'definition')"
 # key: def
 # --
-define('$1'$2);
+define('${1:VARIABLE_NAME}', ${2:'definition'});

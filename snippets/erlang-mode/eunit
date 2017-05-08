@@ -1,0 +1,7 @@
+# name: eunit
+# key: eunit
+# --
+-module(${1:}).
+-include_lib("eunit/include/eunit.hrl").
+
+$0

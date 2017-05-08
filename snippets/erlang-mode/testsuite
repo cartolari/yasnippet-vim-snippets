@@ -1,19 +1,19 @@
 # name: testsuite
 # key: testsuite
 # --
--module(${0:`(file-name-base)`}).
+-module(${0:}).
 
 -include_lib("common_test/include/ct.hrl").
 
 %% Test server callbacks
 -export([suite/0, all/0, groups/0,
-	 init_per_suite/1, end_per_suite/1,
-	 init_per_group/2, end_per_group/2,
-	 init_per_testcase/2, end_per_testcase/2]).
+   init_per_suite/1, end_per_suite/1,
+   init_per_group/2, end_per_group/2,
+   init_per_testcase/2, end_per_testcase/2]).
 
 %% Test cases
 -export([
-	]).
+  ]).
 
 %%--------------------------------------------------------------------
 %% COMMON TEST CALLBACK FUNCTIONS
@@ -165,7 +165,7 @@ groups() ->
 %% Description: Returns the list of groups and test cases that
 %%              are to be executed.
 %%--------------------------------------------------------------------
-all() -> 
+all() ->
     [].
 
 

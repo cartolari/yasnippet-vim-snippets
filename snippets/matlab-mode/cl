@@ -1,0 +1,11 @@
+# name: class 
+# key: cl
+# --
+classdef ${1:}
+   properties
+    $2
+   end
+   methods
+    $0
+   end
+end

@@ -2,5 +2,5 @@
 # key: mup
 # --
 ${1:obj}.mouseup(function (${2:e}) {
-	${0:// event handler}
+  ${0:// event handler}
 });

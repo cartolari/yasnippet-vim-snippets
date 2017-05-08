@@ -2,4 +2,4 @@
 # key: let
 # --
 (let [${1:name} ${2:expr}]
-	$0)
+  $0)

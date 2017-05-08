@@ -1,0 +1,4 @@
+# name: "$this->assertCount($count, $haystack)"
+# key: asco
+# --
+$this->assertCount(${1:$expectedCount}, ${2:$haystack});

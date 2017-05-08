@@ -2,5 +2,5 @@
 # key: table#
 # --
 <table id="$1">
-	$0
+  $0
 </table>

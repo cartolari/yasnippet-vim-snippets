@@ -1,0 +1,4 @@
+# name: "Lambda function (\x => ...)"
+# key: \
+# --
+(\\${1:_} => $0)

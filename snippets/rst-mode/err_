@@ -2,4 +2,4 @@
 # key: err:
 # --
 .. error::
-	${0:Error occur}
+  ${0:Error occur}

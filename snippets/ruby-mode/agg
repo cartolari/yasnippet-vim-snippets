@@ -1,0 +1,6 @@
+# name: agg
+# key: agg
+# --
+aggregate_failures '${1:message}' do
+  $0
+end

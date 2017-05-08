@@ -1,4 +1,4 @@
-# name: "let mut variable declaration"
+# name: "let mut variable declaration with type inference"
 # key: letm
 # --
-let mut ${1:name}${2:: ${3:type}} = $4;
+let mut $1  = $2;

@@ -1,9 +1,11 @@
 # name: try
 # key: try
 # --
-try {
-		$0
+try
+{
+  ${0:`yas-selected-text`}
 }
-catch (${1:System.Exception}) {
-		throw;
+catch (${1:System.Exception})
+{
+  throw;
 }

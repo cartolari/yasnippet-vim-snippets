@@ -1,0 +1,6 @@
+# name: sbash
+# key: sbash
+# --
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'

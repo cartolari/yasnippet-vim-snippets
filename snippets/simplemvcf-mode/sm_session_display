@@ -1,0 +1,4 @@
+# name: sm_session_display
+# key: sm_session_display
+# --
+Session::display();

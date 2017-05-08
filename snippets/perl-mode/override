@@ -2,7 +2,7 @@
 # key: override
 # --
 override ${1:attribute} => sub {
-	${2:# my $self = shift;};
-	${0:# my ($self, $args) = @_;};
+  ${2:# my $self = shift;};
+  ${0:# my ($self, $args) = @_;};
 };
 

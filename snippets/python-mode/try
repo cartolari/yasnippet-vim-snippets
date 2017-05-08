@@ -2,10 +2,10 @@
 # key: try
 # --
 try:
-	$1
-except ${2:Exception}, ${3:e}:
-	${4:raise $3}
+  ${1:`yas-selected-text`}
+except ${2:Exception} as ${3:e}:
+  ${4:raise $3}
 else:
-	$5
+  $5
 finally:
-	$0
+  $0

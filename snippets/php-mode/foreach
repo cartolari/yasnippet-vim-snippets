@@ -1,6 +1,6 @@
-# name: foreach
+# name: "foreach ($var as $value) { .. }"
 # key: foreach
 # --
 foreach ($${1:variable} as $${2:value}) {
-	$0
+  ${0:`yas-selected-text`}
 }

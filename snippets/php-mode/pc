@@ -1,0 +1,4 @@
+# name: "Dumb debug helper in cli"
+# key: pc
+# --
+var_export($1);$0

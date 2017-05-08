@@ -2,5 +2,5 @@
 # key: def
 # --
 def ${1:name} do
-	$0
+  $0
 end

@@ -1,0 +1,6 @@
+# name: clax
+# key: clax
+# --
+class $1 extends $2 {
+  ${0:`yas-selected-text`}
+}

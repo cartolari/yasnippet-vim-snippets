@@ -2,5 +2,5 @@
 # key: @finally
 # --
 @finally {
-	${0:statements}
+  ${0:statements}
 }

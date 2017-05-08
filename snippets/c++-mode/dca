@@ -1,0 +1,4 @@
+# name: dca
+# key: dca
+# --
+dynamic_cast<${1:unsigned}>(${2:expr})$3

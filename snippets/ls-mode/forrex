@@ -2,4 +2,4 @@
 # key: forrex
 # --
 for ${1:name} from ${2:start} til ${3:finish}
-	$4
+  $4

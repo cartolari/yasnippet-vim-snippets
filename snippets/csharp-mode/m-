@@ -1,6 +1,7 @@
 # name: m-
 # key: m-
 # --
-private ${1:void} $2($3) {
-	$0
+private ${1:void} $2($3)
+{
+  $0
 }

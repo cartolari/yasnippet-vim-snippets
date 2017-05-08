@@ -37,5 +37,5 @@
 # Copyright `(format-time-string "%Y")` `"Name"`
 #
 class $1 ($3){
-	$4
+  $4
 }

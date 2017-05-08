@@ -2,4 +2,4 @@
 # key: add
 # --
 ${1:out}: $1.o
-	$(CC) $(CFLAGS) -o $@ $+
+  $(CC) $(CFLAGS) -o $@ $+

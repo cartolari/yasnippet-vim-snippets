@@ -1,0 +1,10 @@
+# name: rcla
+# key: rcla
+# --
+class ${1:MyComponent} extends Component {
+  render() {
+  	return (
+  		${0:<div></div>}
+  	)
+  }
+}

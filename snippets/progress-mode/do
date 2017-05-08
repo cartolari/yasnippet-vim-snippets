@@ -2,5 +2,5 @@
 # key: do
 # --
 DO${1: Clauses}:
-	$0
+  $0
 END.

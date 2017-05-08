@@ -2,4 +2,4 @@
 # key: ngdlf
 # --
 (scope, element, attrs${1:ctrl}) ->
-	$2
+  $2

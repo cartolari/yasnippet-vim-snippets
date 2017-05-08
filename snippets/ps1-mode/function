@@ -1,0 +1,19 @@
+# name: function
+# key: function
+# --
+function {0:name} {
+  [CmdletBinding()]
+  param (
+  	[Parameter(Mandatory = $true)]
+  	[string] $Param1
+  )
+
+  begin {
+  }
+
+  process {
+  }
+
+  end {
+  }
+}

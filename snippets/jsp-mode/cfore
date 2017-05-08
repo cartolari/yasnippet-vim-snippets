@@ -2,5 +2,5 @@
 # key: cfore
 # --
 <c:forEach items="${$1}" var="$2" varStatus="$3">
-	${0:<c:out value="$2" />}
+  ${0:<c:out value="$2" />}
 </c:forEach>

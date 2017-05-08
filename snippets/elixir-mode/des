@@ -1,0 +1,6 @@
+# name: des
+# key: des
+# --
+describe "${1:test group subject}" do
+  $0
+end

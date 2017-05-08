@@ -2,5 +2,5 @@
 # key: xpa
 # --
 elements.each('${1://Xpath}') do |${2:node}|
-	$0
+  $0
 end

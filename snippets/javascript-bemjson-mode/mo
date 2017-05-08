@@ -1,0 +1,4 @@
+# name: mo
+# key: mo
+# --
+mods : { ${1:modName} : '${2:modVal}' },

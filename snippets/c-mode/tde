@@ -1,6 +1,10 @@
 # name: tde
 # key: tde
 # --
+/*! \enum $2
+ *
+ *  ${4:Detailed description}
+ */
 typedef enum {
-	${1:/* data */}
+  ${1:Data} /*!< ${3:Description} */
 } ${2:foo};

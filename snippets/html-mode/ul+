@@ -2,6 +2,6 @@
 # key: ul+
 # --
 <ul>
-	<li>$1</li>
-	li+$0
+  <li>$1</li>
+  li+$0
 </ul>

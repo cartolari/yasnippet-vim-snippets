@@ -1,4 +1,4 @@
-# name: asfnex
+# name: "$this->assertFileNotExists('path/to/file')"
 # key: asfnex
 # --
-$this->assertFileNotExists(${1:path/to/file});
+$this->assertFileNotExists(${1:'path/to/file'});

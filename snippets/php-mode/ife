@@ -1,9 +1,8 @@
-# name: ife
+# name: "if (cond) { ... } else { ... }"
 # key: ife
 # --
-if (${1:/* condition */}) {
-	$2
+if ($1) {
+  ${0:`yas-selected-text`}
 } else {
-	$3
+  $2
 }
-$0

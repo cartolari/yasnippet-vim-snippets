@@ -1,0 +1,4 @@
+# name: "let variable declaration with explicit type annotation"
+# key: lett
+# --
+let $1: $2  = $3;

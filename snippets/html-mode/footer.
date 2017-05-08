@@ -2,5 +2,5 @@
 # key: footer.
 # --
 <footer class="$1">
-	$0
+  $0
 </footer>

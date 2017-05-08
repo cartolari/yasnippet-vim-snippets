@@ -1,6 +1,0 @@
-# name: itemize environment
-# key: itemize
-# --
-\begin{itemize}
-	\item $0
-\end{itemize}

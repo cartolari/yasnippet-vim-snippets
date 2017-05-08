@@ -2,4 +2,4 @@
 # key: defm
 # --
 def ${1:mname}(self, ${2:arg}):
-	$0
+  $0

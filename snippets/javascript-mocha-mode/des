@@ -1,0 +1,6 @@
+# name: "describe('thing', () => { ... })" b
+# key: des
+# --
+describe('${1:}', () => {
+  ${0:`yas-selected-text`}
+});

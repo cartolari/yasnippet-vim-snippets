@@ -3,5 +3,5 @@
 # --
 - (void)awakeFromNib
 {
-	$0
+  $0
 }

@@ -1,0 +1,6 @@
+# name: rpt
+# key: rpt
+# --
+$1.propTypes = {
+  $2: PropTypes.$0,
+}

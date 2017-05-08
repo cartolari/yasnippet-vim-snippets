@@ -1,0 +1,6 @@
+# name: "{% javascripts 'xyz' %} .. {% endjavascripts %}"
+# key: js
+# --
+{% javascripts '$1' %}
+  <script src="{{ asset_url }}"></script>
+{% endjavascripts %}

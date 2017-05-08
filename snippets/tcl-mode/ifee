@@ -2,9 +2,9 @@
 # key: ifee
 # --
 if {$1} {
-	$2
+  $2
 } elseif {$3} {
-	${4:# elsif...}
+  ${4:# elsif...}
 } else {
-	${0:# else...}
+  ${0:# else...}
 }

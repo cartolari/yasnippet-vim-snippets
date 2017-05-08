@@ -1,4 +1,4 @@
 # name: glob
 # key: glob
 # --
-FILE(GLOB ${1:SRCS} *.${0:cpp})
+file(glob ${1:srcs} *.${0:cpp})

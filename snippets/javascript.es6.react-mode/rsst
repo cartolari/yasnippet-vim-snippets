@@ -1,0 +1,6 @@
+# name: rsst
+# key: rsst
+# --
+this.setState({
+  $1: $0,
+})

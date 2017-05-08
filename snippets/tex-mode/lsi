@@ -1,4 +1,4 @@
 # name: lsi
 # key: lsi
 # --
-\lstinline|$1| $0
+\\lstinline|$1| $0

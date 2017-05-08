@@ -1,0 +1,5 @@
+# name: empty
+# key: empty
+# --
+{% empty %}
+$0

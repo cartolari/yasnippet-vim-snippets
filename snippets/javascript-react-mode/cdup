@@ -1,0 +1,6 @@
+# name: cdup
+# key: cdup
+# --
+componentDidUpdate(prevProps, prevState) {
+  $1
+}

@@ -2,6 +2,6 @@
 # key: ngdl
 # --
 .directive('${1:directiveName}', (${2:directiveDeps}) ->
-	(scope, element, attrs${3:ctrl}) ->
-		$4
+  (scope, element, attrs${3:ctrl}) ->
+  	$4
 )

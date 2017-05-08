@@ -3,5 +3,5 @@
 # --
 create or replace package body ${1:name}
 as
-	${0:-- body}
+  ${0:-- body}
 end; -- end of package body $1;

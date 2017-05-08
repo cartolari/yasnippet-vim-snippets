@@ -1,4 +1,4 @@
 # name: \citet
 # key: citet
 # --
-\citet{$1} $0
+\\citet{$1} $0

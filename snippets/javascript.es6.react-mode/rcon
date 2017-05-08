@@ -1,0 +1,10 @@
+# name: rcon
+# key: rcon
+# --
+constructor(props) {
+  super(props)
+
+  this.state = {
+  	$1: $0,
+  }
+}

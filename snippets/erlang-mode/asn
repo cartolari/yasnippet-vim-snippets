@@ -1,0 +1,4 @@
+# name: asn
+# key: asn
+# --
+?assertNot($0)

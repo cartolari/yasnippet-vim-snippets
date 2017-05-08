@@ -2,5 +2,5 @@
 # key: do
 # --
 do {
-	$2
+  ${0:`yas-selected-text`}
 } while (${1:/* condition */});

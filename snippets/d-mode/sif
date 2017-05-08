@@ -2,5 +2,5 @@
 # key: sif
 # --
 static if(${1:cond}) {
-	$2
+  $2
 }

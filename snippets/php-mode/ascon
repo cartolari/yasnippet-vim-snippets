@@ -1,4 +1,4 @@
-# name: ascon
+# name: "$this->assertContains($needle, $haystack)"
 # key: ascon
 # --
-$this->assertContains(${1:Search Value}, ${2:Array or Iterator});
+$this->assertContains(${1:$needle}, ${2:$haystack});

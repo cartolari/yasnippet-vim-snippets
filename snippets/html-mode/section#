@@ -2,5 +2,5 @@
 # key: section#
 # --
 <section id="$1">
-	$0
+  $0
 </section>

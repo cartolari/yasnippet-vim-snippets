@@ -1,0 +1,4 @@
+# name: now
+# key: now
+# --
+{% now "${0:jS F Y H:i}" %}

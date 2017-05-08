@@ -2,5 +2,5 @@
 # key: func
 # --
 function ${1:name}($2) result($3)
-	$0
+  $0
 end function $1

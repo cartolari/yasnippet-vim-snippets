@@ -1,0 +1,4 @@
+# name: defaultifnone
+# key: defaultifnone
+# --
+default_if_none:"$0"

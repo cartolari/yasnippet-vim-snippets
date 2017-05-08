@@ -1,0 +1,10 @@
+# name: ercc
+# key: ercc
+# --
+export default class ${1:ClassName} extends React.Component {
+  render() {
+  	return (
+  		${0:<div />}
+  	);
+  }
+}

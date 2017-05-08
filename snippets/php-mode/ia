@@ -1,0 +1,4 @@
+# name: "in_array"
+# key: ia
+# --
+in_array(${1:needle}, ${2:haystack})$0

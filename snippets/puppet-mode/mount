@@ -2,6 +2,6 @@
 # key: mount
 # --
 mount { "${1:destination path}":
-	ensure	=> ${2:mounted},
-	device	=> "${0:device name or path}",
+  ensure	=> ${2:mounted},
+  device	=> "${0:device name or path}",
 }

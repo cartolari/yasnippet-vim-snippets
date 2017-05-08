@@ -2,5 +2,5 @@
 # key: prot
 # --
 protected type $1($2) is
-	$0
+  $0
 end $1;

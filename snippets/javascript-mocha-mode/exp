@@ -1,0 +1,4 @@
+# name: "expect(...)" b
+# key: exp
+# --
+expect(${1:})$0;

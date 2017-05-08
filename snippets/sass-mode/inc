@@ -1,0 +1,4 @@
+# name: inc
+# key: inc
+# --
++${1:mixin}($2)

@@ -1,5 +1,5 @@
 # name: \noindent
 # key: ni
 # --
-\noindent
+\\noindent
 $0

@@ -1,0 +1,7 @@
+# name: switch
+# key: switch
+# --
+switch ${1:n}
+  case ${2:0}
+  	$0
+end

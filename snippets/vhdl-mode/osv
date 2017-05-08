@@ -1,0 +1,4 @@
+# name: osv
+# key: osv
+# --
+$1 : out std_logic_vector ($2 downto 0);

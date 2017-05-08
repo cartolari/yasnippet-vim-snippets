@@ -1,6 +1,7 @@
 # name: mb+
 # key: mb+
 # --
-public bool $1($2) {
-	${0:return false;}
+public bool $1($2)
+{
+  ${0:return false;}
 }

@@ -1,4 +1,4 @@
 # name: emphasize text
 # key: emp
 # --
-\emph{${0:text}}
+\\emph{${0:${VISUAL:text}}}

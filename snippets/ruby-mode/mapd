@@ -2,5 +2,5 @@
 # key: mapd
 # --
 map do |${1:e}|
-	$0
+  $0
 end

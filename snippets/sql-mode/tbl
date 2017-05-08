@@ -2,5 +2,5 @@
 # key: tbl
 # --
 create table ${1:table} (
-	${0:columns}
+  ${0:columns}
 );

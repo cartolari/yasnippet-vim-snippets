@@ -1,6 +1,0 @@
-# name: mod
-# key: mod
-# --
-module ${1:module_name} ($2);
-	$0
-endmodule : $1

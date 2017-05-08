@@ -1,0 +1,4 @@
+# name: sca
+# key: sca
+# --
+static_cast<${1:unsigned}>(${2:expr})$3

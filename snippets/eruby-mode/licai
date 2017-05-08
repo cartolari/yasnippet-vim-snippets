@@ -1,4 +1,4 @@
 # name: licai
 # key: licai
 # --
-<%= link_to '${1:link text...}', :controller => '${2:items}', :action => '${3:edit}', :id => ${0:@item} %>
+<%= link_to '${1:link text...}', controller: '${2:items}', action: '${3:edit}', id: ${0:@item} %>

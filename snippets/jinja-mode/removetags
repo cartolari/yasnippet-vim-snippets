@@ -1,0 +1,4 @@
+# name: removetags
+# key: removetags
+# --
+removetags:"$0"

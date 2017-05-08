@@ -2,5 +2,5 @@
 # key: for
 # --
 for ${1:e} in ${2:c}
-	$0
+  $0
 end

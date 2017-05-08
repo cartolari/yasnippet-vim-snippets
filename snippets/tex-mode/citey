@@ -1,4 +1,4 @@
 # name: \citeyear
 # key: citey
 # --
-\citeyear{$1} $0
+\\citeyear{$1} $0

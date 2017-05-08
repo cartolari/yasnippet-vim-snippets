@@ -2,5 +2,5 @@
 # key: begf
 # --
 BEGINFILE {
-	$0
+  $0
 }

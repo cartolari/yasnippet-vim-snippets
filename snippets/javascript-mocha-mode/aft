@@ -1,0 +1,6 @@
+# name: "after(() => { ... })" b
+# key: aft
+# --
+after(() => {
+  ${0:`yas-selected-text`}
+});

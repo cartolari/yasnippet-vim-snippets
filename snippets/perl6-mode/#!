@@ -1,4 +1,4 @@
 # name: #!
 # key: #!
 # --
-#!/usr/bin/enb perl6
+#!/usr/bin/env perl6

@@ -2,5 +2,5 @@
 # key: descm
 # --
 describe '${1:#method}' do
-	${0:pending 'Not implemented'}
+  ${0:pending 'Not implemented'}
 end

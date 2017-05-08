@@ -4,8 +4,8 @@
 /**
  *  ${1:Description}
  *
- *	@author ${2:$TM_FULLNAME}
- *	@since  ${3:`(format-time-string "%d/%m/%y %H:%M:%S")`}
+ *  @author ${2:$TM_FULLNAME}
+ *  @since  ${3:`(format-time-string "%d/%m/%y %H:%M:%S")`}
  */
 
 package ${0:package};

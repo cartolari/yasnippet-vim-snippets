@@ -1,0 +1,4 @@
+# name: "$this->assertNull($a)"
+# key: asnu
+# --
+$this->assertNull($1);

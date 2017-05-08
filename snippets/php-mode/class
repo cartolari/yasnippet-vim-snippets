@@ -6,12 +6,12 @@
  */
 class ${2:}
 {
-	$3
-	/**
-	 * $4
-	 */
-	${5:public} function ${6:__construct}(${7:argument})
-	{
-		$0
-	}
+  $3
+  /**
+   * $4
+   */
+  ${5:public} function ${6:__construct}(${7:argument})
+  {
+  	$0
+  }
 }

@@ -3,8 +3,8 @@
 ;;;
 (yas-define-snippets 'dart-mode
                      '(("wh" "while (${1:/* condition */}) {\n  $0\n}" "wh" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/wh" nil nil)
-                       ("tryf" "try {\n  $0\n} catch (${1:Exception e}) {\n} finally {\n}" "tryf" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/tryf" nil nil)
-                       ("try" "try {\n  $0\n} catch (${1:Exception e}) {\n}" "try" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/try" nil nil)
+                       ("tryf" "try {\n  ${0:`yas-selected-text`}\n} catch (${1:Exception e}) {\n} finally {\n}" "tryf" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/tryf" nil nil)
+                       ("try" "try {\n  ${0:`yas-selected-text`}\n} catch (${1:Exception e}) {\n}" "try" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/try" nil nil)
                        ("th" "throw $0" "th" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/th" nil nil)
                        ("sw" "switch ($1) {\n  $0\n}" "sw" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/sw" nil nil)
                        ("st" "static $0" "st" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/st" nil nil)
@@ -30,4 +30,4 @@
                        ("as" "assert(${0:/* condition */});" "as" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/dart-mode/as" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:30 2015
+;;; Do not edit! File generated at Mon May  8 02:40:50 2017

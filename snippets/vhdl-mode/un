@@ -1,0 +1,4 @@
+# name: un
+# key: un
+# --
+signal $1 : unsigned ($2 downto 0);

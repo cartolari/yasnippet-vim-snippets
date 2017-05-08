@@ -2,5 +2,5 @@
 # key: menu:t
 # --
 <menu type="toolbar">
-	$0
+  $0
 </menu>

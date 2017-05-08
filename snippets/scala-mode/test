@@ -2,5 +2,5 @@
 # key: test
 # --
 test("${1:description}") {
-	$0
+  $0
 }

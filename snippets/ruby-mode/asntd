@@ -2,5 +2,5 @@
 # key: asntd
 # --
 assert_nothing_thrown do
-	$0
+  $0
 end

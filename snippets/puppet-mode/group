@@ -2,5 +2,5 @@
 # key: group
 # --
 group { "${1:group}":
-	ensure => ${0:present},
+  ensure => ${0:present},
 }

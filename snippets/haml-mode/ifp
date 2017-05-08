@@ -2,4 +2,4 @@
 # key: ifp
 # --
 - if ${1:condition}.presence?
-	$0
+  ${0:`yas-selected-text`}

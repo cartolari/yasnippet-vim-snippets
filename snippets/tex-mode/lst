@@ -1,6 +1,6 @@
 # name: lst
 # key: lst
 # --
-\begin{listing}[language=${1:language}]
-	$0
-\end{listing}
+\\begin{listing}[language=${1:language}]
+  ${0:`yas-selected-text`}
+\\end{listing}

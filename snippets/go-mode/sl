@@ -3,9 +3,7 @@
 # --
 select {
 case ${1:v1} := <-${2:chan1}
-	$3
-case ${4:v2} := <-${5:chan2}
-	$6
+  $3
 default:
-	$0
+  $0
 }

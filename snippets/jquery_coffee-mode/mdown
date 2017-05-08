@@ -2,4 +2,4 @@
 # key: mdown
 # --
 ${1:obj}.mousedown (${2:e}) ->
-	${0:// event handler}
+  ${0:// event handler}

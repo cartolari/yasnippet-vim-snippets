@@ -1,4 +1,4 @@
-# name: ct
+# name: "console.trace"
 # key: ct
 # --
 console.trace(${0:label});

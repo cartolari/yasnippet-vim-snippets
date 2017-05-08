@@ -1,0 +1,7 @@
+# name: "public function testXYZ() { ... }"
+# key: test
+# --
+public function test$1()
+{
+  ${0:`yas-selected-text`}
+}

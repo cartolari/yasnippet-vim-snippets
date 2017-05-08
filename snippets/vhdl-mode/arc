@@ -1,0 +1,11 @@
+# name: arc
+# key: arc
+# --
+architecture ${1:behav} of ${2:} is
+
+  $3
+
+begin
+
+
+end $1;

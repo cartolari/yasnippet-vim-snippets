@@ -1,6 +1,6 @@
 # name: split environment
 # key: spl
 # --
-\begin{split}
-	$0
-\end{split}
+\\begin{split}
+  ${0:`yas-selected-text`}
+\\end{split}

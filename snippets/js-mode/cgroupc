@@ -1,0 +1,6 @@
+# name: "console.groupCollapsed"
+# key: cgroupc
+# --
+console.groupCollapsed("${1:label}");
+${0:`yas-selected-text`}
+console.groupEnd();

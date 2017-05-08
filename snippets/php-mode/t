@@ -1,0 +1,4 @@
+# name: "$retVal = (condition) ? a : b"
+# key: t
+# --
+$${1:retVal} = (${2:condition}) ? ${3:a} : ${4:b};

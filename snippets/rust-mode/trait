@@ -2,5 +2,5 @@
 # key: trait
 # --
 trait ${1:Name} {
-	$0
+  $0
 }

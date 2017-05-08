@@ -1,0 +1,4 @@
+# name: "declare(strict_types=1)"
+# key: dst
+# --
+declare(strict_types=${1:1});

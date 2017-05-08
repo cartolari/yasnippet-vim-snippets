@@ -1,0 +1,7 @@
+# name: fun2
+# key: fun2
+# --
+${1:void} ${2:function_name}(${3:Type} ${4:Parameter}, ${5:Type} ${6:Parameter})
+{
+  $7
+}

@@ -1,0 +1,4 @@
+# name: sm_session_destroy
+# key: sm_session_destroy
+# --
+Session::set(${1:key});

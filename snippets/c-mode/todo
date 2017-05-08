@@ -1,0 +1,6 @@
+# name: todo
+# key: todo
+# --
+/*! TODO: ${1:Todo description here}
+ *  \todo $1
+ */

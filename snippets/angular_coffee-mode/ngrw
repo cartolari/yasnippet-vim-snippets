@@ -2,6 +2,6 @@
 # key: ngrw
 # --
 $routeProvider.when '${1:url}',
-	templateUrl: '${2:templateUrl}'
-	controller: '${3:controller}'
+  templateUrl: '${2:templateUrl}'
+  controller: '${3:controller}'
 $4

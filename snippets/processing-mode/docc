@@ -2,6 +2,6 @@
 # key: docc
 # --
 /**
- *	${1:@private}$0
+ *  ${1:@private}$0
  */
 $0

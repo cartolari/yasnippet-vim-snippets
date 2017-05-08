@@ -1,0 +1,4 @@
+# name: mi
+# key: mi
+# --
+mix : [ { ${1:block} : '${2:block}' } ],

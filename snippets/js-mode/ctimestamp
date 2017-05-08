@@ -1,0 +1,4 @@
+# name: "console.timeStamp"
+# key: ctimestamp
+# --
+console.timeStamp("${1:label}");

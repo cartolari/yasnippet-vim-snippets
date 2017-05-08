@@ -1,4 +1,4 @@
 # name: \citeauthor
 # key: citea
 # --
-\citeauthor{$1} $0
+\\citeauthor{$1} $0

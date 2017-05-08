@@ -1,0 +1,11 @@
+# name: ent
+# key: ent
+# --
+entity ${1:} is
+  generic (
+  	$2
+  );
+  port (
+  	$3
+  );
+end entity $1;

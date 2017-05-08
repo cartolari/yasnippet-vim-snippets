@@ -1,6 +1,11 @@
 # name: tds
 # key: tds
 # --
+/*! \struct $2
+ *  \brief ${5:Brief struct description}
+ *
+ *  ${6:Detailed description}
+ */
 typedef struct ${2:_$1 }{
-	${3:/* data */}
+  m_${3:Data} /*!< ${4:Description} */
 } ${1:};

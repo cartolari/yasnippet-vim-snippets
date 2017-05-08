@@ -1,0 +1,5 @@
+# name: ty
+# key: ty
+# --
+type ${1:Msg}
+  = $0

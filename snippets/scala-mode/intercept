@@ -2,5 +2,5 @@
 # key: intercept
 # --
 intercept[${1:IllegalArgumentException}] {
-	$0
+  $0
 }

@@ -2,6 +2,6 @@
 # key: beg
 # --
 begin
-	$0
+  $0
 rescue ${1:Exception} => ${2:e}
 end

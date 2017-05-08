@@ -2,7 +2,7 @@
 # key: fieldset+
 # --
 <fieldset>
-	<legend><span>$1</span></legend>
-	$2
+  <legend><span>$1</span></legend>
+  $2
 </fieldset>
 fieldset+$0

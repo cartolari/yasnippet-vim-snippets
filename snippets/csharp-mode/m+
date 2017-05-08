@@ -1,6 +1,7 @@
 # name: m+
 # key: m+
 # --
-public ${1:void} $2($3) {
-	$0
+public ${1:void} $2($3)
+{
+  $0
 }

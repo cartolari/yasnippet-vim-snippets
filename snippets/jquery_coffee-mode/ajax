@@ -7,8 +7,8 @@ $.ajax
   dataType: "${3:xml/html/script/json}"
   data: ${4:data}
   complete: (jqXHR, textStatus) ->
-	${5:// callback}
+  ${5:// callback}
   success: (data, textStatus, jqXHR) ->
-	${6:// success callback}
+  ${6:// success callback}
   error: (jqXHR, textStatus, errorThrown) ->
-	${0:// error callback}
+  ${0:// error callback}

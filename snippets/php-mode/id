@@ -1,0 +1,4 @@
+# name: "is_dir"
+# key: id
+# --
+is_dir(${1:path})$0

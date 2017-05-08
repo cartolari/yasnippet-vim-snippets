@@ -12,11 +12,11 @@
 namespace ${1:Entities};
 
 class ${2:} extends \Eloquent {
-	protected $table   = '${4:}';
+  protected $table   = '${4:}';
 
-	public $timestamps = ${5:false};
+  public $timestamps = ${5:false};
 
-	protected $hidden  = array($6);
+  protected $hidden  = array($6);
 
-	protected $guarded = array(${7:'id'});
+  protected $guarded = array(${7:'id'});
 }

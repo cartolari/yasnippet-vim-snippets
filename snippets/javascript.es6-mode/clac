@@ -1,0 +1,8 @@
+# name: clac
+# key: clac
+# --
+class $1 {
+  constructor($2) {
+  	${0:`yas-selected-text`}
+  }
+}

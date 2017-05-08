@@ -2,9 +2,9 @@
 # key: sifee
 # --
 static if($1) {
-	$2
+  $2
 } else static if($3) {
-	$4
+  $4
 } else {
-	$5
+  $5
 }

@@ -1,0 +1,4 @@
+# name: asnmat
+# key: asnmat
+# --
+?assertNotMatch(${1:Pattern}, ${0:Expression})

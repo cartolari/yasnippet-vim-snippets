@@ -1,0 +1,6 @@
+# name: caf
+# key: caf
+# --
+const ${1:function_name} = ($2) => {
+  ${0:`yas-selected-text`}
+}

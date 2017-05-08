@@ -1,0 +1,4 @@
+# name: "import { member } from 'xyz'"
+# key: imm
+# --
+import { $1 } from '$2';

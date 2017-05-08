@@ -1,0 +1,4 @@
+# name: asneq
+# key: asneq
+# --
+?assertNotEqual($1, $0)

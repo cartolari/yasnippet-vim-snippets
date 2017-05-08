@@ -2,5 +2,5 @@
 # key: ca
 # --
 ${1:pattern} {
-	${2:#do something}
+  ${2:#do something}
 }

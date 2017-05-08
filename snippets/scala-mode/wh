@@ -2,5 +2,5 @@
 # key: wh
 # --
 while (${1:obj}) {
-	$0
+  ${0:`yas-selected-text`}
 }

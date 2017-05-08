@@ -1,0 +1,4 @@
+# name: sm_render_template
+# key: sm_render_template
+# --
+View::renderTemplate('${1:part}', $${2:array});

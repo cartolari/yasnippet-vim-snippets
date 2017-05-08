@@ -2,5 +2,5 @@
 # key: wh
 # --
 % while ${1:}:
-	${0:}
+  ${0:}
 % endwhile

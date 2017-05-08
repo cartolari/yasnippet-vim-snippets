@@ -2,6 +2,6 @@
 # key: ajaxstart
 # --
 $.ajaxStart(function () {
-	${1:// handler for when an AJAX call is started and no other AJAX calls are in progress};
+  ${1:// handler for when an AJAX call is started and no other AJAX calls are in progress};
 });
 $0

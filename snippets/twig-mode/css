@@ -1,0 +1,6 @@
+# name: "{% stylesheets 'xyz' %} .. {% endstylesheets %}"
+# key: css
+# --
+{% stylesheets '$1' %}
+  <link rel="stylesheet" href="{{ asset_url }}">
+{% endstylesheets %}

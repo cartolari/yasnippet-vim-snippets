@@ -1,6 +1,7 @@
 # name: ms-
 # key: ms-
 # --
-private string $1($2) {
-	${0:return "";}
+private string $1($2)
+{
+  ${0:return "";}
 }

@@ -1,0 +1,4 @@
+# name: sm_render
+# key: sm_render
+# --
+View::render('${1:view}', $${2:array});

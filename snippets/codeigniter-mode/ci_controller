@@ -5,14 +5,14 @@
 
 class ${1:ClassName} extends CI_Controller
 {
-	function __construct()
-	{
-		parent::__construct();
-		${2:// code...}
-	}
+  function __construct()
+  {
+  	parent::__construct();
+  	${2:// code...}
+  }
 
-	function ${3:index}()
-	{
-		${4:// code...}
-	}
+  function ${3:index}()
+  {
+  	${4:// code...}
+  }
 }

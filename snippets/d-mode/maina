@@ -2,5 +2,5 @@
 # key: maina
 # --
 void main(string[] args) {
-	$0
+  $0
 }

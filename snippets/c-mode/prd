@@ -1,0 +1,4 @@
+# name: prd
+# key: prd
+# --
+printf("${1:} = %d\n", $1);

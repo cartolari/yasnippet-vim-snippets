@@ -2,4 +2,4 @@
 # key: not:
 # --
 .. note::
-	${0:my notes}
+  ${0:my notes}

@@ -1,12 +1,17 @@
 # name: cl
 # key: cl
 # --
+/*! \class $1
+ *  \brief ${3:Brief class description}
+ *
+ *  ${4:Detailed description}
+ */
 class ${1:`(file-name-base)`}
 {
 public:
-	$1($2);
-	~$1();
+  $1($2);
+  virtual ~$1();
 
-private:
-	${0:/* data */}
+protected:
+  m_$5; /*!< ${6:Member description} */
 };

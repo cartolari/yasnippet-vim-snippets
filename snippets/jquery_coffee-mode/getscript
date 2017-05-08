@@ -2,4 +2,4 @@
 # key: getscript
 # --
 $.getScript '${1:mydomain.com/url}', (script, textStatus, jqXHR) ->
-	${0:// callback}
+  ${0:// callback}

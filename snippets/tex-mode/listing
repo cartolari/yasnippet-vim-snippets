@@ -1,4 +1,4 @@
 # name: reference to a listing
 # key: listing
 # --
-${1:Listing}~\ref{${2:list}}
+${1:Listing}~\\ref{${2:list}}

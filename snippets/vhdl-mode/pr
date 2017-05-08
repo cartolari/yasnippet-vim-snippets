@@ -1,0 +1,7 @@
+# name: pr
+# key: pr
+# --
+process ($1)
+begin
+  $2
+end process;

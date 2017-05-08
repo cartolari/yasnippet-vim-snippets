@@ -2,7 +2,7 @@
 # key: drop
 # --
 impl Drop for ${1:Name} {
-	fn drop(&mut self) {
-		$0
-	}
+  fn drop(&mut self) {
+  	$0
+  }
 }

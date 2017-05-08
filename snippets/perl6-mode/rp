@@ -2,5 +2,5 @@
 # key: rp
 # --
 repeat {
-	$1
+  $1
 } ${2:while|until} $3;

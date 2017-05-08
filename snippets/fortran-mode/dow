@@ -2,5 +2,5 @@
 # key: dow
 # --
 do while (${1:condition})
-	$2
+  $2
 end do

@@ -1,4 +1,4 @@
-# name: ase
+# name: "$this->assertEquals($a, $b)"
 # key: ase
 # --
-$this->assertEquals(${1:expected}, ${2:actual});
+$this->assertEquals(${1:$expected}, ${2:$actual});

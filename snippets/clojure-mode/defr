@@ -2,5 +2,5 @@
 # key: defr
 # --
 (defrecord ${1:name} [${2:fields}]
-	${3:protocol}
-	$0)
+  ${3:protocol}
+  $0)

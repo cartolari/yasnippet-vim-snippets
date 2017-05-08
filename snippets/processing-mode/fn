@@ -2,6 +2,6 @@
 # key: fn
 # --
 ${1:void }${2:name}($3) {
-	${4://if not void return null;}
+  ${4://if not void return null;}
 }
 $0

@@ -1,0 +1,4 @@
+# name: "$this->assertContainsOnly($needle, $haystack)"
+# key: ascono
+# --
+$this->assertContainsOnly(${1:$needle}, ${2:$haystack});

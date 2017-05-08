@@ -1,14 +1,14 @@
-# name: gs
+# name: "PHP Class Getter Setter"
 # key: gs
 # --
 /**
  * Gets the value of ${1:foo}
  *
- * @return ${2:$1}
+ * @return ${2:string}
  */
-public function get${3:$2}()
+public function get${3:$1}()
 {
-	return $this->${4:$1};
+  return $this->${4:$1};
 }
 
 /**
@@ -20,6 +20,6 @@ public function get${3:$2}()
  */
 public function set$3(${7:$2 }$$1)
 {
-	$this->$4 = $$1;
-	return $this;
+  $this->$4 = $$1;
+  return $this;
 }

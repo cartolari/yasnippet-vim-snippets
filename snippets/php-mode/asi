@@ -1,4 +1,4 @@
-# name: asi
+# name: "$this->assertInstanceOf(Example::class, $actual)"
 # key: asi
 # --
-$this->assertInstanceOf(${1:expected}, ${2:actual});
+$this->assertInstanceOf(${1:Example}::class, ${2:$actual});

@@ -13,5 +13,5 @@
 namespace ${1:Repositories\\$2};
 
 class ${3:} extends \\$6 implements ${4:$3RepositoryInterface} {
-	$7
+  $7
 }

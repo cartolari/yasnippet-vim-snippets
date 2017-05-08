@@ -1,4 +1,4 @@
 # name: underline text
 # key: under
 # --
-\underline{${0:text}}
+\\underline{${0:${VISUAL:text}}}

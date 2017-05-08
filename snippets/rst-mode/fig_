@@ -2,6 +2,6 @@
 # key: fig:
 # --
 .. figure:: ${1:img}
-	:alt: ${0:alter text}
+  :alt: ${0:alter text}
 
-	$2
+  $2

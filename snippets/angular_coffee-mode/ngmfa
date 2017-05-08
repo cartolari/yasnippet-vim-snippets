@@ -2,4 +2,4 @@
 # key: ngmfa
 # --
 factory '${1:factoryName}', (${2:dependencies}) ->
-	$3
+  $3

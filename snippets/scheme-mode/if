@@ -2,5 +2,5 @@
 # key: if
 # --
 (if (${1:predicate})
-	(${2:true-action})
-	(${0:false-action}))
+  (${2:true-action})
+  (${0:false-action}))

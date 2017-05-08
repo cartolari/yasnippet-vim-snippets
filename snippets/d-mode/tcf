@@ -2,9 +2,9 @@
 # key: tcf
 # --
 try {
-	$0
+  ${0:`yas-selected-text`}
 } catch(${1:Exception} ${2:e}) {
-	$3
+  $3
 } finally {
-	$4
+  $4
 }

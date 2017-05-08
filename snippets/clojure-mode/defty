@@ -2,5 +2,5 @@
 # key: defty
 # --
 (deftype ${1:Name} [${2:fields}]
-	${3:Protocol}
-	$0)
+  ${3:Protocol}
+  $0)

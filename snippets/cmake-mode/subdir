@@ -1,4 +1,4 @@
 # name: subdir
 # key: subdir
 # --
-ADD_SUBDIRECTORY(${0:src})
+add_subdirectory(${0:src})

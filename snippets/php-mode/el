@@ -1,6 +1,6 @@
-# name: el
+# name: "else { ... }"
 # key: el
 # --
 else {
-	$0
+  ${0:`yas-selected-text`}
 }

@@ -2,5 +2,5 @@
 # key: fsw
 # --
 final switch($1) {
-	$0
+  $0
 }

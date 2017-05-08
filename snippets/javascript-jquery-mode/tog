@@ -2,8 +2,8 @@
 # key: tog
 # --
 ${1:obj}.toggle(function (${2:e}) {
-	${3:// event handler}
+  ${3:// event handler}
 }, function ($2) {
-	${4:// event handler}
+  ${4:// event handler}
 });
 $0

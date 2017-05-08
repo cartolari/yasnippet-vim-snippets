@@ -2,5 +2,5 @@
 # key: focusout
 # --
 ${1:obj}.focusOut(function (${2:e}) {
-	${0:// event handler}
+  ${0:// event handler}
 });

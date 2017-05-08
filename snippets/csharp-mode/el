@@ -1,6 +1,7 @@
 # name: el
 # key: el
 # --
-else {
-	$0
+else
+{
+  ${0:`yas-selected-text`}
 }

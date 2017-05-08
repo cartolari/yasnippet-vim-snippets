@@ -2,5 +2,5 @@
 # key: fieldset
 # --
 <fieldset>
-	$0
+  $0
 </fieldset>

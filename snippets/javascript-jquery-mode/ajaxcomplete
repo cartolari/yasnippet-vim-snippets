@@ -2,5 +2,5 @@
 # key: ajaxcomplete
 # --
 ${1:obj}.ajaxComplete(function (${1:e}, xhr, settings) {
-	${0:// callback}
+  ${0:// callback}
 });

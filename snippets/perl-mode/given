@@ -2,6 +2,6 @@
 # key: given
 # --
 given ($${1:var}) {
-	${2:# cases}
-	${0:# default}
+  ${2:# cases}
+  ${0:# default}
 }

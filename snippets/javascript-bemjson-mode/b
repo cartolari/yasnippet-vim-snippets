@@ -1,0 +1,9 @@
+# name: b
+# key: b
+# --
+{
+  block : '${1:name}',
+  content : [
+  	'${2:content}'
+  ]
+}

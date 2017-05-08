@@ -1,0 +1,6 @@
+# name: cwun
+# key: cwun
+# --
+componentWillUnmount() {
+  $1
+}

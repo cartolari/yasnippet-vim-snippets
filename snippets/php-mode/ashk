@@ -1,4 +1,4 @@
-# name: ashk
+# name: "$this->assertArrayHasKey($key, $array)"
 # key: ashk
 # --
-$this->assertArrayHasKey(${1:key}, ${2:array});
+$this->assertArrayHasKey(${1:$key}, ${2:$array});

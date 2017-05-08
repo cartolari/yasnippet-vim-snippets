@@ -1,0 +1,4 @@
+# name: "Dumb debug helper in HTML"
+# key: ve
+# --
+echo '<pre>' . var_export($1, 1) . '</pre>';

@@ -1,0 +1,4 @@
+# name: ghc
+# key: ghc
+# --
+{-# OPTIONS_GHC ${0:-fno-warn-unused-imports} #-}

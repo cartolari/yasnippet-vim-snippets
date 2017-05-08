@@ -1,0 +1,4 @@
+# name: incc
+# key: incc
+# --
+#include <${1:iostream}>

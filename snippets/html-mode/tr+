@@ -2,6 +2,6 @@
 # key: tr+
 # --
 <tr>
-	<td>$1</td>
-	td+$0
+  <td>$1</td>
+  td+$0
 </tr>

@@ -1,7 +1,8 @@
 # name: sim
 # key: sim
 # --
-${1:public }static int Main(string[] args) {
-	$0
-	return 0;
+${1:public} static int Main(string[] args)
+{
+  $0
+  return 0;
 }

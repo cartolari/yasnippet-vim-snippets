@@ -1,0 +1,6 @@
+# name: sdef
+# key: sdef
+# --
+SynthDef(\\${1:synthName}, {$2
+  $0
+}).add;

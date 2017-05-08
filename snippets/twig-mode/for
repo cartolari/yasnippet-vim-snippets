@@ -1,0 +1,6 @@
+# name: "{% for x in y %} .. {% endfor %}"
+# key: for
+# --
+{% for $1 in $2 %}
+$3
+{% endfor %}

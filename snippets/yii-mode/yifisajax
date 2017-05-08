@@ -3,5 +3,5 @@
 # --
 if(Yii::app()->request->isAjaxRequest == TRUE)
 {
-	$0
+  $0
 }

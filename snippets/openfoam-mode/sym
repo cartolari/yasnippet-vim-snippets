@@ -1,4 +1,4 @@
 # name: sym
 # key: sym
 # --
-type		symmetryPlane;
+type  	symmetryPlane;

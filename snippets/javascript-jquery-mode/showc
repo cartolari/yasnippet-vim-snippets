@@ -2,5 +2,5 @@
 # key: showc
 # --
 ${1:obj}.show('${2:slow/400/fast}', function () {
-	${0:// callback}
+  ${0:// callback}
 });

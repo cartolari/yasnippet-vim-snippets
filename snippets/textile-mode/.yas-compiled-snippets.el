@@ -10,4 +10,4 @@
                        ("(" "(${1:Expand acronym})\n" "(" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/textile-mode/(" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:31 2015
+;;; Do not edit! File generated at Mon May  8 02:40:53 2017

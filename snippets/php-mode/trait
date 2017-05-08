@@ -1,0 +1,13 @@
+# name: trait
+# key: trait
+# --
+/**
+ * ${2:undocumented class}
+ *
+ * @package ${3:default}
+ * @author ${4:`"Name"`}
+ */
+trait ${1:}
+{
+  ${0:`yas-selected-text`}
+}

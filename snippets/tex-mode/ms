@@ -1,4 +1,4 @@
 # name: mathscr
 # key: ms
 # --
-\mathscr{${0:text}}
+\\mathscr{${0:${VISUAL:text}}}

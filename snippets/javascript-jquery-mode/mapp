@@ -2,5 +2,5 @@
 # key: mapp
 # --
 $.map(${1:arrayOrObject}, function (${2:value}, ${3:indexOrKey}) {
-	${0:// callback}
+  ${0:// callback}
 });

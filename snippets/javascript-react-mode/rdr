@@ -1,0 +1,4 @@
+# name: rdr
+# key: rdr
+# --
+ReactDOM.render($1, $2)

@@ -1,0 +1,4 @@
+# name: sm_session_set
+# key: sm_session_set
+# --
+Session::set(${1:key}, ${2:value});

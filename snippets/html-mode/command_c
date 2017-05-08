@@ -1,4 +1,4 @@
 # name: command:c
 # key: command:c
 # --
-<command type="checkbox" label="$1" icon="$0" />
+<command type="checkbox" label="$1" icon="$0">

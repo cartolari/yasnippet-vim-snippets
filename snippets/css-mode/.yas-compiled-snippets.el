@@ -487,11 +487,11 @@
                        (":a" ":after" ":a" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/_a" nil nil)
                        ("::b" "::before" "::b" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/__b" nil nil)
                        ("::a" "::after" "::a" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/__a" nil nil)
-                       ("." "$1 {\n	$0\n}" "." nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/_" nil nil)
-                       ("@m" "@media ${1:print} {\n	$0\n}" "@m" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/@m" nil nil)
+                       ("." "$1 {\n  ${0:`yas-selected-text`}\n}" "\"selector { }\"" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/_" nil nil)
+                       ("@m" "@media ${1:print} {\n  ${0:`yas-selected-text`}\n}" "\"@media mediatype { }\"" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/@m" nil nil)
                        ("@i" "@import url($0);" "@i" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/@i" nil nil)
-                       ("@f" "@font-face {\n	font-family: $1;\n	src: url($0);\n}" "@f" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/@f" nil nil)
-                       ("!" "!important" "!" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/!" nil nil)))
+                       ("@f" "@font-face {\n  font-family: $1;\n  src: url($0);\n}" "@f" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/@f" nil nil)
+                       ("!" "!important" "\"!important\"" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/css-mode/!" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:30 2015
+;;; Do not edit! File generated at Mon May  8 02:40:50 2017

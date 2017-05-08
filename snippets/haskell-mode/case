@@ -2,4 +2,4 @@
 # key: case
 # --
 case ${1:something} of
-	$2 -> $0
+  $2 -> $0

@@ -1,0 +1,4 @@
+# name: "isset array"
+# key: isa
+# --
+isset($${1:array}[${2:key}])$0

@@ -2,5 +2,5 @@
 # key: noscript
 # --
 <noscript>
-	$0
+  $0
 </noscript>

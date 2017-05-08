@@ -2,5 +2,5 @@
 # key: for
 # --
 <% for ${2:item} in $1 %>
-	$0
+  $0
 <% end %>

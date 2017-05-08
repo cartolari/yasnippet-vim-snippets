@@ -2,5 +2,5 @@
 # key: defmm
 # --
 def method_missing(meth, *args, &blk)
-	$0
+  $0
 end

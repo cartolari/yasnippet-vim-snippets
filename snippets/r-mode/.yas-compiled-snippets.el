@@ -3,7 +3,7 @@
 ;;;
 (yas-define-snippets 'r-mode
                      '(("wil" "wilcox.test(${1:x}, ${0:y})" "wil" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/wil" nil nil)
-                       ("wh" "while($1) {\n	$2\n}" "wh" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/wh" nil nil)
+                       ("wh" "while($1) {\n  $2\n}" "wh" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/wh" nil nil)
                        ("vapply" "vapply(${1:list}, ${2:function}, ${0:type})" "vapply" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/vapply" nil nil)
                        ("tt" "t.test(${1:x}, ${0:y})" "tt" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/tt" nil nil)
                        ("tapply" "tapply(${1:vector}, ${2:index}, ${0:function})" "tapply" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/tapply" nil nil)
@@ -28,14 +28,14 @@
                        ("l_" "l_ply(${1:list}, ${0:function})\n" "l_" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/l_" nil nil)
                        ("kvt" "kv.test(${1:x}, ${0:y})" "kvt" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/kvt" nil nil)
                        ("img" "${1:(jpeg,bmp,png,tiff)}(filename = '${2:filename}', width = $3, height = $4, unit = '$5')\n${0:plot}\ndev.off()\n" "img" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/img" nil nil)
-                       ("if" "if (${1:condition}) {\n	$0\n}" "if" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/if" nil nil)
+                       ("if" "if (${1:condition}) {\n  $0\n}" "if" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/if" nil nil)
                        ("ggp" "ggplot(${1:data}, aes(${0:aesthetics}))" "ggp" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/ggp" nil nil)
-                       ("fun" "${1:name} <- function (${2:variables}) {\n	$0\n}" "fun" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/fun" nil nil)
+                       ("fun" "${1:name} <- function (${2:variables}) {\n  $0\n}" "fun" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/fun" nil nil)
                        ("fte" "var.test(${1:x}, ${0:y})" "fte" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/fte" nil nil)
-                       ("for" "for (${1:item} in ${2:list}) {\n	$3\n}\n" "for" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/for" nil nil)
+                       ("for" "for (${1:item} in ${2:list}) {\n  $3\n}\n" "for" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/for" nil nil)
                        ("fis" "fisher.test(${1:x}, ${0:y})" "fis" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/fis" nil nil)
-                       ("el" "else {\n	$0\n}" "el" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/el" nil nil)
-                       ("ei" "else if (${1:condition}) {\n	$0\n}\n" "ei" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/ei" nil nil)
+                       ("el" "else {\n  $0\n}" "el" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/el" nil nil)
+                       ("ei" "else if (${1:condition}) {\n  $0\n}\n" "ei" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/ei" nil nil)
                        ("dl" "dlply(${1:frame}, ${2:variables}, ${0:function})" "dl" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/dl" nil nil)
                        ("df" "${1:name}[${2:rows}, ${0:cols}]" "df" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/df" nil nil)
                        ("dd" "ddply(${1:frame}, ${2:variables}, ${0:function})" "dd" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/dd" nil nil)
@@ -52,4 +52,4 @@
                        ("#!" "#!/usr/bin/env Rscript\n" "#!" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/r-mode/#!" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:31 2015
+;;; Do not edit! File generated at Mon May  8 02:40:52 2017

@@ -2,7 +2,7 @@
 # key: choose
 # --
 <xsl:choose>
-	<xsl:when test="${1:value}">
-		$2
-	</xsl:when>
+  <xsl:when test="${1:value}">
+  	$2
+  </xsl:when>
 </xsl:choose>

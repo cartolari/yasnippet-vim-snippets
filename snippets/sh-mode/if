@@ -2,5 +2,5 @@
 # key: if
 # --
 if [[ ${1:condition} ]]; then
-	${0:#statements}
+  ${0:`yas-selected-text`}
 fi

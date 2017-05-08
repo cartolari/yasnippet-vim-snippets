@@ -14,12 +14,12 @@ namespace ${1:Services};
 use Illuminate\Support\ServiceProvider;
 
 class ${2:} extends ServiceProvider {
-	
-	public function register() {
-		$this->app->bind('$4Service', function ($app) {
-			return new $5(
-				$app->make('Repositories\\$6Interface')
-			);
-		});
-	}
+  
+  public function register() {
+  	$this->app->bind('$4Service', function ($app) {
+  		return new $5(
+  			$app->make('Repositories\\$6Interface')
+  		);
+  	});
+  }
 }

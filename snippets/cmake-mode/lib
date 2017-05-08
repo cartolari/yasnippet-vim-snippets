@@ -1,6 +1,4 @@
 # name: lib
 # key: lib
 # --
-ADD_LIBRARY(${1:lib} ${2:STATIC}
-	${${0:SRCS}}
-)
+add_library(${1:lib} ${${0:srcs}})

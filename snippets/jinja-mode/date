@@ -1,0 +1,4 @@
+# name: date
+# key: date
+# --
+date:"$0"

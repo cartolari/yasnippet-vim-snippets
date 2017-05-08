@@ -2,9 +2,9 @@
 # key: ifelif
 # --
 If ${1:condition 1} Then
-	${2:; True code}
+  ${2:; True code}
 ElseIf ${3:condition 2} Then
-	${4:; True code}
+  ${4:; True code}
 Else
-	${0:; Else code}
+  ${0:; Else code}
 EndIf

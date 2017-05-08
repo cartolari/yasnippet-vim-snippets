@@ -1,7 +1,7 @@
 # name: cases environment
 # key: cas
 # --
-\begin{cases}
-	${1:equation}, &\text{ if }${2:case}\\
-	$0
-\end{cases}
+\\begin{cases}
+  ${1:equation}, &\\text{ if }${2:case}\\
+  ${0:`yas-selected-text`}
+\\end{cases}

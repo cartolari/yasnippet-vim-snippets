@@ -2,5 +2,5 @@
 # key: until
 # --
 until ${1:condition}
-	$0
+  ${0:`yas-selected-text`}
 end

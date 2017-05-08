@@ -3,5 +3,5 @@
 # --
 $1:
 for $2 of $3 loop
-	$0
+  $0
 end loop $1;

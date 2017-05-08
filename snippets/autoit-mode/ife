@@ -2,7 +2,7 @@
 # key: ife
 # --
 If ${1:condition} Then
-	${2:; True code}
+  ${2:; True code}
 Else
-	${0:; Else code}
+  ${0:; Else code}
 EndIf

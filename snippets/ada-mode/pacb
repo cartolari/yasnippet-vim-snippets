@@ -2,5 +2,5 @@
 # key: pacb
 # --
 package body $1 is
-	$0
+  $0
 end $1;

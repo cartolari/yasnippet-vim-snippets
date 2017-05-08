@@ -3,5 +3,5 @@
 # --
 create or replace package ${1:name}
 as
-	${0:-- spec}
+  ${0:-- spec}
 end; -- end of package spec $1

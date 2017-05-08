@@ -4,5 +4,5 @@
 procedure ${1:name}(${2:args})
 as
 begin
-	${0:-- body}
+  ${0:-- body}
 end $2;

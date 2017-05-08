@@ -2,7 +2,7 @@
 # key: ife
 # --
 if ${1:condition} do
-	$2
+  ${2:`yas-selected-text`}
 else
-	$0
+  $0
 end

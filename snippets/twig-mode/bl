@@ -1,0 +1,6 @@
+# name: "{% block xyz %} .. {% endblock xyz %}"
+# key: bl
+# --
+{% block $1 %}
+${2:`yas-selected-text`}
+{% endblock $1 %}

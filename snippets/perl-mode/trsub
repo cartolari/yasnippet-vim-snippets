@@ -2,6 +2,6 @@
 # key: trsub
 # --
 test ${1:test_name} => { description => '${2:Description of test.}'} => sub {
-	my ($self) = @_;
-	$0
+  my ($self) = @_;
+  $0
 };

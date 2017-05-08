@@ -1,8 +1,6 @@
-# name: class .. initialize .. end
+# name: class .. end
 # key: cla
 # --
 class ${1:`(s-replace " " "" (s-titleized-words (file-name-base (or (buffer-file-name) ""))))`}
-	def initialize(${2:args})
-		$0
-	end
+  $0
 end

@@ -1,0 +1,6 @@
+# name: dp
+# key: dp
+# --
+static defaultProps = {
+  $1: $2,
+}

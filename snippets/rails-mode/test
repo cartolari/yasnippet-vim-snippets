@@ -1,6 +1,6 @@
 # name: test
 # key: test
 # --
-test 'should ${1:do something}' do
-	$0
+test '${1:should do something}' do
+  $0
 end

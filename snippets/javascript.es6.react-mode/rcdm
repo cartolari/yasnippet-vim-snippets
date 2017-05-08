@@ -1,0 +1,6 @@
+# name: rcdm
+# key: rcdm
+# --
+componentDidMount() {
+  ${0:`yas-selected-text`}
+}

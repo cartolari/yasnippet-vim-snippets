@@ -1,12 +1,12 @@
-# name: switch
+# name: "switch($var) { case 'xyz': ... default: .... }"
 # key: switch
 # --
 switch ($${1:variable}) {
-	case '${2:value}':
-		$3
-		break;
-	$0
-	default:
-		$4
-		break;
+  case '${2:value}':
+  	$3
+  	break;
+  $0
+  default:
+  	$4
+  	break;
 }

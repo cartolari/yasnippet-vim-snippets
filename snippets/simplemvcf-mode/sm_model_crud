@@ -1,0 +1,41 @@
+# name: sm_model_crud
+# key: sm_model_crud
+# --
+<?php 
+  namespace Models;
+
+  use Core\Model;
+
+  class ${1:class_name} extends Model 
+  {    
+  	private $${2:table};
+  	function __construct()
+  	{
+  		parent::__construct();
+  	}  
+  	
+  	public function getRow($where)
+  	{
+  		return $this->db->select('SELECT * FROM '.$table.' WHERE ${3:where}', $data);
+  	}
+
+  	public function getRows($where)
+  	{
+  		return $this->db->select('SELECT * FROM '.$table.');
+  	}
+
+  	public function insert($data)
+  	{
+  		$this->db->insert($table, $data);
+  	}
+
+  	public function update($data, $where)
+  	{
+  		$this->db->update($table ,$data, $where);
+  	}
+
+  	public function delete($where)
+  	{
+  		$this->db->delete($table, $where);
+  	}
+  }

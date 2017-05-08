@@ -1,0 +1,4 @@
+# name: fup
+# key: fup
+# --
+forceUpdate(${1:callback});

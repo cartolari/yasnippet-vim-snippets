@@ -1,8 +1,8 @@
-# name: try
+# name: "try { ... } catch(e) { ... }"
 # key: try
 # --
 try {
-	$1
-} catch (${2:e}) {
-	${0:/* handle error */}
+  ${0:`yas-selected-text`}
+} catch (${1:e}) {
+  ${2:/* handle error */}
 }

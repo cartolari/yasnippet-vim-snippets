@@ -1,0 +1,14 @@
+# name: Ext_git
+# key: Ext_git
+# --
+include(ExternalProject)
+ExternalProject_Add(${1:googletest}
+  GIT_REPOSITORY    ${2:https://github.com/google/googletest.git}
+  GIT_TAG           ${3:master}
+  SOURCE_DIR        "${4:${CMAKE_BINARY_DIR}/googletest-src}"
+  BINARY_DIR        "${0:${CMAKE_BINARY_DIR}/googletest-build}"
+  CONFIGURE_COMMAND ""
+  BUILD_COMMAND     ""
+  INSTALL_COMMAND   ""
+  TEST_COMMAND      ""
+)

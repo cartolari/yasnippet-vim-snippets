@@ -2,5 +2,5 @@
 # key: hgroup.
 # --
 <hgroup class="$1>
-	$0
+  $0
 </hgroup>

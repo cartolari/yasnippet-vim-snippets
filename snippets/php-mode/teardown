@@ -1,0 +1,7 @@
+# name: "protected function tearDown() { ... }"
+# key: teardown
+# --
+protected function tearDown()
+{
+  ${0:`yas-selected-text`}
+}

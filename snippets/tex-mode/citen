@@ -1,4 +1,4 @@
 # name: \citen
 # key: citen
 # --
-\citen{$1} $0
+\\citen{$1} $0

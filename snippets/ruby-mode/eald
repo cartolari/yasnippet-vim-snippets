@@ -2,5 +2,5 @@
 # key: eald
 # --
 each_line do |${1:line}|
-	$0
+  $0
 end

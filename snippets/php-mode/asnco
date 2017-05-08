@@ -1,0 +1,4 @@
+# name: "$this->assertNotCount($count, $haystack)"
+# key: asnco
+# --
+$this->assertNotCount(${1:$count}, ${2:$haystack});

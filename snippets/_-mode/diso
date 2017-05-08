@@ -1,0 +1,4 @@
+# name: diso
+# key: diso
+# --
+`(concat (format-time-string "%Y-%m-%dT%H:%M:%S") ((lambda (x) (concat (substring x 0 3) ":" (substring x 3 5))) (format-time-string "%z")))`

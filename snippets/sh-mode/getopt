@@ -9,7 +9,7 @@ __ScriptVersion="${1:version}"
 #===============================================================================
 function usage ()
 {
-	echo "Usage :  $${0:0} [options] [--]
+  echo "Usage :  $${0:0} [options] [--]
 
     Options:
     -h|help       Display this message
@@ -25,12 +25,12 @@ while getopts ":hv" opt
 do
   case $opt in
 
-	h|help     )  usage; exit 0   ;;
+  h|help     )  usage; exit 0   ;;
 
-	v|version  )  echo "$${0:0} -- Version $__ScriptVersion"; exit 0   ;;
+  v|version  )  echo "$${0:0} -- Version $__ScriptVersion"; exit 0   ;;
 
-	* )  echo -e "\n  Option does not exist : $OPTARG\n"
-		  usage; exit 1   ;;
+  * )  echo -e "\n  Option does not exist : $OPTARG\n"
+  	  usage; exit 1   ;;
 
   esac    # --- end of case ---
 done

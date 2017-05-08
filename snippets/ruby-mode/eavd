@@ -2,5 +2,5 @@
 # key: eavd
 # --
 each_value do |${1:val}|
-	$0
+  $0
 end

@@ -2,4 +2,4 @@
 # key: ajaxcomplete
 # --
 ${1:obj}.ajaxComplete (${1:e}, xhr, settings) ->
-	${0:// callback}
+  ${0:// callback}

@@ -2,5 +2,5 @@
 # key: fore
 # --
 for $1 of $2 loop
-	$0
+  $0
 end loop;

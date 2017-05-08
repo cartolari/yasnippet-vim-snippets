@@ -1,0 +1,4 @@
+# name: anonymous function
+# key: @
+# --
+@(${1:x}) ${0:x*x}

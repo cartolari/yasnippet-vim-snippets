@@ -1,6 +1,6 @@
 # name: dep
 # key: dep
 # --
-ADD_DEPENDENCIES(${1:target}
-	${0:dep}
+add_dependencies(${1:target}
+  ${0:dep}
 )

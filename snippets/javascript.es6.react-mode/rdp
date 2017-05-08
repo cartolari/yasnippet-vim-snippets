@@ -1,0 +1,6 @@
+# name: rdp
+# key: rdp
+# --
+$1.defaultProps = {
+  $2: $0,
+}

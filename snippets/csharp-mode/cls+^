@@ -1,6 +1,7 @@
 # name: cls+^
 # key: cls+^
 # --
-public static class ${1:} {
-	$0
+public static class ${1:}
+{
+  $0
 }

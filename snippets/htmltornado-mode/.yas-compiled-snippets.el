@@ -4,7 +4,7 @@
 (yas-define-snippets 'htmltornado-mode
                      '(("{" "{{ $0 }}\n\n" "{" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/{" nil nil)
                        ("wh" "{% while ${1:condition} %}\n  $0\n{% end %}" "wh" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/wh" nil nil)
-                       ("try" "{% try %}\n  $1\n{% except %}\n  $2\n{% finallly %}\n  $0\n{% end %}" "try" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/try" nil nil)
+                       ("try" "{% try %}\n  ${1:`yas-selected-text`}\n{% except %}\n  $2\n{% finallly %}\n  $0\n{% end %}" "try" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/try" nil nil)
                        ("set" "{% set ${1:x} = ${0:y} %}" "set" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/set" nil nil)
                        ("raw" "{% raw ${0:expression} %}" "raw" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/raw" nil nil)
                        ("module" "{% module ${0:expression} %}" "module" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/module" nil nil)
@@ -21,4 +21,4 @@
                        ("apply" "{% apply ${1:function} %}\n  $0\n{% end %}" "apply" nil nil nil "/home/bruno/code/yasnippet-vim-snippets/snippets/htmltornado-mode/apply" nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct 25 17:07:30 2015
+;;; Do not edit! File generated at Mon May  8 02:40:51 2017

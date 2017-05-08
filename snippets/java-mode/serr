@@ -1,0 +1,4 @@
+# name: serr
+# key: serr
+# --
+System.err.println($0);

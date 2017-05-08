@@ -1,0 +1,7 @@
+# name: pra
+# key: pra
+# --
+process (${1:all})
+begin
+  $2
+end process;

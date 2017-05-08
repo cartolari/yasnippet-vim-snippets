@@ -2,5 +2,5 @@
 # key: case
 # --
 case $1:
-	$0
+  $0
 break;

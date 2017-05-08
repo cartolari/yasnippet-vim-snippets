@@ -2,6 +2,6 @@
 # key: match
 # --
 ${1: obj} match {
-	case ${2:e} => $3
-	case _ => $0
+  case ${2:e} => $3
+  case _ => $0
 }

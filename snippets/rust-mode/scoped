@@ -2,5 +2,5 @@
 # key: scoped
 # --
 thread::scoped(${1:move }|| {
-	$0
+  $0
 });

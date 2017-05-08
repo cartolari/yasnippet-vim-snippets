@@ -1,0 +1,4 @@
+# name: sm_url_redirect
+# key: sm_url_redirect
+# --
+Url:redirect('${1:path}');

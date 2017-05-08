@@ -2,4 +2,4 @@
 # key: scroll
 # --
 ${1:obj}.scroll (${2:e}) ->
-	${0:// event handler}
+  ${0:// event handler}

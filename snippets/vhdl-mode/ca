@@ -1,0 +1,6 @@
+# name: ca
+# key: ca
+# --
+case $1 is
+  $2
+end case;

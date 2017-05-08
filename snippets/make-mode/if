@@ -1,0 +1,6 @@
+# name: if
+# key: if
+# --
+ifeq (${1:cond0}, ${2:cond1})
+  ${0:`yas-selected-text`}
+endif

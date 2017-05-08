@@ -10,5 +10,5 @@
  */
 ${1:}class ${2:}
 {
-	$0
+  ${0:`yas-selected-text`}
 } // END $1class $2

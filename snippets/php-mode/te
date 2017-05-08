@@ -1,4 +1,4 @@
-# name: te
+# name: "throw new Exception()"
 # key: te
 # --
 throw new ${1:Exception}("${2:Error Processing Request}");

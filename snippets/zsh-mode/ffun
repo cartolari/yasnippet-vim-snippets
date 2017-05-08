@@ -2,5 +2,5 @@
 # key: ffun
 # --
 function ${1:function_name}() {
-	${0:# function_body}
+  ${0:# function_body}
 }

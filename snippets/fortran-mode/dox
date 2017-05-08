@@ -1,0 +1,8 @@
+# name: dox
+# key: dox
+# --
+!> @brief $1
+!!
+!> $2
+!> @author `"Name"`
+$0

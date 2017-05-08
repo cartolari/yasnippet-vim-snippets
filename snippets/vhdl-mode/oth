@@ -1,0 +1,4 @@
+# name: oth
+# key: oth
+# --
+(others => '${1:0}');
